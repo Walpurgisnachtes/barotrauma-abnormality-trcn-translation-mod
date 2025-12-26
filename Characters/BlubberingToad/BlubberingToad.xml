@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Character speciesname="BlubberingToad" humanoid="False" blooddecal="blood" group="human" husk="False" needsair="False" canspeak="False" noise="100" visiblity="100" eatingspeed="5" displayname="Glupo" visibility="100" pathfinderpriority="1" hasinfo="False" usehuskappendage="False" speciestranslationoverride="" needswater="False" bleedparticleair="blooddrop" bleedparticlewater="waterblood" hideinsonar="False" sonardisruption="0" soundinterval="30">
+    <ragdolls folder="default" />
+    <animations folder="default" />
+    <damageemitter particle="gib" drawontop="True" particleamount="10" velocitymin="50" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <bloodemitter particle="blood" particleamount="10" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <bloodemitter particle="waterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <gibemitter particle="gib" particleamount="20" velocitymin="200" velocitymax="700" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <health vitality="100" doesbleed="True" crushdepth="Infinity" usehealthwindow="False" bleedingreduction="0.2" burnreduction="0" constanthealthregeneration="0.0" healthregenerationwheneating="10" poisonvulnerability="3">
+      <Limb name="Torso" />
+    </health>
+    <Inventory slots="Any, Any, Head" accessiblewhenalive="True" commonness="1" />
+    <ai combatstrength="10" sight="1" hearing="1" fleehealththreshold="0" aggressiveboarding="False" aggressiongreed="10" aggressionhurt="200" attackwhenprovoked="False" avoidgunfire="True" enforceaggressivebehaviorformissions="False" targetouterwalls="False" randomattack="False" avoidtime="3" minfleetime="20">
+      <target Tag="owner" State="Idle" Priority="75" ReactDistance="200" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="3" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+      <target Tag="stronger" State="Avoid" Priority="50" ReactDistance="1000" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+      <target Tag="weaker" State="Avoid" Priority="50" ReactDistance="1000" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+      <target Tag="human" State="Follow" Priority="10" ReactDistance="200" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+      <petbehavior maxhappiness="100" unhappythreshold="50" happythreshold="80" happinessdecreaserate="0.035" hungerincreaserate="0.03" playforce="6.0">
+        <eat tag="petfood1" ignorecontained="true" requiredhunger="30-100" hunger="-50" happiness="5" priority="100" />
+        <eat tag="dead" requiredhunger="0-100" hunger="-100" happiness="10" priority="100" />
+        <itemproduction rate="0.0015" invhungerrate="0.001" requiredhappiness="50-100" requiredhunger="0-30">
+          <item identifier="enkephalin" commonness="10" />
+        </itemproduction>
+        <itemproduction rate="0.001" invhungerrate="0.0005" requiredhappiness="80-100" requiredhunger="0-30">
+          <item identifier="meltyeye" commonness="30" />
+          <item identifier="egofragment_blubberingtoad" commonness="10" />
+        </itemproduction>
+      </petbehavior>
+    </ai>
+    <StatusEffect type="OnDeath" target="This" delay="1">
+      <particleemitter particle="whitegoosplash" particleamount="20" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.3" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+      <particleemitter particle="brownchunks" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" colormultiplier="181,230,29,255" />
+      <particleemitter particle="heavygib" particleamount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+      <particleemitter particle="gib" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+      <Sound file="Content/Sounds/Damage/Gore6.ogg" range="800" />
+      <SpawnItem identifier="glupoegg" spawnposition="this" />
+      <RemoveCharacter />
+    </StatusEffect>
+    <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.4" stackable="false">
+      <RequiredAffliction type="damage,burn" minstrength="1" />
+      <Conditional isdead="false" />
+      <Explosion range="500.0" structuredamage="0" itemdamage="0" force="0.001" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="0.5" playtinnitus="false" applyfireeffects="false">
+        <Affliction identifier="abnoinsanity" amount="5" />
+      </Explosion>
+      <Sound file="%ModDir%/Characters/BlubberingToad/glupodemise.ogg" range="1000" />
+    </StatusEffect>
+    <sound file="%ModDir%/Characters/BlubberingToad/glupoidle.ogg" state="Idle" range="1000" volume="1" />
+    <sound file="%ModDir%/Characters/BlubberingToad/glupohurt.ogg" state="Damage" range="1000" volume="1" />
+    <sound file="%ModDir%/Characters/BlubberingToad/glupoidle.ogg" state="Happy" range="1000" volume="1" />
+    <sound file="%ModDir%/Characters/BlubberingToad/glupodemise.ogg" state="Unhappy" range="1000" volume="0.7" />
+  </Character>
+</Override>

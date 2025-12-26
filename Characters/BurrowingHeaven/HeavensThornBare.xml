@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character visiblity="100" SpeciesName="HeavensThornBare" SpeciesTranslationOverride="HeavensThorn" DisplayName="Heaven's Thorn" Group="burrowingheaven" Humanoid="False" HasInfo="False" CanInteract="False" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" canspeak="True" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="5" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="30" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="duffelbag">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <health Vitality="100" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="1" BurnReduction="0.75" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="0" EmpVulnerability="0" ApplyAfflictionColors="False" Immunities="">
+    <Limb>
+      <VitalityMultiplier type="damage,psychosis,alieninfection,specialhuskinfection" multiplier="0.0" />
+      <VitalityMultiplier identifier="censored,exuviaeinfection,burrowing,bloodloss,heavensthorn,heavensthornfriendly" multiplier="0.0" />
+    </Limb>
+  </health>
+  <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="1" />
+  <ai CombatStrength="10" Sight="1" Hearing="1" MaxPerceptionDistance="-1" AggressionHurt="200" AggressionGreed="10" FleeHealthThreshold="0" AttackWhenProvoked="False" AvoidGunfire="False" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="False" EnforceAggressiveBehaviorForMissions="False" TargetOuterWalls="False" RandomAttack="False" CanOpenDoors="False" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="True" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
+    <target Tag="human" State="Freeze" Priority="800" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="burrowingheaven" State="Idle" Priority="10" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+  </ai>
+  <!-- <sound file="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Wake.ogg" state="Idle" range="1000" volume="1" /> -->
+  <sound File="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Nosee1.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Nosee2.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Atk.ogg" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Atk_Strong1.ogg" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Atk_Strong2.ogg" State="Die" Range="2000" Volume="1" Tags="" />
+  <StatusEffect type="OnSpawn" target="This">
+    <Sound file="%ModDir%/Characters/BurrowingHeaven/Sounds/MustSee_Wake.ogg" range="5000" dontmuffle="True" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" interval="5" stackable="false" target="This" comparison="and">
+    <Conditional isdead="false" />
+    <Explosion range="1000.0" ignorecover="True" showeffects="False">
+      <Affliction identifier="heavensthorn" amount="60" />
+    </Explosion>
+  </StatusEffect>
+  <StatusEffect type="OnSpawn" target="This" disabledeltatime="True" spawnitemrandomly="true">
+    <SpawnItem identifier="enkephalin" count="2" spawnposition="ThisInventory" />
+  </StatusEffect>
+</Character>

@@ -1,0 +1,3284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- All content belongs to their respective creators, if you wish to reuse this template, plese credit all creators content used -->
+<Jobs>
+  <Job identifier="oasisnugget" uicolor="0.5,0.46,0.9" vitalitymodifier="0" minnumber="0" maxnumber="2" initialcount="0" hiddenjob="true">
+    <Jobicon>
+      <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="mechanical" level="15,35" primary="true" />
+      <Skill identifier="electrical" level="15,35" />
+      <Skill identifier="weapons" level="10,25" />
+      <Skill identifier="medical" level="0,5" />
+      <Skill identifier="helm" level="0,5" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="wrench" />
+      <Item identifier="screwdriver" />
+      <Item identifier="oasistux" equip="true" outfit="true" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+    </ItemSet>
+    <AppropriateOrders>
+      <Order identifier="fixleaks" />
+      <Order identifier="loaditems" />
+      <Order identifier="repairsystems" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="lobcorpremnant" uicolor="1.0,0.84,0.0" vitalitymodifier="25" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+    <Jobicon>
+      <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="mechanical" level="150,150" primary="true" />
+      <Skill identifier="electrical" level="150,150" />
+      <Skill identifier="weapons" level="150,150" />
+      <Skill identifier="medical" level="150,150" />
+      <Skill identifier="helm" level="150,150" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="wrench" />
+      <Item identifier="screwdriver" />
+      <Item identifier="oasistux" equip="true" outfit="true" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+    </ItemSet>
+    <AppropriateOrders>
+      <Order identifier="fixleaks" />
+      <Order identifier="loaditems" />
+      <Order identifier="repairsystems" />
+    </AppropriateOrders>
+  </Job>
+  <Override>
+    <Job identifier="fullstopoffice" uicolor="0.3,0.3,0.3" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,640,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,640,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="fullstoprifle">
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="fullstophandgun">
+          <Item identifier="9mmmag_corporate" />
+        </Item>
+        <Item identifier="fullstop_machete" />
+        <Item identifier="oasistux" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="trenchcoat_armored" equip="True">
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="atalierlogicrifleround" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="ncorpfellbullet" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ncorpfellbullet" />
+        <Item identifier="ncorpfellbulletuniform" equip="true" outfit="true" />
+        <Item identifier="ncorpfellbulletcoat" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="ncorpcontemptawe" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ncorpcontemptawelance" />
+        <Item identifier="ncorpcontemptawesuit" equip="true" outfit="true" />
+        <Item identifier="ncorpcontemptawecoat" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="indexproselyte" uicolor="1.0,1.0,1.0" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sourcerect="384,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sourcerect="384,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="index_sword" />
+        <Item identifier="index_uniform" equip="true" outfit="true" />
+        <Item identifier="index_scabbard" equip="True" />
+        <Item identifier="index_cloak" equip="True" />
+        <Item identifier="index_mask" equip="True">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="dawnoffice" uicolor="1.0,1.0,1.0" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sourcerect="768,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sourcerect="768,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="dawnoffice_sword" />
+        <Item identifier="dawnofficesuit" equip="true" outfit="true" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="egostabilizer" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="firefistoffice" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="firefist_ranged">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="firefistbackpack" equip="true" />
+        <Item identifier="firefist_melee" />
+        <Item identifier="firefistsuit" equip="true" outfit="true">
+          <Item identifier="weldingfueltank" />
+          <Item identifier="weldingfueltank" />
+          <Item identifier="oxygentank" />
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="firefistmask" equip="True">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <!-- for the one who grips -->
+    <Job identifier="ncorpkleinhammer" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="30,50" primary="true" />
+        <Skill identifier="medical" level="30,40" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="ncorpuniform_kleinhammer" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="kleinhammer" equip="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_kleinhammer" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_kleinhammer" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="ncorpmittelhammer1" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="40,60" primary="true" />
+        <Skill identifier="medical" level="40,50" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="ncorpuniform_kleinhammer" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="mittelhammer_1" equip="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_mittelhammer_1" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_mittelhammer_1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="ncorpmittelhammer2" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="15" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="50,60" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="mittelhammer_2" equip="false" />
+        <Item identifier="olongnail2" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_mittelhammer_2" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_mittelhammer_2" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="ncorpgroshammer" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="25" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="75,100" primary="true" />
+        <Skill identifier="medical" level="75,100" />
+        <Skill identifier="mechanical" level="75,100" />
+        <Skill identifier="electrical" level="75,100" />
+        <Skill identifier="helm" level="75,100" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="groshammer_longnail" equip="false" />
+        <Item identifier="groshammer_gauntlet" equip="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_groshammer" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_groshammer" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- The One Who Grips -->
+    <Job identifier="kromer" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="50" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,100" primary="true" />
+        <Skill identifier="medical" level="100,100" />
+        <Skill identifier="mechanical" level="100,100" />
+        <Skill identifier="electrical" level="100,100" />
+        <Skill identifier="helm" level="100,100" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="kromercoat" equip="true" outfit="true" />
+        <Item identifier="kromeridcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun" />
+        <Item identifier="kromernailimpaling" />
+        <Item identifier="kromernailslashing" />
+        <Item identifier="kromernailthrowing" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="autoinjectorheadset" equip="true" showpreview="false">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="fanaticbooster" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- Middle Little Brother -->
+    <Job identifier="middle" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.46,0.0,0.78" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,100" primary="true" />
+        <Skill identifier="medical" level="30,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="wildhunthelmet" equip="true" />
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft" />
+        <Item identifier="middlechainsright" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="wildhunthelmet" equip="true" />
+        <Item identifier="middletattoos2" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft" />
+        <Item identifier="middlechainsright" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="wildhunthelmet" equip="true" />
+        <Item identifier="middletattoos3" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft" />
+        <Item identifier="middlechainsright" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- Middle Young Brother -->
+    <Job identifier="werner" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.46,0.0,0.78" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,100" primary="true" />
+        <Skill identifier="medical" level="30,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="werner_coat" equip="true" />
+        <Item identifier="werner_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft_physicorium" />
+        <Item identifier="middlechainsright_physicorium" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="ricardo" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.46,0.0,0.78" vitalitymodifier="25" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,100" primary="true" />
+        <Skill identifier="medical" level="30,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="ricardo_coat" equip="true" />
+        <Item identifier="ricardo_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_senior" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft_physicorium" />
+        <Item identifier="middlechainsright_physicorium" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- Thumb Soldato -->
+    <Job identifier="thumbsoldato" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.5,0.0,0.12" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,100" primary="true" />
+        <Skill identifier="medical" level="30,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade8_offense" />
+        </Item>
+        <Item identifier="thumbcoat_outer" equip="true" />
+        <Item identifier="thumbcoat" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="soldatorifle" />
+        <Item identifier="discipline" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="thumbhat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="thumbcapo" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.5,0.0,0.12" vitalitymodifier="15" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,100" primary="true" />
+        <Skill identifier="medical" level="50,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade4_premium" />
+        </Item>
+        <Item identifier="thumb_capo_coat_outer" equip="true">
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+        </Item>
+        <Item identifier="thumb_capo_coat" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="capopistol" />
+        <Item identifier="discipline" />
+        <Item identifier="thumbhat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="leiheng" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.5,0.0,0.12" vitalitymodifier="15" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,200" primary="true" />
+        <Skill identifier="medical" level="50,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="tiantui_star_blade" />
+        <Item identifier="cigar" />
+        <Item identifier="leiheng_coat_outer" equip="true">
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_highpower" />
+          <Item identifier="propellantbullet_tigermark" />
+          <Item identifier="propellantbullet_tigermark" />
+          <Item identifier="propellantbullet_tigermark" />
+          <Item identifier="propellantbullet_tigermark" />
+          <Item identifier="propellantbullet_tigermark" />
+          <Item identifier="propellantbullet_tigermark" />
+        </Item>
+        <Item identifier="leiheng_coat" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="leihenghat" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- Ring Pointillist Student -->
+    <Job identifier="ringstudent" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.25,0.25" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="526,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="526,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,100" primary="true" />
+        <Skill identifier="medical" level="30,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade8_offense" />
+        </Item>
+        <Item identifier="ringstudentarmor" equip="true" />
+        <Item identifier="ringstudentoutfit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ringstudentpaintbrush" />
+        <Item identifier="ringstudenthat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="LCCB" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.2,0.2" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <!-- Handgun -->
+      <ItemSet>
+        <Item identifier="lccbhandgun">
+          <Item identifier="quakeroundmagazine" />
+        </Item>
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbuniform" equip="true" outfit="true">
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="lccbshield" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="lccbhelmetmask" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <!-- Shotgun -->
+      <ItemSet>
+        <Item identifier="lccbshotgun">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+        </Item>
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbuniform" equip="true" outfit="true">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="lccbbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <!-- gasmask -->
+        <Item identifier="lccbhelmetmask" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="kcorp" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.7,0.2" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="0,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="0,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <!-- Handgun -->
+      <ItemSet>
+        <Item identifier="lccbhandgun">
+          <Item identifier="quakeroundmagazine" />
+        </Item>
+        <Item identifier="kcorpbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="kcorpaxe" />
+        <Item identifier="kcorpuniform" equip="true" outfit="true">
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="kcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="lccbshield" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kcorphelmet" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <!-- Shotgun -->
+      <ItemSet>
+        <Item identifier="lccbshotgun">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+        </Item>
+        <Item identifier="kcorpbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="kcorpaxe" />
+        <Item identifier="kcorpuniform" equip="true" outfit="true">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="kcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <!-- gasmask -->
+        <Item identifier="kcorphelmet" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="kcorpexcision" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.9,0.2" vitalitymodifier="20" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="0,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="0,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <!-- Handgun -->
+      <ItemSet>
+        <Item identifier="kcorpstaff" />
+        <Item identifier="kcorpbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="abnoinvisbackpack" equip="True">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="kcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="kcorpexcisionsuit" equip="true">
+          <Item identifier="oxygentank" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kcorphelmet" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- R Corp 4th Pack Rabbit -->
+    <Job identifier="rcorprabbit" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.64,0.0" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="90,100" primary="true" />
+        <Skill identifier="medical" level="20,30" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="abnobombimplantsmall" equip="true" showpreview="false" />
+        <Item identifier="rabbituniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="rabbitknife" />
+        <Item identifier="rabbitgun">
+          <Item identifier="rcorpcoilgunclip" />
+        </Item>
+        <Item identifier="crowbar" equip="false" />
+        <Item identifier="hiddenarmor" equip="true">
+          <Item identifier="rcorpcoilgunclip" />
+          <Item identifier="rcorpcoilgunclip" />
+          <Item identifier="rcorpcoilgunclip" />
+          <Item identifier="rcorpcoilgunclip" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="rabbithelmet" equip="true">
+          <Item identifier="oxygentank" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- R Corp 4th Pack Reindeer -->
+    <Job identifier="rcorpreindeer" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.64,0.0" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="90,100" primary="true" />
+        <Skill identifier="medical" level="20,30" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="abnobombimplantsmall" equip="true" showpreview="false" />
+        <Item identifier="reindeeruniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+        </Item>
+        <Item identifier="reindeerstaff">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="crowbar" equip="false" />
+        <Item identifier="reindeerbackpack" equip="true" />
+        <Item identifier="hiddenarmor" equip="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="reindeerhelmet_festive" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- R Corp 4th Pack Rhino -->
+    <Job identifier="rcorprhino" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.64,0.0" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="90,100" primary="true" />
+        <Skill identifier="medical" level="50,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="abnobombimplantsmall" equip="true" showpreview="false" />
+        <Item identifier="rabbituniform" equip="true" />
+        <Item identifier="rhinosuit" equip="true" outfit="true">
+          <Item identifier="enkephalinmodule" />
+          <Item identifier="enkephalinmodule" />
+          <Item identifier="enkephalinmodule" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="rhinohammer" />
+        <Item identifier="rhinofist" />
+        <Item identifier="rhinofist" />
+        <Item identifier="crowbar" equip="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="rhinohelmet" equip="true">
+          <Item identifier="oxygentank" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="wcorpcleanupcrew" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.2,0.7" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="768,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="768,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" primary="true" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <!-- Axe -->
+      <ItemSet>
+        <Item identifier="warpaxe">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="warpknife">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" showpreview="False" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="sprayer">
+          <Item identifier="ethanol" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" showpreview="False" />
+          <Item identifier="batterycell" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+          <Item identifier="ethanol" showpreview="False" />
+          <Item identifier="ethanol" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <!-- Machetes -->
+      <ItemSet>
+        <Item identifier="warpmachete">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="warpmachete">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <!-- Glaive -->
+      <ItemSet>
+        <Item identifier="warpglaive">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="warpknife">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="wcorpcleanupcrew_cca" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.2,0.7" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="768,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="768,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" primary="true" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="warpknife">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" showpreview="False" />
+          <Item identifier="batterycell" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="wcorp_cca" equip="true">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- The Black Silence -->
+    <Job identifier="roland" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,1.0,1.0" vitalitymodifier="25" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="384,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="384,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="40,60" primary="true" />
+        <Skill identifier="medical" level="40,60" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="abnobombimplantsmall" equip="True" />
+        <Item identifier="blacksilencegloves" equip="true" />
+        <Item identifier="perceptionblockingmask" equip="true" />
+        <Item identifier="rolandsuit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="rolandidcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <!-- The Arbiter -->
+    <Job identifier="arbiter" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="50" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="256,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="256,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,100" primary="true" />
+        <Skill identifier="medical" level="100,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="50,100" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="advancedegosplicer_teleport" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="abno_binahcostume" equip="true" outfit="true" />
+        <Item identifier="abno_binahcoat" equip="true" outfit="true">
+          <Item identifier="truearbiterchainspell" />
+          <Item identifier="truearbiterblastspell" />
+          <Item identifier="truearbiterslashspell" />
+          <Item identifier="truearbiterpillarspell" />
+          <Item identifier="ultimatearbiterblastspell" />
+          <Item identifier="fairybeam" />
+          <Item identifier="lockbeam" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="arbiteridcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="claw" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="50" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="256,128,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="256,128,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,100" primary="true" />
+        <Skill identifier="medical" level="100,100" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="50,100" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="abnobombimplantsmall" equip="True" />
+        <Item identifier="trueclawuniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="true" outfit="true" />
+        <Item identifier="clawclaw" />
+        <Item identifier="clawhandopen" />
+        <Item identifier="clawidcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="wildhunt" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.3,0.18,0.46" vitalitymodifier="25" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="768,896,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="768,896,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="80,100" primary="true" />
+        <Skill identifier="medical" level="60,100" />
+        <Skill identifier="mechanical" level="40,100" />
+        <Skill identifier="electrical" level="30,80" />
+        <Skill identifier="helm" level="20,60" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="wildhuntcoatspecial" equip="true" outfit="true" />
+        <Item identifier="wildhunthelmet" equip="true" />
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="wildhuntsword" />
+        <Item identifier="wildhuntcoffin" equip="True" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="2" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="redmist" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.8,0.0,0.0" vitalitymodifier="25" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="128,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="128,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,100" primary="true" />
+        <Skill identifier="medical" level="50,60" />
+        <Skill identifier="mechanical" level="20,30" />
+        <Skill identifier="electrical" level="20,30" />
+        <Skill identifier="helm" level="20,20" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="abno_redmistmask" outfit="true" />
+        <Item identifier="thumbcoat" equip="true" />
+        <Item identifier="abno_redmistcostume" />
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="protomimicry" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="2" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="redgaze" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.8,0.0,0.0" vitalitymodifier="25" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,896,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,896,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,100" primary="true" />
+        <Skill identifier="medical" level="50,60" />
+        <Skill identifier="mechanical" level="20,30" />
+        <Skill identifier="electrical" level="20,30" />
+        <Skill identifier="helm" level="20,20" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="vergiliusmask" equip="true" outfit="true" />
+        <Item identifier="vergiliussuit" equip="true" />
+        <Item identifier="abno_redgazeego" equip="true" />
+        <Item identifier="abno_gladius" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="2" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="sevenassociation" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.7,0.2" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="0,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons.png" sourcerect="0,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <!-- Handgun -->
+      <ItemSet>
+        <Item identifier="lccbhandgun">
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+        </Item>
+        <Item identifier="sevensword" />
+        <Item identifier="sevencoat" equip="true">
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="7revolverround" />
+          <Item identifier="handheldterminal" />
+        </Item>
+        <Item identifier="sevenuniform1" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="captainscap1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <!-- Rifle -->
+      <ItemSet>
+        <Item identifier="rifle">
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+        </Item>
+        <Item identifier="sevensword" />
+        <Item identifier="sevenvest" equip="true">
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="7riflebullet" />
+          <Item identifier="handheldterminal" />
+        </Item>
+        <Item identifier="sevenuniform2" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="captainscap1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="sweeper" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,256,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="128,256,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="25,50" primary="true" />
+        <Skill identifier="medical" level="30,60" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="0,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="banditclothes1" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="sweeperhook_SO" />
+        <Item identifier="sweeperhook_SO" />
+        <Item identifier="sweepersuit_SO" equip="true" outfit="true" />
+        <Item identifier="abnoinvisbackpack" equip="true" />
+        <Item identifier="sweepermask_SO" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="banditclothes1" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="sweeperhook_SO" />
+        <Item identifier="sweeperhook_SO" />
+        <Item identifier="sweepersuit_SO" equip="true" outfit="true" />
+        <Item identifier="abnoinvisbackpack" equip="true" />
+        <Item identifier="sweepermask_alt1_SO" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="banditclothes1" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="sweeperhook_SO" />
+        <Item identifier="sweeperhook_SO" />
+        <Item identifier="sweepersuit_SO" equip="true" outfit="true" />
+        <Item identifier="abnoinvisbackpack" equip="true" />
+        <Item identifier="sweepermask_alt2_SO" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="heishoupack" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="60,60" primary="true" />
+        <Skill identifier="medical" level="30,45" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="0,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="heishoupack_cursedsword" />
+        <Item identifier="heishoupack_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_armor" equip="true" />
+        <Item identifier="heishoupack_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="zilu" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="100,100" primary="true" />
+        <Skill identifier="medical" level="50,75" />
+        <Skill identifier="mechanical" level="25,50" />
+        <Skill identifier="electrical" level="25,50" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade3_premium" />
+        </Item>
+        <Item identifier="heishoupack_cursedsword_zilu" />
+        <Item identifier="tianjiu_star_blade" />
+        <Item identifier="heishoupack_robes_zilu" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_armor" equip="true" />
+        <Item identifier="heishoupack_hat_zilu" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="heishoupack_sibranch" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.47,0.06,0.54" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,512,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,512,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="60,60" primary="true" />
+        <Skill identifier="medical" level="30,45" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="0,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="heishoupack_sibranch_cursedspear_slashing" />
+        <Item identifier="heishoupack_sibranch_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_sibranch_armor" equip="true" />
+        <Item identifier="heishoupack_sibranch_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bladelineagesalsu" uicolor="0.0,0.1,0.69" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,45" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="bladelineage_sword" />
+        <Item identifier="oasistux" equip="true" outfit="true" />
+        <Item identifier="trenchcoat_salsu" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="bladelineage_scabbard" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bladelineagementor" uicolor="0.0,0.1,0.69" vitalitymodifier="10" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="100,200" primary="true" />
+        <Skill identifier="medical" level="50,60" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="bladelineage_sword" />
+        <Item identifier="oasistux" equip="true" outfit="true" />
+        <Item identifier="bladelineage_scabbard" equip="True" />
+        <Item identifier="trenchcoat_mentor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="kurokumoclanwakashu" uicolor="0.4,0.4,0.4" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="0,128,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="0,128,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,45" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kurokumo_sword_1" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_1" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kurokumo_sword_2" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_2" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="kurokumoclancaptain" uicolor="1.0,0.84,0.0" vitalitymodifier="10" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="0,128,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="0,128,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,45" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kokuunto_1" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="kurokumo_coat" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_1" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kokuunto_2" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="kurokumo_coat" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_2" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="jadeqilin" uicolor="0.0,0.65,0.41" vitalitymodifier="50" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="640,128,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/Icons2.png" sourcerect="640,128,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="100,200" />
+        <Skill identifier="electrical" level="100,200" />
+        <Skill identifier="weapons" level="100,200" primary="true" />
+        <Skill identifier="medical" level="100,200" />
+        <Skill identifier="helm" level="100,200" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="jiaqiu_staff" />
+        <Item identifier="answermeheishoupacks" />
+        <Item identifier="heedmezilu" />
+        <Item identifier="likearoaringstorm" />
+        <Item identifier="jiaqiu_robes" equip="true" outfit="true" />
+        <Item identifier="jiaqiu_armor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="jiaqiu_hair" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="jiabaoyu_guandao" />
+        <Item identifier="answermeheishoupacks" />
+        <Item identifier="heedmezilu" />
+        <Item identifier="likearoaringstorm" />
+        <Item identifier="jiaqiu_robes" equip="true" outfit="true" />
+        <Item identifier="jiaqiu_armor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="jiaqiu_hair" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="heishoupack_youbranch" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.0,0.0" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="60,60" primary="true" />
+        <Skill identifier="medical" level="30,45" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="0,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="you_sword_rupture" />
+        <Item identifier="you_sword_burn" />
+        <Item identifier="you_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="you_armor" equip="true" />
+        <Item identifier="you_hat" equip="true" />
+        <Item identifier="you_scabbard" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="heishoupack_wubranch" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.2,0.2" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons.png" sourcerect="640,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="60,60" primary="true" />
+        <Skill identifier="medical" level="30,45" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="0,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="wu_guandao" />
+        <Item identifier="wu_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="wu_armor" equip="true" />
+        <Item identifier="wu_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="shi_east" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.2,0.2" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sourcerect="0,384,128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sourcerect="0,384,128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="30,40" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="shiuniform_east" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="shi_bowblade_melee" equip="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_quiver" equip="True" />
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="thelastknight" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.2,0.2,0.8" vitalitymodifier="10" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="7,3" sheetelementsize="128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="7,3" sheetelementsize="128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="30,40" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tlklance" equip="false" />
+        <Item identifier="tlkarmor" equip="true" outfit="true" />
+        <Item identifier="tlkhelmet" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="tcorpclass2" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="0,4" sheetelementsize="128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="0,4" sheetelementsize="128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="30,40" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tcorpfistleft" equip="false" />
+        <Item identifier="tcorpfistright" equip="false" />
+        <Item identifier="tcorp_class2armor" equip="true" outfit="true" />
+        <Item identifier="tcorp_tux" equip="true" />
+        <Item identifier="tcorp_hat_t1" equip="true" />
+        <Item identifier="tcorpwatch" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="tcorpclass3" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="0,4" sheetelementsize="128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="0,4" sheetelementsize="128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="30,40" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tcorp_class3_pickaxe" equip="false" />
+        <Item identifier="tcorp_class3_chainsaw" equip="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="tcorp_class3armor" equip="true" outfit="true" />
+        <Item identifier="tcorp_tux" equip="true" />
+        <Item identifier="tcorp_class3helmet" equip="true">
+          <Item identifier="oxygentank" showpreview="false" />
+        </Item>
+        <Item identifier="tcorpwatch" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="tcorpvdcu" minnumber="0" maxnumber="0" initialcount="0" uicolor="1.0,0.84,0.0" vitalitymodifier="5" idlebehavior="Patrol" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="0,4" sheetelementsize="128,128" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="0,4" sheetelementsize="128,128" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="50,70" primary="true" />
+        <Skill identifier="medical" level="30,40" />
+        <Skill identifier="mechanical" level="0,25" />
+        <Skill identifier="electrical" level="0,25" />
+        <Skill identifier="helm" level="25,50" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tcorpfistleft" equip="false" />
+        <Item identifier="tcorpfistright" equip="false" />
+        <Item identifier="tcorp_vdcumace" equip="false" />
+        <Item identifier="tcorp_vdcuarmor" equip="true" outfit="true" />
+        <Item identifier="tcorp_tux_vdcu" equip="true" />
+        <Item identifier="tcorp_hat_vdcu" equip="true" />
+        <Item identifier="tcorpwatch" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="inspectnoises" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="nightawls" uicolor="0.4,0.3,0.3" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/invweapons2.png" sourcerect="512,0,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/invweapons2.png" sourcerect="512,0,128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="nightawls_stiletto" />
+        <Item identifier="nightawls_uniform" equip="true" outfit="true" />
+        <Item identifier="trenchcoat_armored" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="hanafuda" uicolor="0.46,0.0,0.78" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/invweapons2.png" sheetindex="4,5" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/invweapons2.png" sheetindex="4,5" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="hanafuda_sword" />
+        <Item identifier="hanafuda_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="hanafuda_scabbard" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="devyat" uicolor="0.0,0.78,0.46" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="6,5" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="6,5" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="devyat_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="devyat_hammertrunk" equip="True" />
+        <Item identifier="devyat_goggles_t1" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="devyat_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="devyat_pistontrunk" equip="True" />
+        <Item identifier="devyat_goggles_t1" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="devyat_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="devyat_knifetrunk" equip="True" />
+        <Item identifier="devyat_goggles_t1" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="zweisouth" uicolor="0.2,0.2,0.8" vitalitymodifier="10" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="1,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="1,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="zweiuniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True">
+          <Item identifier="batterycell" showpreview="false" />
+          <Item identifier="batterycell" showpreview="false" />
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="zweizweihander" />
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bloodfiendpriestfollower" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="5,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="5,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_priestfollower_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="priestfollower_staff" />
+        <Item identifier="bloodfiend_priestfollower_mask" equip="True" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bloodfiendpriest" uicolor="0.8,0.2,0.2" vitalitymodifier="15" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="7,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="7,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="60,80" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_priest_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="priest_staff" />
+        <Item identifier="bloodfiend_priest_mask" equip="True" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bloodfiendbarberfollower" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="2,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="2,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="45,60" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_barberfollower_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="bloodfiend_scissors_t1" />
+        <Item identifier="bloodfiend_barberfollower_mask" equip="True" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bloodfiendbarber" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="60,80" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_barber_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="bloodfiend_scissors_t2" />
+        <Item identifier="bloodfiend_barber_mask" equip="True" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bloodfiendprince" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="3,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="3,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="60,80" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_prince_uniform" equip="true" outfit="true" />
+        <Item identifier="bloodfiend_prince_armor" equip="True" />
+        <Item identifier="prince_staff" />
+        <Item identifier="bloodfiend_prince_helmet" equip="True" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+    <Job identifier="bloodfiendmanager" uicolor="0.8,0.2,0.2" vitalitymodifier="5" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+      <Jobicon>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="6,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="%ModDir%/Images/icons2.png" sheetindex="6,6" sheetelementsize="128,128" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="5,25" />
+        <Skill identifier="electrical" level="5,25" />
+        <Skill identifier="weapons" level="60,80" primary="true" />
+        <Skill identifier="medical" level="20,35" />
+        <Skill identifier="helm" level="5,25" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_manager_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="bloodfiendmanagerlance" />
+        <Item identifier="priest_staff" />
+        <Item identifier="bloodfiend_scissors_t2" />
+        <Item identifier="kromerhelmet" equip="True" />
+      </ItemSet>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="loaditems" />
+        <Order identifier="repairsystems" />
+      </AppropriateOrders>
+    </Job>
+  </Override>
+</Jobs>

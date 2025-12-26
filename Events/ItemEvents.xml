@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Thanks to Artifacts and Ruins Extended for this code -->
+<Randomevents>
+  <!-- SCRIPTED EVENTS -->
+  <EventPrefabs>
+    <ScriptedEvent identifier="warprecall">
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="itemidentifier:warpteleportationanchor" tag="activeteleportationanchor" />
+      <TriggerAction target1tag="recallteleporter" target2tag="player" applytotarget2="teleportplayer" radius="100" waitforinteraction="false" allowmultipletargets="false" />
+      <TeleportAction position="MainSub" SpawnType="Human" SpawnPointTag="" targettag="teleportplayer" />
+      <StatusEffectAction targettag="activeteleportationanchor">
+        <StatusEffect target="This" disabledeltatime="true">
+          <Use />
+        </StatusEffect>
+      </StatusEffectAction>
+      <ClearTagAction tag="player" />
+      <ClearTagAction tag="activeteleportationanchor" />
+      <ClearTagAction tag="teleportplayer" />
+    </ScriptedEvent>
+    <!-- Wayward Passenger -->
+    <ScriptedEvent identifier="waywardteleport">
+      <TagAction criteria="speciesname:waywardpassenger" tag="waywardpassenger" />
+      <TeleportAction position="MainSub" SpawnType="Human" SpawnPointTag="" targettag="waywardpassenger" />
+      <WaitAction time="3" />
+      <TeleportAction position="MainSub" SpawnType="Human" SpawnPointTag="" targettag="waywardpassenger" />
+      <WaitAction time="3" />
+      <TeleportAction position="MainSub" SpawnType="Human" SpawnPointTag="" targettag="waywardpassenger" />
+      <ClearTagAction tag="waywardpassenger" />
+    </ScriptedEvent>
+    <!-- Blue Star -->
+    <ScriptedEvent identifier="bluestarteleport">
+      <TagAction criteria="speciesname:bluestar" tag="bluestar" />
+      <TeleportAction position="MainSub" SpawnType="Human" SpawnPointTag="" targettag="bluestar" />
+      <ClearTagAction tag="bluestar" />
+    </ScriptedEvent>
+    <!-- Traceless to Sight and Sound Alike -->
+    <ScriptedEvent identifier="tracelesstosightandsoundalike">
+      <TagAction criteria="player" tag="player" />
+      <TriggerAction target1tag="recallteleporter_mao" target2tag="player" applytotarget2="teleportplayer" radius="100" waitforinteraction="false" allowmultipletargets="false" />
+      <TeleportAction position="MainSub" SpawnType="Human" SpawnPointTag="" targettag="teleportplayer" />
+      <RemoveItemAction itemidentifiers="maoteleport" />
+      <ClearTagAction tag="player" />
+      <ClearTagAction tag="teleportplayer" />
+    </ScriptedEvent>
+    <!-- NPC spawns -->
+    <!-- Roland -->
+    <ScriptedEvent identifier="washedupgrade9fixer">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="roland" spawnlocation="MainSub" allowinplayerview="False" TeamID="Team1" />
+    </ScriptedEvent>
+    <!-- If no TeamID is defined, they spawn on Team 1 -->
+    <!-- Rhino -->
+    <ScriptedEvent identifier="rcorprhino_deployment">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="rcorprhino" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Rabbit -->
+    <ScriptedEvent identifier="rcorprabbit_deployment">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="rcorprabbit" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Inquisitors -->
+    <ScriptedEvent identifier="ncorpinquisition">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="purifier" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Kromer -->
+    <ScriptedEvent identifier="theonewhogrips">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="kromer" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Kromer spawns with an escort of 2 Inquisitors that follow her around -->
+    <ScriptedEvent identifier="theonewhogrips_escort">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="kromer" spawnlocation="MainSub" allowinplayerview="False" TargetTag="Kromer" />
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="purifier" spawnlocation="MainSub" allowinplayerview="False" TargetTag="Inquisitor" />
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="purifier" spawnlocation="MainSub" allowinplayerview="False" TargetTag="Inquisitor" />
+      <NPCFollowAction NPCTag="Inquisitor" TargetTag="Kromer" Follow="True" AbandonOnReset="False" />
+    </ScriptedEvent>
+    <!-- Spawns one Middle -->
+    <ScriptedEvent identifier="middle_arrival">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="middle" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Spawns 3 hostile Middle -->
+    <ScriptedEvent identifier="middle_payback_squad">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="middle" spawnlocation="MainSub" TeamID="Team2" allowinplayerview="False" />
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="middle" spawnlocation="MainSub" TeamID="Team2" allowinplayerview="False" />
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="middle" spawnlocation="MainSub" TeamID="Team2" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Thumb -->
+    <ScriptedEvent identifier="thumb_arrival">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="thumbsoldato" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- LCCB -->
+    <ScriptedEvent identifier="lccb_riotcontrol">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="LCCB" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- K Corp -->
+    <ScriptedEvent identifier="kcorp_riotcontrol">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="KCorp" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Excision -->
+    <ScriptedEvent identifier="kcorp_excision">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="KCorpExcision" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- W Corp Cleanup Crew -->
+    <ScriptedEvent identifier="wcorp_cleanup">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="wcorpcleanupcrew" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Arbiter -->
+    <ScriptedEvent identifier="anarbiter">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="arbiter" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Claw -->
+    <ScriptedEvent identifier="theclaw">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="claw" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- The Wild Hunt -->
+    <ScriptedEvent identifier="thewildhunt">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="wildhunt" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Kali -->
+    <ScriptedEvent identifier="theredmist">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="redmist" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+    <!-- Vergilius -->
+    <ScriptedEvent identifier="theredgaze">
+      <SpawnAction npcsetidentifier="abnormalitynpcs" npcidentifier="redgaze" spawnlocation="MainSub" allowinplayerview="False" />
+    </ScriptedEvent>
+  </EventPrefabs>
+</Randomevents>

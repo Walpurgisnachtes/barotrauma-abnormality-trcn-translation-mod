@@ -1,0 +1,4088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+  <Override>
+    <TalentTree jobidentifier="assistant">
+      <SubTree identifier="assistant_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="playingcatchup" />
+          <TalentOption identifier="mailman" />
+          <TalentOption identifier="skedaddle" />
+          <TalentOption identifier="crewlayabout" />
+          <TalentOption identifier="starterquest" />
+          <TalentOption identifier="mule" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="revengesquad" />
+          <TalentOption identifier="inspiringtunes" />
+          <TalentOption identifier="bagitup" />
+          <TalentOption identifier="peerlearning" />
+          <TalentOption identifier="indenturedservitude" />
+          <TalentOption identifier="jengamaster" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="grayshirt" type="specialization" requires="assistant_primary" blocks="apprentice,clown">
+        <TalentOptions>
+          <TalentOption identifier="thewaitinglist" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nonthreatening" />
+          <TalentOption identifier="tastytarget" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="insurancepolicy" />
+          <TalentOption identifier="anappleaday" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="thefriendswemade" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="apprentice" type="specialization" requires="assistant_primary" blocks="grayshirt,clown">
+        <TalentOptions>
+          <ShowCaseTalent identifier="apprenticeship">
+            <TalentOption identifier="apprenticeship_captain" />
+            <TalentOption identifier="apprenticeship_doctor" />
+            <TalentOption identifier="apprenticeship_security" />
+            <TalentOption identifier="apprenticeship_mechanic" />
+            <TalentOption identifier="apprenticeship_engineer" />
+          </ShowCaseTalent>
+          <ShowCaseTalent identifier="corporatesponsorship">
+            <TalentOption identifier="apprenticeship_ncorp" />
+            <TalentOption identifier="apprenticeship_kcorp" />
+            <TalentOption identifier="apprenticeship_rcorp" />
+            <TalentOption identifier="apprenticeship_wcorp" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="logisticssystems" />
+          <TalentOption identifier="journeyman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="loyalassistant" />
+          <TalentOption identifier="disloyalscum" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="graduationceremony" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="clown" type="specialization" requires="assistant_primary" blocks="grayshirt,apprentice">
+        <TalentOptions>
+          <TalentOption identifier="enrollintoclowncollege" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="waterprankster" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="psychoclown" />
+          <TalentOption identifier="chonkyhonks" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="truepotential" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </Override>
+  <TalentTree jobidentifier="oasisnugget">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="dontdieonme" />
+        <TalentOption identifier="bloodybusiness" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="blooddonor" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="weaponsmith" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="melodicrespite" />
+        <TalentOption identifier="munitionsexpertise" />
+        <TalentOption identifier="crewlayabout" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="apprentice" type="specialization" requires="security_primary" blocks="enforcer,gunslinger">
+      <TalentOptions>
+        <ShowCaseTalent identifier="corporatesponsorship">
+          <TalentOption identifier="apprenticeship_ncorp" />
+          <TalentOption identifier="apprenticeship_kcorp" />
+          <TalentOption identifier="apprenticeship_rcorp" />
+          <TalentOption identifier="apprenticeship_wcorp" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="logisticssystems" />
+        <TalentOption identifier="journeyman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="loyalassistant" />
+        <TalentOption identifier="disloyalscum" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="graduationceremony" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="enforcer" type="specialization" requires="security_primary" blocks="apprentice,gunslinger">
+      <TalentOptions>
+        <TalentOption identifier="pacificationkit" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="gunslinger" type="specialization" requires="security_primary" blocks="apprentice,enforcer">
+      <TalentOptions>
+        <TalentOption identifier="quickdraw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lonewolf" />
+        <TalentOption identifier="deputy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="drunkensailor" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bigguns" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="lobcorpremnant">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="leap" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="ripspace" />
+        <TalentOption identifier="dontdieonme" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="suspiciousindividuals" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="restrain" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="hpampule" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="arbiter_overloadedhpampule" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="graze" type="specialization" requires="security_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="suitpressurization" />
+        <TalentOption identifier="bioelectricityinduction" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="maneuvertraining" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rhinomodification" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="chargeup" type="specialization" requires="security_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="enduringspirit" />
+        <TalentOption identifier="chargedevade" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="quickrecharge" />
+        <TalentOption identifier="energycycle" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="demolish" />
+        <TalentOption identifier="deploychargebarrier" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- Purifier, an Inquisitor that works for Kromer. -->
+  <TalentTree jobidentifier="ncorpkleinhammer">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="ncorpseal" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="downwiththeship" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fanatic" type="specialization" requires="security_primary" blocks="guard,crusade">
+      <TalentOptions>
+        <TalentOption identifier="nagel" />
+        <TalentOption identifier="hammer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="wholeness" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fanatic,crusade">
+      <TalentOptions>
+        <TalentOption identifier="drive" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="counter" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="crusade" type="specialization" requires="security_primary" blocks="fanatic,guard">
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="infirmretribution" />
+        <TalentOption identifier="purify" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="hauler" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ncorpmittelhammer1">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="ncorpseal" />
+        <TalentOption identifier="devotedhammering" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fanatic" type="specialization" requires="security_primary" blocks="guard,crusade">
+      <TalentOptions>
+        <TalentOption identifier="nagel" />
+        <TalentOption identifier="hammer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+        <TalentOption identifier="joyofexecution" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="wholeness" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fanatic,crusade">
+      <TalentOptions>
+        <TalentOption identifier="drive" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="counter" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="crusade" type="specialization" requires="security_primary" blocks="fanatic,guard">
+      <TalentOptions>
+        <TalentOption identifier="zealouspurge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="infirmretribution" />
+        <TalentOption identifier="purify" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="ironcladretribution" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ncorpmittelhammer2">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="ncorpseal" />
+        <TalentOption identifier="devotedhammering" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="hauler" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="baitandlure" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fanatic" type="specialization" requires="security_primary" blocks="guard,crusade">
+      <TalentOptions>
+        <TalentOption identifier="nagelundhammer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rightfulpurge" />
+        <TalentOption identifier="joyofexecution" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="fanaticaljudgement" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="wholeness" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fanatic,crusade">
+      <TalentOptions>
+        <TalentOption identifier="drive" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="counter" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="crusade" type="specialization" requires="security_primary" blocks="fanatic,guard">
+      <TalentOptions>
+        <TalentOption identifier="zealouspurge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="infirmretribution" />
+        <TalentOption identifier="purify" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="ironcladretribution" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ncorpgroshammer">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="ncorpseal" />
+        <TalentOption identifier="devotedhammering" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="hauler" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="baitandlure" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fanatic" type="specialization" requires="security_primary" blocks="guard,crusade">
+      <TalentOptions>
+        <TalentOption identifier="nagelundhammer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rightfulpurge" />
+        <TalentOption identifier="joyofexecution" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="youarecleansedofsin" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="wholeness" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fanatic,crusade">
+      <TalentOptions>
+        <TalentOption identifier="drive" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="foolishness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="obsessivehammer" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="crusade" type="specialization" requires="security_primary" blocks="fanatic,guard">
+      <TalentOptions>
+        <TalentOption identifier="zealouspurge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="infirmretribution" />
+        <TalentOption identifier="purify" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="fanaticaljudgement" />
+        <TalentOption identifier="ironcladretribution" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- Kromer, the One Who Grips. -->
+  <TalentTree jobidentifier="kromer">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="ncorpseal" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="downwiththeship" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="youarenothing" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fanatic" type="specialization" requires="security_primary" blocks="guard,crusade">
+      <TalentOptions>
+        <TalentOption identifier="whistles" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="nagel" />
+        <TalentOption identifier="hammer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="wholeness" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fanatic,crusade">
+      <TalentOptions>
+        <TalentOption identifier="cannedknowledge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="crusade" type="specialization" requires="security_primary" blocks="fanatic,guard">
+      <TalentOptions>
+        <TalentOption identifier="nowheretorun" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="hauler" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- Middle Little Brother -->
+  <TalentTree jobidentifier="middle">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="littlevengeance" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="chainsofloyalty" />
+        <TalentOption identifier="multifunctional" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="syndicatetogetherness,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="vengeanceawaitsyouall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="seizeyachance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatetogetherness">
+      <TalentOptions>
+        <TalentOption identifier="aimforthesolarplexus" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rightinthedome" />
+        <TalentOption identifier="gutcrush" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="supplyrun" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="multifoldretribution" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="werner">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="youngbrother" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="littlevengeance" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="chainsofloyalty" />
+        <TalentOption identifier="multifunctional" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="syndicatetogetherness,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="vengeanceawaitsyouall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="seizeyachance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatetogetherness">
+      <TalentOptions>
+        <TalentOption identifier="aimforthesolarplexus" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rightinthedome" />
+        <TalentOption identifier="gutcrush" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="supplyrun" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="multifoldretribution" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ricardo">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="bigbrother" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="littlevengeance" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="chainsofloyalty" />
+        <TalentOption identifier="multifunctional" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="vengeanceawaitsyouall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="seizeyachance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="aimforthesolarplexus" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rightinthedome" />
+        <TalentOption identifier="gutcrush" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="supplyrun" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="multifoldretribution" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- Thumb Soldato -->
+  <TalentTree jobidentifier="thumbsoldato">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="rifleman" />
+        <TalentOption identifier="ferrousguard" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="steelknuckles" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="syndicatetogetherness,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatetogetherness">
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="pyromaniac" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="dontdieonme" />
+        <TalentOption identifier="medicalexpertise" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="drsubmarine" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="concentration" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="thumbcapo">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="capo" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="dontpushit" />
+        <TalentOption identifier="rifleman" />
+        <TalentOption identifier="ferrousguard" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="steelknuckles" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="syndicateleader,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="syndicategrit,syndicateleader">
+      <TalentOptions>
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="pyromaniac" />
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="concentration" />
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicateleader" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="focusfire" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="healinghand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="summaryjudgement" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="leiheng">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="capo" />
+        <TalentOption identifier="shinmang" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="dontpushit" />
+        <TalentOption identifier="rifleman" />
+        <TalentOption identifier="ferrousguard" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="steelknuckles" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="syndicateleader,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="syndicategrit,syndicateleader">
+      <TalentOptions>
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="pyromaniac" />
+        <TalentOption identifier="propelledblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tanglecleaver" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="savagetigerslayersperfectedflurryofblades" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicateleader" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="badmanners" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="healinghand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="specops" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- LCCB Riot Team -->
+  <TalentTree jobidentifier="LCCB">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="guard" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="oof1" />
+        <TalentOption identifier="oof2" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="suppress" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="drunkensailor" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="breaching" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="emergencyresponse" />
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bythemanual" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- K Corp Class 1 Security Unit -->
+  <TalentTree jobidentifier="kcorp">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="guard" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="decayampule" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="oof1" />
+        <TalentOption identifier="oof2" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="suppress" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="excise" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="drunkensailor" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="breaching" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="hpampule" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="emergencyresponse" />
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bythemanual" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <!-- K Corp. Class 3 Excision Unit -->
+  <TalentTree jobidentifier="kcorpexcision">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="guard" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="selfcare" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="medicalexpertise" />
+        <TalentOption identifier="decayampule" />
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="medicalassistance" />
+        <TalentOption identifier="peerpressure" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="suppress" />
+        <TalentOption identifier="berserker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="oof2" />
+        <TalentOption identifier="notrespassing" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="excise" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="oof1" />
+        <TalentOption identifier="suspiciousindividuals" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="restrain" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="breaching" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="overloadedhpampule" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="hpampule" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="rcorprabbit">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="grazethegrass" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="downwiththeship" />
+        <TalentOption identifier="raringtograze" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="rabbitevade" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="graze" type="specialization" requires="security_primary" blocks="guard,gunner">
+      <TalentOptions>
+        <TalentOption identifier="rabbitaugmentation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rrrsuit" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="quicksuppression" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="graze,gunner">
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="rabbitprotocol" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="foolhardy" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="gunner" type="specialization" requires="security_primary" blocks="graze,guard">
+      <TalentOptions>
+        <TalentOption identifier="rifleman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="commando" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="concentratedfire" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="rcorprhino">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="maneuvertraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bioelectricityinduction" />
+        <TalentOption identifier="raringtograze" />
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="bulkyimpact" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="graze" type="specialization" requires="security_primary" blocks="guard,groundcrash">
+      <TalentOptions>
+        <TalentOption identifier="demolish" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rrrsuit" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="powerarmor" />
+        <!-- <TalentOption identifier="quicksuppression"/> -->
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="graze,groundcrash">
+      <TalentOptions>
+        <TalentOption identifier="suitpressurization" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rhinomodification" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="groundcrash" type="specialization" requires="security_primary" blocks="graze,guard">
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="extrapowder" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="groundcrash" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ringstudent">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="beatthebrush" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="dotting" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="medicalexpertise" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="pointillistarts" type="specialization" requires="security_primary" blocks="sanguinearts,gradingtheartwork">
+      <TalentOptions>
+        <TalentOption identifier="paintover" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="multitudeofdots" />
+        <TalentOption identifier="artfularsonist" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sanguinepointillism" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="artworkinspection" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="sanguinearts" type="specialization" requires="security_primary" blocks="pointillistarts,gradingtheartwork">
+      <TalentOptions>
+        <TalentOption identifier="sanguinepainting" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="expeditedexsanguination" />
+        <TalentOption identifier="patientartist" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="hematiccoloring" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="gradingtheartwork" type="specialization" requires="security_primary" blocks="pointillistarts,sanguinearts">
+      <TalentOptions>
+        <TalentOption identifier="successtobepraised" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="ontheclock" />
+        <TalentOption identifier="assignmentevaluation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="failureburnedaway" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="donotquestionmyjudgement" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="wcorpcleanupcrew">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="7">
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="heavylifting" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="7">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="junctionjunkie" />
+        <TalentOption identifier="machinemaniac" />
+        <TalentOption identifier="pumpndump" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="quickfixer" />
+        <TalentOption identifier="downwiththeship" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="cleanup" type="specialization" requires="security_primary" blocks="chargeup,comebacksafe">
+      <TalentOptions>
+        <TalentOption identifier="rip" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="unstoppablecuriosity" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="ripspace" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="chargeup" type="specialization" requires="security_primary" blocks="cleanup,comebacksafe">
+      <TalentOptions>
+        <TalentOption identifier="leap" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="quickrecharge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="energycycle" />
+        <TalentOption identifier="chargedevade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="demolish" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="comebacksafe" type="specialization" requires="security_primary" blocks="cleanup,chargeup">
+      <TalentOptions>
+        <TalentOption identifier="enduringspirit" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="deploychargebarrier" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="wcorpcleanupcrew_cca">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="7">
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="heavylifting" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="7">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="junctionjunkie" />
+        <TalentOption identifier="machinemaniac" />
+        <TalentOption identifier="pumpndump" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="quickfixer" />
+        <TalentOption identifier="downwiththeship" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="cleanup" type="specialization" requires="security_primary" blocks="chargeup,comebacksafe">
+      <TalentOptions>
+        <TalentOption identifier="rip" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="unstoppablecuriosity" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="ripspace" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="chargeup" type="specialization" requires="security_primary" blocks="cleanup,comebacksafe">
+      <TalentOptions>
+        <TalentOption identifier="leap" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="quickrecharge" />
+        <TalentOption identifier="energycycle" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="enduringspirit" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="demolish" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="comebacksafe" type="specialization" requires="security_primary" blocks="cleanup,chargeup">
+      <TalentOptions>
+        <TalentOption identifier="defenceorientedcharge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="deploychargebarrier" />
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="congestioncleaningarmor" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="roland">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="8">
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="durandal" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="patronlibrarian" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="8">
+        <TalentOption identifier="allasworkshop" />
+        <TalentOption identifier="atalierlogic" />
+        <TalentOption identifier="crystalatalier" />
+        <TalentOption identifier="mookworkshop" />
+        <TalentOption identifier="oldboysworkshop" />
+        <TalentOption identifier="rangaworkshop" />
+        <TalentOption identifier="wheelsindustry" />
+        <TalentOption identifier="zelkovaworkshop" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="washedup" type="specialization" requires="security_primary" blocks="onemanoffice,orlando">
+      <TalentOptions>
+        <TalentOption identifier="prodigy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="healinghand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="drunkensailor" />
+        <TalentOption identifier="supplyrun" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="arbiter_overloadedhpampule" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="onemanoffice" type="specialization" requires="security_primary" blocks="washedup,orlando">
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="persistence" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="orlando" type="specialization" requires="security_primary" blocks="washedup,onemanoffice">
+      <TalentOptions>
+        <TalentOption identifier="stalker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="quickdraw" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="nowheretorun" />
+        <TalentOption identifier="bigguns" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="furioso" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="wildhunt">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="selfcare" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="sailorwithnoname" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="outcast" type="specialization" requires="security_primary" blocks="erlking,thewildhunt">
+      <TalentOptions>
+        <TalentOption identifier="drunkensailor" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="odullahan" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="erlking" type="specialization" requires="security_primary" blocks="outcast,thewildhunt">
+      <TalentOptions>
+        <TalentOption identifier="lenticularrend" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stormcloud" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="thewildhunt" type="specialization" requires="security_primary" blocks="outcast,erlking">
+      <TalentOptions>
+        <TalentOption identifier="calloftheerlking" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beheading" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="lamentmourndespair" />
+        <TalentOption identifier="memorialprocession" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="requiem" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <Override>
+    <!-- arbiter -->
+    <TalentTree jobidentifier="arbiter">
+      <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <TalentOption identifier="arbiter" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <TalentOption identifier="cleanupsupport" />
+          <TalentOption identifier="firstaidtraining" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="arbiter_overloadedhpampule" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <TalentOption identifier="buff" />
+          <TalentOption identifier="commando" />
+          <TalentOption identifier="baitandlure" />
+          <TalentOption identifier="safetylock" />
+          <TalentOption identifier="enemyterritory" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="head" type="specialization" requires="security_primary">
+        <TalentOptions>
+          <TalentOption identifier="arbiterchain" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="stonewall" />
+          <TalentOption identifier="crustyseaman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="hpampule" />
+          <TalentOption identifier="guard" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="rhinomodification" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="eye" type="specialization" requires="security_primary">
+        <TalentOptions>
+          <TalentOption identifier="beatcop" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="medicalassistance" />
+          <TalentOption identifier="deputy" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="specops" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="miracleworker" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="claw" type="specialization" requires="security_primary">
+        <TalentOptions>
+          <TalentOption identifier="arbiterfairy" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="rabbitaugmentation" />
+          <TalentOption identifier="extrapowder" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="arbitershockwave" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="arbiterpillar" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </Override>
+  <!-- claw -->
+  <TalentTree jobidentifier="claw">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="leap" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="ripspace" />
+        <TalentOption identifier="dontdieonme" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="suspiciousindividuals" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="restrain" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="hpampule" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="arbiter_overloadedhpampule" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="graze" type="specialization" requires="security_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="suitpressurization" />
+        <TalentOption identifier="bioelectricityinduction" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="maneuvertraining" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rhinomodification" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="chargeup" type="specialization" requires="security_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="enduringspirit" />
+        <TalentOption identifier="chargedevade" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="quickrecharge" />
+        <TalentOption identifier="energycycle" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="demolish" />
+        <TalentOption identifier="deploychargebarrier" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="redmist">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="hauler" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="shell" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="legendary" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="gebura" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warhero" />
+        <TalentOption identifier="disciplinarytraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="disciplinarypresence" />
+        <TalentOption identifier="suppressiondrills" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="mentoredcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="redmist" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="levelslash" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="spear" />
+        <TalentOption identifier="upstandingslash" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="focusspirit" />
+        <TalentOption identifier="onrush" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="goodbye" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="strongest" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="counter" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="hello" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="sevenassociation">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="prodigy" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="veteran" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="onthetrail" type="specialization" requires="security_primary" blocks="combatdetective,exploitweakness">
+      <TalentOptions>
+        <TalentOption identifier="forensics" />
+        <!--gain xp when investigating a corpse-->
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="egghead" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="takethelead" />
+        <!--move 5% faster, take 10% less damage, attract enemy attention-->
+        <TalentOption identifier="lonewolf" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="intuition" />
+        <!--if outside of combat for a while, gain thermal vision-->
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="combatdetective" type="specialization" requires="security_primary" blocks="onthetrail,exploitweakness">
+      <TalentOptions>
+        <TalentOption identifier="quickdraw" />
+        <TalentOption identifier="rifleman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bigguns" />
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="exploitweakness" type="specialization" requires="security_primary" blocks="onthetrail,combatdetective">
+      <TalentOptions>
+        <TalentOption identifier="exploitthegap" />
+        <!--apply paralysis to foes-->
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="riposte" />
+        <!--counterattack-->
+        <TalentOption identifier="dissecttarget" />
+        <!--apply rupture to foes-->
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="moulinet" />
+        <!--more damage to paralyzed foes-->
+        <TalentOption identifier="predictiveanalysis" />
+        <!--less damage from paralyzed foes-->
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="thewrapup" />
+        <!--deal more damage to foes with low hp-->
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="sweeper">
+    <SubTree identifier="medical_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="sweeperunity" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="mule" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="peerpressure" />
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="hauler" />
+        <TalentOption identifier="revengesquad" />
+        <TalentOption identifier="jengamaster" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="nightfall" type="specialization" requires="medical_primary" blocks="forthefamily,persistence">
+      <TalentOptions>
+        <TalentOption identifier="sweepthebackstreets" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="nowheretorun" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="stalker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="nightinthebackstreets" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="medical_primary" blocks="nightfall,persistence">
+      <TalentOptions>
+        <TalentOption identifier="medicalexpertise" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="geneaffinity" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="supplyrun" />
+        <TalentOption identifier="chemicalartisan" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="forthefamily" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="persistence" type="specialization" requires="medical_primary" blocks="nightfall,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="extractfuel" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+        <TalentOption identifier="trashdisposal" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="persistence" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="redgaze">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="shinmang" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="followtheflow" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="followingtheflow" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="lonewolf" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodytears" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guide" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="ishallopenthepath" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="inspiringpresence" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="trickledown" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodbarrier" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="redgaze" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="redgaze" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="heatedpuncture" />
+        <TalentOption identifier="scorchingincision" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="pyromaniac" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="superthermogenesis" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="heishoupack">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="strider" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="striderunleashed" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="umbrastrike" />
+        <TalentOption identifier="blinkstep" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="heishoumutation" />
+        <TalentOption identifier="aswritten" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="curseengravedsword" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="mao" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="heishoutraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="huskofhares" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="maobranch" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tracelesstosightandsoundalike" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="curse" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="cursewritblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="deception" />
+        <TalentOption identifier="rip" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="perforatingstrike" />
+        <TalentOption identifier="beastblackoffur" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="butcherblade" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="zilu">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="adepthare" />
+        <TalentOption identifier="shinmang" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="liquifiedflesh" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="strider" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="striderunleashed" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="umbrastrike" />
+        <TalentOption identifier="blinkstep" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="heishoumutation" />
+        <TalentOption identifier="aswritten" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="curseengravedsword" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="mao" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="heishoutraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="huskofhares" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="maobranch" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tracelesstosightandsoundalike" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="curse" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="cursewritblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="deception" />
+        <TalentOption identifier="rip" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="perforatingstrike" />
+        <TalentOption identifier="beastblackoffur" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="butcherblade" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="heishoupack_sibranch">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="serpent" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="reversalkick" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="snakefang" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="likeaserpent" />
+        <TalentOption identifier="blindsidingcleave" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="serpentshearpuncturingarm" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="si" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="heishoutraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="huskofhares" />
+        <TalentOption identifier="healinghand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sibranch" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="curse" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="serpentglint" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="intravascularvenom" />
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="perforatingstrike" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="serpentsmortalflurry" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="fullstopoffice">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="commando" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="returnfire" />
+        <TalentOption identifier="quickdraw" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="taketheshot" />
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fullstoptolife" type="specialization" requires="security_primary" blocks="guard,gunner">
+      <TalentOptions>
+        <TalentOption identifier="meleesupport" />
+        <TalentOption identifier="overwatchassignment" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="suppressingfire" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="targetmarked" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="fullstoptolife" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fullstoptolife,gunner">
+      <TalentOptions>
+        <TalentOption identifier="spotter" />
+        <TalentOption identifier="tacticalfiresupport" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="combatpoise" />
+        <TalentOption identifier="beyondtheshadow" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="gunner" type="specialization" requires="security_primary" blocks="fullstoptolife,guard">
+      <TalentOptions>
+        <TalentOption identifier="rifleman" />
+        <TalentOption identifier="bigguns" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="snipe" />
+        <TalentOption identifier="precisionaim" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="headshot" />
+        <TalentOption identifier="goinforthebullseye" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ncorpfellbullet">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="commando" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="returnfire" />
+        <TalentOption identifier="quickdraw" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="steadytune" />
+        <TalentOption identifier="taketheshot" />
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fullstoptolife" type="specialization" requires="security_primary" blocks="guard,gunner">
+      <TalentOptions>
+        <TalentOption identifier="meleesupport" />
+        <TalentOption identifier="overwatchassignment" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="suppressingfire" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="targetmarked" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="fullstoptolife" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="fullstoptolife,gunner">
+      <TalentOptions>
+        <TalentOption identifier="spotter" />
+        <TalentOption identifier="tacticalfiresupport" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="combatpoise" />
+        <TalentOption identifier="beyondtheshadow" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="gunner" type="specialization" requires="security_primary" blocks="fullstoptolife,guard">
+      <TalentOptions>
+        <TalentOption identifier="rifleman" />
+        <TalentOption identifier="bigguns" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="snipe" />
+        <TalentOption identifier="precisionaim" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="headshot" />
+        <TalentOption identifier="goinforthebullseye" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="ncorpcontemptawe">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thewaitinglist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="brutalstab" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="drunkensailor" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="tograsp" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="graspthatforbidsfalling" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bladelineagesalsu">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="abno_slayer" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="laresistance" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="salsu" type="specialization" requires="security_primary" blocks="bladepoint,poised">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="combatpoise" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bladepoint" type="specialization" requires="security_primary" blocks="salsu,poised">
+      <TalentOptions>
+        <TalentOption identifier="acupuncture" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bladedance" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="decisivedive" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="poised" type="specialization" requires="security_primary" blocks="salsu,bladepoint">
+      <TalentOptions>
+        <TalentOption identifier="drawofthesword" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="redirect" />
+        <TalentOption identifier="slashseries" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sanguineplumblossoms" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="toclaimtheirbones" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bladelineagementor">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="abno_slayer" />
+        <TalentOption identifier="liquifiedflesh" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="acupuncture" />
+        <TalentOption identifier="lonewolf" />
+        <TalentOption identifier="swordplayofthehomeland" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="mentor" type="specialization" requires="security_primary" blocks="bladepoint,poised">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="combatpoise" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="unrelenting" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bladepoint" type="specialization" requires="security_primary" blocks="mentor,poised">
+      <TalentOptions>
+        <TalentOption identifier="decisivedive" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bladedance" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="yieldmyflesh" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="poised" type="specialization" requires="security_primary" blocks="mentor,bladepoint">
+      <TalentOptions>
+        <TalentOption identifier="drawofthesword" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="redirect" />
+        <TalentOption identifier="slashseries" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sanguineplumblossoms" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="toclaimtheirbones" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="kurokumoclanwakashu">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="brutalstab" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="laresistance" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="wakashu" type="specialization" requires="security_primary" blocks="bladepoint,cloudcutter">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="scatteringslash" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bladepoint" type="specialization" requires="security_primary" blocks="wakashu,cloudcutter">
+      <TalentOptions>
+        <TalentOption identifier="lenticularrend" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shadowcloud" />
+        <TalentOption identifier="stormcloud" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cloudburst" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="thundercleave" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="cloudcutter" type="specialization" requires="security_primary" blocks="wakashu,bladepoint">
+      <TalentOptions>
+        <TalentOption identifier="sharpenedblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanup" />
+        <TalentOption identifier="lenticularswirl" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="focusstrike" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="skyclearingcut" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="kurokumoclancaptain">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="brutalstab" />
+        <TalentOption identifier="capo" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="lonewolf" />
+        <TalentOption identifier="gatheringdarkclouds" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="captain" type="specialization" requires="security_primary" blocks="bladepoint,cloudcutter">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="scatteringslash" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rulesofthebackstreets" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bladepoint" type="specialization" requires="security_primary" blocks="captain,cloudcutter">
+      <TalentOptions>
+        <TalentOption identifier="lenticularrend" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shadowcloud" />
+        <TalentOption identifier="stormcloud" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cloudburst" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inkover" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="cloudcutter" type="specialization" requires="security_primary" blocks="captain,bladepoint">
+      <TalentOptions>
+        <TalentOption identifier="sharpenedblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanup" />
+        <TalentOption identifier="lenticularswirl" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="focusstrike" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="skyclearingcut" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="jadeqilin">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="jadeqilin" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="abno_slayer" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="lordsguard" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="pleasebetracelessinyourdeeds" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="heishoukeenclaw" />
+        <TalentOption identifier="lordsguard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="unrelenting" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="erli" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="iwishtoopenthepath" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="thunderstrike" />
+        <TalentOption identifier="impede" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="actnotwithimpropriety" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="deathritedeluge" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="heishoulord" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="shinmang" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="heedmezilu" />
+        <TalentOption identifier="maolinkstrike" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="answermeheishoupacks" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="likearoaringstorm" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="heishoupack_youbranch">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="laresistance" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="youbranch" type="specialization" requires="security_primary" blocks="bloodflameblade,rupturingstrike">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="battledrunk" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodflameblade" type="specialization" requires="security_primary" blocks="youbranch,rupturingstrike">
+      <TalentOptions>
+        <TalentOption identifier="pyromaniac" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="fuelmyrampage" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodflameblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="rupturingstrike" type="specialization" requires="security_primary" blocks="youbranch,bloodflameblade">
+      <TalentOptions>
+        <TalentOption identifier="rip" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="roostersdeathstrike" />
+        <TalentOption identifier="gamefowl" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="smellofburningblood" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodflamemassacre" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="heishoupack_wubranch">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="tastytarget" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="laresistance" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="wubranch" type="specialization" requires="security_primary" blocks="concussiveblow,rupturingstrike">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="linebreaker" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="concussiveblow" type="specialization" requires="security_primary" blocks="wubranch,rupturingstrike">
+      <TalentOptions>
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="obsidianstormrider" />
+        <TalentOption identifier="obsidianmercy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cavalrysvanguardcharge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="rupturingstrike" type="specialization" requires="security_primary" blocks="wubranch,concussiveblow">
+      <TalentOptions>
+        <TalentOption identifier="rip" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="aforethecharge" />
+        <TalentOption identifier="vanguard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cutdownandtrample" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="concussion" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="firefistoffice">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="safetyfirst" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="engineengineer" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="weaponsmith" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="junctionjunkie" />
+        <TalentOption identifier="munitionsexpertise" />
+        <TalentOption identifier="machinemaniac" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="scrapper" type="specialization" requires="security_primary" blocks="enforcer,firefist">
+      <TalentOptions>
+        <TalentOption identifier="miner" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="residualwaste" />
+        <TalentOption identifier="massproduction" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="scrapsavant" />
+        <TalentOption identifier="toolmaintenance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="ironstorm" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="enforcer" type="specialization" requires="security_primary" blocks="scrapper,firefist">
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="district12fuel" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="firefist" type="specialization" requires="security_primary" blocks="scrapper,enforcer">
+      <TalentOptions>
+        <TalentOption identifier="flamethrow" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="pyromaniac" />
+        <TalentOption identifier="burnaway" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="gunrunner" />
+        <TalentOption identifier="extrapowder" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="firefist" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="shi_east">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="poise" />
+        <TalentOption identifier="gunrunner" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="abno_slayer" />
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="taketheshot" />
+        <TalentOption identifier="lonewolf" />
+        <TalentOption identifier="nonthreatening" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="swordsmanship" type="specialization" requires="security_primary" blocks="guard,archery">
+      <TalentOptions>
+        <TalentOption identifier="cleave" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="positioningmaneuver" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="specops" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="guard" type="specialization" requires="security_primary" blocks="swordsmanship,archery">
+      <TalentOptions>
+        <TalentOption identifier="shinoyumi" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="combatpoise" />
+        <TalentOption identifier="kurokumo_guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="archery" type="specialization" requires="security_primary" blocks="swordsmanship,guard">
+      <TalentOptions>
+        <TalentOption identifier="targetaim" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="commando" />
+        <TalentOption identifier="rifleman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="glimmeringbow" />
+        <TalentOption identifier="bowsglimmer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="indexproselyte">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="machinemaniac" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="junctionjunkie" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="proselyte" type="specialization" requires="security_primary" blocks="syndicatebrutality,syndicategrit">
+      <TalentOptions>
+        <TalentOption identifier="starterquest" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="proselytesblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+        <TalentOption identifier="graceoftheprescript" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abno_execute" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="proselyte,syndicategrit">
+      <TalentOptions>
+        <TalentOption identifier="commando" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="brutalstab" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="proselyte,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="dawnoffice">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="burningpassion" type="specialization" requires="security_primary" blocks="ruefuleventide,daybreak">
+      <TalentOptions>
+        <TalentOption identifier="stigmatize" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="burningpassion" />
+        <TalentOption identifier="unstableshell" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+        <TalentOption identifier="fiercecharge" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="ruefuleventide" type="specialization" requires="security_primary" blocks="burningpassion,daybreak">
+      <TalentOptions>
+        <TalentOption identifier="feathershield" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="rue" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="daybreak" type="specialization" requires="security_primary" blocks="burningpassion,ruefuleventide">
+      <TalentOptions>
+        <TalentOption identifier="sunsetblade" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="searingsword" />
+        <TalentOption identifier="pyromaniac" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="ruefuleventide" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="blazingstrike" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="thelastknight">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thewaitinglist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="abno_slay" type="specialization" requires="security_primary" blocks="abno_the,abno_ocean">
+      <TalentOptions>
+        <TalentOption identifier="boardingparty" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="scavenger" />
+        <TalentOption identifier="slayer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="easyturtle" />
+        <TalentOption identifier="daringdolphin" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="specops" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="abno_the" type="specialization" requires="security_primary" blocks="abno_slay,abno_ocean">
+      <TalentOptions>
+        <TalentOption identifier="theindomitableknight" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="abno_ocean" type="specialization" requires="security_primary" blocks="abno_slay,abno_the">
+      <TalentOptions>
+        <TalentOption identifier="tidepiercerlance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tidehunt" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tidebreakerlance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="slaytheocean" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="tcorpclass2">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thewaitinglist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="preparetocollect" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="multifunctional" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="executecollections" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="tcorpmartialsuppression" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="berserker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="goldentimestandoff" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="tcorpclass3">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thewaitinglist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="preparetocollect" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="multifunctional" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="icommandtheehalt" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="executecollections" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="tcorpmartialsuppression" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tcorpacceleratedamputator" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="goldentimeextracting" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="tcorpvdcu">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="skedaddle" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thewaitinglist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="preparetocollect" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="multifunctional" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tcorpmicrocavitymodule" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="executecollections" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="tcorpmartialsuppression" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+        <TalentOption identifier="eyeforweakness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="t3collectormacemaxactivation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="shove" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="goldentimemicrocavity" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="nightawls">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thewaitinglist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+        <TalentOption identifier="merce" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary" blocks="syndicatetogetherness,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="purgeenforcer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="enemyterritory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="direstraits" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatetogetherness">
+      <TalentOptions>
+        <TalentOption identifier="gapattack" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="eyeforweakness" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="chinkinonesarmor" />
+        <TalentOption identifier="stilettodoppio" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="thenightsawl" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary" blocks="syndicategrit,syndicatebrutality">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="dontdieonme" />
+        <TalentOption identifier="medicalexpertise" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="selfcare" />
+        <TalentOption identifier="drsubmarine" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="hanafuda">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bottomdeal" type="specialization" requires="security_primary" blocks="stackingthedeck,koikoi">
+      <TalentOptions>
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="eyeforweakness" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="koikoi" type="specialization" requires="security_primary" blocks="bottomdeal,stackingthedeck">
+      <TalentOptions>
+        <TalentOption identifier="tsurugiri" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="susukimisdirection" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sakurasen" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kozan" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="stackingthedeck" type="specialization" requires="security_primary" blocks="bottomdeal,koikoi">
+      <TalentOptions>
+        <TalentOption identifier="skedaddle" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="foolhardy" />
+        <TalentOption identifier="berserker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="devyat">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="grounded" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="devyat" type="specialization" requires="security_primary" blocks="deadlines,clearance">
+      <TalentOptions>
+        <TalentOption identifier="decayknife" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rip" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="devyat,deadlines">
+      <TalentOptions>
+        <TalentOption identifier="gadgetreveal" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="demolitiongadget" />
+        <TalentOption identifier="decayhammer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="decayparticles" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="poludnitsa" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="deadlines" type="specialization" requires="security_primary" blocks="devyat,clearance">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewall" />
+        <TalentOption identifier="guard" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="couriercrisiscontrol" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="zweisouth">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="guard" />
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="buff" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="laresistance" />
+        <TalentOption identifier="shove" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="exampleofhealth" />
+        <TalentOption identifier="ballastdenizen" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clearance" type="specialization" requires="security_primary" blocks="riotsuppression,barricade">
+      <TalentOptions>
+        <TalentOption identifier="standoff" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="flexiblesuppression" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="guardian" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="riotsuppression" type="specialization" requires="security_primary" blocks="clearance,barricade">
+      <TalentOptions>
+        <TalentOption identifier="beatcop" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lawandorder" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lightningwizard" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="barricade" type="specialization" requires="security_primary" blocks="clearance,riotsuppression">
+      <TalentOptions>
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="emergencyresponse" />
+        <TalentOption identifier="firemanscarry" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bloodfiendpriestfollower">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bloodfeast" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thirstforblood" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="fearofwater" />
+        <TalentOption identifier="sanguineanatomy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodthirst" type="specialization" requires="security_primary" blocks="hardblood,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="fadedpatience" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodsucking" />
+        <TalentOption identifier="bloodcoagulation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="dontcutmeoff" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="endlessatonement" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="hardblood" type="specialization" requires="security_primary" blocks="bloodthirst,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="tastytarget" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+        <TalentOption identifier="berserker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="security_primary" blocks="bloodthirst,hardblood">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="drsubmarine" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="foolhardy" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bloodfiendpriest">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bloodfeast" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thirstforblood" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="fearofwater" />
+        <TalentOption identifier="sanguineanatomy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodthirst" type="specialization" requires="security_primary" blocks="hardblood,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="fadedpatience" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodsucking" />
+        <TalentOption identifier="bloodcoagulation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="dontcutmeoff" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="unforgivablesin" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="hardblood" type="specialization" requires="security_primary" blocks="bloodthirst,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="security_primary" blocks="bloodthirst,hardblood">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bloodfiendbarberfollower">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bloodfeast" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thirstforblood" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="brutalstab" />
+        <TalentOption identifier="fearofwater" />
+        <TalentOption identifier="sanguineanatomy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodthirst" type="specialization" requires="security_primary" blocks="hardblood,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="weveaneventforyou" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodsucking" />
+        <TalentOption identifier="bloodcoagulation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="letsdressup" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="dontrushme" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="hardblood" type="specialization" requires="security_primary" blocks="bloodthirst,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="skedaddle" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="security_primary" blocks="bloodthirst,hardblood">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bloodfiendbarber">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bloodfeast" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thirstforblood" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="brutalstab" />
+        <TalentOption identifier="fearofwater" />
+        <TalentOption identifier="sanguineanatomy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodthirst" type="specialization" requires="security_primary" blocks="hardblood,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="weveaneventforyou" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodsucking" />
+        <TalentOption identifier="bloodcoagulation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="letsdressup" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="illmakeyouanewdress" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="hardblood" type="specialization" requires="security_primary" blocks="bloodthirst,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="security_primary" blocks="bloodthirst,hardblood">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bloodfiendmanager">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bloodfeast" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thirstforblood" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="brutalstab" />
+        <TalentOption identifier="fearofwater" />
+        <TalentOption identifier="sanguineanatomy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodthirst" type="specialization" requires="security_primary" blocks="hardblood,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="enoughisenough" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodsucking" />
+        <TalentOption identifier="bloodcoagulation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="letallblossomfree" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="lasangre" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="hardblood" type="specialization" requires="security_primary" blocks="bloodthirst,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="security_primary" blocks="bloodthirst,hardblood">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="bloodfiendprince">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="bloodfeast" />
+        <TalentOption identifier="cleanupsupport" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="thirstforblood" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="fearofwater" />
+        <TalentOption identifier="sanguineanatomy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bloodthirst" type="specialization" requires="security_primary" blocks="hardblood,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="marchconductor" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bloodsucking" />
+        <TalentOption identifier="bloodcoagulation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="responsibilitytorebuild" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="overture" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="hardblood" type="specialization" requires="security_primary" blocks="bloodthirst,forthefamily">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="kurokumo_guard" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="forthefamily" type="specialization" requires="security_primary" blocks="bloodthirst,hardblood">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="exampleofhealth" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="abnolaststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>

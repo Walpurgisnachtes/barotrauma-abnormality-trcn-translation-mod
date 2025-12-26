@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character SpeciesName="WaywardPassenger" SpeciesTranslationOverride="" DisplayName="Wayward Passenger" Group="Abnormality" Humanoid="True" HasInfo="False" CanInteract="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="True" Noise="100" Visibility="100" BloodDecal="blackblood" BleedParticleAir="blood" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="20" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="abnocrate">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <health Vitality="1500" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="True" BleedingReduction="1" BurnReduction="0.25" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="1" EmpVulnerability="0" ApplyAfflictionColors="False">
+    <MedUISilhouette texture="Content/UI/Health/MedUI_Silhouette.png" columns="8" rows="2" sourcerect="0,0,1008,748" />
+    <MedUIExtra texture="Content/UI/Health/MedUIExtra.png" columns="4" rows="4" sourcerect="0,0,1024,1024" />
+    <Limb name="Head">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,0,126,374" highlightarea="41,0,45,54" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,515,126,374" />
+      <VitalityMultiplier identifier="highspeedripspace" multiplier="0.0" />
+    </Limb>
+    <Limb name="Torso">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,0,126,374" highlightarea="29,56,70,134" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,515,126,374" />
+      <VitalityMultiplier identifier="highspeedripspace" multiplier="0.0" />
+    </Limb>
+    <Limb name="LeftArm">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,0,126,374" highlightarea="1,69,27,140" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,515,126,374" />
+      <VitalityMultiplier identifier="highspeedripspace" multiplier="0.0" />
+    </Limb>
+    <Limb name="RightArm">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,0,126,374" highlightarea="100,69,27,140" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,515,126,374" />
+      <VitalityMultiplier identifier="highspeedripspace" multiplier="0.0" />
+    </Limb>
+    <Limb name="LeftLeg">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,0,126,374" highlightarea="3,180,57,194" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,515,126,374" />
+      <VitalityMultiplier identifier="highspeedripspace" multiplier="0.0" />
+    </Limb>
+    <Limb name="RightLeg">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,0,126,374" highlightarea="68,180,57,194" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,515,126,374" />
+      <VitalityMultiplier identifier="highspeedripspace" multiplier="0.0" />
+    </Limb>
+  </health>
+  <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="heavygib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="50" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <sound gender="None" File="%ModDir%/Characters/WaywardPassenger/Sounds/waywardhurt1.ogg" State="Damage" Range="1000" Volume="0.8" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/WaywardPassenger/Sounds/waywardhurt2.ogg" State="Damage" Range="1000" Volume="0.8" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/WaywardPassenger/Sounds/waywardhurt3.ogg" State="Damage" Range="1000" Volume="0.8" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/WaywardPassenger/Sounds/waywardsizzle1.ogg" State="Idle" Range="1500" Volume="0.8" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/WaywardPassenger/Sounds/waywardsizzle2.ogg" State="Idle" Range="1000" Volume="0.8" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/WaywardPassenger/Sounds/waywardteleport.ogg" State="Die" Range="2000" Volume="1" Tags="" />
+  <ai infiltrate="True" CombatStrength="1500" Sight="2" Hearing="1.5" AggressionHurt="150" AggressionGreed="5" FleeHealthThreshold="0" AttackWhenProvoked="False" AvoidGunfire="False" DamageThreshold="0" AvoidTime="0" MinFleeTime="0" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="True" RandomAttack="True" CanOpenDoors="False" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="False" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="100" MaxAggression="100" AggressionCumulation="100" WallTargetingMethod="Target">
+    <target damagethreshold="0" Tag="decoy" State="Attack" Priority="500" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="provocative" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="5" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weapon" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="5" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="human" State="Attack" Priority="90" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="stronger" State="Attack" Priority="80" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weaker" State="Attack" Priority="85" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="nasonov" State="Attack" Priority="70" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="sonar" State="Attack" Priority="30" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="room" State="Attack" Priority="10" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+  </ai>
+  <inventory Slots="Any, Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="10" />
+  <!-- Teleport at 20 abno_charge -->
+  <StatusEffect type="OnActive" target="Character" delay="3" stackable="false" comparison="And">
+    <Conditional isdead="False" />
+    <Conditional abno_charge="gte 20" />
+    <sound file="Content/Items/Weapons/Emp.ogg" range="500.0" loop="false" volume="1.0" />
+    <!-- <SpawnCharacter speciesname="WaywardPassenger" spawnposition="This" spread="500" RemovePreviousCharacter="True" transfercontrol="true" TransferInventory="False" AfflictionOnSpawn="waywardteleportation1" AfflictionStrength="5" TransferAfflictions="True" /> -->
+    <TriggerEvent identifier="waywardteleport" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" target="Character" delay="6" stackable="false" comparison="And">
+    <Conditional isdead="False" />
+    <Conditional abno_charge="gte 20" />
+    <sound file="Content/Items/Weapons/Emp.ogg" range="500.0" loop="false" volume="1.0" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" target="Character" delay="9" stackable="false" comparison="And">
+    <Conditional isdead="False" />
+    <Conditional abno_charge="gte 20" />
+    <sound file="Content/Items/Weapons/Emp.ogg" range="500.0" loop="false" volume="1.0" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" target="Character" duration="7" stackable="false" comparison="And">
+    <Conditional isdead="False" />
+    <Conditional abno_charge="gte 20" />
+    <Affliction identifier="warpeffects" amount="3" disabledeltattime="True" />
+  </StatusEffect>
+  <!-- Inflict High Speed Rip Space to nearby targets -->
+  <StatusEffect type="OnActive" target="Character" comparison="And">
+    <Conditional isdead="False" />
+    <Conditional abno_charge="gte 20" />
+    <Explosion range="1000.0" structuredamage="0" itemdamage="0" force="0.005" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="0" playtinnitus="false" applyfireeffects="false">
+      <Affliction identifier="highspeedripspace" amount="2000" />
+    </Explosion>
+    <!-- <SpawnItem identifier="waywardteleport" spawnposition="This" /> -->
+    <ReduceAffliction identifier="abno_charge" amount="10000" disabledeltatime="true" />
+  </StatusEffect>
+  <!-- Don't apply High Speed Rip Space to self -->
+  <StatusEffect type="OnActive" target="Character" delay="1" stackable="False">
+    <Conditional isdead="False" />
+    <Affliction identifier="noripspace" amount="100" />
+  </StatusEffect>
+  <!-- Makes sure abno_charge doesn't decay for him -->
+  <StatusEffect type="OnActive" target="Character" delay="1" stackable="False" multiplyafflictionsbymaxvitality="True" disabledeltatime="True">
+    <Conditional isdead="False" />
+    <Affliction identifier="abno_charge" amount="1" />
+  </StatusEffect>
+  <StatusEffect type="OnDeath" target="This" delay="1">
+    <particleemitter particle="whitegoosplash" particleamount="20" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.3" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" colormultiplier="181,230,29,255" />
+    <particleemitter particle="brownchunks" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" colormultiplier="181,230,29,255" />
+    <particleemitter particle="heavygib" particleamount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <particleemitter particle="gib" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <Sound file="Content/Sounds/Damage/Gore6.ogg" range="800" />
+    <SpawnItem identifier="waywardpassengeregg" spawnposition="this" />
+    <RemoveCharacter />
+  </StatusEffect>
+</Character>

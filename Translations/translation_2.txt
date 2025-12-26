@@ -1,0 +1,419 @@
+一、異常體 / 怪物 / Ordeal 名稱相關
+Nothing There = Nullthing There -> 「一無所有」
+One Sin and Hundreds of Good Deeds -> 一罪與百善
+Punishing Bird -> 懲戒鳥
+Forsaken Murderer -> 被遺棄的殺人魔
+So That No One Will Cry -> 因而無人哭泣
+KQE-1J-23 -> KQE-1J-23
+Der Freischütz -> 魔彈射手
+Der Fluchschütze -> 凶彈射手
+Headless Ichthys -> 斷首魚
+The Naked Nest -> 裸巢
+Wayward Passenger -> 迷失乘客
+Spiral of Contempt -> 輕蔑螺旋
+Blue Star -> 碧藍新星
+CENSORED -> [CENSORED]
+Blubbering Toad「Glupo」-> 悲泣蟾蜍 (不需翻譯「Glupo」)
+Don't Touch Me -> 別碰我
+Proceeding Inquisitor -> 向前迫近的異端審判官
+Everything There of an Inquisitor -> 無所不有的異端審判官
+Small Bird -> 小鳥
+Punishing Bird -> 懲戒鳥
+Apocalypse Bird -> 終末鳥
+Dream‑Devouring Siltcurrent -> 噬夢的濁流
+Dream‑Nibbling Siltcurrent -> 嚼夢的濁流
+The King in Binds -> 受縛之王
+The Crying Children -> 哭泣之子
+
+[Ordeal Color]
+Ordeal -> 考驗
+Amber -> 琥珀色的
+Crimson -> 血色的
+Green -> 綠色的
+Indigo -> 靛藍色的
+Violet -> 紫羅蘭的
+White -> 慘白的
+
+[Ordeal Level]
+Dawn -> 黎明
+Noon -> 正午
+Dusk -> 黃昏
+Midnight -> 午夜
+
+The Ordeal of [Color] [Level] -> [顏色]的[考驗等級]
+[Color] [Level] -> [顏色]的[考驗等級]
+
+Exuviae Parasite -> 裸蛇
+Exuviae Infection -> 裸巢感染
+Drenched Gossypium -> 浸染棉花
+The Naked Nest -> 裸巢
+Burrowing Heaven -> 滲透天堂
+
+CENSORED Minion -> [CENSORED] 子嗣
+CENSORED Spawn -> [CENSORED] 生成物
+
+White Gossypium -> 白棉花
+Bloodsoaked Gossypium  -> 血棉花
+The Last Knight -> 最後的騎士
+
+Corroded Inquisitor -> 異端審判官
+Exuviae Parasite -> 裸蛇
+Drenched Gossypium -> 浸染棉花
+Meat Doggy -> 小肉狗
+Smoke Monster -> 霧霾怪物
+Smoldering Byproduct -> 霧霾副產品
+
+二、物品 / EGO / 裝備 / 材料相關
+E.G.O. -> E.G.O.
+
+Regret: 悔恨
+Penitence: 懺悔
+Mimicry -> 擬態
+Fluid Sac -> 液囊
+Magic Bullet -> 魔彈射手
+Exuviae -> 蛻落之皮
+Enkephalin Module -> 腦啡肽模組
+Don't Touch Me -> 別按我
+Melty Eyes -> 融化的眼球
+Sunshower -> 狐雨
+Pinpoint Logic Circuit -> 單點打擊邏輯電路
+Book of Vengeance -> 復仇帳簿
+Corroded Inquisitor Equipment -> 異端審判官的裝備
+Bolus -> 丸藥
+Vestige -> EGO 殘影
+
+Lobotomy E.G.O.: Mimicry's Blade -> 腦葉 E.G.O.: 擬態
+Lobotomy E.G.O.: Prototype Mimicry -> 腦葉 E.G.O.: 擬態-原型
+Lobotomy E.G.O.: Penitence Crown -> 腦葉 E.G.O.: 懺悔
+Lobotomy E.G.O.: Regret -> 腦葉 E.G.O.: 悔恨
+Lobotomy E.G.O.: Magic Bullet Uniform -> 腦葉 E.G.O.: 魔彈制服
+Lobotomy E.G.O.: Magic Bullet Coat -> 腦葉 E.G.O.: 魔彈外衣
+Lobotomy E.G.O.: Magic Bullet (Ranged) -> 腦葉 E.G.O.: 魔彈(遠程)
+Lobotomy E.G.O.: Magic Bullet (Melee) -> 腦葉 E.G.O.: 魔彈(近戰)
+Lobotomy E.G.O.: Exuviae -> 腦葉 E.G.O.: 蛻落之皮
+Lobotomy E.G.O.: Talisman -> 腦葉 E.G.O.: 符咒
+Effloresced E.G.O.: Waxen Pinion's Blade -> 開花 E.G.O.: 蠟翼
+
+
+Uniform of the Arbiter -> 調律者的制服
+Coat of the Arbiter -> 調律者的大衣
+
+N Corp. E.G.O.: Fell Bullet -> N公司 E.G.O.: 凶彈
+N Corp. E.G.O.: Contempt, Awe -> N公司 E.G.O.: 輕蔑，敬畏
+
+E.G.O. of the Red Gaze -> E.G.O. 殷紅迷霧
+E.G.O. of the Red Mist -> E.G.O. 腥紅凝視
+
+(Abnormality Egg) -> （異想體之卵）
+Abnormality Egg [Abnormality Name] -> 異想體之卵 [異想體名稱]
+Rapidly Mutating Egg -> 快速變異之卵
+Melty Eye = Melty Eyes -> 融化的眼球
+Corroded Inquisitor's Armor -> 異端審判官的裝甲
+Corroded Nail -> 異端審判官的尖釘
+Corroded Kleinhammer -> 異端審判官的小錘
+LCE E.G.O.: Fluid Sac -> LCE E.G.O.: 液囊
+Pinpoint Logic Circuit -> 單點打擊邏輯電路
+
+E.G.O. Gift [Abnormality Name] -> E.G.O. 飾品 [異想體名稱]
+E.G.O. Fragment: [Abnormality Name] -> E.G.O. 碎片：[異想體名稱]
+按照異想體名稱進行命名
+
+E.G.O. Gift ([type]) -> E.G.O. 飾品 ([type])
+Bolus ([type]) -> 丸藥 ([type])
+Enhancement Tattoos ([type]) -> 強化紋身 ([type])
+Body Modifications ([type]) -> 身體改造 ([type])
+
+Named Gifts：
+Venomous Skin -> 劇毒外皮
+Beak -> 小喙
+Tangled Bundle -> 糾纏綑束
+White Gossypium -> 白棉花
+Bloodsoaked Gossypium -> 血棉花
+Old Wooden Doll -> 陳舊的木雕人偶
+Talisman Bundle -> 成綑的符咒
+Nagel -> 尖釘
+Hammer -> 重錘
+Nagel und Hammer Scriptures -> 釘與錘之書
+N Corp Seal -> N公司印章
+Blood‑Red Mane -> 血紅鬃毛
+Squalidity -> 污穢
+Wholeness -> 完全性
+Ruptured Blood Sac -> 撕裂的血袋
+UPS System -> 不間斷電源裝置
+Sunshower（物品 / 飾品名統一） -> 狐雨
+Pendant of Nostalgia -> 追憶吊墜
+Torn Bandolier -> 撕裂的彈帶
+Killin's Amulet -> 克林的護身符
+Awe -> 敬畏
+Gaze of Contempt -> 輕蔑的視線
+Perversion -> 倒錯症
+Arrested Hymn -> 被扣留的頌歌
+Endorphin Kit -> 內啡肽試劑組
+Watchful Eye -> 警惕之目
+CENSORED -> [CENSORED]
+Augment Splicer -> 強化接合器
+Advanced Augment Splicer -> 高級強化接合器
+Dark Vestige -> 黑暗的殘影
+Faint Vestige -> 微茫的殘影
+Twinkling Vestige -> 閃耀的殘影
+Brilliant Vestige -> 輝煌的殘影
+Lunar Vestige -> 月之殘影
+Tenacity Bolus -> 強韌丸
+Sanguine Blossom Bolus -> 血花丸
+Tranquil Lotus Bolus -> 靜蓮丸
+Jin Gang Bolus -> 金剛丸
+
+槍械/武器名稱無固定譯名 
+
+Full‑Stop Office -> 句點事務所
+Corporate -> 公司
+LCCB -> LCCB 
+K Corp. Class (Level) -> K公司(等級)級
+R Corp. 4th Pack -> R公司第4集團軍
+Rabbit -> 兔子
+Rhino -> 犀牛
+Sweeper -> 清道夫
+W Corp. -> W公司
+Teleportation Anchor -> 傳送錨點
+Recall Device -> 回溯裝置
+Shi -> 四協會
+Dawn -> 黎明事務所
+Devyat -> 九協會
+T Corp -> T公司
+Index -> 食指
+Bloodfiend -> 血魔
+Urban Myth -> 都市怪談
+Urban Legend -> 都市傳說
+Urban Plague -> 都市惡疾
+Urban Nightmare -> 都市夢魘
+Star of the City -> 都市之星
+
+三、職業 / 身分 / NPC 稱號相關
+LCCB -> LCCB (不需翻譯)
+K Corp. Class (Level) (Classification)-> K公司(等級)級員工 (Classification不需翻譯)
+R Corp. 4th Pack -> R公司第4集團軍
+Rabbit -> 兔子
+Rhino -> 犀牛
+Ring Pointillist Student -> 環指點彩派學徒
+W Corp. Cleanup Crew -> W公司清掃人員
+L4 Cleanup Agent: CCA -> W公司4級清掃人員
+Grade [Level] Fixer -> [等級]階收尾人
+Arbiter -> 調律者
+Claw -> 爪牙
+The Wild Hunt -> 狂獵
+The Red Mist -> 殷紅迷霧
+The Red Gaze -> 腥紅凝視
+
+Thumb Soldato -> 拇指士兵
+Thumb Capo -> 拇指指揮官
+Thumb Capo IIII -> 拇指指揮官 IIII
+Kurokumo Clan Wakashu -> 黑雲會若眾
+Kurokumo Clan Captain -> 黑雲會副會長
+Blade Lineage Salsu -> 劍契組殺手
+Blade Lineage Mentor -> 劍契組頭領
+Mao Branch -> 卯
+Hare -> 兔
+Adept -> 魁首
+Si Branch -> 巳
+Snake -> 蛇
+You Branch -> 酉
+Rooster -> 雞
+Wu Branch -> 午
+Horse -> 馬
+Shi Association East -> 四協會東部
+Dawn Office Fixer -> 黎明事務所收尾人
+Firefist Office -> 炎拳事務所
+Night Awl -> 夜錐
+Bloodfiend Manager -> 血魔總督
+Bloodfiend Prince -> 血魔王子
+Barber -> 理髮師
+Priest -> 神父
+Kindred -> 親族
+Bloodfiend of Prayers -> 祈禱的血魔
+Fashionista Bloodfiend -> 時尚血魔
+
+四、派系 / 組織 / 世界觀專有名詞
+The Thumb -> 拇指
+The Middle -> 中指
+The Ring -> 環指
+Index -> 食指
+Fixers -> 收尾人
+Syndicates -> 幫派
+Wings -> 世界之翼
+Lobotomy Corporation -> 腦葉公司
+The Five Fingers / Fingers -> 五指
+W Corp / WARP Corp -> W公司
+R Corp Fourth Pack Rabbit Team -> R公司第4集團軍兔子隊
+R Corp Fourth Pack Rhino Team -> R公司第4集團軍犀牛隊
+H Corp -> H公司
+Employee -> 職員
+Lobotomy Corporation Remnant -> 腦葉公司殘部
+Hongyuan -> 鴻園
+Kurokumo Clan -> 黑雲會
+Blade Lineage -> 劍契組
+Bloodfiends -> 血魔
+
+Association Names:
+Hana -> 一協會
+Zwei -> 二協會
+Tres -> 三協會
+Shi -> 四協會
+Cinq -> 五協會
+Liu -> 六協會
+Seven -> 七協會
+Eight -> 八協會
+Devyat -> 九協會
+Dieci -> 十協會
+Oufi -> 十一協會
+[Association Name] Association -> [協會名稱]協會
+[Association Name] Association Fixer -> [協會名稱]協會收尾人
+
+The Head -> 首腦
+The City -> 都市
+Nests -> 巢
+Backstreets -> 後巷
+Districts -> 區
+
+五、狀態 / Debuff / Affliction / 類型相關術語
+PALE = Soul Damage -> 靈魂傷害
+Special Husk Infection -> 特殊畫皮感染
+Eldritch Infection -> 異形感染
+Blood Deluge -> 鮮血泛濫
+Blood Barrier -> 鮮血屏障
+Shin -> 心
+Mang -> 望
+Superthermogenesis -> 高温裝置
+Offense Up -> 攻擊力提升
+Offense Down -> 攻擊力下降
+Defense Up -> 防禦力提升
+Defense Down -> 防禦力下降
+Slow -> 緩速
+Stagger -> 踉蹌
+Staggered -> 踉蹌狀態
+Progressive Stun -> 漸進式眩暈
+Hyperactivity -> 極速
+Vigor -> 活力煥發
+Fragile -> 脆弱
+Stun -> 眩暈
+Incremental Stun -> 漸進式眩暈
+Aggro -> 攻擊
+Evade -> 回避
+Guard -> 格檔
+Tremor -> 震顫
+Tremor Burst -> 震顫引爆
+Concussed -> 腦震盪
+Concussion -> 腦震盪
+Fairy (arbiterfairy) -> 妖靈
+Psychosis -> 精神病
+Nausea -> 噁心
+Disoriented -> 暈眩
+Blinded -> 失明
+Sensory Overload -> 感官過載
+Husk -> 畫皮
+Husk Infection -> 畫皮感染
+Alien Infection -> 異星感染
+Burning -> 燃燒
+Burn -> 燒傷
+Acid Burn -> 酸性燒傷
+Cold -> 寒冷
+Flow -> 水流
+Flow resistance -> 水流抗性
+Pressure -> 壓力
+Pressure Stabilized -> 壓力穩定
+Poise(talent) -> 呼吸
+Poise(affliction) -> 呼吸法
+Nails(affliction) -> 尖釘
+Execute(affliction) -> 處決
+Combat Stimulant -> 戰鬥興奮劑
+
+Mark of Vengeance / Vengeance Mark -> 報復對象
+Fairy Wine -> 精靈酒
+Tremor: Hemorrhage -> 震顫 - 大出血
+Tremor: Scorch -> 震顫 - 灼熱
+Tremor: Reverb -> 震顫 - 迴響
+Bloodloss / Blood Loss -> 失血
+
+Rupture -> 破裂
+Bleed -> 出血
+Fanatic -> 狂熱
+Charge -> 充能
+Parry -> 招架
+Sanity / Psychosis -> 理智 / 癲狂
+Bloodfeast -> 血宴
+Hardblood -> 硬血
+
+Coffin (resource) -> 「棺」
+Bloodied Hand (resource) -> 血染之手
+Hardblood Armor (resource) -> 硬血甲冑
+Focused Performance (resource) -> 專注表演
+Parade (resource) -> 拉．曼卻遊行
+
+六、任務 / 機制 / 介面相關術語
+Suppression [of Abnormality Name] -> 鎮壓[異想體名稱]
+Containment Breach -> 突破收容
+Enkephalin Startup -> 腦啡肽初始包
+Enkephalin Generator -> 腦啡肽製造器
+Enkephalin Establishment -> 腦啡肽單位
+Enkephalin Factory -> 腦啡肽工廠
+EGO Gift Research Station -> E.G.O. 飾品研究台
+Processor -> 處理器
+Black Gate -> 黑森林之門
+Containment Cell -> 收容單元
+
+Abnormality Work -> 異想體工作
+Instinct -> 本能
+Insight -> 洞察
+Attachment -> 溝通
+Repression -> 壓迫
+
+Talent -> 天賦
+Talent Tree -> 天賦樹
+Perk -> 天賦點
+Disembark Perk -> 天賦點
+Skill -> 技能
+
+[Body Mod Purpose], Grade [Level] -> 第[等級]階身體改造 - [身體改造用途] 
+General Purpose -> 常規
+Offense -> 攻擊
+Defense -> 防禦
+Premium -> 高級
+
+Augment Splicer -> 強化接合器
+Body Modifications -> 身體改造
+Enhancement Tattoos -> 強化紋身
+Index Prescript -> 指令之意
+
+七、Project Moon / 其他跨作品固有名詞
+ZAYIN / TETH / HE / WAW / ALEPH -> ZAYIN / TETH / HE / WAW / ALEPH (不需翻譯)
+
+Gebura -> Gebura
+Kali -> 卡莉
+Roland -> Roland
+Binah -> Binah
+Garion -> 加里翁
+Baral -> 巴拉爾
+Philip -> 菲利普
+Salvador -> 薩爾瓦多
+
+Vergilius -> 維吉里烏斯
+Yi Sang -> 李箱
+Faust -> 浮士德
+Don Quixote -> 唐吉訶德
+Sancho -> 桑丘
+Ryoshu -> 良秀
+Meursault -> 默爾索
+Hong Lu -> 鴻璐
+Heathcliff -> 希斯克利夫
+Ishmael -> 以實瑪利
+Rodion -> 羅佳
+Sinclair -> 辛克萊
+Outis -> 奧提斯
+Gregor -> 格里高爾
+
+Red Mist -> 殷紅迷霧
+Black Silence -> 漆黑噤默
+Jade Qilin -> 天罡星
+Lord of Hongyuan -> 鴻園的君主
+The One Who Grips -> 執柄者
+Cogito -> Cogito
+Singularity -> 奇點科技

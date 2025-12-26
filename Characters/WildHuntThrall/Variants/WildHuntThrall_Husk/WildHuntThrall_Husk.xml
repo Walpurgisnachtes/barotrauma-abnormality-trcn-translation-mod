@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character speciesname="WildHuntThrall_Husk" group="erlking" humanoid="True" needsair="False" blooddecal="blackblood" visibility="300" noise="300" speciestranslationoverride="husk" displayname="Thrall of the Wild Hunt" hasinfo="False" husk="False" usehuskappendage="False" needswater="False" canspeak="True" bleedparticleair="blackblood" bleedparticlewater="blackwaterblood" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" sonardisruption="0" bleedparticlemultiplier="1" disabledistance="25000" distantsonarrange="0" usebosshealthbar="False" caninteract="True" caneat="False" usepathfinding="True" hideinthermalgoggles="False" soundinterval="10">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <bloodemitter particle="blackblood" particleamount="5" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+  <bloodemitter particle="blackwaterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+  <gibemitter particle="blackgib" ParticleAmount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+  <gibemitter particle="blackgib" ParticleAmount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+  <health vitality="90" doesbleed="True" crushdepth="Infinity" usehealthwindow="False" bleedingreduction="20" burnreduction="0" constanthealthregeneration="1" healthregenerationwheneating="0" stunimmunity="False">
+    <Limb name="Head">
+      <VitalityMultiplier type="damage" multiplier="1.5" />
+    </Limb>
+    <Limb name="Torso" />
+    <Limb name="LeftArm">
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+    </Limb>
+    <Limb name="RightArm">
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+    </Limb>
+    <Limb name="LeftLeg">
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+    </Limb>
+    <Limb name="RightLeg">
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+    </Limb>
+  </health>
+  <sound file="Content/Characters/Husk/HUSK_attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_attack3.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_attack4.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_death1.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="Content/Characters/Husk/HUSK_death2.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <ai CombatStrength="250" Sight="1" Hearing="1" AggressionHurt="0" AggressionGreed="0" FleeHealthThreshold="0" AttackWhenProvoked="True" AvoidGunfire="False" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="False" RandomAttack="False" CanOpenDoors="True" KeepDoorsClosed="False" AvoidAbyss="False" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
+    <!-- Custom priorities -->
+    <target tag="wildhuntprotectiontarget" state="Protect" priority="120" ignoreinside="True" ignoreoutside="True" ignoreifnotinsamesub="True" ignoreincapacitated="False" />
+    <target Tag="wildhuntattacktarget" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="husk" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="smokemonster" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="mudraptor" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="crawler" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="thresher" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="mycorinfected" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="swarmfeeder" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <!-- Don't attack the Erlking -->
+    <target tag="erlking" state="Protect" priority="130" ignoreinside="True" ignoreoutside="True" ignoreifnotinsamesub="True" ignoreincapacitated="False" />
+  </ai>
+  <inventory slots="RightHand, LeftHand, Head, Any, Any, Any, Any, Any" accessiblewhenalive="False" accessiblebyowner="True" commonness="3" />
+</Character>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character inherit="ApocalypseBird" SpeciesName="ApocalypseBirdAI" SpeciesTranslationOverride="ApocalypseBird" DisplayName="Apocalypse Bird">
+  <ragdolls folder="default" />
+</Character>

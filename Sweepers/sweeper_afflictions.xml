@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <!-- Healing from hook -->
+  <Affliction name="Sweep Heal" identifier="sweepheal_SO" targets="human" type="buff" limbspecific="false" indicatorlimb="Waist" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="5">
+    <Effect minstrength="0" maxstrength="5" strengthchange="-1">
+      <!-- Heal 1 damage per second -->
+      <StatusEffect target="Character" multiplyafflictionsbymaxvitality="true" comparison="and">
+        <Conditional isDead="false" />
+        <!-- <Conditional sweepersuit_worn_SO="gt 0" /> -->
+        <ReduceAffliction type="bleeding" amount="1" />
+        <ReduceAffliction type="burn" amount="1" />
+        <ReduceAffliction type="damage" amount="1" />
+        <ReduceAffliction type="bloodloss" amount="1" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,896,128,128" color="0,255,0,255" origin="0,0" />
+  </Affliction>
+  <!-- Persistence AFFLICTION heal -->
+  <Affliction name="Sweep Heal 2" identifier="sweepheal_SO2" type="buff" limbspecific="false" indicatorlimb="Waist" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="5">
+    <Effect minstrength="0" maxstrength="5" strengthchange="0">
+      <StatusEffect target="Character" duration="3" multiplyafflictionsbymaxvitality="true" comparison="and">
+        <Conditional isDead="false" />
+        <Conditional sweepersuit_worn_SO="gt 0" />
+        <ReduceAffliction type="bleeding" amount="10" />
+        <ReduceAffliction type="burn" amount="10" />
+        <ReduceAffliction type="damage" amount="10" />
+        <ReduceAffliction type="bloodloss" amount="5" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <ReduceAffliction type="sweepheal_SO2" amount="100" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,896,128,128" color="0,255,0,255" origin="0,0" />
+  </Affliction>
+  <!-- Persistence TALENT heal -->
+  <Affliction name="Sweep Heal 3" identifier="sweepheal_SO3" targets="human" type="buff" limbspecific="false" indicatorlimb="Waist" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="15">
+    <Effect minstrength="0" maxstrength="15" strengthchange="-1">
+      <!-- Heal 1 damage per second -->
+      <StatusEffect target="Character" multiplyafflictionsbymaxvitality="true" comparison="and" interval="1">
+        <Conditional isDead="false" />
+        <ReduceAffliction type="bleeding" amount="1" />
+        <ReduceAffliction type="burn" amount="1" />
+        <ReduceAffliction type="damage" amount="1" />
+        <ReduceAffliction type="bloodloss" amount="1" />
+      </StatusEffect>
+      <AbilityFlag flagtype="AlwaysStayConscious" />
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,896,128,128" color="0,255,0,255" origin="0,0" />
+  </Affliction>
+  <!-- Checks -->
+  <Affliction name="sweepermask_worn" identifier="sweepermask_worn_SO" type="buff" limbspecific="false" indicatorlimb="Torso" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="2" interval="1">
+    <Effect minstrength="0" maxstrength="2" strengthchange="-10" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,128,128,128" color="255,255,255,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="sweepersuit_worn" identifier="sweepersuit_worn_SO" type="buff" limbspecific="false" indicatorlimb="Torso" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="2" interval="1">
+    <Effect minstrength="0" maxstrength="2" strengthchange="-10" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,128,128,128" color="255,255,255,255" origin="0,0" />
+  </Affliction>
+  <!-- Persistence description -->
+  <Affliction name="Persistence" identifier="sweeper_persistence_SO" description="Gain a burst of healing when entering critical condition. 60 second cool-down." type="buff" limbspecific="false" indicatorlimb="Torso" treatmentthreshold="1000" showiconthreshold="0" showicontoothersthreshold="0" showinhealthscannerthreshold="1000" maxstrength="2" iconcolors="255,63,54,255">
+    <Effect minstrength="0" maxstrength="2" strengthchange="-10" />
+    <icon texture="%ModDir%/Sweepers/textures/sweeper2.png" sourcerect="0,0,128,128" color="255,255,255,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Persistence Cooldown" identifier="sweeper_persistence_cooldown_SO" type="buff" limbspecific="false" indicatorlimb="Torso" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="60" interval="1">
+    <Effect minstrength="0" maxstrength="60" resistancefor="sweeper_persistence_SO" minresistance="1" maxresistance="1" strengthchange="-1">
+      <StatusEffect target="Character" interval="0.25">
+        <ReduceAffliction type="sweeper_persistence_SO" amount="100" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="640,640,128,128" color="0,255,0,255" origin="0,0" />
+  </Affliction>
+  <!-- Butchered -->
+  <Affliction name="Butchered" identifier="sweepbutcher" description="Any useful flesh has been removed from this creature." type="sweepersweep" maxstrength="11" interval="1" showiconthreshold="10" showicontoothersthreshold="10" limbspecific="false" showinhealthscannerthreshold="5">
+    <Effect minstrength="0" maxstrength="11">
+      <StatusEffect target="Character">
+        <Conditional isDead="False" />
+        <ReduceAffliction identifier="sweepbutcher" amount="1000" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,896,128,128" color="195,136,60,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="For the Family" identifier="forthefamily" type="buff" limbspecific="false" indicatorlimb="Torso" treatmentthreshold="1000" showiconthreshold="1000" maxstrength="2">
+    <Effect minstrength="0" maxstrength="2" strengthchange="-1" resistancefor="damage,burn,bleeding,bloodloss" minresistance="0.2" maxresistance="0.2">
+      <!-- Heal 1 damage per second -->
+      <StatusEffect target="Character" multiplyafflictionsbymaxvitality="true" comparison="and">
+        <Conditional isDead="false" />
+        <Conditional vitality="lte 0" />
+        <ReduceAffliction type="bleeding" amount="1" />
+        <ReduceAffliction type="burn" amount="1" />
+        <ReduceAffliction type="damage" amount="1" />
+        <ReduceAffliction type="bloodloss" amount="1" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,896,128,128" color="0,255,0,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

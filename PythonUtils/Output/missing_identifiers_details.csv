@@ -1,0 +1,170 @@
+identifier,element_tag,name,description,file
+bloodfiendbarber,job,bloodfiendbarber,,Events\SpecialNpcs.xml
+bloodfiendpriest,job,bloodfiendpriest,,Events\SpecialNpcs.xml
+bloodfiendprince,job,bloodfiendprince,,Events\SpecialNpcs.xml
+DerFluchschutze,Item,LCE E.G.O: Fell Bullet Uniform,I shall feel the ponderous mass of the gun barrel rest upon my viscera.,Items\abnormalityitems.xml
+DerFluchschutzeovercoat,Item,LCE E.G.O: Fell Bullet Coat,Let this accursed bullet pierce through them...!,Items\abnormalityitems.xml
+abno_twilight_robes,Item,Lobotomy E.G.O.: Twilight's Robes,"The three birds united their efforts to defeat the beast. This could stop countless incidents, but you’ll have to be prepared to step into the Black Forest…",Items\abnormalityitems.xml
+abno_twilight_sword,Item,Lobotomy E.G.O.: Twilight's Sword,"Just like how the ever-watching eyes, the scale that could measure any and all sin, and the beak that could swallow everything protected the peace of the Black Forest... The wielder of this armament may also bring peace as they did.",Items\abnormalityitems.xml
+abno_twilight_wings,Item,Lobotomy E.G.O.: Twilight's Wings,"The twilight was endured, and we now face towards dawn. Has the birds' twittering in the forest finally stopped?",Items\abnormalityitems.xml
+binds_blade_abno,Item,Binds,How insipid… Must I deal with it myself?,Items\abnormalityitems.xml
+binds_blade_admin,Item,Binds,How insipid… Must I deal with it myself?,Items\abnormalityitems.xml
+blindobsession_coat,Item,LCE E.G.O.: Blind Obsession's Coat,"'All hands, full speed towards where the lights flicker.' Grants 15% additional defense to the torso.",Items\abnormalityitems.xml
+blindobsession_hat,Item,LCE E.G.O.: Blind Obsession's Hat,A symbol of authority. Protects the wearer from oxygen deprivation.,Items\abnormalityitems.xml
+blindobsession_uniform,Item,LCE E.G.O.: Blind Obsession's Uniform,'I am the only one who moves in these waves.' Increases movement speed while you have Psychosis.,Items\abnormalityitems.xml
+cavernouswailinghammer,Item,LCE E.G.O: Cavernous Wailing Hammer,"Croohoo, croohoo.",Items\abnormalityitems.xml
+cavernouswailinghammerperm,Item,Cavernous Wailing Hammer (Locked),"Croohoo, croohoo.",Items\abnormalityitems.xml
+contemptawe_blade1,Item,LCE E.G.O.: Blade of Awe,"A blade made of shimmering liquid gold, this EGO was extracted from the Spiral of Contempt.",Items\abnormalityitems.xml
+contemptawe_blade2,Item,LCE E.G.O.: Blade of Contempt,"A blade made of rippling blood, this EGO was extracted from the Spiral of Contempt.",Items\abnormalityitems.xml
+contemptawesuit,Item,"LCE E.G.O.: Contempt, Awe",'Scatter. Every gaze shall be drawn to this squalidity.' Attire created from the Spiral of Contempt's E.G.O.,Items\abnormalityitems.xml
+corrodedhandlock,Item,Unusable Hand,,Items\abnormalityitems.xml
+fellbullet,Item,LCE E.G.O: Fell Bullet,"A powerful shotgun that derives its appearance from an Old Earth weapon. There is some confusion about its classification; in reality, it is a rifle, but its bullets scatter due to the Abnormality's power.",Items\abnormalityitems.xml
+glupoarmor,Item,LCE E.G.O: Cavernous Wailing,"An E.G.O. suit created from the Blubbering Toad's essence, worn in place of a gene splicer. This one provides a fair bit of general protection and slowly heals insanity. Disappears if the wearer dies. Avoid losing your mind while wearing this.",Items\abnormalityitems.xml
+glupomaskcorroded,Item,LCE E.G.O: Cavernous Wailing Mask,Croohoo.,Items\abnormalityitems.xml
+mimicry_gear,Item,Lobotomy E.G.O.: Mimicry's Shell,"It takes human hide to protect human flesh. To protect humans, you need something made out of humans. Even though this is not the skin of a human, it is still akin to that barrier which protects us. Employees using this equipment may lose the last bits of love for humanity that they may have left.",Items\abnormalityitems.xml
+nakednest,Item,The Naked Nest,,Items\abnormalityitems.xml
+ncorpcontemptawecoat,Item,"N Corp E.G.O: Contempt, Awe Coat",Don't go blind on me now.,Items\abnormalityitems.xml
+ncorpcontemptawesuit,Item,"N Corp E.G.O.: Contempt, Awe Suit",Eyes. On. Me.,Items\abnormalityitems.xml
+ncorpfellbulletcoat,Item,N Corp E.G.O: Fell Bullet Coat,"A fellow of mine has once spoken thusly to me—too late, too late...",Items\abnormalityitems.xml
+ncorpfellbulletround1,Item,Fell Bullet Stage 1,,Items\abnormalityitems.xml
+ncorpfellbulletround2,Item,Fell Bullet Stage 2,,Items\abnormalityitems.xml
+ncorpfellbulletround3,Item,Fell Bullet Stage 3,,Items\abnormalityitems.xml
+ncorpfellbulletuniform,Item,N Corp E.G.O: Fell Bullet Uniform,They would point and jeer at the rags splattered with the blood of fellowship. The fools; only I can grasp the highest degree of tragedy upon this earth.,Items\abnormalityitems.xml
+advancedegosplicer_teleport,Item,Advanced Augment Splicer (Retreat),,Items\egogifts.xml
+egogiftresearchstation,Item,Portable Infusion Station,"A specialized research station able to process some of the intricacies of the E.G.O. In other words, it can process not only genetic materials, but E.G.O. Gifts as well. It is also uniquely suited to processing H Corp.'s Boluses due to its support for Enkephalin-infused materials.",Items\egogifts.xml
+abnobombimplantsmall,Item,Immolator Implant (Small),"An implant distributed to elite units to destroy their gear and body upon death, rendering everything irrecoverable for enemies.",Items\items.xml
+allymark,Item,Ally of the Wild Hunt,"When applied to someone, marks them as an Ally of the Wild Hunt. They will not be attacked by Thralls.",Items\items.xml
+arbiterbinding,Item,Bound Hands,Your hands are bound by magic.,Items\items.xml
+bloodfiend_barber_mask,Item,Bloodfiend Barber Mask,We've an event for you! +10 Weapons Skill and 10% more ranged attack speed.,Items\items.xml
+bloodfiend_barber_uniform,Item,Bloodfiend Barber Attire,I'll sew you a new dress! Move 15% faster at 50+ Bloodfeast.,Items\items.xml
+bloodfiend_priest_mask,Item,Bloodfiend Priest Mask,Functions as a health scanner and recovers sanity at 50+ Bloodfeast.,Items\items.xml
+bloodfiend_priest_uniform,Item,Bloodfiend Priest Attire,Did you think about blood today? Heals Bleeding while you have 100+ Bloodfeast.,Items\items.xml
+bloodfiend_scissors_t2,Item,Bloodfiend Barber's Scissors,,Items\items.xml
+brokenwildhuntcoffincuffs,Item,Broken Coffin,Can be broken out of and dropped.,Items\items.xml
+capopistol,Item,Capo Pistol,"An antique-looking manually operated pistol. It looks like a fossil, but you'd be surprised what it can do. Its variable chamber and internal magazine allows it to load various kinds of single-shot ammo with a max capacity of 6. A mainstay of the Thumb's upper echelons and a symbol of authority.",Items\items.xml
+dawnofficesuit,Item,Dawn Office Uniform,"Dawn Office is a small but wealthy Grade 4 Office and an associate Office of the Liu Association. Run by Salvador, a veteran Fixer, the Office is located in V Corp. (Note: At high Psychosis and while under the effects of an E.G.O. Stabilizer, summons unique armor and grants Waxen Pinion.)",Items\items.xml
+egostabilizer,Item,E.G.O. Stabilizer,A haloperidol syringe charged with Enkephalin to strengthen one's E.G.O. and keep them safe from mental harm.,Items\items.xml
+enkephalin,Item,Enkephalin,"Enkephalin was the energy resource which Lobotomy Corporation produced. It was extracted from the Abnormalities created through its Singularity, which produced Enkephalin when their needs were met. Enkephalin is often stored in PE-boxes, and is considered an efficient and eco-friendly resource, making it popular with both other Corps and Europan denizens even after the Collapse of L Corp.",Items\items.xml
+enkephalinbox,Item,Enkephalin Box,A stable container storing liquid Enkephalin. A label reads: [CAUTION] Handling this box without following the prescribed procedures may result in accidents such as Enkephalin leakage. Unregulated ingestion of Enkephalin may cause a wide range of unverified psychopathological symptoms.,Items\items.xml
+fanaticbooster,Item,Fanatic Booster,"Expands the subject's sensory awareness, improving their ability to passively learn and progress.",Items\items.xml
+groshammer_gauntlet,Item,Großhammer's Gauntlet,The Groshammer's Gauntlet.,Items\items.xml
+hanafuda_scabbard,Item,Jeong's Office Rep Scabbard,"Whenever a game happens with something at stake, a go-between needs to be there to prove that the results were legitimate. (Actually a backpack, cosmetically a scabbard.)",Items\items.xml
+hanafuda_sword,Item,Jeong's Office Rep Sword,"This blade allows for switching between three Card Suits: Pine Crane (Red), Susuki Grass (Yellow), and Blue Sakura (Blue). Each Suit grants bonus damage effects: Bleed, Tremor, and Offense Down respectively.",Items\items.xml
+hanafuda_uniform,Item,Jeong's Office Rep Uniform,Jeong's Office is a subsidiary of the Oufi Association which most often oversees gambling matches and games. It is the job of Offices like these to verify the results of games and prevent cheating or violence from sore losers.,Items\items.xml
+hiddenarmor_t3,Item,Cosmetically Hidden Armor Vest Tier III,An armor vest designed to be concealed under one's clothing. The use of alloys improves physical protection without costing in the mobility department.,Items\items.xml
+kcorpexcisionsuit,Item,K Corp Class 3 Excision Suit,"An armored suit designed for K Corp's Class 3 Excision Staff. Regeneration Ampule fluid can easily conduct through the suit to regenerate its wearer, if they know how to use it.",Items\items.xml
+kcorpstaff,Item,K Corp Excision Staff,A two handed staff made for K Corp Class 3 Excision Units which inflicts Rupture on hit.,Items\items.xml
+kromernailimpaling,Item,Kromer's Nail (Impaling),An exceptionally long nail wielded by the One who Grips. It is well known for its rapid stabbing strikes.,Items\items.xml
+kromernailslashing,Item,Kromer's Nail (Slashing),"An exceptionally long nail wielded by the One who Grips. Despite looking like a nail, it is very functionally similar to a longsword.",Items\items.xml
+kromernailthrowing,Item,Kromer's Nail (Throwing),"A long nail which can be thrown. This is the One who Grips' signature skill, one which catches most off surprise and is often fatal.",Items\items.xml
+middlechainsleft_physicorium,Item,Physicorium Chains of the Middle (Left),"Members of the Middle Syndicate prefer heavy chains for melee combat. Using Physicorium around a dense lead interior gives these chains both weight and durability, allowing for powerful blows.",Items\items.xml
+middlechainsright_physicorium,Item,Physicorium Chains of the Middle (Right),"Members of the Middle Syndicate prefer heavy chains for melee combat. Using Physicorium around a dense lead interior gives these chains both weight and durability, allowing for powerful blows.",Items\items.xml
+middletattoos1,Item,Cosmetic Middle Tattoos (1),The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments.,Items\items.xml
+middletattoos2,Item,Cosmetic Middle Tattoos (2),The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments.,Items\items.xml
+middletattoos3,Item,Cosmetic Middle Tattoos (3),The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments.,Items\items.xml
+nailmag_standard,Item,N Corp Nailgun Magazine,A magazine for the nailgun. Holds 30 nails.,Items\items.xml
+ncorparmor_groshammer,Item,N Corp Großhammer Armor,"A custom-made suit of armor built for the Inquisition's second in command, the Großhammer. When worn with its helmet counterpart, it grants 10000m of pressure resistance. (Note: The armor grants an additional defense bonus to the torso, upper arms, waist and thighs, making it more protective than the listed stats here.)",Items\items.xml
+ncorphelmet_groshammer,Item,N Corp Großhammer Helmet,"A top of the line helmet constructed exclusively for use by the Großhammer of the N Corp Inquisition. Aside from being highly protective, it also consumes oxygen much slower than standard oxygen masks.",Items\items.xml
+nightawls_armor,Item,Night Awls Coat,"The fate of the Night Awls, to be purged by the Thumb, is rather ironic. They were once the Purge Enforcers of the Thumb.",Items\items.xml
+nightawls_prosthetics,Item,Night Awls Prosthetics,"Serving under the Thumb means stepping out of line carries a price, often paid in limbs. (Functions as a cosmetically hidden backpack.)",Items\items.xml
+nightawls_uniform,Item,Night Awls Uniform,"The Night Awls were a Syndicate operating as a subsidiary of the Thumb, at least until their hot-headed Captain angered a Sottocapo, an act which triggered a purge of the entire subsidiary Syndicate.",Items\items.xml
+oasistux,Item,Tuxedo,Nice formal wear for a more stylish submariner.,Items\items.xml
+olongnail2,Item,Long Nail (Slashing),An exceptionally long nail intended for use as a weapon.,Items\items.xml
+priest_staff,Item,Bloodfiend Priest's Staff,,Items\items.xml
+propellantbullet,Item,Propellant Bullet (Standard),"A special type of ammo which trades out the projectile for an increased powder load. It's necessary for some Thumb-designed melee weapons to function, but it'll also load into rifles and fire a very short ranged blast if needed.",Items\items.xml
+propellantbullet_highpower,Item,Propellant Bullet (Tigermark),"A Propellant Bullet with exceptional powder load, capable of hitting harder than its standard counterpart. The heat generated by this round also burns the target.",Items\items.xml
+propellantbullet_highpower_speedloader,Item,Propellant Bullet Speedloader (Tigermark),A pre-loaded cylinder that contains six rounds of its respective ammunition type. Functions more or less as a magazine for Soldato Bayonet Rifles and a certain blade.,Items\items.xml
+propellantbullet_speedloader,Item,Propellant Bullet Speedloader (Standard),A pre-loaded cylinder that contains six rounds of its respective ammunition type. Functions more or less as a magazine for Soldato Bayonet Rifles and a certain blade.,Items\items.xml
+propellantbullet_tigermark,Item,Propellant Bullet (Savage Tigermark),"A Propellant Bullet with an Incendium powder load, allowing it to heat up bayonet spears and burn the target.",Items\items.xml
+propellantbullet_tigermark_speedloader,Item,Propellant Bullet Speedloader (Savage Tigermark),A pre-loaded cylinder that contains six rounds of its respective ammunition type. Functions more or less as a magazine for Soldato Bayonet Rifles and a certain blade.,Items\items.xml
+purifiernailgun,Item,N Corp Nailgun,"A compact nailgun, not terribly dangerous on its own but it can supplement hammers quite well.",Items\items.xml
+rcorpcoilgunclip,Item,R Corp Coilgun Clip (Standard),A clip of 30 standard coilgun rounds.,Items\items.xml
+reindeerbackpack,Item,R Corp 4th Pack Reindeer Tank,"A bulky tank capable of carrying ample energy reserves for staves. (In-game though, it LARPs as a backpack.)",Items\items.xml
+reindeerhelmet_festive,Item,R Corp 4th Pack Reindeer Helmet (Festive),A helmet made for R Corp 4th Pack Reindeers.,Items\items.xml
+reindeerstaff,Item,R Corp 4th Pack Reindeer Staff,A staff that focuses the brainwaves of its user to fire bolts of energy at targets.,Items\items.xml
+reindeeruniform,Item,R Corp 4th Pack Reindeer Uniform,A middleweight armored suit designed for R Corp 4th Pack's Reindeer Team.,Items\items.xml
+rhinofist,Item,Rhino Fist,A melee weapon for Rhinos. Stronger with Charge.,Items\items.xml
+rhinohammer,Item,R Corp 4th Pack Rhino Warhammer,A massive hammer best utilized by the heavily suited 4th Pack Rhinos. It excels at knocking down doors and crushing bones.,Items\items.xml
+ricardo_coat,Item,Ricardo's Coat,MY HAIR COUPONS!!!,Items\items.xml
+ricardo_uniform,Item,Ricardo's Uniform,A very luscious outfit.,Items\items.xml
+shi_arrow,Item,Bowblade Arrow (Standard),"A sturdy arrow for the Shi East Bowblade. Expensive, but powerful, and can be retrieved.",Items\items.xml
+shi_bowblade_melee,Item,Shi Association East Bowblade (Melee),A bowblade given to members of the Shi Association's East Section.,Items\items.xml
+shi_quiver,Item,Shi Association East Quiver,"Actually a backpack, cosmetically a quiver.",Items\items.xml
+shiuniform_east,Item,Shi Association East Uniform,"Rain pelts awake hearts, Alleyways puddle with steps; The rest is silence.",Items\items.xml
+soldatoarmorround,Item,Soldato Armor Piercing Ammunition,A powerful bullet that pierces armor very well and can pierce through a door or wall to hit its target.,Items\items.xml
+soldatoflameround,Item,Soldato Flame Ammunition,"An incendiary round produced by the Thumb Syndicate. Its payload cauterizes any wounds it causes almost immediately, and therefore cannot cause significant bleeding.",Items\items.xml
+soldatofreezeround,Item,Soldato Freeze Ammunition,A cryogenic round produced by the Thumb Syndicate. Its frigid payload can cause muscle paralysis.,Items\items.xml
+tcorp_class3_chainsaw,Item,T Corp Tax Collector Class 3 Chainsaw,A high-powered chainsaw for close quarters battle with Time Tax Defaulters.,Items\items.xml
+tcorp_class3_pickaxe,Item,T Corp Tax Collector Class 3 Pickaxe,"A huge pickaxe capable of siphoning time from struck targets, proving quite useful in taking down Time Tax evaders.",Items\items.xml
+tcorp_class3armor,Item,T Corp Tax Collector Class 3 Armor,Class 3 Tax Collectors are commonly sent to apprehend wealthier Time Tax evaders. Their stronger armor and greater reserve of Borrowed Time allows them to counteract whatever traps such individuals could afford. (The torso has an additional 75% protection on top of what is listed here.),Items\items.xml
+tcorp_class3helmet,Item,T Corp. Tax Collector Class 3 Helmet,"When worn with the Class 3 armor, provides pressure protection.",Items\items.xml
+tcorp_hat_vdcu,Item,T Corp Class 3 VDCU Hat,A top hat and gear which protect the user's head from harm. Just avoid short doorways.,Items\items.xml
+tcorp_tux_vdcu,Item,T Corp Class 3 VDCU Tuxedo,"The Violent Defaulter Collections Unit specializes in taking down organized, violent crime related to Time.",Items\items.xml
+tcorp_vdcuarmor,Item,T Corp Class 3 VDCU Armor,"Many of T Corp's Tax Collectors are skilled in quickly attaching their armor prior to combat using a brief burst of Borrowed Time, but the VDCU can go even further and attach or detach their armor at will, seemingly manifesting it from thin air. Although less protective than simply wearing it at all times, this affords a higher range of movement. (The torso has an additional 75% protection on top of what is listed here.)",Items\items.xml
+tcorp_vdcumace,Item,T Corp VDCU Collections Mace,"A transforming mace with a hefty blow to it, capable of easily knocking foes off-balance.",Items\items.xml
+thumb_capo_coat,Item,Thumb Capo Uniform,"Capo, or Captain, is the rank above Soldato. Any given Capo is roughly equivalent to a Grade 1-2 Fixer in terms of combat capabilities and commands their own small army of Soldatos. This is their usual attire.",Items\items.xml
+thumb_capo_coat_outer,Item,Thumb Capo Coat,"So-called 'combat coats' with ballistic weave infused with Enkephalin are quite popular among Fixers, as they are bulletproof and can cover the entire torso. The Thumb is especially well known for having no shortage of them.",Items\items.xml
+trenchcoat_armored,Item,Armored Trench Coat,"A trench coat with a ballistic vest hidden underneath, popular among mercenaries with a fashion sense or a need for subtlety.",Items\items.xml
+waxenpinion_armor,Item,Effloresced E.G.O.: Waxen Pinion's Armor,I’ll end this fight for sure this time.,Items\items.xml
+wcorp_cca,Item,W Corp CCA Exoskeleton,"Extremely heavy armor worn by W Corp agents of Level 4 or higher to 'clean up' significant threats. Although powerful, it restricts the user to using its fists for battle, and it can't be carried without wearing it due to its extreme weight. If its battery runs out, it completely immobilizes the user, and it has no space for storing items. Despite all of this, it can be a gamechanger on the battlefield.",Items\items.xml
+wildhuntcoatspecial,Item,Heathcliff's Coat,For the Hunt.,Items\items.xml
+wildhuntcoffincuffs,Item,Coffin,,Items\items.xml
+wildhuntsword,Item,Wild Hunt Blade,"A huge and unconventional blade, one that is difficult to wield if you aren't abnormally strong. Who or what made it, and for what purpose, is unknown.",Items\items.xml
+Apocalypse_bossdrop,Item,Apocalypse Boss Loot,Yippie!,Items\spawners.xml
+DerFluchschutzeegg,Item,[HE] Der Fluchschütze (Abnormality Egg),"This burning egg seems shell-shocked, somehow. If not contained, it will eventually hatch into Der Fluchschütze.",Items\spawners.xml
+apocalypsebirdegg,Item,[ALEPH] Apocalypse Bird (Abnormality Egg),Don't let it hatch.,Items\spawners.xml
+bluestaregg,Item,[ALEPH] Blue Star (Abnormality Egg),"This isn't a statue, it's a dormant god. If not contained, it will eventually hatch into Blue Star.",Items\spawners.xml
+censoredegg,Item,[ALEPH] CENSORED (Abnormality Egg),"You can't perceive whatever this horrible THING is. If not contained, it will eventually hatch into CENSORED.",Items\spawners.xml
+containmentcell,Item,Containment Chamber,A durable containment cell designed to hold and perform works with Abnormality Eggs to generate Enkephalin.,Items\spawners.xml
+enkephalinprocessor,Item,Enkephalin Processor,A machine designed to process Enkephalin-related items.,Items\spawners.xml
+forsakenmurdereregg,Item,[TETH] Forsaken Murderer (Abnormality Egg),"This egg seems to be made entirely out of solid metal. If not contained, it will eventually hatch into Forsaken Murderer.",Items\spawners.xml
+gatetotheblackforest,Item,Black Gate,"This Enkephalin-powered portal is one-way: nothing can enter, but things can be brought here from the other side. Exercise caution.",Items\spawners.xml
+gossypiumegg,Item,[TETH] Drenched Gossypium (Abnormality Egg),"This flowered egg is soaked with human blood. If not contained, it will eventually hatch into Drenched Gossypium.",Items\spawners.xml
+headlessichthysegg,Item,[HE] Headless Ichthys (Abnormality Egg),"This fishy egg seems to hold a sac of blue fluid. If kept underwater, it will eventually hatch into a Headless Ichthys.",Items\spawners.xml
+kqeegg,Item,[HE] KQE-1J-23 (Abnormality Egg),"This cybernetic egg seems to be making idle calculations. If not contained, it will eventually hatch into KQE-1J-23.",Items\spawners.xml
+meatdoggyegg,Item,[ALEPH] Meat Doggy (Abnormality Egg),"This egg is made of what looks like human flesh. If not contained, it will eventually hatch into the friendly Meat Doggy.",Items\spawners.xml
+nakednestegg,Item,[WAW] The Naked Nest (Abnormality Egg),"This fleshy egg is so slick, it's hard to hold onto. If not contained, it will eventually hatch into The Naked Nest.",Items\spawners.xml
+onesinegg,Item,[ZAYIN] One Sin (Abnormality Egg),"This egg forgives your sins. If it is not contained, it will eventually hatch into One Sin.",Items\spawners.xml
+punishingbirdegg,Item,[TETH] Small Bird (Abnormality Egg),"A large mouth protrudes from this 'egg'. If it is not contained, it will eventually hatch into a Small Bird.",Items\spawners.xml
+siltcurrent_bossdrop,Item,Siltcurrent Boss Loot,Yippie!,Items\spawners.xml
+siltcurrentegg,Item,[WAW] Dream-Devouring Siltcurrent (Abnormality Egg),"This smooth egg seems to hold a sac of glowing fluid. If kept underwater, it will eventually hatch into a Dream-Devouring Siltcurrent.",Items\spawners.xml
+spiralegg,Item,[WAW] Spiral of Contempt (Abnormality Egg),"This gilded egg seems to be looking down on you, even now. If not contained, it will eventually hatch into Spiral of Contempt.",Items\spawners.xml
+talismanegg,Item,[TETH] So That No One Will Cry (Abnormality Egg),"This splintered wooden egg is covered in cursed talismans. If not contained, it will eventually hatch into So That No One Will Cry.",Items\spawners.xml
+waywardpassengeregg,Item,[HE] Wayward Passenger (Abnormality Egg),"This horribly warped egg is much older than it seems. If not contained, it will eventually hatch into Wayward Passenger.",Items\spawners.xml
+sweepermask_alt1_SO,Item,Sweeper Mask,,Sweepers\sweeper_items.xml
+sweepermask_alt2_SO,Item,Sweeper Mask,,Sweepers\sweeper_items.xml
+abno_accumulatedtime,Affliction,Accumulated Time,Stored time.,afflictions.xml
+abnoparrycooldown,Affliction,Parry Cooldown,Cannot parry again at the moment.,afflictions.xml
+abnoretaliation_perfect,Affliction,Flawless Retaliation,Retaliating against incoming damage.,afflictions.xml
+backstreetsallydeath,Affliction,bsad,,afflictions.xml
+contemptofthegaze,Affliction,Contempt of the Gaze,Take and deal 70% less damage.,afflictions.xml
+deathrite_halt,Affliction,Deathrite [Halt],Stuns.,afflictions.xml
+deathrite_impede,Affliction,Deathrite [Impede],Reduces offense level.,afflictions.xml
+deepwound,Affliction,Deep Wound,,afflictions.xml
+defdown,Affliction,Defense Down,Your defensive capabilities are reduced.,afflictions.xml
+departedbutterfly,Affliction,The Departed Butterfly,A congratulation for the departed dead.,afflictions.xml
+exuviaeinfectionmanager,Affliction,Exuvie Precursor,An affliction for handling the infection.,afflictions.xml
+fairy,Affliction,Degraded Fairy,It's 'unlocking' every pore of your body.,afflictions.xml
+focusedperformance,Affliction,Focused Performance,,afflictions.xml
+focusfirebuff,Affliction,Focus Fire,Open fire!,afflictions.xml
+graspescape,Affliction,Escaping the Grasp,,afflictions.xml
+hereticpurged,Affliction,Purged Heretic,.,afflictions.xml
+hereticpurged_seal,Affliction,Purged Heretic,.,afflictions.xml
+inkover1,Affliction,io1,,afflictions.xml
+jingangbolushealth,Affliction,Jin Gang Bolus Revitalization,Recovered from critical condition.,afflictions.xml
+jingangcooldown,Affliction,Jin Gang Bolus Cooldown,You aren't allowed to avoid death again at the moment.,afflictions.xml
+markofvengeance,Affliction,Mark of Vengeance,The Middle never forgets.,afflictions.xml
+n_contempt,Affliction,Contempt,There's no escaping the 'spiral'.,afflictions.xml
+observed,Affliction,Observed,,afflictions.xml
+offdown,Affliction,Offense Down,Your offensive capabilities are reduced.,afflictions.xml
+portalbulletspawn1,Affliction,Portal Bullet Target: Tier 1,.,afflictions.xml
+rupture_applier,Affliction,application,,afflictions.xml
+targetreadjustmentfire_2,Affliction,Target Readjustment Fire (Kill),,afflictions.xml
+teleportcooldown,Affliction,Serum W Cooldown,,afflictions.xml
+teleportsickness,Affliction,Teleportation Sickness,You're feeling uneasy and your stomach is turning. Teleporting again may cause unwanted side-effects!,afflictions.xml
+tremor_Decay,Affliction,Tremor: Decay,"The body is resonating with a strange, deteriorating energy.",afflictions.xml
+tremor_Hemorrhage,Affliction,Tremor: Hemorrhage,"The body is resonating with a strange, sanguine energy.",afflictions.xml
+tremor_chain,Affliction,Tremor: Chain,"The body is resonating with a strange, burdensome energy.",afflictions.xml
+tremor_reverb,Affliction,Tremor: Reverb,"The body is resonating with a strange, impactful energy.",afflictions.xml
+tremor_scorch,Affliction,Tremor: Scorch,"The body is resonating with a strange, fiery energy.",afflictions.xml
+tremorburst,Affliction,Tremor Burst,Vine boom.,afflictions.xml

@@ -1,0 +1,1499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Augment Splicer" identifier="egosplicer" scale="0.4" category="Equipment" tags="smallitem,geneticdevice" description="A specialized device based on the gene splicer which facilitates the use of genetic material, EGO Gifts, and body modifications." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="medcab" />
+    <PreferredContainer secondary="abandonedmedcab,piratemedcab,wreckmedcab,outpostmedcab,researchcontainer" spawnprobability="0.02" />
+    <Price baseprice="500" minleveldifficulty="15">
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantmedical" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="plastic" amount="2" />
+      <Item identifier="copper" amount="2" />
+      <Item identifier="rubber" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator,enkfab" requiredtime="10">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredItem identifier="genesplicer" />
+      <RequiredItem identifier="enkephalin" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="25" />
+    <ItemContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
+      <Containable items="geneticmaterial" />
+      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="egogene" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="bodymod,enhancementtattoo" />
+      </SubContainer>
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Gene Splicer Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,1,1" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item identifier="advancedegosplicer" variantof="egosplicer" allowasextracargo="true" descriptionidentifier="advancedegosplicer">
+    <PreferredContainer primary="medcab" secondary="medcab" />
+    <PreferredContainer secondary="abandonedmedcab,piratemedcab,wreckmedcab,outpostmedcab" spawnprobability="0" />
+    <Price baseprice="550" sold="false" minleveldifficulty="65">
+      <Price storeidentifier="merchanthusk" minavailable="1" maxavailable="2" sold="true">
+        <Reputation faction="huskcult" min="50" />
+      </Price>
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" sold="true" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" amount="1" />
+      <Item identifier="copper" amount="2" />
+      <Item identifier="rubber" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="advancedgenesplicer" />
+      <RequiredItem identifier="enkephalin" amount="2" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="327,62,73,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="148,85,73,35" origin="0.5,0.5" />
+    <Body radius="8" width="48" density="15" />
+    <ItemContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+      <!-- Genes -->
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- EGO -->
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Body mods -->
+      <SlotIcon slotindex="4" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Tats -->
+      <SlotIcon slotindex="5" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
+      <Containable items="geneticmaterial" />
+      <SubContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="egogene" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="bodymod,enhancementtattoo" />
+      </SubContainer>
+    </ItemContainer>
+    <Wearable>
+      <sprite name="Gene Splicer Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,1,1" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item identifier="advancedegosplicer_bomb" scale="0.4" category="Equipment" tags="smallitem,geneticdevice" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="327,62,73,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="148,85,73,35" origin="0.5,0.5" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="advancedegosplicer" />
+      <RequiredItem identifier="uex" />
+    </Fabricate>
+    <Body radius="8" width="48" density="15" />
+    <ItemContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+      <!-- Genes -->
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- EGO -->
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Body mods -->
+      <SlotIcon slotindex="4" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Tats -->
+      <SlotIcon slotindex="5" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
+      <Containable items="geneticmaterial" />
+      <SubContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="egogene" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="bodymod,enhancementtattoo" />
+      </SubContainer>
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Gene Splicer Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,1,1" origin="0.6,0.0" />
+      <StatusEffect type="OnWearing" target="This,Character" delay="0.5" stackable="false">
+        <Conditional isdead="true" />
+        <Explosion range="500.0" ballastfloradamage="100" structuredamage="0" levelwalldamage="0" itemdamage="0" force="10.0" decal="explosion" decalsize="0.75" />
+        <RemoveCharacter />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item identifier="advancedegosplicer_deletus" scale="0.4" category="Equipment" tags="smallitem,geneticdevice" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="327,62,73,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="148,85,73,35" origin="0.5,0.5" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="advancedegosplicer" />
+      <RequiredItem identifier="plasmacutter" />
+    </Fabricate>
+    <Body radius="8" width="48" density="15" />
+    <ItemContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+      <!-- Genes -->
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- EGO -->
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Body mods -->
+      <SlotIcon slotindex="4" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Tats -->
+      <SlotIcon slotindex="5" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
+      <Containable items="geneticmaterial" />
+      <SubContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="egogene" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="bodymod,enhancementtattoo" />
+      </SubContainer>
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Gene Splicer Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,1,1" origin="0.6,0.0" />
+      <StatusEffect type="OnWearing" target="This,Character" delay="0.5" stackable="false">
+        <Conditional isdead="true" />
+        <Remove />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="Advanced Augment Splicer (Retreat)" identifier="advancedegosplicer_teleport" scale="0.4" category="Equipment" tags="smallitem,geneticdevice" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="327,62,73,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="148,85,73,35" origin="0.5,0.5" />
+    <Body radius="8" width="48" density="15" />
+    <ItemContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+      <!-- Genes -->
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- EGO -->
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Body mods -->
+      <SlotIcon slotindex="4" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
+      <!-- Tats -->
+      <SlotIcon slotindex="5" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
+      <Containable items="geneticmaterial" />
+      <SubContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="egogene" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
+        <Containable items="bodymod,enhancementtattoo" />
+      </SubContainer>
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Gene Splicer Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,1,1" origin="0.6,0.0" />
+      <StatusEffect type="OnWearing" target="This,Character" duration="2" interval="1" stackable="false">
+        <Conditional isdead="true" />
+        <ParticleEmitter particle="nasonovsparkles" colormultiplier="200,100,255,255" copyentityangle="false" particleamount="1" distancemin="0" distancemax="100" anglemin="0" anglemax="360" scalemin="1.5" scalemax="1.5" velocitymin="0" velocitymax="0" />
+        <ParticleEmitter particle="cyborgammotracer" colormultiplier="200,100,255,255" copyentityangle="false" particleamount="2" distancemin="0" distancemax="100" anglemin="0" anglemax="360" scalemin="1.5" scalemax="1.5" velocitymin="0" velocitymax="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" interval="1">
+        <Affliction identifier="retreatable" amount="100" disabledeltatime="True" multiplybymaxvitality="True" />
+      </StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="Portable Infusion Station" identifier="egogiftresearchstation" tags="geneticresearchstation,egogiftresearchstation,bg_portableresearchterminal" width="384" height="384" texturescale="1.0,1.0" scale="0.5" category="Machine" description="A specialized research station able to process some of the intricacies of the E.G.O. In other words, it can process not only genetic materials, but E.G.O. Gifts as well. It is also uniquely suited to processing H Corp.'s Boluses due to its support for Enkephalin-infused materials.">
+    <Sprite texture="%ModDir%/Images/egogiftresearchstation.png" depth="0.7" sourcerect="0,0,384,384" origin="0.5,0.5" />
+    <BrokenSprite texture="%ModDir%/Images/egogiftresearchstation.png" sourcerect="384,0,384,384" depth="0.69" maxcondition="80" fadein="true" />
+    <DecorativeSprite texture="Content/Items/Alien/AlienRuins_Items.png" depth="0.68" scale="0.5" sourcerect="21,1367,395,395" origin="0.5,0.5" rotationspeed="360">
+      <IsActiveConditional Voltage="lt 0.5" IsActive="True" targetitemcomponent="Deconstructor" />
+      <AnimationConditional IsActive="True" targetitemcomponent="Deconstructor" />
+      <IsActiveConditional Condition="gt 0.0" />
+    </DecorativeSprite>
+    <DecorativeSprite texture="Content/Items/Alien/AlienRuins_Items.png" depth="0.67" scale="0.5" sourcerect="1079,1370,388,389" origin="0.5,0.5" rotationspeed="720">
+      <IsActiveConditional Voltage="gt 0.5" IsActive="True" targetitemcomponent="Deconstructor" />
+      <IsActiveConditional Condition="gt 0.0" />
+    </DecorativeSprite>
+    <LightComponent range="0.0" powerconsumption="5" lightcolor="255,255,255,111" IsOn="true" castshadows="false" allowingameediting="false">
+      <sprite texture="%ModDir%/Images/egogiftresearchstation.png" scale="0.4" sourcerect="0,384,384,384" depth="0.1" origin="0.5,0.5" alpha="1.0" />
+    </LightComponent>
+    <LightComponent range="100.0" powerconsumption="5" lightcolor="255,255,255,111" IsOn="true" castshadows="false" allowingameediting="false">
+      <LightTexture texture="Content/Lights/pointlight_bounce.png" origin="0.5,0.5" />
+      <IsActiveConditional IsActive="True" targetitemcomponent="Deconstructor" />
+    </LightComponent>
+    <Fabricate suitablefabricators="fabricator" requiredtime="45" fabricationlimitmin="1" fabricationlimitmax="1">
+      <RequiredSkill identifier="Medical" level="50" />
+      <RequiredItem identifier="carbon" amount="3" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="fpgacircuit" amount="2" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="carbon" />
+      <Item identifier="steel" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Deconstructor canbeselected="true" showoutput="false" powerconsumption="500.0" deconstructitemssimultaneously="true" msg="ItemMsgInteractSelect" activatebuttontext="researchstation.invalidinput" infotext="egogiftresearchstation.empty.infotext" infoareawidth="0.7">
+      <GuiFrame relativesize="0.25,0.3" style="ItemUI" anchor="Center" />
+      <sound file="Content/Items/AlarmBuzzerLoop.ogg" type="OnActive" range="1000.0" loop="true" />
+      <poweronsound file="Content/Items/PowerOnLight3.ogg" range="600" loop="false" />
+      <StatusEffect type="InWater" target="This" condition="-0.5" />
+    </Deconstructor>
+    <ItemContainer capacity="2" maxstacksize="1" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="3" uilabel="" allowuioverlap="true">
+      <Containable items="bodymod,enhancementtattoo,smallitem,mediumitem,enkephalin,researchableegogift,egomaterial,geneticmaterial,stabilozine,unidentifiedgeneticmaterial,researchmaterial" />
+    </ItemContainer>
+    <Body width="225" height="150" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachCrowbar" PickingTime="8.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
+      <RequiredItem identifier="crowbar" type="Equipped" />
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.8" setvalue="true" />
+      <StatusEffect type="Always" target="This" disabledeltatime="true" stackable="false" setvalue="true" condition="100" allowwhenbroken="true">
+        <Conditional attached="false" />
+      </StatusEffect>
+    </Holdable>
+    <ItemContainer capacity="3" maxstacksize="1" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="" allowuioverlap="true">
+      <Containable items="bodymod,enhancementtattoo,researchableegogift,egogift,geneticmaterial,stabilozine,unidentifiedgeneticmaterial,researchmaterial,smallitem,mediumitem" />
+    </ItemContainer>
+    <Repairable selectkey="Action" header="electricalrepairsheader" deteriorationspeed="0.0" canbeselected="true" RepairThreshold="80" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,280" anchor="Center" relativeoffset="0.0,0.27" style="ItemUI" />
+      <RequiredSkill identifier="electrical" level="80" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <ParticleEmitter particle="spark" particleamount="5" emitinterval="2" particlespersecond="5" anglemax="360" distancemax="30" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1" mincondition="0.0" maxcondition="15.0" />
+    </Repairable>
+    <ConnectionPanel selectkey="Action" canbeselected="true" hudpriority="10" msg="ItemMsgRewireScrewdriver">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="55" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand" AllowWhenBroken="true">
+        <Sound file="Content/Sounds/Damage/Electrocution1.ogg" range="1000" />
+        <Explosion range="100.0" force="1.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="4" probability="0.5" />
+        <Affliction identifier="electricshock" strength="60" />
+        <Affliction identifier="burn" strength="5" />
+        <ParticleEmitter particle="ElectricShock" DistanceMin="10" DistanceMax="25" ParticleAmount="5" ScaleMin="0.1" ScaleMax="0.12" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+      <output name="condition_out" displayname="connection.conditionout" />
+    </ConnectionPanel>
+  </Item>
+  <!-- Glupo -->
+  <Item name="Melty Eye" identifier="meltyeye" category="Medical" subcategory="Abnormalities" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="abnocrate" Tags="smallitem,chem,medical,syringe,egogift" useinhealthinterface="true" description="A strange melty eye dropped by the Blubbering Toad. With proper medical skill it can act as a potent antipsychotic. When used improperly it can cause insanity." scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <Price baseprice="130" sold="false" />
+    <SuitableTreatment type="psychosis" suitability="100" />
+    <Sprite texture="%ModDir%/Images/invmiscabno.png" depth="0.18" sourcerect="171,0,128,130" origin="0.5,0.5" />
+    <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <RequiredSkill identifier="medical" level="37" />
+      <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+      <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true" />
+      <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="10">
+        <ReduceAffliction type="psychosis" amount="20" />
+        <ReduceAffliction identifier="hallucinating" amount="20" />
+        <ReduceAffliction identifier="deliriuminepoisoning" amount="20" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="1">
+        <Affliction identifier="psychosis" amount="25" />
+        <Affliction identifier="hallucinating" amount="25" />
+      </StatusEffect>
+      <StatusEffect type="OnSuccess" target="UseTarget">
+        <Conditional entitytype="eq Character" />
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnFailure" target="UseTarget">
+        <Conditional entitytype="eq Character" />
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+        <Affliction identifier="stun" amount="0.1" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+    <SkillRequirementHint identifier="medical" level="37" />
+  </Item>
+  <Item name="Der Freischütz's Pipe" identifier="magicbulletpipe" description="A gilded pipe used to calm even a devil's nerves. Smoking this pipe will reduce Insanity caused by Abnormalities as well as Psychosis." category="Misc" Tags="smallitem,egogift" scale="0.5" cargocontaineridentifier="abnocrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.05" notcampaign="true" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.1" />
+    <Price baseprice="150" sold="false" />
+    <Sprite texture="%ModDir%/Images/invmiscabno.png" sourcerect="0,58,47,27" depth="0.55" origin="0.5,0.5" />
+    <Body width="58" height="20" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" aimable="false" aimpos="28,10" handle1="10,-5" swingamount="0,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This">
+        <Conditional InWater="false" />
+        <ParticleEmitter particle="swirlysmoke" particlespersecond="1" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <RequiredItem items="pipetobacco" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="This">
+        <Conditional InWater="true" />
+        <ParticleEmitter particle="bubbles" particlespersecond="3" scalemin="0.3" scalemax="0.5" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <RequiredItem items="pipetobacco" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="Contained" Condition="-2.0" disabledeltatime="false">
+        <RequiredItem items="pipetobacco" type="Contained" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnSecondaryUse" target="Character">
+        <Affliction identifier="psychosisresistance" amount="15" />
+        <ReduceAffliction type="psychosis" amount="5" />
+        <!-- <ReduceAffliction identifier="abnoinsanity" amount="5" /> -->
+        <ReduceAffliction identifier="hallucinating" amount="10" />
+        <RequiredItem items="pipetobacco" type="Contained" />
+      </StatusEffect>
+    </Holdable>
+    <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="74,-281" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="0,384,64,64" origin="0.5,0.5" />
+      <Containable items="pipetobacco" />
+    </ItemContainer>
+  </Item>
+  <!-- Thanks to Immersive Ignitables and M for the code and sprite -->
+  <Item name="Blue Zippo Lighter" identifier="bluezippolighter" category="Equipment" maxstacksize="1" maxstacksizecharacterinventory="1" MaxStackSizeHoldableOrWearableInventory="1" Tags="smallitem,lighter" description="Useful for lighting ignitable items, but it also grants the user Charge when used." cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" isshootable="true" RequireAimToUse="true" hideconditionbar="true">
+    <PreferredContainer primary="wreckcrewcab,abandonedcrewcab,outpostcrewcab,beaconengcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="crewcab" />
+    <Price baseprice="300" sold="false" />
+    <Deconstruct time="10">
+      <Item identifier="enkephalin" amount="4" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Images/invmiscabno.png" sourcerect="0,151,44,51" origin="0.5,0.5" />
+    <!-- closed sprite -->
+    <Sprite texture="%ModDir%/Images/invmiscabno.png" sourcerect="46,161,29,40" depth="0.55" />
+    <!-- open sprite -->
+    <BrokenSprite texture="%ModDir%/Images/invmiscabno.png" sourcerect="0,151,44,51" origin="0.5,0.5" depth="0.55" maxcondition="99" fadein="false" />
+    <Body width="27" height="38" density="12.7" />
+    <!-- GreaterComponent used to simulate fuel usage | 120s of "fuel" configured -->
+    <GreaterComponent canbepicked="false" canbeselected="false" allowingameediting="false" timeframe="0" />
+    <!-- LightComponent to shortly light up whenever the lighterspark (effect_lighterfail) item is contained which removes itself after 0.1s -->
+    <LightComponent range="50" lightcolor="222,111,22,127" powerconsumption="0" castshadows="false" allowingameediting="false">
+      <IsActive HasTag="lighterspark" targetcontaineditem="true" />
+      <!-- create spark particles when the light is on -->
+      <StatusEffect type="OnActive" target="This">
+        <ParticleEmitter particle="lighterspark" particlespersecond="50" copyentityangle="true" anglemin="82" anglemax="98" distancemin="0" distancemax="0" velocitymin="75" velocitymax="75" scalemin="0.5" scalemax="0.5" />
+      </StatusEffect>
+    </LightComponent>
+    <!-- LightComponent that turns on if the lighteron (effect_lightersuccess) item is contained to iluminate the area and consume fuel (increase timeframe) while it is on -->
+    <LightComponent range="100" lightcolor="173,216,230,127" Flicker="0.2" powerconsumption="0" castshadows="false" allowingameediting="false">
+      <IsActive HasTag="lighteron" targetcontaineditem="true" />
+      <!-- if timeframe is above 0, deplete fuel (increase timeframe) when the lighter is on -->
+      <!-- since it's an EGO Gift I think it's only fair to give it the special quality of unlimited fuel -->
+      <StatusEffect type="OnActive" target="This" timeframe="0">
+        <ParticleEmitter particle="smoke" particlespersecond="5" copyentityangle="true" anglemin="98" anglemax="98" distancemin="7" distancemax="7" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        <ParticleEmitter particle="lighterflame" particlespersecond="5" copyentityangle="true" anglemin="98" anglemax="98" distancemin="7" distancemax="7" velocitymin="0" velocitymax="0" scalemin="0.05" scalemax="0.05" />
+      </StatusEffect>
+    </LightComponent>
+    <Holdable canbepicked="true" canBeCombined="false" removeOnCombined="false" slots="Any,LeftHand" aimpos="33,9" handle2="-15,-25" holdangle="0" holdpos="36,-20" aimangle="0" aimable="false" swingwhenaiming="true" swingamount="6,3" swingspeed="0.2" msg="ItemMsgPickUpSelect">
+      <!-- 3a. spawn random effect item inside the lighter to either turn it on or fail the attempt. Get's blocked by the "using" tag which is applied while the use key is kept being held so you have to release it to try again -->
+      <StatusEffect type="OnUse" target="This" SpawnItemRandomly="True" interval="0.1" comparison="And">
+        <Conditional InWater="false" />
+        <Conditional HasStatusTag="neq using" />
+        <Conditional timeframe="lte 120" />
+        <SpawnItem identifier="effect_lighterfail" spawnposition="ThisInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        <SpawnItem identifier="effect_lighterfail" spawnposition="ThisInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        <SpawnItem identifier="effect_lightersuccess" spawnposition="ThisInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+      </StatusEffect>
+      <!-- 3b. always spawn the failed attempt item when the lighter is being used while the timeframe is above 120 (timeframe is used to simulate fuel) -->
+      <StatusEffect type="OnUse" target="This" interval="0.1" comparison="And">
+        <Conditional InWater="false" />
+        <Conditional HasStatusTag="neq using" />
+        <Conditional timeframe="gt 120" />
+        <SpawnItem identifier="effect_lighterfail" spawnposition="ThisInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+      </StatusEffect>
+      <!-- 2. apply the temporary "using" tag if the item is being used while aiming (also reapply the temporary "aiming" tag to make sure it doesn't get overridden) -->
+      <StatusEffect type="OnUse" target="This" tags="using,aiming" interval="0.1" duration="0.2">
+        <Conditional HasStatusTag="aiming" />
+      </StatusEffect>
+      <!-- 1. apply the temporary "aiming" tag if the item is being aimed -->
+      <StatusEffect type="OnSecondaryUse" target="This" tags="aiming" interval="0.1" duration="0.2" />
+      <!-- set the condition to 99 to render the open sprite when the item is being aimed -->
+      <StatusEffect type="OnSecondaryUse" target="This" condition="99" setvalue="true">
+        <Conditional condition="100" />
+        <Sound file="%ModDir%/Sounds/LighterOpen.ogg" range="200" volume="1.0" loop="false" />
+      </StatusEffect>
+      <!-- repair the item if it's not being aimed to render the closed sprite again -->
+      <StatusEffect type="OnContained" target="This" condition="100" setvalue="true" interval="0.1" comparison="And">
+        <Conditional HasStatusTag="neq aiming" />
+        <Conditional condition="99" />
+        <Sound file="%ModDir%/Sounds/LighterClose.ogg" range="200" volume="1.0" loop="false" />
+      </StatusEffect>
+      <!-- give the user charge if the lighter was successfully used, takes a while to build up charge though -->
+      <StatusEffect type="OnContained" target="This,Character">
+        <RequiredItem identifier="effect_lightersuccess" type="Contained" />
+        <Affliction identifier="abno_charge" amount="2" />
+      </StatusEffect>
+    </Holdable>
+    <ItemContainer capacity="1" maxstacksize="1" allowaccess="false" drawinventory="false" removecontaineditemsondeconstruct="true">
+      <Containable items="effect" />
+    </ItemContainer>
+  </Item>
+  <!-- effects -->
+  <Override>
+    <Item hideinmenus="true" name="" identifier="effect_lighterfail" Category="Hidden" Tags="effect,lighterspark" maxstacksize="1" cargocontaineridentifier="metalcrate" scale="0.5" spritecolor="255,255,255,0" noninteractable="true">
+      <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="0,0,1,1" />
+      <Body radius="1" density="10" />
+      <Holdable handle1="0,0" slots="Any" msg="ItemMsgPickUpSelect">
+        <!-- play the lighter sparking sound and remove the item -->
+        <StatusEffect type="Always" target="This" delay="0.1" oneshot="true" stackable="false">
+          <Sound file="%ModDir%/Sounds/LighterFail.ogg" range="200" volume="1.0" loop="false" />
+          <Remove />
+        </StatusEffect>
+      </Holdable>
+    </Item>
+    <Item hideinmenus="true" name="" identifier="effect_lightersuccess" Category="Hidden" Tags="effect,lighteron" maxstacksize="1" cargocontaineridentifier="metalcrate" scale="0.5" spritecolor="255,255,255,0" noninteractable="true">
+      <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="0,0,1,1" />
+      <Body radius="1" density="10" />
+      <Holdable handle1="0,0" slots="Any" msg="ItemMsgPickUpSelect">
+        <!-- play the lighter turning on sound -->
+        <StatusEffect type="OnContained" target="This" oneshot="true">
+          <Sound file="%ModDir%/Sounds/LighterSuccess.ogg" range="200" volume="1.0" loop="false" />
+        </StatusEffect>
+        <!-- ignite all items with the tag "ignitable" in a 20cm range if its physics body is active (being held) | sadly also applies to all other ignitables in range even if only one of them has an active physics body hence why the items need a constant check if their body is active and quickly remove the applied tag again. -->
+        <StatusEffect type="Always" target="NearbyItems" targettags="ignitable" range="20" tags="lit" setvalue="true" delay="1" stackable="false">
+          <Conditional PhysicsBodyActive="eq true" />
+        </StatusEffect>
+        <!-- check if either the lighter's fuel is empty (timeframe above 120), the person stopped aiming the lighter or if the item is in water. If one is true, remove the item -->
+        <StatusEffect type="Always" target="This" comparison="Or">
+          <Conditional timeframe="gt 120" targetcontainer="true" />
+          <Conditional HasStatusTag="neq aiming" targetcontainer="true" />
+          <Conditional InWater="true" />
+          <Remove />
+        </StatusEffect>
+      </Holdable>
+    </Item>
+  </Override>
+  <Item name="Patrolling Flashlight" identifier="patrollingflashlight" description="A high-powered flashlight like this might just blind someone, so be careful where you point it." category="Equipment" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.25" impactsoundtag="impact_metal_light">
+    <!--<PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true" notpvp="true"/>-->
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.001" />
+    <!-- <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/> -->
+    <Price baseprice="200" sold="False">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/egogifts.png" sourcerect="640,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/invmiscabno.png" sourcerect="768,39,128,49" depth="0.55" origin="0.5,0.5" />
+    <Body width="48" height="15" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand,Head" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.2">
+        <RequiredItem items="mobilebattery" type="Contained" />
+      </StatusEffect>
+      <!-- the child LightComponent is only active when the Holdable is active, i.e. when the item is being held -->
+      <LightComponent LightColor="0.5,0.5,0.5,1.0" directional="true" Flicker="0.02" range="800" powerconsumption="10" IsOn="true">
+        <LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.5" size="1.0,1.0" />
+        <IsActive targetcontaineditem="true" condition="gt 1.0" />
+      </LightComponent>
+      <LightComponent LightColor="0.5,0.5,0.5,1.0" directional="true" range="800" powerconsumption="10" IsOn="true" flicker="0.8" flickerspeed="1.0" pulsefrequency="0.1" pulseamount="0.5">
+        <LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.5" size="1.0,1.0" />
+        <IsActive targetcontaineditem="true" condition="lte 1.0" />
+      </LightComponent>
+    </Holdable>
+    <RepairTool firedamage="10.0" structurefixamount="0.0" range="800" barrelpos="55,10" combatpriority="5" repairmultiple="true" repairthroughwalls="false" maxoverlappingwalldist="0.0" repairthroughholes="true" levelwallfixamount="-5.0" targetforce="10">
+      <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgBatteryCellRequired" />
+      <RequiredSkill identifier="mechanical" level="50" />
+      <StatusEffect type="OnUse" targettype="Contained" targets="mobilebattery" Condition="-1.0" />
+      <StatusEffect type="OnSuccess" targettype="UseTarget" targets="weldable" Stuck="-10.0" />
+      <StatusEffect type="OnSuccess" targettype="UseTarget" Condition="-5.0" />
+      <StatusEffect type="OnSuccess" targettype="Limb" severlimbsprobability="0.005">
+        <Affliction identifier="burn" amount="4.0" />
+      </StatusEffect>
+      <StatusEffect type="OnSuccess" target="Limb" targetLimbs="Head">
+        <Affliction identifier="blind" amount="20.0" />
+      </StatusEffect>
+      <ParticleEmitterHitStructure particle="plasmasmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" />
+      <ParticleEmitterHitItem identifiers="door,hatch,ductblock" particle="plasmasmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />
+      <ParticleEmitterHitItem identifiers="ore" particle="iceshards" particlespersecond="5" anglemin="-40" anglemax="40" velocitymin="10" velocitymax="300" scalemin="0.5" scalemax="1.0" />
+      <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="6" anglemin="-5" anglemax="5" velocitymin="0" velocitymax="50" />
+      <sound file="Content/Items/Tools/PlasmaCutterLoop.ogg" type="OnUse" range="750.0" loop="true" />
+      <Fixable identifier="structure" />
+      <LightComponent LightColor="1.0,1.0,1.0,1.0" directional="true" range="800" IsOn="true">
+        <LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.5" size="1.0,1.0" />
+      </LightComponent>
+    </RepairTool>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="128,448,64,64" origin="0.5,0.5" />
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+    <AiTarget sightrange="3000" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <!-- New EGO Gifts -->
+  <!-- Materials -->
+  <Item name="Dark Vestige" identifier="vestige_dark" descriptionidentifier="vestige" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,egomaterial,vestige" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.01" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="10" description="fabricationdescription.vestigedark">
+      <RequiredItem tag="zayingift" />
+    </Fabricate>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_venomousskin" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="cavernouswailinghammer" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="glupoarmor" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="glupomask" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="penitencehammer" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="penitence" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+    <Price baseprice="25" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.0" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.2" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <!-- <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,192,64,64" /> -->
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="0,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="vestige_faint" variantof="vestige_dark">
+    <Price baseprice="75" sold="false" />
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="20" description="fabricationdescription.vestigefaint">
+      <RequiredSkill identifier="medical" level="20" />
+      <RequiredItem identifier="vestige_dark" amount="3" />
+    </Fabricate>
+    <Fabricate suitablefabricators="enkfab" requiredtime="10">
+      <RequiredSkill />
+      <RequiredItem tag="tethgift" />
+    </Fabricate>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_oldwoodendoll" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="punishingbeak" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="punishingbeak" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="punishingbeak" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="corrodedinquisitorarmor" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="corrodedinquisitornail" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="corrodedtremorsledge" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="forsakenmurdererstraightjacket" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="regret" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="talisman" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="vestige_twinkling" variantof="vestige_dark">
+    <Price baseprice="225" sold="false" />
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="2,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.0001" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="40" description="fabricationdescription.vestigetwinkling">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredItem identifier="vestige_faint" amount="3" />
+    </Fabricate>
+    <Fabricate suitablefabricators="enkfab" requiredtime="10">
+      <RequiredSkill />
+      <RequiredItem tag="hegift" />
+    </Fabricate>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_rupturedbloodsac" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="sunshower" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="sunshower" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="sunshower" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="fluidsac" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="magicbulletoutis" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="meleebulletoutis" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="solemnlamentliving" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="solemnlamentdeparted" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="vestige_brilliant" variantof="vestige_dark">
+    <Price baseprice="675" sold="false" />
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="3,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.00001" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="60" description="fabricationdescription.vestigebrilliant">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="vestige_twinkling" amount="3" />
+    </Fabricate>
+    <Fabricate suitablefabricators="enkfab" requiredtime="10">
+      <RequiredSkill />
+      <RequiredItem tag="wawgift" />
+    </Fabricate>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_awe" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_gazeofcontempt" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_gazeofcontempt" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_gazeofcontempt" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="contemptawesuit" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="perversion" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="exuviae" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="heavenstaff" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="heavencrown" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="contemptawe_blade1" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="contemptawe_blade2" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="vestige_lunar" variantof="vestige_dark">
+    <Price baseprice="2025" sold="false" />
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="4,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.000001" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="80" description="fabricationdescription.vestigelunar">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="vestige_brilliant" amount="3" />
+    </Fabricate>
+    <Fabricate suitablefabricators="enkfab" requiredtime="10">
+      <RequiredSkill />
+      <RequiredItem tag="alephgift" />
+    </Fabricate>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_censored" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_censored" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_censored" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="mimicry" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="censoredegoweapon" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="abno_twilight_sword" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="abno_twilight_robes" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="abno_twilight_wings" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="E.G.O. Fragment" identifier="egofragment" descriptionidentifier="egofragment" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,egomaterial,egofragment" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <!-- <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.01" /> -->
+    <Price baseprice="25" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.0" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.2" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <!-- <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,192,64,64" /> -->
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <!-- ZAYIN -->
+  <Item name="" identifier="egofragment_blubberingtoad" tags="smallitem,egomaterial,egofragment,zayingift,zayinfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.01" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_dark" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_venomousskin" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="cavernouswailinghammer" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="glupoarmor" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="glupomask" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_onesin" tags="smallitem,egomaterial,egofragment,zayingift,zayinfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.01" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_dark" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="penitencehammer" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="penitence" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <!-- TETH -->
+  <Item name="" identifier="egofragment_punishingbird" tags="smallitem,egomaterial,egofragment,tethgift,tethfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_faint" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="beak" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="beak" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="beak" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_gossypium" tags="smallitem,egomaterial,egofragment,tethgift,tethfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_faint" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_whitegossypium" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tangledbundle" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tangledbundle" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tangledbundle" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_talisman" tags="smallitem,egomaterial,egofragment,tethgift,tethfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_faint" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_talismanbundle" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="talisman" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_corrodedinquisitor" tags="smallitem,egomaterial,egofragment,tethgift,tethfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_faint" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_nagel" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="corrodedinquisitorarmor" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="corrodedinquisitornail" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="corrodedtremorsledge" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_forsakenmurderer" tags="smallitem,egomaterial,egofragment,tethgift,tethfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <!--<Item identifier="egogift_talismanbundle" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+	  <Item identifier="egogift_talismanbundle" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+	  <Item identifier="egogift_talismanbundle" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />-->
+      <Item identifier="forsakenmurdererstraightjacket" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="regret" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <!-- HE -->
+  <Item name="" identifier="egofragment_headlessichthys" tags="smallitem,egomaterial,egofragment,hegift,hefragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_twinkling" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_rupturedbloodsac" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="fluidsac" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_waywardpassenger" tags="smallitem,egomaterial,egofragment,hegift,hefragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_twinkling" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="bluezippolighter" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="patrollingflashlight" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_kqe-1j-23" tags="smallitem,egomaterial,egofragment,hegift,hefragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_twinkling" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="upssystem" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_derfreischutz" tags="smallitem,egomaterial,egofragment,hegift,hefragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_twinkling" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="magicbulletpipe" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="magicbulletoutis" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="derfreischutz" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="derfreischutzovercoat" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_DerFluchschutze" tags="smallitem,egomaterial,egofragment,hegift,hefragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_twinkling" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_pendantofnostalgia" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_pendantofnostalgia" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_pendantofnostalgia" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tornbandolier" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tornbandolier" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tornbandolier" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="fellbullet" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="derfluchschutze" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="derfluchschutzeovercoat" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <!-- WAW -->
+  <Item name="" identifier="egofragment_siltcurrent" tags="smallitem,egomaterial,egofragment,wawgift,wawfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_brilliant" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_endorphinkit" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_endorphinkit" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_endorphinkit" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="blindobsession_weapon" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="blindobsession_sword" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="blindobsession_coat" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="blindobsession_uniform" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="blindobsession_hat" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_spiralofcontempt" tags="smallitem,egomaterial,egofragment,wawgift,wawfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_brilliant" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_awe" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="perversion" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="contemptawe_blade1" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="contemptawe_blade2" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="contemptawesuit" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_kinginbinds" tags="smallitem,egomaterial,egofragment,wawgift,wawfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_brilliant" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <!-- <Item identifier="egogift_awe" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" /> -->
+      <!-- <Item identifier="egogift_awe" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" /> -->
+      <!-- <Item identifier="egogift_awe" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" /> -->
+      <Item identifier="binds_blade" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="binds_gear" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_nakednest" tags="smallitem,egomaterial,egofragment,wawgift,wawfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_brilliant" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="exuviae" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_burrowingheaven" tags="smallitem,egomaterial,egofragment,wawgift,wawfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
+    <Price baseprice="100" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_brilliant" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <Item identifier="egogift_arrestedhymn" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="heavenstaff" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="heavencrown" commonness="1" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <!-- ALEPH -->
+  <Item name="" identifier="egofragment_apocalypsebird" tags="smallitem,egomaterial,egofragment,alephgift,alephfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.000001" />
+    <Price baseprice="1200" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_lunar" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_bluestar" tags="smallitem,egomaterial,egofragment,alephgift,alephfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.000001" />
+    <Price baseprice="1200" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_lunar" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_censored" tags="smallitem,egomaterial,egofragment,alephgift,alephfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.000001" />
+    <Price baseprice="1200" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_lunar" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <!-- increased chance from 1:6 to 1:3 because the rng was brutal -->
+      <Item identifier="censoredegoweapon" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <Item name="" identifier="egofragment_nothingthere" tags="smallitem,egomaterial,egofragment,alephgift,alephfragment" variantof="egofragment">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.000001" />
+    <Price baseprice="1200" sold="false" />
+    <Deconstruct requireddeconstructor="deconstructor">
+      <Item identifier="vestige_lunar" />
+    </Deconstruct>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <!-- increased chance from 1:6 to 1:3 because the rng was brutal -->
+      <Item identifier="mimicry" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="mimicry_gear" commonness="2" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="egogiftresearchstation.fusion" infotext="egogiftresearchstation.fusion.infotext.2" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+  </Item>
+  <!-- Venomous Skin -->
+  <Item name="" identifier="egogift_venomousskin" nameidentifier="egogift" category="Material" maxstacksize="1" tags="smallitem,egogift,researchableegogift,egogene,zayingift" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_metal_light" hideconditionbar="true" hideconditionintooltip="false" allowsellingwhenbroken="true">
+    <PreferredContainer primary="medfabcab" />
+    <Price baseprice="25" sold="false">
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" multiplier="1.2" />
+    </Price>
+    <Deconstruct time="5" requireddeconstructor="egogiftresearchstation" chooserandom="true" amount="1">
+      <!-- refinement -->
+      <Item identifier="egogift_venomousskin" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_venomousskin" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+    <GeneticMaterial nameidentifier="entityname.venomousskin" effect="egogiftaffliction_venomousskin" conditionincreaseoncombinemin="0.0" conditionincreaseoncombinemax="0.0" ConditionIncreaseOnLowQualityCombine="3.0" ConditionIncreaseOnHighQualityCombine="25.0" tooltipvaluemin="0" tooltipvaluemax="10" SetTaintedOnDeath="false" CanBeUntainted="true">
+      <RequiredSkill identifier="medical" level="30" />
+      <StatusEffect type="OnWearing" target="Character" duration="0.0">
+        <GiveTalentInfo talentidentifiers="egogifts" />
+      </StatusEffect>
+      <StatusEffect type="OnSevered" target="Character" duration="0.0">
+        <Remove />
+      </StatusEffect>
+    </GeneticMaterial>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="2,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <Body width="23" height="31" density="20" />
+    <Holdable handle1="0,0" slots="Any"></Holdable>
+    <ItemContainer capacity="1" canbeselected="false" hideitems="true" allowaccess="false" showcontainedstateindicator="false">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+  </Item>
+  <!-- Tangled Bundle: Reduces the amount of bleed damage you take -->
+  <Item name="" identifier="egogift_tangledbundle" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_tangledbundle" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tangledbundle" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tangledbundle" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tangledbundle" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="0,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.tangledbundle" effect="egogift_tangledbundle" tooltipvaluemin="0" tooltipvaluemax="35" />
+  </Item>
+  <!-- White Gossypium: The stun damage you inflict is converted to bleed, and any stun you receive is converted to bleed. Grants resistance to bleeding -->
+  <Item name="" identifier="egogift_whitegossypium" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_whitegossypium" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_whitegossypium" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="4,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.whitegossypium" effect="egogift_whitegossypium" tooltipvaluemin="0" tooltipvaluemax="25" />
+  </Item>
+  <!-- Bloodsoaked Gossypium: Ruptured Blood Sac + White Gossypium -->
+  <Item name="" identifier="egogift_bloodsoakedgossypium" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_bloodsoakedgossypium" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodsoakedgossypium" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodsoakedgossypium" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodsoakedgossypium" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="40" outcondition="0.1">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="egogift_whitegossypium" mincondition="0.0" usecondition="False" />
+      <RequiredItem identifier="egogift_rupturedbloodsac" mincondition="0.0" usecondition="False" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="3,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bloodsoakedgossypium" effect="egogift_bloodsoakedgossypium" tooltipvaluemin="0" tooltipvaluemax="40" />
+  </Item>
+  <!-- Old Wooden Doll: 5% chance to deal double damage on any hit -->
+  <Item name="" identifier="egogift_oldwoodendoll" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_oldwoodendoll" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_oldwoodendoll" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.oldwoodendoll" effect="egogift_oldwoodendoll" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Punishing Bird -->
+  <Item name="" identifier="punishingbeak" aliases="egogift_punishingbeak" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="punishingbeak" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="punishingbeak" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="punishingbeak" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="punishingbeak" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="4,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.punishingbeak" effect="egogift_beak" tooltipvaluemin="0" tooltipvaluemax="15" />
+  </Item>
+  <!-- Talisman Bundle: Apply more Rupture with your attacks and gain a resistance to Rupture -->
+  <Item name="" identifier="egogift_talismanbundle" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_talismanbundle" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_talismanbundle" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="5,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.talismanbundle" effect="egogift_talismanbundle" tooltipvaluemin="0" tooltipvaluemax="35" />
+  </Item>
+  <!-- Nagel -->
+  <Item name="" identifier="egogift_nagel" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_nagel" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagel" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="0,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.nagel" effect="egogift_nagel" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Hammer -->
+  <Item name="" identifier="egogift_hammer" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_hammer" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_hammer" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.hammer" effect="egogift_hammer" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Nagel und Hammer Scriptures -->
+  <Item name="" identifier="egogift_nagelundhammer" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_nagelundhammer" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagelundhammer" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagelundhammer" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_nagelundhammer" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredItem identifier="egogift_nagel" mincondition="0.0" usecondition="false" />
+      <RequiredItem identifier="egogift_hammer" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="5,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.nagelundhammer" effect="egogift_nagelundhammer" tooltipvaluemin="0" tooltipvaluemax="25" />
+  </Item>
+  <!-- N Corp Seal -->
+  <Item name="" identifier="egogift_ncorpseal" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_ncorpseal" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_ncorpseal" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="3,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.ncorpseal" effect="egogift_ncorpseal" tooltipvaluemin="0" tooltipvaluemax="25" />
+  </Item>
+  <!-- Blood Red Mane -->
+  <Item name="" identifier="egogift_bloodredmane" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_bloodredmane" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_bloodredmane" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="4,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bloodredmane" effect="egogift_bloodredmane" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Squalidity -->
+  <Item name="" identifier="egogift_squalidity" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_squalidity" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_squalidity" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_squalidity" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_squalidity" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredItem identifier="egogift_ncorpseal" mincondition="0.0" usecondition="false" />
+      <RequiredItem identifier="egogift_bloodredmane" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="2,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.squalidity" effect="egogift_squalidity" tooltipvaluemin="0" tooltipvaluemax="25" />
+  </Item>
+  <!-- Wholeness -->
+  <Item name="" identifier="egogift_wholeness" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,tethgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_wholeness" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_wholeness" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_wholeness" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_wholeness" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="40" outcondition="0.1">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="egogift_nagelundhammer" mincondition="0.0" usecondition="false" />
+      <RequiredItem identifier="egogift_squalidity" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="6,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.wholeness" effect="egogift_wholeness" tooltipvaluemin="0" tooltipvaluemax="25" />
+  </Item>
+  <!-- Ruptured Blood Sac -->
+  <Item name="" identifier="egogift_rupturedbloodsac" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_rupturedbloodsac" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_rupturedbloodsac" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="6,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.rupturedbloodsac" effect="egogift_rupturedbloodsac" />
+  </Item>
+  <!-- Pinpoint Logic Circuit: Boosts your skill gains -->
+  <Item name="" identifier="pinpointlogiccircuit" aliases="egogift_pinpointlogiccircuit" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="pinpointlogiccircuit" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="pinpointlogiccircuit" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="2,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.pinpointlogiccircuit" effect="egogift_pinpointlogiccircuit" tooltipvaluemin="0" tooltipvaluemax="50" />
+  </Item>
+  <!-- UPS System: Grants up to 50% more charge -->
+  <Item name="" identifier="upssystem" aliases="egogift_upssystem" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="upssystem" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="upssystem" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.upssystem" effect="egogift_upssystem" tooltipvaluemin="0" tooltipvaluemax="50" />
+  </Item>
+  <!-- Drifting Fox (likely won't be an enemy, foxes don't make sense underwater) - Sunshower: Increases the power of your explosives and lets you resist flowing water -->
+  <Item name="" identifier="sunshower" aliases="egogift_sunshower" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="sunshower" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="sunshower" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="sunshower" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="sunshower" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="3,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.sunshower" effect="egogift_sunshower" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Pendant of Nostalgia -->
+  <Item name="" identifier="egogift_pendantofnostalgia" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_pendantofnostalgia" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_pendantofnostalgia" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_pendantofnostalgia" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_pendantofnostalgia" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.egogift_pendantofnostalgia" effect="egogift_pendantofnostalgia" tooltipvaluemin="1" tooltipvaluemax="5" />
+  </Item>
+  <!-- Torn Bandolier -->
+  <Item name="" identifier="egogift_tornbandolier" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,hegift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_tornbandolier" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tornbandolier" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tornbandolier" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_tornbandolier" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="0,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.egogift_tornbandolier" effect="egogift_tornbandolier" tooltipvaluemin="0" tooltipvaluemax="30" />
+  </Item>
+  <!-- Awe -->
+  <Item name="" identifier="egogift_awe" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,wawgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_awe" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_awe" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="7,0" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.awe" effect="egogift_awe" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Perversion -->
+  <Item name="" identifier="perversion" aliases="egogift_perversion" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,wawgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="perversion" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="0,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.perversion" effect="egogift_perversion" />
+  </Item>
+  <!-- Gaze of Contempt -->
+  <Item name="" identifier="egogift_gazeofcontempt" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,wawgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_gazeofcontempt" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_gazeofcontempt" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_gazeofcontempt" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_gazeofcontempt" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="50" outcondition="0.1">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="egogift_awe" mincondition="0.0" usecondition="false" />
+      <RequiredItem identifier="perversion" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="6,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.gazeofcontempt" effect="egogift_gazeofcontempt" tooltipvaluemin="0" tooltipvaluemax="20" />
+  </Item>
+  <!-- Endorphin Kit -->
+  <Item name="" identifier="egogift_endorphinkit" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,wawgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_endorphinkit" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_endorphinkit" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_endorphinkit" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_endorphinkit" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="2,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.endorphinkit" effect="egogift_endorphinkit" tooltipvaluemin="10" tooltipvaluemax="100" />
+  </Item>
+  <!-- Arrested Hymn -->
+  <Item name="" identifier="egogift_arrestedhymn" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,wawgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_arrestedhymn" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_arrestedhymn" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="7,1" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.arrestedhymn" effect="egogift_arrestedhymn" tooltipvaluemin="0" tooltipvaluemax="10" />
+  </Item>
+  <!-- Watchful Eye -->
+  <Item name="" identifier="egogift_watchfuleye" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,alephgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_watchfuleye" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_watchfuleye" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="7,2" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.watchfuleye" effect="egogift_watchfuleye" tooltipvaluemin="0" tooltipvaluemax="15" />
+  </Item>
+  <!-- CENSORED -->
+  <Item name="" identifier="egogift_censored" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,researchableegogift,egogene,alephgift">
+    <Deconstruct>
+      <!-- refinement -->
+      <Item identifier="egogift_censored" commonness="1" requiredotheritem="enkephalin" outconditionmin="0.25" outconditionmax="0.5" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_censored" commonness="2" requiredotheritem="enkephalin" outconditionmin="0.5" outconditionmax="0.75" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_censored" commonness="3" requiredotheritem="enkephalin" outconditionmin="0.75" outconditionmax="1.0" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <Item identifier="egogift_censored" commonness="4" requiredotheritem="enkephalin" activatebuttontext="egogiftresearchstation.refine" infotext="egogiftresearchstation.refine.infotext" infotextonotheritemmissing="egogiftresearchstation.refine.missingitem" />
+      <!-- rng -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/Outfits/invclothing.png" sheetindex="0,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.censored" effect="egogift_censored" tooltipvaluemin="0" tooltipvaluemax="100" />
+  </Item>
+  <!-- H Corp Boluses -->
+  <!-- Unidentified Bolus -->
+  <Item name="H Corp. Bolus Base" identifier="bolus_unresearched" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" tags="smallitem,unidentifiedgeneticmaterial,blackmarketgenes" cargocontaineridentifier="mediccrate" description="A mixture of genetics and Enkephalin, just waiting to be combined into something greater." scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="medfabcab" spawnprobability="0" />
+    <PreferredContainer secondary="abandonedmedcab,piratemedcab,wreckmedcab,outpostmedcab,researchcontainer" spawnprobability="0.3" />
+    <Price baseprice="300" sold="false" requiresunlock="true">
+      <Price storeidentifier="merchantcity" sold="true" minavailable="5" maxavailable="10" />
+      <Price storeidentifier="merchantresearch" sold="true" multiplier="1.2" minavailable="10" maxavailable="15" />
+    </Price>
+    <Fabricate suitablefabricators="medicalfabricator,enkfab" requiredtime="30">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredItem identifier="geneticmaterial_unresearched" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Deconstruct time="5" chooserandom="true" amount="1" requireddeconstructor="geneticresearchstation">
+      <Item identifier="egogift_tenacitybolus" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tenacitybolus" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tenacitybolus" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tenacitybolus" commonness="3" requiredotheritem="steroids" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tenacitybolus" commonness="2" requiredotheritem="steroids" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tenacitybolus" commonness="1" requiredotheritem="steroids" outconditionmin="0.6" outconditionmax="0.8" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tranquillotusbolus" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tranquillotusbolus" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tranquillotusbolus" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tranquillotusbolus" commonness="3" requiredotheritem="tonicliquid" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tranquillotusbolus" commonness="2" requiredotheritem="tonicliquid" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_tranquillotusbolus" commonness="1" requiredotheritem="tonicliquid" outconditionmin="0.6" outconditionmax="0.8" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_sanguineblossombolus" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_sanguineblossombolus" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_sanguineblossombolus" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_sanguineblossombolus" commonness="3" requiredotheritem="meth" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_sanguineblossombolus" commonness="2" requiredotheritem="meth" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_sanguineblossombolus" commonness="1" requiredotheritem="meth" outconditionmin="0.6" outconditionmax="0.8" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_jingangbolus" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_jingangbolus" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_jingangbolus" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.stabilozine.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_jingangbolus" commonness="3" requiredotheritem="adrenaline" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_jingangbolus" commonness="2" requiredotheritem="adrenaline" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+      <Item identifier="egogift_jingangbolus" commonness="1" requiredotheritem="adrenaline" outconditionmin="0.6" outconditionmax="0.8" activatebuttontext="bolus.process" infotext="bolus.infotext" infotextonotheritemmissing="bolus.missingitem" />
+    </Deconstruct>
+    <Sprite texture="Content/Items/Genetic/Genetic.png" sourcerect="0,79,58,40" depth="0.6" origin="0.5,0.5" />
+    <Body width="15" radius="15" density="20" />
+    <Pickable slots="Any" />
+  </Item>
+  <!-- Tenacity (base) -->
+  <Item name="" identifier="egogift_tenacitybolus" nameidentifier="bolus" category="Material" tags="smallitem,geneticmaterial,bolus" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_metal_light" hideconditionbar="true" hideconditionintooltip="false" allowsellingwhenbroken="true">
+    <PreferredContainer primary="medfabcab" />
+    <Price baseprice="750" sold="false">
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" multiplier="1.2" />
+    </Price>
+    <Deconstruct time="5" requireddeconstructor="geneticresearchstation">
+      <Item identifier="egogift_tenacitybolus" requiredotheritem="geneticmaterial" activatebuttontext="researchstation.combine" infotext="researchstation.combine.infotext" infotextonotheritemmissing="researchstation.refine.missingitem" />
+    </Deconstruct>
+    <GeneticMaterial nameidentifier="entityname.egogift_tenacitybolus" effect="egogift_tenacitybolus" conditionincreaseoncombinemin="0.0" conditionincreaseoncombinemax="0.0" ConditionIncreaseOnLowQualityCombine="3.0" ConditionIncreaseOnHighQualityCombine="25.0" tooltipvaluemin="0" tooltipvaluemax="5" SetTaintedOnDeath="false" CanBeUntainted="true">
+      <RequiredSkill identifier="medical" level="30" />
+      <StatusEffect type="OnWearing" target="Character" duration="0.0">
+        <Sound file="Content/Sounds/Damage/Gore1.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore2.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore3.ogg" type="OnUse" range="500" />
+        <ParticleEmitter particle="bloodsplash" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="0" scalemin="0.3" scalemax="0.75" />
+      </StatusEffect>
+      <StatusEffect type="OnSevered" target="Character" duration="0.0">
+        <Sound file="Content/Sounds/Damage/Gore1.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore2.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore3.ogg" type="OnUse" range="500" />
+        <ParticleEmitter particle="bloodsplash" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="0" scalemin="0.5" scalemax="1.0" />
+        <Affliction identifier="organdamage" amount="10" />
+        <Affliction identifier="stun" amount="0.5" />
+      </StatusEffect>
+    </GeneticMaterial>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="3,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <Body width="128" height="128" density="20" />
+    <Holdable handle1="0,0" slots="Any"></Holdable>
+    <ItemContainer capacity="1" canbeselected="false" hideitems="true" allowaccess="false" showcontainedstateindicator="false">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+  </Item>
+  <!-- Tranquil Lotus -->
+  <Item name="" identifier="egogift_tranquillotusbolus" variantof="egogift_tenacitybolus" nameidentifier="bolus" tags="smallitem,geneticmaterial,bolus">
+    <Deconstruct>
+      <Item identifier="egogift_tranquillotusbolus" requiredotheritem="geneticmaterial" activatebuttontext="researchstation.combine" infotext="researchstation.combine.infotext" infotextonotheritemmissing="researchstation.refine.missingitem" />
+      <!-- refinement -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="4,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.egogift_tranquillotusbolus" effect="egogift_tranquillotusbolus" tooltipvaluemin="0" tooltipvaluemax="5" conditionincreaseoncombinemin="0.0" conditionincreaseoncombinemax="0.0" ConditionIncreaseOnLowQualityCombine="3.0" ConditionIncreaseOnHighQualityCombine="25.0" />
+  </Item>
+  <!-- Sanguine Lotus -->
+  <Item name="" identifier="egogift_sanguineblossombolus" variantof="egogift_tenacitybolus" nameidentifier="bolus" tags="smallitem,geneticmaterial,bolus">
+    <Deconstruct>
+      <Item identifier="egogift_sanguineblossombolus" requiredotheritem="geneticmaterial" activatebuttontext="researchstation.combine" infotext="researchstation.combine.infotext" infotextonotheritemmissing="researchstation.refine.missingitem" />
+      <!-- refinement -->
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="5,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.egogift_sanguineblossombolus" effect="egogift_sanguineblossombolus" tooltipvaluemin="0" tooltipvaluemax="5" conditionincreaseoncombinemin="0.0" conditionincreaseoncombinemax="0.0" ConditionIncreaseOnLowQualityCombine="3.0" ConditionIncreaseOnHighQualityCombine="25.0" />
+  </Item>
+  <!-- Jin Gang Bolus -->
+  <Item name="" identifier="egogift_jingangbolus" variantof="egogift_tenacitybolus" nameidentifier="bolus" tags="smallitem,geneticmaterial,bolus">
+    <Deconstruct>
+      <Item identifier="egogift_jingangbolus" requiredotheritem="geneticmaterial" activatebuttontext="researchstation.combine" infotext="researchstation.combine.infotext" infotextonotheritemmissing="researchstation.refine.missingitem" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="6,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.egogift_jingangbolus" effect="egogift_jingangbolus" tooltipvaluemin="0" tooltipvaluemax="50" conditionincreaseoncombinemin="0.0" conditionincreaseoncombinemax="0.0" ConditionIncreaseOnLowQualityCombine="3.0" ConditionIncreaseOnHighQualityCombine="25.0" />
+  </Item>
+  <!-- EVENT ITEM - LORE ONLY -->
+  <Item name="" identifier="egogift_killinpendant" variantof="egogift_venomousskin" nameidentifier="egogift" tags="smallitem,egogift,egogene" hideinmenus="True">
+    <Deconstruct>
+      <Clear />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,3" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.egogift_killinpendant" effect="egogift_killinpendant" tooltipvaluemin="0" tooltipvaluemax="50" />
+  </Item>
+</Items>

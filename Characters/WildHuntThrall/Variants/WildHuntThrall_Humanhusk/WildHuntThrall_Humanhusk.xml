@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character speciesname="WildHuntThrall_Humanhusk" displayname="Thrall of the Wild Hunt" husk="True" humanoid="True" nonhuskedspecies="human" caninteract="True" hasinfo="True" usehuskappendage="True" needsair="False" specifiertags="true" canspeak="False" canclimb="True" ForceSlowClimbing="True" blooddecal="blood" group="erlking" speciestranslationoverride="" needswater="False" noise="100" visibility="100" bleedparticleair="blooddrop" bleedparticlewater="waterblood" bleedparticlemultiplier="1" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" hideinthermalgoggles="True" sonardisruption="0" disabledistance="25000" despawncontainer="despawncontainer">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <huskappendage affliction="huskinfection" path="Content/Characters/Humanhusk/Huskappendage.xml" />
+  <huskappendage affliction="husksymbiosis" path="Content/Characters/Humanhusk/Huskappendagesymbiosis.xml" onlyfromafflictions="true" />
+  <huskappendage affliction="naturalmeleeweapon" path="Content/Characters/Humanhusk/Mudraptorbeak.xml" onlyfromafflictions="true" />
+  <huskappendage affliction="naturalrangedweapon" path="Content/Characters/Humanhusk/Spinelingspine.xml" onlyfromafflictions="true" />
+  <sound file="Content/Characters/Husk/HUSK_attack1.ogg" state="Attack" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_attack2.ogg" state="Attack" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_attack3.ogg" state="Attack" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_attack4.ogg" state="Attack" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_idle1.ogg" state="Idle" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_idle2.ogg" state="Idle" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_idle3.ogg" state="Idle" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_idle4.ogg" state="Idle" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_damage1.ogg" state="Damage" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_damage2.ogg" state="Damage" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_damage3.ogg" state="Damage" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_death1.ogg" state="Die" range="1000" volume="1" />
+  <sound file="Content/Characters/Husk/HUSK_death2.ogg" state="Die" range="1000" volume="1" />
+  <health Vitality="75" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="100" BurnReduction="100" ConstantHealthRegeneration="0.05" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" EmpVulnerability="0" ApplyAfflictionColors="False">
+    <MedUISilhouette texture="Content/UI/Health/MedUI_Silhouette.png" columns="8" rows="2" sourcerect="0,0,1008,748" />
+    <MedUIExtra texture="Content/UI/Health/MedUIExtra.png" columns="4" rows="4" sourcerect="0,0,1024,1024" />
+    <Limb name="Head">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,0,126,374" highlightarea="41,0,45,54" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="2.0" />
+      <VitalityMultiplier type="burn" multiplier="2.0" />
+    </Limb>
+    <Limb name="Torso">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,0,126,374" highlightarea="29,56,70,134" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="1.0" />
+      <VitalityMultiplier type="burn" multiplier="2.0" />
+    </Limb>
+    <Limb name="LeftArm">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,0,126,374" highlightarea="1,69,27,140" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier type="burn" multiplier="1.0" />
+    </Limb>
+    <Limb name="RightArm">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,0,126,374" highlightarea="100,69,27,140" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier type="burn" multiplier="1.0" />
+    </Limb>
+    <Limb name="LeftLeg">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,0,126,374" highlightarea="3,180,57,194" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier type="burn" multiplier="1.0" />
+    </Limb>
+    <Limb name="RightLeg">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,0,126,374" highlightarea="68,180,57,194" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier type="burn" multiplier="1.0" />
+    </Limb>
+  </health>
+  <ai CombatStrength="250" Sight="1" Hearing="1" AggressionHurt="0" AggressionGreed="0" FleeHealthThreshold="0" AttackWhenProvoked="True" AvoidGunfire="False" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="False" RandomAttack="False" CanOpenDoors="True" KeepDoorsClosed="False" AvoidAbyss="False" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
+    <!-- Custom priorities -->
+    <target tag="wildhuntprotectiontarget" state="Protect" priority="120" ignoreinside="True" ignoreoutside="True" ignoreifnotinsamesub="True" ignoreincapacitated="False" />
+    <target Tag="wildhuntattacktarget" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="husk" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="smokemonster" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="mudraptor" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="crawler" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="thresher" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="mycorinfected" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <target Tag="swarmfeeder" State="Attack" Priority="135" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" />
+    <!-- Don't attack the Erlking -->
+    <target tag="erlking" state="Protect" priority="130" ignoreinside="True" ignoreoutside="True" ignoreifnotinsamesub="True" ignoreincapacitated="False" />
+  </ai>
+  <inventory arrowslot="9" slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" accessiblewhenalive="True" commonness="1" />
+  <names path="Content/Characters/Human/names.xml" />
+  <Vars>
+    <Var var="GENDER" tags="female,male" />
+  </Vars>
+  <StatusEffect type="OnSpawn" target="This">
+    <Sound file="%ModDir%/Sounds/Erlking01.ogg" type="OnUse" range="500" selectionmode="Random" />
+    <Sound file="%ModDir%/Sounds/Erlking02.ogg" type="OnUse" range="500" />
+    <Sound file="%ModDir%/Sounds/Erlking03.ogg" type="OnUse" range="500" />
+  </StatusEffect>
+</Character>

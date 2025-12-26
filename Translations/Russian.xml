@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <!-- UI -->
+  <ItemMsgBloodRequired>Требуется Кровь</ItemMsgBloodRequired>
+  <!-- Loading Tips -->
+  <loadingscreentip>Аномалии разделены по уровням опасности:ZAYIN, TETH, HE, WAW, ALEPH.</loadingscreentip>
+  <loadingscreentip>Аномалии могут ронять Е.Г.О. Дары - предметы, пропитанные их сущностью и силой воли. Эти дары часто обладают мощными способностями, и их следует использовать.</loadingscreentip>
+  <loadingscreentip>Созерцайте аномалии. Не теряйте рассудок.</loadingscreentip>
+  <loadingscreentip>Смирись со страхом, создай будущее.</loadingscreentip>
+  <loadingscreentip>Плачущая жаба «Глупо» - это аномалия класса ZAYIN. Вместо того чтобы квакать, она издает плачущие звуки. Если ее накормить, она будет время от времени выплакивать тающие глаза, которые лечат безумие.</loadingscreentip>
+  <loadingscreentip>Круууу, круууу.</loadingscreentip>
+  <loadingscreentip>Не Трогай Меня - это аномалия класса ZAYIN, имеющая форму кнопки. При нажатии она [РЕДАКТИРОВАНО].</loadingscreentip>
+  <loadingscreentip>Вы уже много раз нажимали на нее, но все еще хотите что-то узнать о ней?</loadingscreentip>
+  <loadingscreentip>Один грех и сотни благих деяний - это аномалия класса ZAYIN. Этот летающий череп, если его удовлетворить, способен исцелить рассудок всего экипажа.</loadingscreentip>
+  <loadingscreentip>Он питается злом, которое просачивается во время разговоров между людьми.</loadingscreentip>
+  <loadingscreentip>Карающая птица - это аномалия класса TETH. Обычно она безвредна и полезна, но если ее разозлить, она станет беспорядочной и смертоносной.</loadingscreentip>
+  <loadingscreentip>Люди совершают грехи с давних времен. Почему они совершают грехи, зная, что это неправильно?</loadingscreentip>
+  <loadingscreentip>Покинутый Убийца - это аномалия класса TETH. С этим безумным заключенным следует обращаться осторожно, чтобы он не сбежал из камеры и не устроил буйство.</loadingscreentip>
+  <loadingscreentip>Что действительно жалко, так это людей вроде тебя, которые умирают из-за таких, как я.</loadingscreentip>
+  <loadingscreentip>Чтобы никто не плакал - это аномалия класса TETH. Эта большая деревянная кукла покрыта талисманами, которые позволяют ей наносить разрывы при каждом попадании.</loadingscreentip>
+  <loadingscreentip>Вы слышите тихое мерцание свечей. В этой тесной комнате вы находите стоящую деревянную куклу. Эти талисманы внутри комнаты нужны для загадывания желаний? Желает ли эта деревянная кукла чего-нибудь?</loadingscreentip>
+  <loadingscreentip>Действующий Инквизитор и Здесь все инквизитор - это коррозии класса TETH. Они образуются в результате использования Э.Г.О. и коррозии "Здесь Ничего Нет".</loadingscreentip>
+  <loadingscreentip>Испытание Янтарного Рассвета - это испытание TETH-класса. Иногда его можно найти на аванпостах.</loadingscreentip>
+  <loadingscreentip>KQE-1J-23 - это аномалия класса HE. Его здоровье может быть относительно низким, но сражаться с ним в одиночку - смертный приговор из-за его способности «Пленение».</loadingscreentip>
+  <loadingscreentip>Вольный Стрелок - это аномалия класса HE. Этого кровожадного наемника можно нанять за плату.</loadingscreentip>
+  <loadingscreentip>Эта магическая пуля действительно может поразить кого-угодно, прямо как вы и говорите.</loadingscreentip>
+  <loadingscreentip>Безголовый Ихтис - аномалия класса HE. Благодаря своим размерам его легко заманить в ловушку в тесных коридорах, но его способность «Струя крови» чрезвычайно смертоносна.</loadingscreentip>
+  <loadingscreentip>Обнажённое гнездо - это аномалия класса WAW. Само по себе это гнездо паразитов не очень опасно, но паразиты, которых оно порождает, обладают смертельными инфекционными укусами. Гнездо и его черви слабы к огню.</loadingscreentip>
+  <loadingscreentip>Он может проникнуть в ваше тело через любое отверстие.</loadingscreentip>
+  <loadingscreentip>Единственный способ вылечить инфекцию - это антибиотики широкого спектра действия, поэтому держите их под рукой.</loadingscreentip>
+  <loadingscreentip>Заблудший Пассажир - это аномалия класса HE. Его пространственные лезвия могут наносить разрывы, что позволяет ему наносить врагам все больший урон. Остерегайтесь его высокоскоростного разрыва пространства.</loadingscreentip>
+  <loadingscreentip>Вы видите несчастного пассажира, застрявшего между измерениями. Большинство так и не поймет, что этот человек вообще исчез.</loadingscreentip>
+  <loadingscreentip>Испытание Янтарного сумрака - это испытание WAW-класса. Эти крупные черви могут периодически порождать более мелких червей, поэтому убивайте их до того, как их станет слишком много.</loadingscreentip>
+  <loadingscreentip>Спираль презрения - аномалия WAW-класса. Спираль презрения - это масса скрученных золотых ветвей, по форме напоминающих человека.</loadingscreentip>
+  <loadingscreentip>Ничтожный ублюдок, твоих достоинств не хватит, чтобы даже пальцем меня тронуть.</loadingscreentip>
+  <loadingscreentip>"Здесь Ничего Нет" - аномалия класса ALEPH. Этот высоченный монстр постоянно пытается подражать людям, а поскольку его встретили с насилием, он подражает насилию.</loadingscreentip>
+  <loadingscreentip>И множество оболочек прокричали одно слово: «Капитан».</loadingscreentip>
+  <loadingscreentip>Голубая Звезда - это аномалия класса ALEPH. Это едва понятное существо не проявляет никаких эмоций по отношению к тем, кому оно причиняет вред..</loadingscreentip>
+  <loadingscreentip>Давайте встретимся снова, как звезды.</loadingscreentip>
+  <loadingscreentip>ЗАЦЕНЗУРЕНО - это аномалия класса ALEPH. Его истинная форма настолько ужасна, что должна быть подвергнута цензуре, чтобы предотвратить немедленное безумие.</loadingscreentip>
+  <loadingscreentip>Если какая-то ошибка в системе выведет из строя цензуру, прикрывающую Аномалию, нам снова придется искренне задуматься о том, как избавиться от капитана.</loadingscreentip>
+  <loadingscreentip>Тающие Глаза - расходный материал, который лечит безумие и отравление делириумином.</loadingscreentip>
+  <loadingscreentip>Покаяние - терновый венец, дарующий владельцу силу.</loadingscreentip>
+  <loadingscreentip>Сожаление - мощное тупое оружие, которое также значительно замедляет цель.</loadingscreentip>
+  <loadingscreentip>Снаряжение Искажённых Инквизиторов можно забрать с павших инквизиторов и свободно использовать.</loadingscreentip>
+  <loadingscreentip>Бродячий Лис - плюшевый спящий лисенок, держащий зонтик. Поскольку родительская аномалия практически не встречается под океанами Европы, это очень редкая и ценная находка.</loadingscreentip>
+  <loadingscreentip>Pinpoint Logic Circuit - это, казалось бы, идеальная версия схемы FPGA, которая может взаимодействовать с органическими мозгами.</loadingscreentip>
+  <loadingscreentip>Мешочек Жидкости - это не только мощное тупое оружие, но и исцеление при попадании. Единственный недостаток - требуется кровь.</loadingscreentip>
+  <loadingscreentip>Мимикрия - это оружие в виде меча из руки "Здесь Ничего Нет". Он очень эффективен в ближнем бою.</loadingscreentip>
+  <loadingscreentip>"Эти цепи символизируют солидарность и связь. Вместе мы, связанные одной цепью, несем ответственность рука об руку. Мы встретимся лицом к лицу с нашими судьбами и вместе разделим их тяжесть. Нам не нужно снимать эти цепи. У нас нет повода чтобы снимать эти цепи. И нам не нужны те, кто намерен снять эти цепи".</loadingscreentip>
+  <loadingscreentip>"В Книге Мести написано многое: от указаний, как отомстить за смерть брата, до указаний, как отомстить за то, что нам наступили на ногу на улице".</loadingscreentip>
+  <loadingscreentip>"В семье могут случаться маленькие ошибки. Моей маленькой радостью является выметать такие ошибки. Меня учили, что это и есть истинная преданность".</loadingscreentip>
+  <loadingscreentip>"Мы, младшие братья, не заботимся о старшинстве между собой. Это очень малозначимая деталь. Все, что мы хотим делать, - это поддерживать друг друга и наших старших братьев, не более того".</loadingscreentip>
+  <loadingscreentip>"Средний Палец всегда платит по своим долгам. Не бывает «маленьких ошибок», если только ошибка не исходит от одного из нас".</loadingscreentip>
+  <loadingscreentip>W Corp. отрицает всякую причастность к существованию Заблудшего Пассажира и утверждает, что его появление - простое совпадение.</loadingscreentip>
+  <loadingscreentip>W Corp, или WARP Corp, ответственна за появление экспериментальной технологии телепортации. Хотя ее лучше использовать осторожно, избегая побочных эффектов, она может значительно сократить обратный путь на подводную лодку. Все, что вам нужно, - это телепортационный якорь WARP и устройство WARP Recall Device.</loadingscreentip>
+  <loadingscreentip>Команда Кроликов четвертой стаи R Corp. известна своей высокой ловкостью и агрессивной тактикой. Их портативные катушечные ружья могут снаряжаться одним из трех видов боеприпасов: стандартным, пробивными и взрывчатыми. Их скафандры обеспечивают определенную степень защиты от давления и недостатка кислорода, что позволяет им безнаказанно действовать в любой точке Европы и практически не обращать внимания пробоины в корпусе.</loadingscreentip>
+  <loadingscreentip>Команда Носорогов четвертой стаи специализируется на разрушениях и тяжелом вооружении. Эти облаченные в силовую броню монстры безнаказанно сносят все на своем пути, а если огромный металлический костюм недостаточно пугающий, они могут двигаться гораздо быстрее, чем вы ожидаете. </loadingscreentip>
+  <loadingscreentip>Это одно, а то, это другое.</loadingscreentip>
+  <loadingscreentip>Ту дудуу~~ Хай Окарин</loadingscreentip>
+  <!-- Abnormalities -->
+  <character.nothingthere>"Здесь Ничего Нет"</character.nothingthere>
+  <character.blubberingtoad>Глупо</character.blubberingtoad>
+  <character.onesin>Один Грех и Сотни Благих Деяний</character.onesin>
+  <character.corrodedinquisitor1>Действующий Инквизитор</character.corrodedinquisitor1>
+  <character.corrodedinquisitor2>Здесь все инквизитор</character.corrodedinquisitor2>
+  <character.headlessichthys>Безголовый Ихтис</character.headlessichthys>
+  <character.kqe-1j-23>KQE-1J-23</character.kqe-1j-23>
+  <character.forsakenmurderer>Покинутый Убийца</character.forsakenmurderer>
+  <character.bluestar>Голубая Звезда</character.bluestar>
+  <character.derfreischutz>Вольный Стрелок</character.derfreischutz>
+  <character.exuviaeparasite>Обнажённое гнездо</character.exuviaeparasite>
+  <character.waywardpassenger>Заблудший Пассажир</character.waywardpassenger>
+  <character.talisman>Чтобы никто не плакал</character.talisman>
+  <character.amberdawn>Янтарный Рассвет</character.amberdawn>
+  <character.amberdusk>Янтарный Закат</character.amberdusk>
+  <character.smallbird>Маленькая Птичка</character.smallbird>
+  <character.punishingbird>Птица Наказания</character.punishingbird>
+  <character.censored>ЗАЦЕНЗУРЕНО</character.censored>
+  <character.censoredhuman>Миньон ЗАЦЕНЗУРЕНО</character.censoredhuman>
+  <character.censoredhusk>ЗАЦЕНЗУРЕНО</character.censoredhusk>
+  <character.spiralofcontempt>Спираль Презрения</character.spiralofcontempt>
+  <character.drenchedgossypium>Вымоченный Госсипиум</character.drenchedgossypium>
+  <character.apocalypsebird>Птица Апокалипсиса</character.apocalypsebird>
+  <character.nullthingthere>Nullthing There</character.nullthingthere>
+  <character.meatdoggy>Мясная Собачка</character.meatdoggy>
+  <!-- Items -->
+  <entityname.enkephalin>Энкефалин</entityname.enkephalin>
+  <entitydescription.enkephalin>Энкефалин был энергетическим ресурсом, который производила Корпорация Лоботомия. Он был извлечен из Аномалий, созданных ее Сингулярностью, которая производила Энкефалин, когда их потребности были удовлетворены. Энкефалин часто хранится в PE коробках и считается эффективным и экологически чистым ресурсом, что сделало его популярным как среди других Корпораций, так и среди жителей Европы даже после краха L Corp.</entitydescription.enkephalin>
+  <entityname.enkephalinbox>Коробка Энкефалина</entityname.enkephalinbox>
+  <entitydescription.enkephalinbox>Устойчивый контейнер для хранения жидкого энкефалина. На этикетке написано: [ВНИМАНИЕ] Обращение с этой коробкой без соблюдения предписанных процедур может привести к несчастным случаям, таким как утечка энкефалина. Неконтролируемый прием энкефалина может вызвать широкий спектр неподтвержденных психопатологических симптомов.</entitydescription.enkephalinbox>
+  <entityname.sunshower>Бродячий Лис</entityname.sunshower>
+  <entitydescription.sunshower>Эта плюшевая игрушка лисы очень мягкая и, кажется, водонепроницаемая. Улучшает урон от взрывчатки и радиус действия, пока находится в инвентаре.</entitydescription.sunshower>
+  <entityname.mimicry>Мимикрия</entityname.mimicry>
+  <entitydescription.mimicry>Желание имитировать человеческую форму небрежно отражено на Е.Г.О., словно напоминание о том, что оно должно оставаться всего лишь желанием</entitydescription.mimicry>
+  <entityname.protomimicry>Прототип Мимикрии</entityname.protomimicry>
+  <entitydescription.protomimicry>Хотя он обладает меньшей силой, чем типичная копия Мимикрии, достаточно опытный владелец все равно может извлечь максимум пользы из этого, тем не менее, опасного клинка.</entitydescription.protomimicry>
+  <entityname.glupoarmor>Пещерный Плач</entityname.glupoarmor>
+  <entitydescription.glupoarmor>Э.Г.О. костюм, созданный из сущности Плачущей Жабы, надевается вместо спайщика геннов. Обеспечивает довольно большую общую защиту и медленно лечит безумие. Исчезает, если владелец умирает. Старайтесь не сходить с ума пока носите его.</entitydescription.glupoarmor>
+  <entityname.glupomaskcorroded>Маска Пещерного Плача</entityname.glupomaskcorroded>
+  <entityname.glupoarmorcorroded>Пещерный Плач (Коррозия)</entityname.glupoarmorcorroded>
+  <entitydescription.glupoarmorcorroded>Корродированный вариант Пещерного Плача, надеваемый вместо спайщика геннов. Обеспечивает большую защиту, чем его предшественник, но не лечит рассудок. Старайтесь не сходить с ума пока носите его.</entitydescription.glupoarmorcorroded>
+  <entityname.glupoarmorcorrodedperm>Пещерный Плач (пермаментный)</entityname.glupoarmorcorrodedperm>
+  <entitydescription.glupoarmorcorrodedperm>Корродированный вариант Пещерного Плача, надеваемый вместо спайщика геннов. Обеспечивает большую защиту, чем его предшественник, но не лечит рассудок.</entitydescription.glupoarmorcorrodedperm>
+  <entityname.upssystem>Система UPS</entityname.upssystem>
+  <entitydescription.upssystem>Резервный источник питания KQE-1J-23. Оборудуйте его вместо спайщика геннов, чтобы получить заряд, если у вас его мало, или чтобы получить значительное усиление в бою, если у вас достаточно заряда</entitydescription.upssystem>
+  <entityname.punishingbeak>Клюв</entityname.punishingbeak>
+  <entitydescription.punishingbeak>Копия клюва Карающей Птицы, надетая на ожерелье. Этот дар, по-видимому, был создан самой птицей. При ношении дает небольшой бонус к движению, ремонту и скорости атаки.</entitydescription.punishingbeak>
+  <entityname.chairwaytohell>[ZAYIN] Лестница в ад</entityname.chairwaytohell>
+  <entitydescription.chairwaytohell>Странная инвалидная коляска, которую, если неправильно разместить, может и будет заставлять пользователя непредсказуемо проходить сквозь полы и стены.</entitydescription.chairwaytohell>
+  <entityname.fanaticbooster>Усилитель Фанатика</entityname.fanaticbooster>
+  <entitydescription.fanaticbooster>Расширяет сенсорное восприятие субъекта, улучшая его способность пассивно учиться и развиваться.</entitydescription.fanaticbooster>
+  <entityname.nothingthereegg>Мутирующее Яйцо</entityname.nothingthereegg>
+  <entitydescription.nothingthereegg>Это странное яйцо, похоже, полностью состоит из человеческой плоти. Ему не хватает только крови.</entitydescription.nothingthereegg>
+  <entityname.forcednothingthereegg>Быстро мутирующее яйцо</entityname.forcednothingthereegg>
+  <entitydescription.forcednothingthereegg>Это странное яйцо, похоже, полностью состоит из человеческой плоти.</entitydescription.forcednothingthereegg>
+  <entityname.meltyeye>Тающий глаз</entityname.meltyeye>
+  <entitydescription.meltyeye>Странный тающий глаз, выплаканный Пузырчатой Жабой. При должном врачебном умении он может действовать как мощный антипсихотик. При неправильном использовании может вызвать безумие.</entitydescription.meltyeye>
+  <entityname.penitence>Покаяние</entityname.penitence>
+  <entitydescription.penitence>Несмотря на колючесть, этот венок вовсе не причиняет вреда. Более того, он укрепляет ее обладателя.</entitydescription.penitence>
+  <entityname.corrodedinquisitorarmor>Броня Искажённого Инквизитора</entityname.corrodedinquisitorarmor>
+  <entitydescription.corrodedinquisitorarmor>ПРИВЕТ</entitydescription.corrodedinquisitorarmor>
+  <entityname.corrodedinquisitornail>Искажённый Гвоздь</entityname.corrodedinquisitornail>
+  <entitydescription.corrodedinquisitornail>ПРОЩАЙ</entitydescription.corrodedinquisitornail>
+  <entityname.corrodedtremorsledge>Искажённый молот</entityname.corrodedtremorsledge>
+  <entitydescription.corrodedtremorsledge>Я ЛЮБЛЮ ТЕБЯ</entitydescription.corrodedtremorsledge>
+  <entityname.fluidsac>Мешочек Жидкости</entityname.fluidsac>
+  <entitydescription.fluidsac>Эта битва завершится победой.</entitydescription.fluidsac>
+  <entityname.pinpointlogiccircuit>Точная логическая схема</entityname.pinpointlogiccircuit>
+  <entitydescription.pinpointlogiccircuit>Эта микросхема, извлеченная из тела KQE-1J-23, способна выполнять безупречные высокоскоростные вычисления. Установите этот чип вместо генного сплайсера, чтобы улучшить свои навыки и точность.</entitydescription.pinpointlogiccircuit>
+  <entityname.forsakenmurdererstraightjacket>Смирительная рубашка Покинутого Убийцы</entityname.forsakenmurdererstraightjacket>
+  <entitydescription.forsakenmurdererstraightjacket>Этой рубашки недостаточно, чтобы сдержать мою злость.</entitydescription.forsakenmurdererstraightjacket>
+  <entityname.regret>Сожаление</entityname.regret>
+  <entitydescription.regret>Враги, сокрушенные этим сожалением, никогда не смогут вернуться к нормальной жизни.</entitydescription.regret>
+  <entityname.derfreischutz>Плащ Вольного Стрелка</entityname.derfreischutz>
+  <entitydescription.derfreischutz>Хотя сила оригинала не может быть полностью извлечена, магия, заключенная в нем, все еще сильна. Урон от седьмой пули снижен до 70%.</entitydescription.derfreischutz>
+  <entityname.derfreischutzovercoat>Шинель Вольного Стрелка</entityname.derfreischutzovercoat>
+  <entitydescription.derfreischutzovercoat>Хотя сила оригинала не может быть полностью извлечена, магия, заключенная в нем, все еще сильна. Урон от седьмой пули снижен до 70%.</entitydescription.derfreischutzovercoat>
+  <entityname.magicbullet>Магическая пуля</entityname.magicbullet>
+  <entitydescription.magicbullet>Пули оружия летят по коридору, вдоль горизонта. Каждая пуля имеет шанс 1 к 7 быть усиленной.</entitydescription.magicbullet>
+  <entityname.magicbulletoutis>Магическая пуля Отис (Дальний бой)</entityname.magicbulletoutis>
+  <entitydescription.magicbulletoutis>Пули оружия летят по коридору, вдоль горизонта. Поражение врагов в режиме ближнего боя улучшит следующий выстрел.</entitydescription.magicbulletoutis>
+  <entityname.meleebulletoutis>Магическая пуля Отис (Ближний бой)</entityname.meleebulletoutis>
+  <entitydescription.meleebulletoutis>Каждое попадание из этого оружия в ближнем бою добавляет пользователю одну магическую пулю, до 7. Каждая волшебная пуля увеличивает мощность винтовки, но также увеличивает расход рассудка пользователя при стрельбе.</entitydescription.meleebulletoutis>
+  <entityname.exuviae>Сброшенная Кожа</entityname.exuviae>
+  <entitydescription.exuviae>Склизкое ощущение при держании этого Е.Г.О. может беспокоить некоторых сотрудников.</entitydescription.exuviae>
+  <entityname.warpmachete>Мачете W Corp.</entityname.warpmachete>
+  <entitydescription.warpmachete>Очень острое лезвие, выдаваемое в основном команде зачистке для быстрого боя в тесных пространствах. Вставьте энкефалиновый модуль чтобы активировать функцию разрыва.</entitydescription.warpmachete>
+  <entityname.warpknife>Нож W Corp.</entityname.warpknife>
+  <entitydescription.warpknife>Небольшой нож, выдаваемый команде зачистки для ближнего боя и утилитарного использования. Благодаря своей низкой стоимости он может использоваться в качестве резервного оружия. Вставьте энкефалиновый модуль чтобы активировать функцию разрыва.</entitydescription.warpknife>
+  <entityname.warpglaive>Глефа W Corp.</entityname.warpglaive>
+  <entitydescription.warpglaive>Разновидность глефы с односторонним лезвием на конце, предназначенная в первую очередь для того, чтобы пользователь мог наносить удары с расстояния. Это стандартное оружие для W Corp из-за своей общей полезности и простоте использования. Вставьте энкефалиновый модуль чтобы активировать функцию разрыва.</entitydescription.warpglaive>
+  <entityname.warpaxe>Топор W Corp.</entityname.warpaxe>
+  <entitydescription.warpaxe>Топор, выдаваемый членам команды зачистки. Топор выдается команде на случай, если им придется взламывать запертые двери. Вставьте энкефалиновый модуль чтобы активировать функцию разрыва.</entitydescription.warpaxe>
+  <entityname.warpteleportationanchor>Якорь телепортации "WARP"</entityname.warpteleportationanchor>
+  <entitydescription.warpteleportationanchor>Этот якорь необходимо поместить внутри подводной лодки, чтобы устройства возврата "WARP" могли телепортироваться к нему.</entitydescription.warpteleportationanchor>
+  <entityname.warprecalldevice>Устройство Возврата "WARP"</entityname.warprecalldevice>
+  <entitydescription.warprecalldevice>Это удобное устройство для  возврата W Corp. позволяет пользователю быстро телепортироваться обратно на свою подводную лодку! Логотип W Corp. напечатан на задней стороне устройства. Если вы хотите телепортироваться снова до того, как оно закончит зарядку самостоятельно, вставьте энкефалиновый модуль. ПРЕДУПРЕЖДЕНИЕ: чрезмерное использование может привести к нежелательным побочным эффектам.</entitydescription.warprecalldevice>
+  <entityname.antiteleportsickness>Таблетки от телепортационной болезни</entityname.antiteleportsickness>
+  <entitydescription.antiteleportsickness>Эти таблетки, выпущенные W Corp, лечат "телепортационную болезнь" - распространенный побочный эффект использования технологии телепортации. Одна доза должна справиться с болезнью, эквивалентной одной телепортации.</entitydescription.antiteleportsickness>
+  <entityname.wcorpuniform>Униформа W Corp.</entityname.wcorpuniform>
+  <entitydescription.wcorpuniform>Униформа, разработанная для сотрудников W Corp.</entitydescription.wcorpuniform>
+  <entityname.wcorpbodyarmor>Бронежилет W Corp.</entityname.wcorpbodyarmor>
+  <entitydescription.wcorpbodyarmor>Баллистический жилет, обеспечивающий хорошую защиту от потенциальных опасностей.</entitydescription.wcorpbodyarmor>
+  <entityname.wcorphat>Кепка W Corp.</entityname.wcorphat>
+  <entitydescription.wcorphat>Фирменная кепка W Corp.</entitydescription.wcorphat>
+  <entityname.zweizweihander>Цвайхендер Ассоц. Цвай</entityname.zweizweihander>
+  <entitydescription.zweizweihander>Стандартный цвайхендер (двуручный меч), ​​выдаваемый членам Ассоциации Цвай. Хорошо подходит для смешанной защиты и нападения, но его вес затрудняет использование неопытными владельцами.</entitydescription.zweizweihander>
+  <entityname.zweiuniform>Униформа Ассоц. Цвай</entityname.zweiuniform>
+  <entitydescription.zweiuniform>Членом Ассоциации Цвай может быть телохранитель, патрульный, полицейский и кто угодно как либо связанный с защитой. Их униформа обеспечивает отличную защиту, а куртка помогает оставаться несколько незаметным. Хорошо сочетается с майкой/скрытыми бронежилетами и поставляется с большим количеством карманов.</entitydescription.zweiuniform>
+  <entityname.donttouchme>Не Трогай Меня</entityname.donttouchme>
+  <entitydescription.donttouchme>Серьёзно, НЕ ТРОГАЙ ЭТО.</entitydescription.donttouchme>
+  <entityname.enkephalinmodule>Энкефалиновый Модуль</entityname.enkephalinmodule>
+  <entitydescription.enkephalinmodule>Модуль, содержащий Энкефалин, органический побочный продукт, уникальный для Аномалий. На этикетке модуля написано: [ПРИМЕЧАНИЕ] Использование дозировки жидкого Энкефалина обеспечивает более стабильное использование по сравнению с его газообразной формой. Энкефалин можно преобразовать в энергию, подключив модуль к специальному разъему. [ВНИМАНИЕ] Модуляризация Энкефалина необратима; модуль можно расходовать только через разъем. Использование не по назначению или модификация строго запрещены.</entitydescription.enkephalinmodule>
+  <entityname.refinedenkephalinmodule>Перегруженный Энкефалиновый Модуль</entityname.refinedenkephalinmodule>
+  <entitydescription.refinedenkephalinmodule>Перегруженный энкефалиновый модуль содержащий еще больше энергии.</entitydescription.refinedenkephalinmodule>
+  <entityname.brokenenkephalinmodule>Пустой Энкефалиновый Модуль</entityname.brokenenkephalinmodule>
+  <entitydescription.brokenenkephalinmodule>Пустой энкефалиновый модуль который может быть безопасно разобран.</entitydescription.brokenenkephalinmodule>
+  <entityname.talisman>Талисман</entityname.talisman>
+  <entitydescription.talisman>Эти талисманы... могут препятствовать движению. Чем больше их прикреплено... тем сильнее накапливается проклятие.</entitydescription.talisman>
+  <entityname.hiddenarmor>Спрятанный Бронежилет</entityname.hiddenarmor>
+  <entitydescription.hiddenarmor>Бронежилет, разработанный для скрытого ношения под одеждой. Использование сплавов улучшает физическую защиту без ущерба для подвижности.</entitydescription.hiddenarmor>
+  <entityname.alephguide>Руководство по аномалиям класса ALEPH</entityname.alephguide>
+  <entitydescription.alephguide>Руководство по аномалиям класса ALEPH, ты что то другое ожидал?</entitydescription.alephguide>
+  <entityname.solemnlamentliving>Торжественный Траур Для Живых</entityname.solemnlamentliving>
+  <entitydescription.solemnlamentliving>Довольно громоздкий пистолет, который, кажется, стреляет высокоскоростными бабочками вместо пуль. Оружие перезаряжается рассудком пользователя вместо физических боеприпасов. Наносит эффект "Бабочка" (Живая), нанося урон рассудку.</entitydescription.solemnlamentliving>
+  <entityname.solemnlamentdeparted>Торжественный Траур Для Мертвых</entityname.solemnlamentdeparted>
+  <entitydescription.solemnlamentdeparted>Довольно громоздкий пистолет, который, кажется, стреляет высокоскоростными бабочками вместо пуль. Оружие перезаряжается рассудком пользователя вместо физических боеприпасов. Наносит эффект «Бабочка» (Мертвая), нанося физический урон в зависимости от рассудка цели.</entitydescription.solemnlamentdeparted>
+  <entityname.ironmaiden>Мы Можем Изменить Что Угодно</entityname.ironmaiden>
+  <entitydescription.ironmaiden>Милая на вид автоматизированная железная дева пастельно-белого цвета, что причиняет сильную боль и увечья у человека внутри в обмен на энкефалиновые модули.</entitydescription.ironmaiden>
+  <entityname.heavenstaff>Рай</entityname.heavenstaff>
+  <entitydescription.heavenstaff>Острый посох, который, кажется, сделан из того же странного живого материала, что и Пронзающий Небеса.</entitydescription.heavenstaff>
+  <entityname.heavencrown>Корона Рая</entityname.heavencrown>
+  <entitydescription.heavencrown>Как он распахивает свои крылья навстречу давно забытому богу, так и Небеса откроют Вам свою тропу.</entitydescription.heavencrown>
+  <entityname.abnocrate>Ящик Для Аномалий</entityname.abnocrate>
+  <entitydescription.abnocrate>Специальный ящик, предназначенный для хранения предметов, связанных с Аномалиями.</entitydescription.abnocrate>
+  <entityname.bluezippolighter>Синяя зажигалка Зиппо</entityname.bluezippolighter>
+  <entitydescription.bluezippolighter>Полезно для поджигания воспламеняющихся предметов, но также дает пользователю заряд при использовании.</entitydescription.bluezippolighter>
+  <entityname.magicbulletpipe>Трубка Вольного Стрелка</entityname.magicbulletpipe>
+  <entitydescription.magicbulletpipe>Позолоченная трубка, используемая для успокоения нервов даже дьявола. Курение этой трубки уменьшает безумие, вызванное аномалиями, а также психоз.</entitydescription.magicbulletpipe>
+  <entityname.perversion>Извращение</entityname.perversion>
+  <entitydescription.perversion>Дар от Спирали презрения. Если экипировать его вместо спайщика геннов, он дает случайные баффы каждые десять секунд.</entitydescription.perversion>
+  <entityname.kqeradio>Радио KQE</entityname.kqeradio>
+  <entitydescription.kqeradio>Какая-то встроенная система связи</entitydescription.kqeradio>
+  <entityname.penitencehammer>Раскаяние</entityname.penitencehammer>
+  <entitydescription.penitencehammer>Молот, который может немного восстановить рассудок владельца при ударе по врагу.</entitydescription.penitencehammer>
+  <entityname.penitence>Терновый Венец</entityname.penitence>
+  <entitydescription.penitence>Терновый венец, который может быть больно носить, но он связывает владельца с реальностью и сохраняет ему рассудок.</entitydescription.penitence>
+  <entityname.abno_binahcostume>Униформа Арбитра</entityname.abno_binahcostume>
+  <entitydescription.abno_binahcostume>Униформа принадлежащая арбитру.</entitydescription.abno_binahcostume>
+  <entityname.abno_binahcoat>Плащ Арбитра</entityname.abno_binahcoat>
+  <entitydescription.abno_binahcoat>Плащ принадлежащий арбитру</entitydescription.abno_binahcoat>
+  <entityname.abno_weakenedbinahcostume>Ослабленная Униформа Арбитра</entityname.abno_weakenedbinahcostume>
+  <entitydescription.abno_weakenedbinahcostume>Униформа, ранее принадлежавшая Арбитру. С тех пор ее сила ослабла.</entitydescription.abno_weakenedbinahcostume>
+  <entityname.abno_weakenedbinahcoat>Ослабленный Плащ Арбитра</entityname.abno_weakenedbinahcoat>
+  <entitydescription.abno_weakenedbinahcoat>Плащ, ранее принадлежавший Арбитру. Его сила с тех пор ослабла</entitydescription.abno_weakenedbinahcoat>
+  <entityname.abno_redmistmask>Маска Красного Тумана</entityname.abno_redmistmask>
+  <entitydescription.abno_redmistmask>Твердое проявление Э.Г.О. Красного Тумана, её разум, ставший материальным.</entitydescription.abno_redmistmask>
+  <entityname.abno_weakenedredmistmask>Ослабленная Маска Красного Тумана</entityname.abno_weakenedredmistmask>
+  <entitydescription.abno_weakenedredmistmask>Твердое проявление Э.Г.О. Красного Тумана, её разум, ставший материальным. Оно провело довольно много времени вдали от создателя и поэтому утратило большую часть своей изначальной силы.</entitydescription.abno_weakenedredmistmask>
+  <entityname.abno_redmistcostume>Э.Г.О. Красного Тумана</entityname.abno_redmistcostume>
+  <entitydescription.abno_redmistcostume>Твердое проявление Э.Г.О. Красного Тумана, её разум, ставший материальным.</entitydescription.abno_redmistcostume>
+  <entityname.abno_weakenedredmistcostume>Ослабленно Э.Г.О. Красного Тумана</entityname.abno_weakenedredmistcostume>
+  <entitydescription.abno_weakenedredmistcostume>Твердое проявление Э.Г.О. Красного Тумана, её разум, ставший материальным. Оно провело довольно много времени вдали от создателя и поэтому утратило большую часть своей изначальной силы.</entitydescription.abno_weakenedredmistcostume>
+  <entityname.clawuniform>Униформа Когтя</entityname.clawuniform>
+  <entitydescription.clawuniform>Довольно убедительная копия униформы легендарных Когтей Главы. Она значительно менее способна из-за своей гораздо более слабой технологии. Костюм требует частей оригинальной технологии корпорации, чтобы использовать его сыворотки.</entitydescription.clawuniform>
+  <entityname.trueclawuniform>Униформа Элитного Когтя</entityname.trueclawuniform>
+  <entitydescription.trueclawuniform>Униформа элитного Когтя, агента Главы.</entitydescription.trueclawuniform>
+  <entityname.clawclaw>Хватка Когтя (оружие)</entityname.clawclaw>
+  <entitydescription.clawclaw>Не двигайся, иначе тебя изрежут на ленточки.</entitydescription.clawclaw>
+  <entityname.clawhandopen>Открытый коготь (носимый)</entityname.clawhandopen>
+  <entitydescription.clawhandopen>Изменяет внешний вид металлической руки Когтя.</entitydescription.clawhandopen>
+  <fabricationdescription.qualitychange>Вещь низкого качества может быть доработана до более совершенной версии.</fabricationdescription.qualitychange>
+  <entitydescription.blacksilencegloves>У меня нет ничего, кроме моей печали, и я не хочу ничего больше. Она была и остается верна мне.</entitydescription.blacksilencegloves>
+  <entitydescription.blacksilencegloves>Почему я должен обижаться на нее, ведь в те часы, когда моя душа сокрушала глубины моего сердца, она сидела рядом со мной? </entitydescription.blacksilencegloves>
+  <entitydescription.blacksilencegloves>О горе, я закончил тем, что стал уважать тебя, потому что уверен, что ты никогда не оставишь меня. </entitydescription.blacksilencegloves>
+  <entitydescription.blacksilencegloves>А! Я понял: твоя красота - в силе твоего существа. Ты похожа на тех, кто никогда не покидал печальный уголок у камина в моем бедном черном сердце. </entitydescription.blacksilencegloves>
+  <entitydescription.blacksilencegloves>О моя печаль, ты лучше, чем возлюбленная: ведь я знаю, что в день моей последней агонии ты будешь там, лежа на моих простынях, о печаль, чтобы вновь попытаться войти в мое сердце. </entitydescription.blacksilencegloves>
+  <!-- LCCB -->
+  <entityname.lccbuniform>Униформа LCCB</entityname.lccbuniform>
+  <entitydescription.lccbuniform>Стандартная униформа LCCB, группы подавления беспорядков. Она обеспечивает хорошую защиту от множества угроз, с которыми вы можете столкнуться во время беспорядков, и имеет множество карманов.</entitydescription.lccbuniform>
+  <entityname.lccbbodyarmor>Бронежилет LCCB</entityname.lccbbodyarmor>
+  <entitydescription.lccbbodyarmor>Баллистический жилет, предназначенный в основном для использования в сценариях массовых беспорядков.</entitydescription.lccbbodyarmor>
+  <entityname.lccbhelmetmask>Шлем LCCB</entityname.lccbhelmetmask>
+  <entitydescription.lccbhelmetmask>Шлем для борьбы с беспорядками, изготовленный по стандартам LCCB и оснащенный водолазной маской. При наличии кислорода химическое оружие не представляет опасности.</entitydescription.lccbhelmetmask>
+  <entityname.lccbshotgun>Дробовик LCCB</entityname.lccbshotgun>
+  <entitydescription.lccbshotgun>Выпущенный LCCB дробовик с мощностью чуть выше среднего и специально настроенным стволом для сильных выстрелов.</entitydescription.lccbshotgun>
+  <entityname.lccbhandgun>Пистолет LCCB</entityname.lccbhandgun>
+  <entitydescription.lccbhandgun>Ручной пистолет, вдвое превосходящий по вместимости обычный револьвер, с необычным приемником двойного питания, позволяющим принимать и 9-мм магазины. Упрочненная рама позволяет ему использовать все возможности оглушающих патронов, но его отдача требует от пользователя многого.</entitydescription.lccbhandgun>
+  <entityname.quakeround>Оглушающая Пуля</entityname.quakeround>
+  <entitydescription.quakeround>Миниатюрный шоковый излучатель, настроенный на наведение тремора на цели. Повторные выстрелы быстро усиливают эффект.</entitydescription.quakeround>
+  <entityname.quakeroundmagazine>Магазин Оглушающих Патронов</entityname.quakeroundmagazine>
+  <entitydescription.quakeroundmagazine>Стандартный LCCB магазин, вмещающий 12 оглушающих патронов.</entitydescription.quakeroundmagazine>
+  <entityname.quakeroundmagazineext>Магазин Оглушающих Патронов (увеличенный)</entityname.quakeroundmagazineext>
+  <entitydescription.quakeroundmagazineext>Стандартный LCCB магазин, вмещающий 24 оглушающих патрона.</entitydescription.quakeroundmagazineext>
+  <entityname.quakeshell>Оглушающая дробь</entityname.quakeshell>
+  <entitydescription.quakeshell>Дробь для дробовика, который наносит смертельные увечья всем, кому посчастливилось оказаться на противоположной стороне ствола.</entitydescription.quakeshell>
+  <entityname.lccbbaton>Шоковая дубинка LCCB</entityname.lccbbaton>
+  <entitydescription.lccbbaton>Выпускаемая LCCB низковольтная дубинка, настроенная на определенную частоту, которая взаимодействует с явлениями тремора и вызывает паралич мышц.</entitydescription.lccbbaton>
+  <entityname.lccbshield>Баллистический Щит LCCB</entityname.lccbshield>
+  <entitydescription.lccbshield>Стандартный щит LCCB для подавления массовых беспорядков.</entitydescription.lccbshield>
+  <entityname.redshieldbullet>Пуля Физического Вмешательства</entityname.redshieldbullet>
+  <entitydescription.redshieldbullet>Гелевая пуля, подходящая для револьверов и винтовок. При выстреле в союзника она дает ему щит от физического урона.</entitydescription.redshieldbullet>
+  <entityname.whiteshieldbullet>Пуля Психологического Контроля</entityname.whiteshieldbullet>
+  <entitydescription.whiteshieldbullet>Пуля, подходящая для револьверов и винтовок, которая при выстреле в союзника предоставит ему щит от психологического урона.</entitydescription.whiteshieldbullet>
+  <entityname.blackshieldbullet>Пуля Инфекционного Контроля</entityname.blackshieldbullet>
+  <entitydescription.blackshieldbullet>Пуля, подходящая для револьверов и винтовок, которая при выстреле в союзника дает ему защиту от инфекций.</entitydescription.blackshieldbullet>
+  <entityname.paleshieldbullet>Пуля Противодействия Слабости</entityname.paleshieldbullet>
+  <entitydescription.paleshieldbullet>Пуля, подходящая для револьверов и винтовок, которая при выстреле в союзника дает ему щит от особого урона, наносимого Аномалиями.</entitydescription.paleshieldbullet>
+  <!-- K Corp -->
+  <entityname.kcorpuniform>Униформа K Corp. 1 Класса</entityname.kcorpuniform>
+  <entitydescription.kcorpuniform>Униформа, разработанная для сотрудников службы безопасности K Corp 1 класса. Она особенно хорошо подходит для поисково-спасательных операций и подавления беспорядков.</entitydescription.kcorpuniform>
+  <entityname.kcorpbodyarmor>Броня K Corp. 1 Класса</entityname.kcorpbodyarmor>
+  <entitydescription.kcorpbodyarmor>Баллистический жилет и наплечный комплект, обеспечивающий защиту от опасной окружающей среды на уровне выше среднего.</entitydescription.kcorpbodyarmor>
+  <entityname.kcorphelmet>Шлем K Corp. 1 Класса</entityname.kcorphelmet>
+  <entitydescription.kcorphelmet>Шлем, изготовленный для службы безопасности K Corp 1 класса. Включает в себя автоматический инжектор.</entitydescription.kcorphelmet>
+  <entityname.kcorpaxe>Топор K Corp.</entityname.kcorpaxe>
+  <entitydescription.kcorpaxe>Двуручный топор, созданный для службы безопасности 1 класса K Corp. , который при попадании наносят небольшое количество Разрыва или Уязвимости. Его дополнительным преимуществом является возможность уничтожать балластную флору и быстро выламывать двери, чтобы добраться до попавших в ловушку членов экипажа.</entitydescription.kcorpaxe>
+  <entityname.kcorpbaton>Шоковая Дубинка K Corp.</entityname.kcorpbaton>
+  <entitydescription.kcorpbaton>Низковольтная дубинка производства K Corp. с механизмом, схожим с дубинкой LCCB, хотя вместо паралича наносится тремор. Ее поликарбонатная конструкция позволяет ей оставаться легкой, несмотря на ее размер, но она все еще весит больше, чем другие дубинки.</entitydescription.kcorpbaton>
+  <entityname.kcorpexcisionsuit>Костюм Удаления K Corp. 3 Класса</entityname.kcorpexcisionsuit>
+  <entitydescription.kcorpexcisionsuit>Бронированный костюм, разработанный для сотрудников команды удаления 3 класса корпорации K. Регенерирующая ампула может легко проходить через костюм и регенерировать своего владельца, если он знает, как ею пользоваться.</entitydescription.kcorpexcisionsuit>
+  <entityname.kcorpstaff>Посох Удаления K Corp. 3 Класса</entityname.kcorpstaff>
+  <entitydescription.kcorpstaff>Двуручный посох, созданный для команды удаления 3 класса корпорации К., который наносит разрыв при попадании.</entitydescription.kcorpstaff>
+  <!-- R Corp -->
+  <entityname.rabbituniform>Униформа Кролика 4-й Стаи R Corp.</entityname.rabbituniform>
+  <entitydescription.rabbituniform>Легко-бронированный костюм, разработанный для команды Кроликов 4-й стаи R Corp.</entitydescription.rabbituniform>
+  <entityname.rabbithelmet>Шлем Кролика 4-й Стаи R Corp.</entityname.rabbithelmet>
+  <entitydescription.rabbithelmet>Шлем, созданный для команды Кроликов 4-й стаи R Corp. Включает в себя автоинжектор.</entitydescription.rabbithelmet>
+  <entityname.rabbitknife>Нож Кролика 4-й Стаи R Corp.</entityname.rabbitknife>
+  <entitydescription.rabbitknife>"Кролик пришел, чтобы щипать траву"</entitydescription.rabbitknife>
+  <entityname.rabbitgun>Магнитная Винтовка Кроликов 4-й Стаи R Corp.</entityname.rabbitgun>
+  <entitydescription.rabbitgun>Переносная магнитная пушка для стрельбы с плеча, используемая кроликами 4-й стаи R Corp. Она обеспечивает исключительную огневую мощь для исключительных солдат. Отдача конская, если вы неопытны.</entitydescription.rabbitgun>
+  <entityname.rcorpcoilgunclip>Магазин Винтовки R Corp. (Стандарт)</entityname.rcorpcoilgunclip>
+  <entitydescription.rcorpcoilgunclip>Стандартный магазин для винтовки из 20 патронов</entitydescription.rcorpcoilgunclip>
+  <entityname.rcorpcoilgunclipexplosive>Магазин Винтовки R Corp. (Взрывные)</entityname.rcorpcoilgunclipexplosive>
+  <entitydescription.rcorpcoilgunclipexplosive>Магазин 20 взрывоопасных патронов для винтовки</entitydescription.rcorpcoilgunclipexplosive>
+  <entityname.rcorpcoilgunclippiercing>Магазин Винтовки R Corp. (Бронебойные)</entityname.rcorpcoilgunclippiercing>
+  <entitydescription.rcorpcoilgunclippiercing>Магазин 20 бронебойных патронов для винтовки</entitydescription.rcorpcoilgunclippiercing>
+  <entityname.rcorpcoilgunclipphysicorium>Магазин Винтовки R Corp. (Физикорий)</entityname.rcorpcoilgunclipphysicorium>
+  <entitydescription.rcorpcoilgunclipphysicorium>Магазин 20 патронов сделанных из физикория для винтовки</entitydescription.rcorpcoilgunclipphysicorium>
+  <entityname.rhinosuit>Костюм Носорога 4-й Стаи R Corp.</entityname.rhinosuit>
+  <entitydescription.rhinosuit>Бронированный костюм, разработанный для команды Носорогов 4-й стаи R Corp. Эти элитные солдаты специализируются на подрывном деле и тяжелом оружии. Для работы требуются модули энкефалина.</entitydescription.rhinosuit>
+  <entityname.rhinohelmet>Шлем Носорога 4-й Стаи R Corp.</entityname.rhinohelmet>
+  <entitydescription.rhinohelmet>Шлем для команды Носорогов 4-й стаи R Corp. Включает в себя автоинжектор.</entitydescription.rhinohelmet>
+  <entityname.rhinohammer>Боевой Молот Носорогов 4-й Стаи R Corp.</entityname.rhinohammer>
+  <entitydescription.rhinohammer>Массивный молот, который лучше всего использовать вкупе с костюмом носорога R Corp. Он отлично подходит для выбивания дверей и дробления костей.</entitydescription.rhinohammer>
+  <entityname.rhinofist>Кулак Носорога</entityname.rhinofist>
+  <entitydescription.rhinofist>Оружие ближнего боя для носорогов. Сильнее с зарядом.</entitydescription.rhinofist>
+  <!-- Ring -->
+  <entityname.ringstudentoutfit>Наряд Студента Пуантилиста</entityname.ringstudentoutfit>
+  <entitydescription.ringstudentoutfit>Синдикат Кольца ценит искусство превыше всего, вплоть до того, что они считают, что в бою должно присутствовать искусство. Эта униформа защищает владельца от грязных пятен в ближнем бою и обеспечивает полную свободу движений без ограничений</entitydescription.ringstudentoutfit>
+  <entityname.ringstudentarmor>Фартук Студента Пуантилиста</entityname.ringstudentarmor>
+  <entitydescription.ringstudentarmor>Этот фартук, изготовленный из баллистического плетения, усиленного энкефалином, защищает от пуль так же хорошо, как и от пятен.</entitydescription.ringstudentarmor>
+  <entityname.ringstudenthat>Берет Студента Пуантилиста</entityname.ringstudenthat>
+  <entitydescription.ringstudenthat>Большой берет художника, скрывающая часть брони, которая обеспечивает существенную защиту верхней части головы, предотвращая сотрясения.</entitydescription.ringstudenthat>
+  <entityname.ringstudentpaintbrush>Кисть Студента Пуантилиста</entityname.ringstudentpaintbrush>
+  <entitydescription.ringstudentpaintbrush>Кисть, пропитанная энкефалином, способная накладывать любое количество случайных статусных эффектов. Среди эффектов - безумие, ожог, тремор, разрыв, опьянение и кровотечение.</entitydescription.ringstudentpaintbrush>
+  <!-- Degraded Arbiter -->
+  <entityname.arbitercloak>Ослабленный Плащ Арбитра</entityname.arbitercloak>
+  <entitydescription.arbitercloak>"Я хорошо знаю тебя, хотя ты ничего не знаешь обо мне". Этот плащ может генерировать ослабленные заклинания Арбитра за счет Энкефалина.</entitydescription.arbitercloak>
+  <entityname.arbiterchainspell>Ослабленная Цепь</entityname.arbiterchainspell>
+  <entitydescription.arbiterchainspell>Заклинание Арбитра, временно связывающее цель.</entitydescription.arbiterchainspell>
+  <entityname.arbiterbinding>Связанные руки</entityname.arbiterbinding>
+  <entitydescription.arbiterbinding>Ваши руки связанны магией</entitydescription.arbiterbinding>
+  <entityname.arbiterslashspell>Ослабленные Феи</entityname.arbiterslashspell>
+  <entitydescription.arbiterslashspell>Заклинание Арбитра, которое разрезает все на своем пути при помощи фей.</entitydescription.arbiterslashspell>
+  <entityname.arbiterpillarspell>Ослабленная Колонна</entityname.arbiterpillarspell>
+  <entitydescription.arbiterpillarspell>Заклинание Арбитра призывающее здоровенную колонну</entitydescription.arbiterpillarspell>
+  <entityname.arbiterblastspell>Ослабленная Ударная Волна</entityname.arbiterblastspell>
+  <entitydescription.arbiterblastspell>Заклинание Арбитра, которое вызывает большую ударную волну и дает 10 секунд иммунитета к оглушающему и тупому урону. ВНИМАНИЕ: заклинание игнорирует стены и имеет максимальный радиус действия 15 метров!</entitydescription.arbiterblastspell>
+  <!-- Non-Degraded Arbiter -->
+  <entityname.truearbitercloak>Настоящий Плащ Арбитра</entityname.truearbitercloak>
+  <entitydescription.truearbitercloak>"Не будет такого препятствия, котороые вы не сможете преодолеть"</entitydescription.truearbitercloak>
+  <entityname.truearbiterchainspell>Цепь</entityname.truearbiterchainspell>
+  <entitydescription.truearbiterchainspell>Заклинание Арбитра, временно связывающее цель.</entitydescription.truearbiterchainspell>
+  <entityname.truearbiterslashspell>Феи</entityname.truearbiterslashspell>
+  <entitydescription.truearbiterslashspell>Заклинание Арбитра, которое разрезает все на своем пути при помощи фей.</entitydescription.truearbiterslashspell>
+  <entityname.truearbiterpillarspell>Колонна</entityname.truearbiterpillarspell>
+  <entitydescription.truearbiterpillarspell>Заклинание Арбитра призывающее здоровенную колонну</entitydescription.truearbiterpillarspell>
+  <entityname.truearbiterblastspell>Ударная Волна</entityname.truearbiterblastspell>
+  <entitydescription.truearbiterblastspell>Заклинание Арбитра, вызывающее большую ударную волну. ВНИМАНИЕ: ОЧЕНЬ ОПАСНО!</entitydescription.truearbiterblastspell>
+  <entityname.ultimatearbiterblastspell>Мега Ударная Волна</entityname.ultimatearbiterblastspell>
+  <entitydescription.ultimatearbiterblastspell>Заклинание Арбитра, вызывающее ужасающе мощную ударную волну ВНИМАНИЕ:НЕРЕАЛЬНО ОПАСНО</entitydescription.ultimatearbiterblastspell>
+  <entityname.truearbiterrepairspell>Ремонтная Ударная Волна</entityname.truearbiterrepairspell>
+  <entitydescription.truearbiterrepairspell>Заклинание Арбитра, вызывающее ударную волну исцеляющую близлежащих людей и чинящую стены и предметы.</entitydescription.truearbiterrepairspell>
+  <entityname.arbiterrepairspell>Ослабленная Ремонтная Ударная Волна</entityname.arbiterrepairspell>
+  <entitydescription.arbiterrepairspell>Заклинание Арбитра, вызывающее ударную волну исцеляющую близлежащих людей и чинящую стены и предметы.</entitydescription.arbiterrepairspell>
+  <!-- E.G.O. Stabilizer -->
+  <entityname.egostabilizer>Стабилизатор Е.Г.О.</entityname.egostabilizer>
+  <entitydescription.egostabilizer>Шприц с галоперидолом, смешанный с энкефалином для усиления Э.Г.О. и защиты от психических повреждений.</entitydescription.egostabilizer>
+  <!-- E.G.O. Destabilizer -->
+  <entityname.egodestabilizer>Дестабилизатор Е.Г.О.</entityname.egodestabilizer>
+  <entitydescription.egodestabilizer>Шприц с галоперидолом, смешанный с энкефалином, чтобы ослабить Э.Г.О. и сделать его более восприимчивым к психическим повреждениям.</entitydescription.egodestabilizer>
+  <!-- Sanity Destabilizer -->
+  <entityname.sanitydestabilizer>Дестабилизатор Рассудка</entityname.sanitydestabilizer>
+  <entitydescription.sanitydestabilizer>Шприц с делириумом, смешанный с  энкефалином.При вкалывании вызывает помутнение рассудка.</entitydescription.sanitydestabilizer>
+  <!-- Liu Assoc. Attire -->
+  <entityname.liucoat>Плащ Ассоциации Лью</entityname.liucoat>
+  <entitydescription.liucoat>Ассоциация Лью специализируется на прямом контактном бое, предпочитая использовать пламя в качестве своего оружия. Этот плащ сделан из прочного баллистического плетения, которое снижает подвижность владельца, но обеспечивает достаточную защиту верхней части тела.</entitydescription.liucoat>
+  <entityname.liuuniform>Униформа Ассоциации Лью</entityname.liuuniform>
+  <entitydescription.liuuniform>Ассоциация Лью специализируется на прямом контактном бое, предпочитая использовать пламя в качестве своего оружия. Их униформа отлично защищает от пламени, не позволяя обжечься, играя с огнем.</entitydescription.liuuniform>
+  <!-- Liu Assoc. Weapons -->
+  <entityname.liusword>Меч Ассоциации Лью</entityname.liusword>
+  <entitydescription.liusword>Стандартный клинок Ассоциации Лью Южных секций 1 и 2. Он способен поджигать врагов, поэтому, независимо от его фактической силы, он обладает значительным психологическим фактором. Лёгкий и прост в использовании.</entitydescription.liusword>
+  <entityname.xiaoguandaofake>Гуаньдао Сяо (реплика)</entityname.xiaoguandaofake>
+  <entitydescription.xiaoguandaofake>Убедительная копия гуаньдао, принадлежащего Сяо, директору Южной секции 1 Ассоциации Лью. Даже малая часть силы оригинала делает его поистине мощным оружием. Наносит значительные ожоги.</entitydescription.xiaoguandaofake>
+  <!-- Thumb Attire -->
+  <entityname.thumbcoat>Плащ Солдата Большого Пальца</entityname.thumbcoat>
+  <entitydescription.thumbcoat>Большой Палец - один из пяти "пальцев", крупных синдикатов, по могуществу соперничающих с местным правительством. Солдаты Большого Пальца специализируются на дистанционной войне.</entitydescription.thumbcoat>
+  <entityname.soldatorifle>Винтовка Солдата Большого Пальца (стрельба)</entityname.soldatorifle>
+  <entitydescription.soldatorifle>Винтовка, произведенная синдикатом Большого Пальца для вооружения своих передовых войск. Винтовка в основном обычная, за исключением способности использовать элементарные боеприпасы, созданные с помощью силы Энкефалина. ВНИМАНИЕ: Переключение оружия в режим ближнего боя приведет к выбросу всех находящихся внутри боеприпасов!</entitydescription.soldatorifle>
+  <entityname.meleesoldatorifle>Винтовка Солдата Большого Пальца (приклад)</entityname.meleesoldatorifle>
+  <entitydescription.meleesoldatorifle>Когда у солдат из синдиката Большого Пальца заканчиваются боеприпасы, они, как известно, используют свои винтовки в качестве импровизированного оружия ближнего боя.</entitydescription.meleesoldatorifle>
+  <entityname.soldatofreezeround>Замораживающая Пуля Солдата</entityname.soldatofreezeround>
+  <entitydescription.soldatofreezeround>Криогенные снаряды, которые замораживает цель, попутно её замедляя.</entitydescription.soldatofreezeround>
+  <entityname.soldatoarmorround>Бронебойная Пуля Солдата</entityname.soldatoarmorround>
+  <entitydescription.soldatoarmorround>Мощные боеприпасы, хорошо пробивающие броню и способные пробить дверь или стену, чтобы поразить цель.</entitydescription.soldatoarmorround>
+  <entityname.soldatoflameround>Поджигающая Пуля Солдата</entityname.soldatoflameround>
+  <entitydescription.soldatoflameround>Поджигающая пуля, произведенная синдикатом Большого Пальца. Прижигает любые нанесенные раны практически мгновенно, и поэтому не может вызвать значительного кровотечения.</entitydescription.soldatoflameround>
+  <entityname.discipline>Дисциплина</entityname.discipline>
+  <entitydescription.discipline>Эти кастеты, пропитанные энкефалином, обычно используются членами Синдиката Большого Пальца в качестве запасного оружия.</entitydescription.discipline>
+  <!-- The Middle -->
+  <entityname.middleoutfit>Одежда Младшего Брата Среднего Пальца</entityname.middleoutfit>
+  <entitydescription.middleoutfit>Стандартная одежда для младших братьев Среднего Пальца. Может показаться, что она не очень защищает, но татуировки усиления, пропитанные Энкефалином, вплетенные в ткань этой одежды, делают ее удивительно прочной. Но на перестрелку лучше надевать броню... Не то чтобы вы позволили причинить вред своим братьям. Не безнаказанно.</entitydescription.middleoutfit>
+  <entityname.middlechains>Цепи Среднего Пальца</entityname.middlechains>
+  <entitydescription.middlechains>Без одежды это не более чем инструмент для избиения, но с одеждой вы будете мстить за все.</entitydescription.middlechains>
+  <entityname.middlechainsleft>Цепи Среднего Пальца (Левая рука)</entityname.middlechainsleft>
+  <entitydescription.middlechainsleft>Средний палец предпочитают тяжелые цепи для ближнего боя. Эти цепи обеспечивают беспрецедентную защиту от входящих ударов и позволяют усиленным членам Среднего Пальца бить с нечеловеческой силой. Однако в руках нетренированных они довольно жалки.</entitydescription.middlechainsleft>
+  <entityname.middlechainsright>Цепи Среднего Пальца (Правая рука)</entityname.middlechainsright>
+  <entitydescription.middlechainsright>Средний палец предпочитают тяжелые цепи для ближнего боя. Эти цепи обеспечивают беспрецедентную защиту от входящих ударов и позволяют усиленным членам Среднего Пальца бить с нечеловеческой силой. Однако в руках нетренированных они довольно жалки.</entitydescription.middlechainsright>
+  <entityname.bookofvengeance>Книга Возмездия</entityname.bookofvengeance>
+  <entitydescription.bookofvengeance>Синдикат Среднего Пальца известен своими обидами. Каждый член Синдиката должен носить одну из этих Книг и записывать свои обиды.</entitydescription.bookofvengeance>
+  <entityname.electricguitar>Дьявольская Электрогитара</entityname.electricguitar>
+  <entitydescription.electricguitar>Гитара, настроенная для игры музыки, характерной для Среднего Пальца.</entitydescription.electricguitar>
+  <entityname.middletattoos1>Татуировки Среднего Пальца (Защита)</entityname.middletattoos1>
+  <entitydescription.middletattoos1>Средниий Палец наделяет своих членов специализированными татуировками усиления. Эта татуировка повышает сопротивляемость владельца.</entitydescription.middletattoos1>
+  <entityname.middletattoos2>Татуировки Среднего Пальца  (Скорость)</entityname.middletattoos2>
+  <entitydescription.middletattoos2>Средниий Палец наделяет своих членов специализированными татуировками усиления. Эта татуировка повышает скорость владельца.</entitydescription.middletattoos2>
+  <entityname.middletattoos3>Татуировки Среднего Пальца (Сила)</entityname.middletattoos3>
+  <entitydescription.middletattoos3>Средниий Палец наделяет своих членов специализированными татуировками усиления. Эта татуировка повышает физическую сиду владельца.</entitydescription.middletattoos3>
+  <entityname.seniormiddletattoos1>Татуировки Старшины Среднего Пальца (Защита)</entityname.seniormiddletattoos1>
+  <entitydescription.seniormiddletattoos1>Средний Палец наделяет своих членов специализированными татуировками усиления. Эта татуировка сильно повышает сопротивляемость владельца, а также дает возможность вставить второй ген. Обычно доступна только тем, кто может ее купить или заработать у Среднего Пальца.</entitydescription.seniormiddletattoos1>
+  <entityname.seniormiddletattoos2>Татуировки Старшины Среднего Пальца (Скорость)</entityname.seniormiddletattoos2>
+  <entitydescription.seniormiddletattoos2>Средний Палец наделяет своих членов специализированными татуировками усиления. Эта татуировка сильно повышает скорость владельца, а также дает возможность вставить второй ген. Обычно доступна только тем, кто может ее купить или заработать у Среднего Пальца.</entitydescription.seniormiddletattoos2>
+  <entityname.seniormiddletattoos3>Татуировки Старшины Среднего Пальца (Сила)</entityname.seniormiddletattoos3>
+  <entitydescription.seniormiddletattoos3>Средний Палец наделяет своих членов специализированными татуировками усиления. Эта татуировка сильно повышает силу владельца, а также дает возможность вставить второй ген. Обычно доступна только тем, кто может ее купить или заработать у Среднего Пальца.</entitydescription.seniormiddletattoos3>
+  <!-- Inquisition -->
+  <entityname.onailgun>Гвоздомёт</entityname.onailgun>
+  <entitydescription.onailgun>Устаревший инструмент, созданный еще до появления автономных сварочных инструментов. Хотя он по-прежнему эффективен, сварочные инструменты превосходят его практически по всем параметрам.</entitydescription.onailgun>
+  <entityname.onail>Гвоздь</entityname.onail>
+  <entitydescription.onail>Тонкий кусок железа, используемый для скрепления мягких материалов.</entitydescription.onail>
+  <entityname.olongnail>Длинный гвоздь (Вбивать)</entityname.olongnail>
+  <entitydescription.olongnail>Исключительно длинный гвоздь, предназначенный для использования в качестве оружия.</entitydescription.olongnail>
+  <entityname.olongnail2>Длинный Гвоздь (Режущий)</entityname.olongnail2>
+  <entitydescription.olongnail2>Исключительно длинный гвоздь, предназначенный для использования в качестве оружия</entitydescription.olongnail2>
+  <entityname.olongnail3>Длинный Гвоздь (Метание)</entityname.olongnail3>
+  <entitydescription.olongnail3>Длинный гвоздь который можно кинуть</entitydescription.olongnail3>
+  <entityname.kromernailimpaling>Гвоздь Кромер (Вбивать)</entityname.kromernailimpaling>
+  <entitydescription.kromernailimpaling>Исключительно длинный гвоздь, которым владеет Та, кто держит. Он известен своими быстрыми колющими ударами.</entitydescription.kromernailimpaling>
+  <entityname.kromernailslashing>Гвоздь Кромер (Режущий)</entityname.kromernailslashing>
+  <entitydescription.kromernailslashing>Исключительно длинный гвоздь, которым владеет Та, кто держит. Несмотря на то, что он выглядит как гвоздь, по функциональности он очень похож на длинный меч.</entitydescription.kromernailslashing>
+  <entityname.kromernailthrowing>Гвоздь Кромер (Метание)</entityname.kromernailthrowing>
+  <entitydescription.kromernailthrowing>Длинный гвоздь, который можно бросить. Это фирменный приём Той, кто держит , которое застает многих врасплох и часто оказывается смертельным.</entitydescription.kromernailthrowing>
+  <entityname.orustynail>Ржавый Гвоздь</entityname.orustynail>
+  <entitydescription.orustynail>Ржавые гвозди, ставшие хрупкими под воздействием стихии, бесполезны для строительства и наносят незначительный физический ущерб. Не напоритесь на этот гвоздь.</entitydescription.orustynail>
+  <entityname.purifiernailgun>Гвоздомёт Очистителя</entityname.purifiernailgun>
+  <entitydescription.purifiernailgun>Гвоздомет, встроенный в руку очистителя</entitydescription.purifiernailgun>
+  <entityname.tremorsledge>Тремормиттельхаммер Очистителя</entityname.tremorsledge>
+  <entitydescription.tremorsledge>Большая, тяжелая кувалда с внутренней миниатюрной разрядной катушкой, настроенная на провоцирование тремора и резонанса с гвоздями.</entitydescription.tremorsledge>
+  <entityname.tremorsledgesmall>Треморкляйнхаммер Очистителя</entityname.tremorsledgesmall>
+  <entitydescription.tremorsledgesmall>Одноручный треморомахмер, модифицированный для быстрых ударов. Очень хорош для агрессивного ближнего боя.</entitydescription.tremorsledgesmall>
+  <entityname.civtremorsledge>Тремормиттельхаммер</entityname.civtremorsledge>
+  <entitydescription.civtremorsledge>Большая, тяжелая кувалда с внутренней миниатюрной разрядной катушкой. При ударе провоцирует Тремор, если вставлена ​​батарея.</entitydescription.civtremorsledge>
+  <entityname.civtremorsledgesmall>Треморкляйнхаммер</entityname.civtremorsledgesmall>
+  <entitydescription.civtremorsledgesmall>Одноручный треморхаммер, модифицированный для быстрых ударов. Очень хорош для агрессивного ближнего боя.</entitydescription.civtremorsledgesmall>
+  <entityname.purifierhelmetoasis>Шлем Очистителя</entityname.purifierhelmetoasis>
+  <entitydescription.purifierhelmetoasis>Для Той, кто держит</entitydescription.purifierhelmetoasis>
+  <entityname.kromercoat>Плащ Кромер</entityname.kromercoat>
+  <entitydescription.kromercoat>Идеальный наряд для мечтателей о человеческой целостности.</entitydescription.kromercoat>
+  <entityname.ahabgaspoweredharpoon>Газовый Гарпун Ахава (Режущий)</entityname.ahabgaspoweredharpoon>
+  <entitydescription.ahabgaspoweredharpoon>Крепкое газовое копье, заточенное так, чтобы пронзать сердца китов.</entitydescription.ahabgaspoweredharpoon>
+  <entityname.ahabgasharpoonthrowable>Газовый Гарпун Ахава (Метание)</entityname.ahabgasharpoonthrowable>
+  <entitydescription.ahabgasharpoonthrowable>Прочное металлическое копье, которое можно метать, к взрывному концу.</entitydescription.ahabgasharpoonthrowable>
+  <!-- Rosespanner, formerly Hellspanner -->
+  <entityname.hellspannerrepair>Ключ Мастерской Розы (Ремонт)</entityname.hellspannerrepair>
+  <entitydescription.hellspannerrepair>«Большой металлический гаечный ключ. Один конец функционирует как обычный гаечный ключ, а другой — это комбинация электрической цепной пилы и отвертки. С его весом лучше всего справятся хорошо сложенные механики. В режиме ремонта он функционирует как многофункциональный инструмент. Удар по врагу со вставленной батареей провоцирует взрыв тремора.</entitydescription.hellspannerrepair>
+  <entityname.hellspannersaw>Ключ Мастерской Розы (Бензопила)</entityname.hellspannersaw>
+  <entitydescription.hellspannersaw>Большой металлический гаечный ключ. В режиме пилы он становится опасным оружием и накладывает эффект Тремора, но для его работы требуется батарея. Он может легко прорезать стены и двери, а с фульгуриевой батареей он может также кромсать броню монстров.</entitydescription.hellspannersaw>
+  <!-- Wild Hunt -->
+  <entityname.wildhuntsword>Меч Дикой Охоты</entityname.wildhuntsword>
+  <entitydescription.wildhuntsword>Огромный и необычный меч, которым трудно владеть, если вы не аномально сильны. Кто или что его сделал и для какой цели — неизвестно.</entitydescription.wildhuntsword>
+  <entityname.wildhuntcoffin>Гроб Дикой Охоты</entityname.wildhuntcoffin>
+  <entitydescription.wildhuntcoffin>"Я и тебя засуну в этот гроб!"</entitydescription.wildhuntcoffin>
+  <entityname.unusablecoffin>Повреждённый Гроб</entityname.unusablecoffin>
+  <entitydescription.unusablecoffin>Из-за повреждений гроб больше нельзя использовать в качестве щита, но, похоже, он медленно восстанавливается.</entitydescription.unusablecoffin>
+  <entityname.wildhuntcoat>Плащ Дикой Охоты</entityname.wildhuntcoat>
+  <entitydescription.wildhuntcoat>"Во Имя Охоты"</entitydescription.wildhuntcoat>
+  <entityname.wildhuntcoatspecial>Плащ Хитклифа</entityname.wildhuntcoatspecial>
+  <entitydescription.wildhuntcoatspecial>"Кэтрин..."</entitydescription.wildhuntcoatspecial>
+  <!-- Abnos -->
+  <entityname.abnospawnshop>Приманка для аномалий</entityname.abnospawnshop>
+  <entitydescription.abnospawnshop>Терминал, позволяющий установить прямую связь с Центральным командованием Коалиции, которое может координировать приманку для привлечения определенных монстров в эту область — за определенную плату.</entitydescription.abnospawnshop>
+  <entityname.gatetotheblackforest>Черные Врата</entityname.gatetotheblackforest>
+  <entitydescription.gatetotheblackforest>Этот портал питающийся энкефалином работает в одну сторону: ничто не может войти, но с обратной стороны можно достать интересные вещи. Будьте предельно осторожны.</entitydescription.gatetotheblackforest>
+  <entityname.enkephalinprocessor>Обработчик Энкефалина</entityname.enkephalinprocessor>
+  <entitydescription.enkephalinprocessor>Машина, предназначенная для создания вещей связанных с энкефалином.</entitydescription.enkephalinprocessor>
+  <entityname.glupomask>Маска Глупо</entityname.glupomask>
+  <entityname.containmentcell>Камера Содержания</entityname.containmentcell>
+  <entitydescription.containmentcell>Прочная камера содержания, предназначенная для хранения и выполнения работ с Аномальными яйцами для генерирования Энкефалиновых коробок. Не дайте ей сломаться!</entitydescription.containmentcell>
+  <entityname.shopsummon_glupo>[ZAYIN] Плачущая жаба</entityname.shopsummon_glupo>
+  <entitydescription.shopsummon_glupo>*звуки жабы*</entitydescription.shopsummon_glupo>
+  <entityname.shopsummon_onesin>[ZAYIN] Один грех и сотни благих деяний</entityname.shopsummon_onesin>
+  <entitydescription.shopsummon_onesin>Призывает Один грех и сотни благих деяний, полезную аномалию уровня ZAYIN</entitydescription.shopsummon_onesin>
+  <entityname.shopsummon_punishingbird>[TETH] Карающая птица</entityname.shopsummon_punishingbird>
+  <entitydescription.shopsummon_punishingbird>Призывает Карающую птицу, полезную аномалию уровня TETH</entitydescription.shopsummon_punishingbird>
+  <entityname.shopsummon_forsakenmurderer>[TETH] Покинутый убийца</entityname.shopsummon_forsakenmurderer>
+  <entitydescription.shopsummon_forsakenmurderer>Призывает Покинутого убийцу, враждебную аномалию уровня TETH</entitydescription.shopsummon_forsakenmurderer>
+  <entityname.shopsummon_talisman>[TETH] "Чтобы никто не плакал"</entityname.shopsummon_talisman>
+  <entitydescription.shopsummon_talisman>Призывает "Чтобы никто не плакал", деревянную куклу, наносящая в основном тупой и разрывной урон</entitydescription.shopsummon_talisman>
+  <entityname.shopsummon_drenchedgossypium>[TETH] Цветок Госсипиума</entityname.shopsummon_drenchedgossypium>
+  <entitydescription.shopsummon_drenchedgossypium>Призывает Цветок Госсипиума, враждебную аномалию уровня TETH</entitydescription.shopsummon_drenchedgossypium>
+  <entityname.shopsummon_amberdawn>[TETH] Янтарный рассвет</entityname.shopsummon_amberdawn>
+  <entitydescription.shopsummon_amberdawn>Призывает Испытание Янтарного рассвета, группу маленьких бронированных червей</entitydescription.shopsummon_amberdawn>
+  <entityname.shopsummon_kqe>[HE] KQE-1J-23</entityname.shopsummon_kqe>
+  <entitydescription.shopsummon_kqe>Призывает KQE-1J-23, гуманоидное слияние плоти и микросхем.</entitydescription.shopsummon_kqe>
+  <entityname.shopsummon_waywardpassenger>[HE] Заблудший пассажир</entityname.shopsummon_waywardpassenger>
+  <entitydescription.shopsummon_waywardpassenger>Призывает Заблудшего пассажира, мутировавшего человека, способного перемещаться между измерениями.</entitydescription.shopsummon_waywardpassenger>
+  <entityname.shopsummon_derfreischutzenemy>[HE] Вольный стрелок (враждебный)</entityname.shopsummon_derfreischutzenemy>
+  <entitydescription.shopsummon_derfreischutzenemy>Призывает Вольного стрелка, наёмника с винтовкой. Спавнит его как врага</entitydescription.shopsummon_derfreischutzenemy>
+  <entityname.shopsummon_derfreischutzally>[HE] Вольный стрелок (нанятый)</entityname.shopsummon_derfreischutzally>
+  <entitydescription.shopsummon_derfreischutzally>Призывает Вольного стрелка, наёмника с винтовкой. Спавнит его как союзника</entitydescription.shopsummon_derfreischutzally>
+  <entityname.shopsummon_amberdusk>[WAW] Янтарные сумерки</entityname.shopsummon_amberdusk>
+  <entitydescription.shopsummon_amberdusk>Призывает Испытание Янтарных сумерек, два крупных бронированных червя, которые время от времени порождают более мелких собратьев.</entitydescription.shopsummon_amberdusk>
+  <entityname.shopsummon_spiral>[WAW] Спираль презрения</entityname.shopsummon_spiral>
+  <entitydescription.shopsummon_spiral>Призывает Спираль презрения, статую-подобную Аномалию, способную парализовать людей с помощью призванных статуй.</entitydescription.shopsummon_spiral>
+  <entityname.shopsummon_burrow>[WAW] Пронзающий небеса</entityname.shopsummon_burrow>
+  <entitydescription.shopsummon_burrow>Призывает Пронзающего небеса, древо из плоти. "Когда твои слёзы высохнут, ответь мне."</entitydescription.shopsummon_burrow>
+  <entityname.shopsummon_nakednest>[WAW] Обнажённое гнездо</entityname.shopsummon_nakednest>
+  <entitydescription.shopsummon_nakednest>Призывает Обнажённое гнездо, гнездо паразитических червей</entitydescription.shopsummon_nakednest>
+  <entityname.shopsummon_nothingthere>[ALEPH] "Здесь ничего нет"</entityname.shopsummon_nothingthere>
+  <entitydescription.shopsummon_nothingthere>Призывает "Здесь ничего нет", монстр, который пытается имитировать человеческое поведение.</entitydescription.shopsummon_nothingthere>
+  <entityname.shopsummon_meatdoggy>[ALEPH] Мясная собачка</entityname.shopsummon_meatdoggy>
+  <entitydescription.shopsummon_meatdoggy>Здесь ничего нету?! Ничего нету! ! !! о божечки мясной пёсик</entitydescription.shopsummon_meatdoggy>
+  <entityname.shopsummon_bluestar>[ALEPH] Голубая Звезда</entityname.shopsummon_bluestar>
+  <entitydescription.shopsummon_bluestar>Призывает Голубую звезду, сингулярность полная человеческих ног.</entitydescription.shopsummon_bluestar>
+  <entityname.shopsummon_censored>[ALEPH] ЗАЦЕНЗУРЕНО</entityname.shopsummon_censored>
+  <entitydescription.shopsummon_censored>Призывает [ЗАЦЕНЗУРЕНО] , которая является [ЗАЦЕНЗУРЕНО]</entitydescription.shopsummon_censored>
+  <entityname.shopsummon_apocalypsebird>[ALEPH] Птица Апокалипсиса</entityname.shopsummon_apocalypsebird>
+  <entitydescription.shopsummon_apocalypsebird>Призывает Птицу апокалипсиса</entitydescription.shopsummon_apocalypsebird>
+  <!-- Eggs -->
+  <entityname.glupoegg>[ZAYIN] Плачущая жаба (Яйцо Аномалии)</entityname.glupoegg>
+  <entitydescription.glupoegg>Это странное яйцо кажется... опечаленным. Если его не сдерживать, из него в конечном итоге вылупится Плачущая жаба.</entitydescription.glupoegg>
+  <entityname.punishingbirdegg>[TETH] Карающая птица (Яйцо Аномалии)</entityname.punishingbirdegg>
+  <entitydescription.punishingbirdegg>Из этого «яйца» высовывается большой рот. Если его не сдерживать, то в конечном итоге из него вылупится Карающая птица.</entitydescription.punishingbirdegg>
+  <entityname.talismanegg>[TETH] "Чтобы никто не плакал" (Яйцо Аномалии)</entityname.talismanegg>
+  <entitydescription.talismanegg>Это расколотое деревянное яйцо покрыто проклятыми талисманами. Если его не сдержать, в конце концов из него вылупится "Чтобы никто не плакал".</entitydescription.talismanegg>
+  <entityname.gossypiumegg>[TETH] Цветок Госсипиума (Яйцо Аномалии</entityname.gossypiumegg>
+  <entitydescription.gossypiumegg>Это цветущее яйцо пропитано человеческой кровью. Если его не сдержать, оно в конечном итоге вылупится в Цветок Госсипиума</entitydescription.gossypiumegg>
+  <entityname.headlessichthysegg>[HE] Безголовый Ихтис (Яйцо Аномалии)</entityname.headlessichthysegg>
+  <entitydescription.headlessichthysegg>Это рыбье яйцо, похоже, содержит мешок с синей жидкостью. Если держать его под водой, в конечном итоге из него вылупится Безголовый Ихтис.</entitydescription.headlessichthysegg>
+  <entityname.kqeegg>[HE] KQE-1J-23 (Яйцо Аномалии)</entityname.kqeegg>
+  <entitydescription.kqeegg>Это кибернетическое яйцо, похоже, делает праздные вычисления. Если его не сдерживать, оно в конечном итоге вылупится в KQE-1J-23.</entitydescription.kqeegg>
+  <entityname.waywardpassengeregg>[HE] Заблудший пассажир (Яйцо Аномалии)</entityname.waywardpassengeregg>
+  <entitydescription.waywardpassengeregg>Это ужасно деформированное яйцо гораздо старше, чем кажется. Если его не сдерживать, оно в конечном итоге вылупится в Заблудшего пассажира.</entitydescription.waywardpassengeregg>
+  <entityname.spiralegg>[WAW] Спираль презрения (Яйцо Аномалии</entityname.spiralegg>
+  <entitydescription.spiralegg>Это позолоченное яйцо, кажется, смотрит на тебя свысока, даже сейчас. Если его не сдержать, оно в конечном итоге вылупится в Спираль Презрения.</entitydescription.spiralegg>
+  <entityname.nothingthereegg>[ALEPH] "Здесь ничего нет" (Яйцо Аномалии)</entityname.nothingthereegg>
+  <entitydescription.nothingthereegg>Это яйцо сделано из чего-то похожего на человеческую плоть. Если его не сдерживать, оно в конечном итоге вылупится в "Здесь ничего нет".</entitydescription.nothingthereegg>
+  <entityname.meatdoggyegg>[ALEPH] Мясная собачка (Яйцо Аномалии)</entityname.meatdoggyegg>
+  <entitydescription.meatdoggyegg>Это яйцо сделано из чего-то похожего на человеческую плоть. Если его не сдерживать, то в конечном итоге из него вылупится дружелюбный Мясной Пёсик.</entitydescription.meatdoggyegg>
+  <!-- Seven Assoc. Attire -->
+  <entityname.sevenuniform1>Униформа Ассоциации Севен (зелёная)</entityname.sevenuniform1>
+  <entitydescription.sevenuniform1>Ассоциация Севен специализируется на сборе разведданных, поэтому их наряды обычно помогают им лучше вписаться в среду гражданских. Они по-прежнему имеют с собой достаточно защиты, а также глубокие карманы.</entitydescription.sevenuniform1>
+  <entityname.sevenuniform2>Униформа Ассоциации Севен (чёрная)</entityname.sevenuniform2>
+  <entitydescription.sevenuniform2>Ассоциация Севен специализируется на сборе разведданных, поэтому их наряды обычно помогают им лучше вписаться в среду гражданских. Они по-прежнему имеют с собой достаточно защиты, а также глубокие карманы.</entitydescription.sevenuniform2>
+  <entityname.sevenvest>Жилет Ассоциации Севен</entityname.sevenvest>
+  <entitydescription.sevenvest>Ассоциация Севен специализируется на сборе разведданных. Этот жилет изготовлен из баллистического плетения, которое защищает от оружия, которое может быть у подозреваемого, но плохо защищает от естественных монстров Европы. Отказ от защиты рукавов позволяет использовать более прочные материалы в самом жилете и улучшает обращение с оружием, но карманов меньше.</entitydescription.sevenvest>
+  <entityname.sevencoat>Плащ Ассоциации Севен</entityname.sevencoat>
+  <entitydescription.sevencoat>Ассоциация Севен специализируется на сборе разведданных. Это пальто сделано из баллистического плетения, которое защищает от оружия, которое может быть у подозреваемого, но плохо защищает от естественных монстров Европы</entitydescription.sevencoat>
+  <!-- Seven Assoc. Weapons -->
+  <entityname.sevensword>Палаш Ассоциации Севен</entityname.sevensword>
+  <entitydescription.sevensword>Стандартный палаш Южной Секции Ассоциации Севен. Он хорошо сбалансирован и точен, что позволяет пользователю легче наносить удары по слабым местам цели.</entitydescription.sevensword>
+  <entityname.7revolverround>Патрон Револьвера Ассоциации Севен</entityname.7revolverround>
+  <entitydescription.7revolverround>Револьверный патрон, произведенный Ассоциацией Севен для использования ее оперативниками. Его особая боевая конструкция позволяет наносить дополнительный урон и эффекты слабым местам противника и парализовать конечности.</entitydescription.7revolverround>
+  <entityname.7riflebullet>Пуля Винтовки Ассоциации Севен</entityname.7riflebullet>
+  <entitydescription.7riflebullet>Винтовочный патрон, произведенный Ассоциацией Севен для использования ее оперативниками. Её особая боевая конструкция позволяет наносить дополнительный урон слабым местам противника и парализовать конечности.</entitydescription.7riflebullet>
+  <entityname.forensicsdata>Данные судебной экспертизы</entityname.forensicsdata>
+  <entitydescription.forensicsdata>Полезная информация, относящаяся к криминальному делу. Используйте это в вашем интерфейсе здоровья, чтобы получить опыт</entitydescription.forensicsdata>
+  <!-- Mission stuff -->
+  <!-- Suppress Headless Ichthys -->
+  <missionname.headlessichthys>Подавление Безголового ихтиса</missionname.headlessichthys>
+  <missiondescription.headlessichthys>Безголовый Ихтис терроризирует суда, курсирующие между [location1] и [location2]. Награда в размере [reward] кредитов была обещана любой команде, которая сможет его нейтрализовать.</missiondescription.headlessichthys>
+  <missionsonarlabel.headlessichthys>Безголовый Ихтис</missionsonarlabel.headlessichthys>
+  <missionsuccess.headlessichthys>Безголовый Ихтис был подавлен.</missionsuccess.headlessichthys>
+  <missionheader0.headlessichthys>Угроза подавлена.</missionheader0.headlessichthys>
+  <missionmessage0.headlessichthys>Безголовый Ихтис подавлен. Выведите подводную лодку из пещеры, чтобы получить награду.</missionmessage0.headlessichthys>
+  <!-- Abnormality -->
+  <missionname.abandonedoutpostabnormality>Подавление аномалии на аванпосте</missionname.abandonedoutpostabnormality>
+  <missiondescription.abandonedoutpostabnormality>Связь с [location1] была недавно потеряна, и есть подозрение, что враждебные Аномалии построили гнездо внутри него. Найдите любые Аномалии внутри аванпоста и подавите их.</missiondescription.abandonedoutpostabnormality>
+  <missionsuccess.abandonedoutpostabnormality>Аномалии внутри аванпоста были успешно подавлены.</missionsuccess.abandonedoutpostabnormality>
+  <missionfailure.abandonedoutpostabnormality>Аванпост по-прежнему переполнен Аномалиями.</missionfailure.abandonedoutpostabnormality>
+  <missionheader0.abandonedoutpostabnormality>Аномалия подавлена</missionheader0.abandonedoutpostabnormality>
+  <missionmessage0.abandonedoutpostabnormality>Аномалия внутри аванпоста успешно подавлена. Отстыкуйтесь от аванпоста, чтобы завершить миссию.</missionmessage0.abandonedoutpostabnormality>
+  <!-- Breach -->
+  <missionname.abandonedoutpostabnormalitybreach>Нарушение условий содержания аномалий на аванпосте</missionname.abandonedoutpostabnormalitybreach>
+  <missiondescription.abandonedoutpostabnormalitybreach>Связь с [location1] была недавно потеряна, и есть подозрение, что несколько Аномалий нарушили условия содержания. Найдите любые Аномалии внутри аванпоста и подавите их.</missiondescription.abandonedoutpostabnormalitybreach>
+  <missionsuccess.abandonedoutpostabnormalitybreach>Аномалии внутри аванпоста были успешно подавлены.</missionsuccess.abandonedoutpostabnormalitybreach>
+  <missionfailure.abandonedoutpostabnormalitybreach>Аванпост по-прежнему переполнен Аномалиями.</missionfailure.abandonedoutpostabnormalitybreach>
+  <missionheader0.abandonedoutpostabnormalitybreach>Аномалия подавлена</missionheader0.abandonedoutpostabnormalitybreach>
+  <missionmessage0.abandonedoutpostabnormalitybreach>Аномалии внутри аванпоста были успешно подавлены. Отстыкуйтесь от аванпоста, чтобы завершить миссию.</missionmessage0.abandonedoutpostabnormalitybreach>
+  <!-- Amber Dawn -->
+  <missionname.abandonedoutpostordealamberdawn>Испытание Янтарного Рассвета</missionname.abandonedoutpostordealamberdawn>
+  <missiondescription.abandonedoutpostordealamberdawn>Связь с [location1] была недавно потеряна, и есть подозрение, что появилась Аномалия-Испытание. Найдите любые янтарные сущности внутри аванпоста и подавите их.</missiondescription.abandonedoutpostordealamberdawn>
+  <missionsuccess.abandonedoutpostordealamberdawn>Чтобы жить, мы ели без конца. Неизбежное истощение, мусор...</missionsuccess.abandonedoutpostordealamberdawn>
+  <missionfailure.abandonedoutpostordealamberdawn>Переваренная пища, абсолютно взаимозаменяема.</missionfailure.abandonedoutpostordealamberdawn>
+  <missionheader0.abandonedoutpostordealamberdawn>Испытание подавлено</missionheader0.abandonedoutpostordealamberdawn>
+  <missionmessage0.abandonedoutpostordealamberdawn>Аномалия-Испытание внутри аванпоста была успешно подавлена. Отстыкуйтесь от аванпоста, чтобы завершить миссию.</missionmessage0.abandonedoutpostordealamberdawn>
+  <!-- Amber Dusk -->
+  <missionname.abandonedoutpostordealamberdusk>Испытание Янтарных Сумерек</missionname.abandonedoutpostordealamberdusk>
+  <missiondescription.abandonedoutpostordealamberdusk>Связь с [location1] была недавно потеряна, и есть подозрение, что появилась Аномалия-Испытание. Найдите любые янтарные сущности внутри аванпоста и подавите их.</missiondescription.abandonedoutpostordealamberdusk>
+  <missionsuccess.abandonedoutpostordealamberdusk>Мы были способны жить. Мы должны продолжать есть.</missionsuccess.abandonedoutpostordealamberdusk>
+  <missionfailure.abandonedoutpostordealamberdusk>Стремление узнать, каково это на вкус было неизбежным процессом.</missionfailure.abandonedoutpostordealamberdusk>
+  <missionheader0.abandonedoutpostordealamberdusk>Испытание подавлено</missionheader0.abandonedoutpostordealamberdusk>
+  <missionmessage0.abandonedoutpostordealamberdusk>Аномалия-Испытание внутри аванпоста была успешно подавлена. Отстыкуйтесь от аванпоста, чтобы завершить миссию.</missionmessage0.abandonedoutpostordealamberdusk>
+  <!-- Afflictions -->
+  <afflictiondescription.abnormalityburning.self>AAAAAAAAAAAAAAA</afflictiondescription.abnormalityburning.self>
+  <afflictiondescription.abnormalityburning>Extinguish the flames!</afflictiondescription.abnormalityburning>
+  <afflictiontype.specialhuskinfection>Special Husk Infection</afflictiontype.specialhuskinfection>
+  <afflictiontype.eldritchinfection>Eldritch Infection</afflictiontype.eldritchinfection>
+  <afflictiondescription.pale.self.low>There is a dull ache in your chest, although it doesn't seem physically present. Painkillers don't numb the pain. You find yourself struggling a bit more when trying to move your body, like you're becoming disconnected.</afflictiondescription.pale.self.low>
+  <afflictiondescription.pale.low>The patient reports pain, but you can't find any physical damage. Their movements seem sluggish and fatigued.</afflictiondescription.pale.low>
+  <afflictiondescription.pale.self>Your limbs are weak and struggle to move. The very essence of your life is being destroyed.</afflictiondescription.pale.self>
+  <afflictiondescription.pale>The patient is extremely sluggish, bordering on unconsciousness. It's clear something is very wrong with them, but you can't see what it is.</afflictiondescription.pale>
+  <afflictiondescription.pale.severe>Let us meet again as stars.</afflictiondescription.pale.severe>
+  <afflictionname.evade>Evade</afflictionname.evade>
+  <afflictiondescription.evade>Ready to evade.</afflictiondescription.evade>
+  <afflictionname.guard>Guard</afflictionname.guard>
+  <afflictiondescription.guard>Ready to guard.</afflictiondescription.guard>
+  <afflictionname.aggro>Aggro</afflictionname.aggro>
+  <afflictiondescription.aggro>Drawing attention</afflictiondescription.aggro>
+  <afflictionname.successtobepraised>Success, to be Praised</afflictionname.successtobepraised>
+  <afflictiondescription.successtobepraised>Keep up the good work.</afflictiondescription.successtobepraised>
+  <afflictionname.ontheclock>On the Clock</afflictionname.ontheclock>
+  <afflictiondescription.ontheclock>No time to waste.</afflictiondescription.ontheclock>
+  <afflictiondescription.bluestarpulse.self.low>As you descend into psychosis, you can't help but sense the Blue Star's ambiance in the back of your mind.</afflictiondescription.bluestarpulse.self.low>
+  <afflictiondescription.bluestarpulse.self>Although you despair at the state of the world, Blue Star promises hope. If you can only join it...</afflictiondescription.bluestarpulse.self>
+  <afflictiondescription.bluestarpulse>It's too late for the patient now. They have succumbed to the Blue Star's influence.</afflictiondescription.bluestarpulse>
+  <afflictiondescription.bluestarpulse.severe.self>Let us meet again as stars.</afflictiondescription.bluestarpulse.severe.self>
+  <!-- Guides -->
+  <alephguide>Руководство по аномалия класса ALEPH\n\n"Здесь Ничего Нет"\n\nГигантская масса плоти. Режет жертв, исцеляясь.\nИспользуйте экстремальную силу. Не расслабляйтесь и не давайте Аномалии возможности передохнуть.\n\nСбрасывает Э.Г.О. "Мимикрия" при смерти\n\nГолубая Звезда\n\nСПри контакте с ней ваш рассудок опускается ниже плинтуса с очень стремительной скоростью\nНе поддавайся безумию, иначе ты станешь единым со звездой.\n\nЗАЦЕНЗУРО\n\nОпасно. Может (ЦЕНЗУРА) в (ЦЕНЗУРА) с людьми и хасками чтобы создавать разные (ЦЕНЗУРА).\nДержитесь на расстоянии от (ЦЕНЗУРА) и его детей. Не позволяйте им сократить расстояние, или они (ЦЕНЗУРА) вашим (ЦЕНЗУРА).</alephguide>
+  <!-- factions -->
+  <faction.middle>The Middle</faction.middle>
+  <faction.middle.description>The Middle has an extremely tight-knit 'familial' structure, and Syndicate members share close fraternal ties with each other; members of the Middle call each other "Brothers" and "Sisters", and rank in the group is denoted by seniority in the family. The emphasis on family is more than superficial: parties are thrown for new members, and large group dinners are often held, which family members are expected to attend. The Middle has a completely different attitude towards outsiders. Any slight (or "sin", as members call them) done to a member of the Middle or its property (including assets and subservient Syndicates) will be recorded on the "Book of Vengeance" (which members carry around on their waists), and promptly avenged for, usually within the space of a few days.</faction.middle.description>
+  <faction.middle.shortdescription>The Middle has an extremely tight-knit 'familial' structure, but they have no forgiveness for any 'slights' caused by outsiders.</faction.middle.shortdescription>
+  <faction.ring>The Ring</faction.ring>
+  <faction.ring.description>Out of the Five Fingers, the Ring are notorious for their very literal human exhibitions — constructing galleries of art made from other people and even themselves. They value self-expression but pursue gruesome forms of art dedicated to depicting human suffering by perpetuating it.</faction.ring.description>
+  <faction.ring.shortdescription>The creed and calling that the Ring lies in the creation of "art".</faction.ring.shortdescription>
+  <faction.thumb>The Thumb</faction.thumb>
+  <faction.thumb.description>Of the Fingers, the Thumb is as known for its class and formality as it is feared for its fanatical devotion to hierarchy. Acting against or even questioning a superior is an offense to be punished with blood, and not even outsiders are exempt from these rules.</faction.thumb.description>
+  <faction.thumb.shortdescription>Of the Fingers, the Thumb is as known for its class and formality as it is feared for its fanatical devotion to hierarchy.</faction.thumb.shortdescription>
+  <!-- Jobs -->
+  <jobname.kromer>Kromer</jobname.kromer>
+  <jobname.purifier>Inquisitor</jobname.purifier>
+  <jobname.middle>Middle Little Sibling</jobname.middle>
+  <jobname.thumbsoldato>Thumb Soldato</jobname.thumbsoldato>
+  <jobname.LCCB>LCCB</jobname.LCCB>
+  <jobname.kcorp>K Corp. Class 1 Security</jobname.kcorp>
+  <jobname.kcorpexcision>K Corp. Class 3 Excision</jobname.kcorpexcision>
+  <jobname.rcorprabbit>R Corp. 4th Pack Rabbit</jobname.rcorprabbit>
+  <jobname.rcorprhino>R Corp. 4th Pack Rhino</jobname.rcorprhino>
+  <jobname.ringstudent>Ring Pointillist Student</jobname.ringstudent>
+  <jobname.wcorpcleanupcrew>W Corp. Cleanup Crew</jobname.wcorpcleanupcrew>
+  <jobname.roland>Grade 9 Fixer</jobname.roland>
+  <jobname.arbiter>Arbiter</jobname.arbiter>
+  <jobname.claw>Claw</jobname.claw>
+  <jobname.wildhunt>Wild Hunt</jobname.wildhunt>
+  <jobname.redmist>The Red Mist</jobname.redmist>
+  <!-- NPC titles and character names -->
+  <npctitle.roland>Grade 9 Fixer</npctitle.roland>
+  <charactername.roland>Roland</charactername.roland>
+  <npctitle.rcorprhino>4th Pack Rhino</npctitle.rcorprhino>
+  <npctitle.rcorprabbit>4th Pack Rabbit</npctitle.rcorprabbit>
+  <npctitle.purifier>N Corp Inquisitor</npctitle.purifier>
+  <npctitle.kromer>The One Who Grips</npctitle.kromer>
+  <charactername.kromer>Kromer</charactername.kromer>
+  <npctitle.middle>Middle Little Sibling</npctitle.middle>
+  <npctitle.thumbsoldato>Thumb Soldato</npctitle.thumbsoldato>
+  <npctitle.LCCB>LCCB Riot Police</npctitle.LCCB>
+  <npctitle.KCorp>K.C. Class 1 Security</npctitle.KCorp>
+  <npctitle.KCorpExcision>K.C. Class 3 Excision</npctitle.KCorpExcision>
+  <npctitle.wcorpcleanupcrew>WARP Cleanup Crew</npctitle.wcorpcleanupcrew>
+  <npctitle.arbiter>Arbiter</npctitle.arbiter>
+  <charactername.arbiter>Garion</charactername.arbiter>
+  <npctitle.claw>Claw</npctitle.claw>
+  <charactername.claw>Baral</charactername.claw>
+  <npctitle.wildhunt>The Wild Hunt</npctitle.wildhunt>
+  <charactername.wildhunt>Heathcliff</charactername.wildhunt>
+  <npctitle.redmist>The Red Mist</npctitle.redmist>
+  <charactername.redmist>Kali</charactername.redmist>
+  <!-- Talent Trees -->
+  <!-- Fingers -->
+  <talenttree.syndicategrit>Grit</talenttree.syndicategrit>
+  <talenttree.syndicatebrutality>Brutality</talenttree.syndicatebrutality>
+  <talenttree.syndicatetogetherness>Togetherness</talenttree.syndicatetogetherness>
+  <!-- LCCB -->
+  <talenttree.clearance>Clearance</talenttree.clearance>
+  <talenttree.riotsuppression>Riot Suppression</talenttree.riotsuppression>
+  <talenttree.barricade>Barricade</talenttree.barricade>
+  <!-- Rabbits -->
+  <talenttree.graze>Graze</talenttree.graze>
+  <talenttree.guard>Guard</talenttree.guard>
+  <!-- <talenttree.gunner>Gunner</talenttree.gunner> -->
+  <!-- Rhino -->
+  <talenttree.groundcrash>Ground Crash</talenttree.groundcrash>
+  <!-- Ring -->
+  <talenttree.sanguinearts>Sanguine Arts</talenttree.sanguinearts>
+  <talenttree.pointillistarts>Pointillist Arts</talenttree.pointillistarts>
+  <talenttree.gradingtheartwork>Grading the Artwork</talenttree.gradingtheartwork>
+  <!-- W Corp -->
+  <talenttree.cleanup>Clean Up</talenttree.cleanup>
+  <talenttree.chargeup>Charge Up</talenttree.chargeup>
+  <talenttree.comebacksafe>Come Back Safe</talenttree.comebacksafe>
+  <!-- Roland -->
+  <talenttree.washedup>Washed Up</talenttree.washedup>
+  <talenttree.onemanoffice>One Man Office</talenttree.onemanoffice>
+  <talenttree.orlando>Orlando Furioso</talenttree.orlando>
+  <!-- The Wild Hunt -->
+  <talenttree.outcast>Outcast</talenttree.outcast>
+  <talenttree.erlking>Erlking</talenttree.erlking>
+  <talenttree.thewildhunt>The Wild Hunt</talenttree.thewildhunt>
+  <!-- Kali -->
+  <talenttree.strongest>The Strongest</talenttree.strongest>
+  <talenttree.redmist>The Red Mist</talenttree.redmist>
+  <talenttree.legendary>Legendary</talenttree.legendary>
+  <!-- Talents -->
+  <!-- N corp -->
+  <talentname.youarenothing>You are Nothing</talentname.youarenothing>
+  <talentdescription.youarenothing> If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power and your attacker receives a moderate amount of Penance. </talentdescription.youarenothing>
+  <talentname.counter>Counter</talentname.counter>
+  <talentdescription.counter> If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power and your attacker receives a small amount of damage. </talentdescription.counter>
+  <talentname.whistles>Whistles</talentname.whistles>
+  <talentdescription.whistles>Inquisitors within [meters] meters gain [fanatic] Fanatic.</talentdescription.whistles>
+  <talentname.inquisition>Inquisition</talentname.inquisition>
+  <talentdescription.inquisition>In the name of the One Who Grips.</talentdescription.inquisition>
+  <!-- Middle -->
+  <talentname.littlevengeance>Little Vengeance</talentname.littlevengeance>
+  <talentdescription.littlevengeance>You won't let any transgression slide. When hit, inflict Mark of Vengeance on whoever hit you. Whenever a member of the Middle hits someone with a Mark of Vengeance, they deal increased damage and apply more effects.</talentdescription.littlevengeance>
+  <talentname.chainsofloyalty>Chains of Loyalty</talentname.chainsofloyalty>
+  <talentdescription.chainsofloyalty>You look out for your siblings in the Middle. Grants Vigor, up to [strength], to allies within [range] meters. Does not apply to yourself, but if someone else has this talent, you will receive twice as much Vigor. Additionally, gain immunity to Stun, and if someone else has this talent, never go unconscious while near them.</talentdescription.chainsofloyalty>
+  <talentname.multifoldretribution>Multifold Retribution</talentname.multifoldretribution>
+  <talentdescription.multifoldretribution>The only way to erase a name from the Book of Vengeance is death. Increases Paralysis damage by [paralysisamount]%, and Bleeding and Blunt damage by [damageamount]%. When you're struck, grants [ajustvengeance] which increases your melee damage and speed by up to [meleeamount]% and wears off over ten seconds.</talentdescription.multifoldretribution>
+  <!-- Thumb -->
+  <talentname.steelknuckles>Steel Knuckles</talentname.steelknuckles>
+  <talentdescription.steelknuckles>Deal [amount]% more stun and blunt damage to foes.</talentdescription.steelknuckles>
+  <talentname.focusfire>Focus Fire</talentname.focusfire>
+  <talentdescription.focusfire>To all allies within [range] meters: Increase accuracy by [spread]% and fire rate by [reload]%. Other allies with this buff will be able to grant it to you.</talentdescription.focusfire>
+  <talentname.summaryjudgement>Summary Judgement</talentname.summaryjudgement>
+  <talentdescription.summaryjudgement>Upon shooting an unconscious person with the Soldato Rifle, instantly kill them. Deal [amount]% more damage with Soldato ammunition damage types.</talentdescription.summaryjudgement>
+  <talentname.ferrousguard>Ferrous Guard</talentname.ferrousguard>
+  <talentdescription.ferrousguard>Take [amount]% less physical damage and stun. When hit, retaliate with a small melee counterattack.</talentdescription.ferrousguard>
+  <talentname.concentration>Concentration</talentname.concentration>
+  <talentdescription.concentration>Shoot with [accuracy]% less spread and deal [damage]% more damage if you have not fired your weapon in [seconds] seconds.</talentdescription.concentration>
+  <!-- LCCB -->
+  <talentname.shove>Shove</talentname.shove>
+  <talentdescription.shove>Inflict [amount] Paralyze on hit with a melee weapon.</talentdescription.shove>
+  <talentname.suppress>Suppress</talentname.suppress>
+  <talentdescription.suppress>Inflict [amount] Rupture when hitting with Quake Rounds.</talentdescription.suppress>
+  <talentname.eyeforweakness>Eye for Weakness</talentname.eyeforweakness>
+  <talentdescription.eyeforweakness>Inflict [amount]% more Tremor.</talentdescription.eyeforweakness>
+  <talentname.bythemanual>By the Manual</talentname.bythemanual>
+  <talentdescription.bythemanual>Allies within [distance] meters gain up to [amount] RED Shield.</talentdescription.bythemanual>
+  <talentname.guard>Guard</talentname.guard>
+  <talentdescription.guard>Every [seconds] seconds, reduce the damage of an incoming attack by [amount]% and gain [aggroamount] Aggro, drawing enemy attention.</talentdescription.guard>
+  <talentname.oof1>O.O.F. (Non Lethal)</talentname.oof1>
+  <talentdescription.oof1>Your hits with Quake Shells burst Tremor.</talentdescription.oof1>
+  <talentname.oof2>O.O.F. (Lethal)</talentname.oof2>
+  <talentdescription.oof2>Inflict [amount] Rupture with Quake Shell hits.</talentdescription.oof2>
+  <talentname.breaching>Breaching</talentname.breaching>
+  <talentdescription.breaching>If you haven't attacked in [seconds] seconds, inflict [amount]% more damage with your next ranged weapon hit.</talentdescription.breaching>
+  <!-- K Corp -->
+  <talentname.hpampule>H.P. Ampule Injection</talentname.hpampule>
+  <talentdescription.hpampule>Never fall unconscious. Additionally, every time you are hit, receive [amount] Combat Stimulant.</talentdescription.hpampule>
+  <talentname.decayampule>Decay Ampule</talentname.decayampule>
+  <talentdescription.decayampule>Your hits with K Corp issued melee weapons inflict [amount] Rupture. Does not apply to stun weapons. Additionally, inflict [damageamount]% more Rupture and Fragile.</talentdescription.decayampule>
+  <talentname.excise>Excise the Target</talentname.excise>
+  <talentdescription.excise>Your hits with K Corp issued melee weapons inflict [amount] Rupture. Does not apply to stun weapons. Additionally, if you are above 80% HP, deal [damageamount]% more damage.</talentdescription.excise>
+  <!-- Excision -->
+  <talentname.suspiciousindividuals>Suspicious Individuals</talentname.suspiciousindividuals>
+  <talentdescription.suspiciousindividuals>All of your melee hits inflict [amount] Incremental Stun.</talentdescription.suspiciousindividuals>
+  <talentname.notrespassing>No Trespassing</talentname.notrespassing>
+  <talentdescription.notrespassing>Inflict [amount] Fragile with hits using non-stun K Corp melee weapons.</talentdescription.notrespassing>
+  <talentname.restrain>Restrain</talentname.restrain>
+  <talentdescription.restrain>All of your melee hits slow targets by [amount]% for [seconds] seconds. This effect can stack.</talentdescription.restrain>
+  <talentname.overloadedhpampule>Regeneration Ampule Injection</talentname.overloadedhpampule>
+  <talentdescription.overloadedhpampule>Every [seconds] seconds, heal [amount] damage.</talentdescription.overloadedhpampule>
+  <!-- Rabbit -->
+  <talentname.raringtograze>Raring to Graze</talentname.raringtograze>
+  <talentdescription.raringtograze>Your hits with the Rabbit Knife grant [amount] Charge. While you have any Charge, your movement speed and damage output is increased by [dmgamount]%. Additionally, gain [exp] Experience on any kill.</talentdescription.raringtograze>
+  <talentname.concentratedfire>Concentrated Fire</talentname.concentratedfire>
+  <talentdescription.concentratedfire>Increases your accuracy by [accuracy]%. Improves ranged weapon reload times by [firespeed]%. All of your hits inflict [amount]% more bleeding.</talentdescription.concentratedfire>
+  <talentname.quicksuppression>Quick Suppression</talentname.quicksuppression>
+  <!-- Second half of the description says you move 25% faster when aiming a gun -->
+  <talentdescription.quicksuppression>Hits with the Rabbit Knife inflict [amount] Fragile. While you have Charge, reduce Husk Infection by [husk]% per second.</talentdescription.quicksuppression>
+  <!-- Rhino -->
+  <talentname.maneuvertraining>Maneuver Training</talentname.maneuvertraining>
+  <talentdescription.maneuvertraining>Gain [amount]% speed for every [charge] Charge you have, up to [final]%. Additionally, gain [exp] Experience on any kill.</talentdescription.maneuvertraining>
+  <talentname.suitpressurization>Activate rrR-#4 Suit Pressurization</talentname.suitpressurization>
+  <talentdescription.suitpressurization>Gain [amount]% damage resistance for every [charge] Charge you have, up to [final]%.</talentdescription.suitpressurization>
+  <talentname.demolish>Demolish</talentname.demolish>
+  <talentdescription.demolish>Deal [amount]% more damage for every [charge] Charge you have, up to [final]%.</talentdescription.demolish>
+  <talentname.bioelectricityinduction>Bioelectricity Induction</talentname.bioelectricityinduction>
+  <talentdescription.bioelectricityinduction>Gain [amount] Charge every time you are hit.</talentdescription.bioelectricityinduction>
+  <talentname.bulkyimpact>Bulky Impact</talentname.bulkyimpact>
+  <talentdescription.bulkyimpact>Gain [amount] Charge on any successful melee attack. Deal [damage]% more Blunt damage.</talentdescription.bulkyimpact>
+  <talentname.groundcrash>Maximum Crash</talentname.groundcrash>
+  <talentdescription.groundcrash>Increases the damage of the Rhino Warhammer's ultimate ability by [amount]% and allows the hammer to burst Tremor. While over [charge] Charge, it drains half as slowly. While over [charge2] Charge, this bonus is increased to [drainreduction]% slower drain.</talentdescription.groundcrash>
+  <talentname.rhinomodification>Rhino Modification</talentname.rhinomodification>
+  <talentdescription.rhinomodification>Never fall unconscious. Additionally, deal up to [powerincrease]% more damage as your vitality drops.</talentdescription.rhinomodification>
+  <!-- Ring Pointillist Student -->
+  <talentname.beatthebrush>Beat the Brush</talentname.beatthebrush>
+  <talentdescription.beatthebrush>Take [powerreduction]% less damage from targets for every [amount] Bleeding on them, up to [finalamount]%.</talentdescription.beatthebrush>
+  <talentname.dotting>Dotting</talentname.dotting>
+  <talentdescription.dotting>If the target has [amount]% or more Bleeding, deal 10% more damage.</talentdescription.dotting>
+  <talentname.paintover>Paint Over</talentname.paintover>
+  <talentdescription.paintover>With every hit, roll chances to inflict random damage types. Each damage type has a [chance]% chance to be applied with a strength of [value].</talentdescription.paintover>
+  <talentname.sanguinepainting>Sanguine Painting</talentname.sanguinepainting>
+  <talentdescription.sanguinepainting>Inflict [amount]% more Bleeding. Every unique damage type present on the target will also grant a [chance]% chance to apply [bleedamount] Bleeding each.</talentdescription.sanguinepainting>
+  <talentname.sanguinepointillism>Sanguine Pointillism</talentname.sanguinepointillism>
+  <talentdescription.sanguinepointillism>Every unique damage type on the target rolls a [chance]% chance to inflict [amount] of a random damage type.</talentdescription.sanguinepointillism>
+  <talentname.artfularsonist>Artful Arsonist</talentname.artfularsonist>
+  <talentdescription.artfularsonist>When you hit a target with any form of damage, [chance]% chance to inflict a small amount of Burning and set the target on fire.</talentdescription.artfularsonist>
+  <talentname.multitudeofdots>Multitude of Dots</talentname.multitudeofdots>
+  <talentdescription.multitudeofdots>After hitting a target, periodically inflict random damage types on them over time.</talentdescription.multitudeofdots>
+  <talentname.assignmentevaluation>Assignment Evaluation</talentname.assignmentevaluation>
+  <talentdescription.assignmentevaluation>Upon hitting a target, recover [amount] Sanity and reduce Husk Infection by [amount]%. Additionally, gain [vigoramount] Vigor and Combat Stimulant.</talentdescription.assignmentevaluation>
+  <talentname.artworkinspection>Artwork Inspection</talentname.artworkinspection>
+  <talentdescription.artworkinspection>Deal [amount]% more damage for every negative effect on a target, max. [finalamount]%. If you kill a target, apply [vigoramount] Vigor to yourself and nearby allies.</talentdescription.artworkinspection>
+  <talentname.hematiccoloring>Hematic Coloring</talentname.hematiccoloring>
+  <talentdescription.hematiccoloring>Inflict [amount]% more damage from any unique effect.</talentdescription.hematiccoloring>
+  <talentname.expeditedexsanguination>Expedited Exsanguination</talentname.expeditedexsanguination>
+  <talentdescription.expeditedexsanguination>On hit, [chance]% chance to convert [bleedingamount] Bleeding into [bloodlossamount] Blood Loss.</talentdescription.expeditedexsanguination>
+  <talentname.patientartist>Patient Artist</talentname.patientartist>
+  <talentdescription.patientartist>On hit, [chance]% chance to convert [bloodlossamount] Blood Loss into [bleedingamount] Bleeding.</talentdescription.patientartist>
+  <talentname.successtobepraised>Success, to be Praised</talentname.successtobepraised>
+  <talentdescription.successtobepraised>Nearby allies gain [amount] Weapons, Mechanical, and Engineering skill. They earn these skills [amount]% faster. Additionally, you gain [killxp] XP for kills.</talentdescription.successtobepraised>
+  <talentname.failureburnedaway>Failure, Burned Away</talentname.failureburnedaway>
+  <talentdescription.failureburnedaway>Deal [amount]% more Burn and Burning damage.</talentdescription.failureburnedaway>
+  <talentname.ontheclock>On the Clock</talentname.ontheclock>
+  <talentdescription.ontheclock>When you hit a target, gain up to [amount]% movement speed for [duration] seconds. Additionally, gain high stun resistance and always stay conscious.</talentdescription.ontheclock>
+  <talentname.donotquestionmyjudgement>Do Not Question My Judgement!</talentname.donotquestionmyjudgement>
+  <talentdescription.donotquestionmyjudgement>If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power and inflicts [amount] Tremor and triggers Tremor Burst on your attacker.</talentdescription.donotquestionmyjudgement>
+  <!-- W Corp -->
+  <talentname.rip>Rip</talentname.rip>
+  <talentdescription.rip>Inflict [amount]% more Rupture.</talentdescription.rip>
+  <talentname.cleanupsupport>Cleanup Support</talentname.cleanupsupport>
+  <talentdescription.cleanupsupport>On kill, gain [exp] Experience, doubled for non-humans. On repair, gain [repairexp] Experience. Gain [expboost]% more Experience until you reach level [level]. Above level [level], deal [skillamount]% more damage and gain a bonus of [skillamount] to all stats.</talentdescription.cleanupsupport>
+  <talentname.leap>Leap</talentname.leap>
+  <talentdescription.leap>On hit with a melee weapon, gain [amount] Charge. If you have over [chargeamount] Charge, move [speed]% faster.</talentdescription.leap>
+  <talentname.quickrecharge>Quick Recharge</talentname.quickrecharge>
+  <talentdescription.quickrecharge>Charge decays 25% slower.</talentdescription.quickrecharge>
+  <talentname.energycycle>Energy Cycle</talentname.energycycle>
+  <talentdescription.energycycle>Your hits with melee weapons grant you [amount] Charge over [amount] seconds. If you have over [chargeamount] Charge, deal [damage]% more damage.</talentdescription.energycycle>
+  <talentname.chargedevade>Charged Evasion</talentname.chargedevade>
+  <talentdescription.chargedevade>After [seconds] seconds without being attacked, evade one attack and avoid all damage. Evade recharges [amount]% faster if you have more than [charge] Charge.</talentdescription.chargedevade>
+  <talentname.enduringspirit>Enduring Spirit</talentname.enduringspirit>
+  <talentdescription.enduringspirit>Gain [amount] Charge when hit. While you are above [chargeamount] Charge, gain [aggro] Aggro and receive [damagereduction]% less damage. Additionally, purge alien infections from your body if you have Charge.</talentdescription.enduringspirit>
+  <talentname.deploychargebarrier>Deploy Charge Barrier</talentname.deploychargebarrier>
+  <talentdescription.deploychargebarrier>For every [charge] Charge, gain [amount]% damage resistance. Stacks up to [finalamount]%. If you are above [mincharge] Charge, gain Pressure Stabilized.</talentdescription.deploychargebarrier>
+  <talentname.cleanupcrew>Cleanup Crew</talentname.cleanupcrew>
+  <talentdescription.cleanupcrew>Inflict [amount]% more damage with melee weapons for every nearby enemy, up to [maxamount]%.</talentdescription.cleanupcrew>
+  <talentname.ripspace>Rip Space</talentname.ripspace>
+  <talentdescription.ripspace>Inflict [amount] Rupture with melee attacks, and [amount] Fragile as well if you're over [chargeamount] Charge.</talentdescription.ripspace>
+  <!-- Red Mist -->
+  <talentname.focusspirit>Focus Spirit</talentname.focusspirit>
+  <talentdescription.focusspirit>With sufficient focus, you can overcome anything with one well placed strike. Gain an escalating bonus to damage resistance and melee weapon power, up to [damage]%, as long as you are not attacking. The maximum bonus is reached after [seconds] seconds.</talentdescription.focusspirit>
+  <talentname.spear>Spear</talentname.spear>
+  <talentdescription.spear>With every hit,  you learn how to recover and strike again sooner. Every hit will grant a [speed]% bonus, up to [maxspeed]%, lasting a maximum of [seconds] seconds.</talentdescription.spear>
+  <talentname.upstandingslash>Upstanding Slash</talentname.upstandingslash>
+  <talentdescription.upstandingslash>With every hit, you adapt to your enemy and learn how to overpower them. Every hit will grant a [damage]% bonus, up to [maxdamage]%, lasting a maximum of [seconds] seconds.</talentdescription.upstandingslash>
+  <talentname.levelslash>Level Slash</talentname.levelslash>
+  <talentdescription.levelslash>With every hit, you adapt to your enemy and move quicker to avoid their blows. Every hit will grant a [damage]% bonus, up to [maxdamage]%, lasting a maximum of [seconds] seconds.</talentdescription.levelslash>
+  <talentname.onrush>Onrush</talentname.onrush>
+  <talentdescription.onrush>Killing one opponent makes an opening to take out another. After killing a target, gain a [attack]% bonus to melee speed and damage, lasting [seconds] seconds.</talentdescription.onrush>
+  <!-- The Wild Hunt -->
+  <talentname.beheading>Beheading</talentname.beheading>
+  <talentdescription.beheading>When you kill an enemy, sever their head, inflicting [amount] Psychosis to nearby enemies. Gain immunity to Psychosis.</talentdescription.beheading>
+  <talentname.odullahan>O Dullahan!</talentname.odullahan>
+  <!--reuses counter description-->
+  <talentdescription.odullahan>Additionally, gain stun, pressure, and oxygenlow immunity.</talentdescription.odullahan>
+  <talentname.memorialprocession>Memorial Procession</talentname.memorialprocession>
+  <talentdescription.memorialprocession>Inflict [psychosis] Psychosis with every hit. Deal up to [amount]% more damage to enemies with Psychosis.</talentdescription.memorialprocession>
+  <talentname.requiem>Requiem</talentname.requiem>
+  <talentdescription.requiem>Upon killing an enemy with a melee weapon, gain [amount] Coffin. Each Coffin is worth [bonus]% increased melee damage and attack speed.</talentdescription.requiem>
+  <talentname.lamentmourndespair>Lament, Mourn, Despair</talentname.lamentmourndespair>
+  <talentdescription.lamentmourndespair>Deal [damagebonus]% more damage with the Wild Hunt Coffin. Deal [amount]% more damage from all sources if a target has over [psychosis] Psychosis.</talentdescription.lamentmourndespair>
+  <talentname.calloftheerlking>Call of the Erlking</talentname.calloftheerlking>
+  <talentdescription.calloftheerlking>When you kill a human, convert them into your loyal thrall.</talentdescription.calloftheerlking>
+  <!-- Misc -->
+  <talentname.servantofheaven>Servant of Heaven</talentname.servantofheaven>
+  <talentdescription.servantofheaven>Whenever you apply medicine or use a melee weapon on a target, give them Heaven's Thorn.</talentdescription.servantofheaven>
+</infotexts>

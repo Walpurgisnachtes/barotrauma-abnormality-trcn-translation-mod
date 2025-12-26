@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="ring">
+    <npc identifier="hireablering" job="ringstudent" spawnpointtags="security" skillmultiplier="1.0" experiencepoints="2000">
+      <ItemSet commonness="1">
+        <Item identifier="ringstudentarmor" equip="true" />
+        <Item identifier="ringstudentoutfit" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ringstudentpaintbrush" />
+        <Item identifier="ringstudenthat" equip="true" />
+        <Item identifier="headset" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="outpostringstudent" job="ringstudent" faction="ring" preferredoutpostmoduletypes="clownmodule" spawnpointtags="clown" behavior="Passive">
+      <ItemSet commonness="1">
+        <Item identifier="ringstudentarmor" equip="true" />
+        <Item identifier="ringstudentoutfit" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ringstudentpaintbrush" />
+        <Item identifier="ringstudenthat" equip="true" />
+        <Item identifier="headset" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

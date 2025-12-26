@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character SpeciesName="humanexuviae" SpeciesTranslationOverride="" DisplayName="Exuviae Infected" Group="nakednest" Humanoid="True" HasInfo="False" CanInteract="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="False" Noise="300" Visibility="300" BloodDecal="blackblood" BleedParticleAir="blackblood" BleedParticleWater="blackwaterblood" BleedParticleMultiplier="1" CanEat="False" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="duffelbag">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <sound gender="None" File="%ModDir%/Sounds/slash1.ogg" State="Die" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Sounds/slash2.ogg" State="Die" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Sounds/slash3.ogg" State="Die" Range="1000" Volume="1" Tags="" />
+  <sound File="Content/Characters/Legacymantis/attack1.ogg" State="Attack" Range="500" Volume="1" Tags="" />
+  <sound File="Content/Characters/Legacymantis/attack2.ogg" State="Attack" Range="500" Volume="1" Tags="" />
+  <sound File="Content/Characters/Legacymantis/idle1.ogg" State="Idle" Range="500" Volume="1" Tags="" />
+  <sound File="Content/Characters/Legacymantis/idle2.ogg" State="Idle" Range="500" Volume="1" Tags="" />
+  <sound File="Content/Characters/Legacymantis/idle3.ogg" State="Idle" Range="500" Volume="1" Tags="" />
+  <!-- MODDER NOTE: DON'T COPY THIS FILE TO THE OTHER MOD, IT CONTAINS INCOMPATIBLE AFFLICTIONS -->
+  <health Vitality="150" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="100" BurnReduction="100" ConstantHealthRegeneration="0.05" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" PoisonVulnerability="1" EmpVulnerability="0" ApplyAfflictionColors="False" Immunities="">
+    <MedUISilhouette texture="Content/UI/Health/MedUI_Silhouette.png" columns="8" rows="2" sourcerect="0,0,1008,748" />
+    <MedUIExtra texture="Content/UI/Health/MedUIExtra.png" columns="4" rows="4" sourcerect="0,0,1024,1024" />
+    <Limb name="Head">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,0,126,374" highlightarea="41,0,45,54" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="1.5" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+    </Limb>
+    <Limb name="Torso">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,0,126,374" highlightarea="29,56,70,134" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,515,126,374" />
+      <VitalityMultiplier type="bleeding" multiplier="1.0" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+    </Limb>
+    <Limb name="LeftArm">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,0,126,374" highlightarea="1,69,27,140" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+    </Limb>
+    <Limb name="RightArm">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,0,126,374" highlightarea="100,69,27,140" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+    </Limb>
+    <Limb name="LeftLeg">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,0,126,374" highlightarea="3,180,57,194" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+    </Limb>
+    <Limb name="RightLeg">
+      <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,0,126,374" highlightarea="68,180,57,194" />
+      <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,515,126,374" />
+      <VitalityMultiplier type="damage" multiplier="0.5" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+    </Limb>
+  </health>
+  <ai CombatStrength="300" Sight="1" Hearing="2" MaxPerceptionDistance="-1" AggressionHurt="999" AggressionGreed="999" FleeHealthThreshold="0" AttackWhenProvoked="True" AvoidGunfire="False" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="False" RandomAttack="False" CanOpenDoors="True" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="True" StayInAbyss="True" PatrolFlooded="False" PatrolDry="False" StartAggression="100" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
+    <target Tag="decoy" State="Attack" Priority="500" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="provocative" State="Attack" Priority="110" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="human" State="Attack" Priority="100" ReactDistance="5" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="True" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="nasonov" State="Attack" Priority="70" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="sonar" State="Attack" Priority="30" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="True" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="room" State="Attack" Priority="20" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target tag="nakednest" state="Idle" priority="10" ignoreinside="True" ignoreoutside="True" ignoreifnotinsamesub="True" ignoreincapacitated="True" />
+  </ai>
+  <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="10" />
+  <StatusEffect type="OnSpawn" target="This" disabledeltatime="True" spawnitemrandomly="True">
+    <SpawnItem identifier="antibiotics" spawnposition="ThisInventory" />
+    <SpawnItem identifier="stabilozine" spawnposition="ThisInventory" />
+    <SpawnItem identifier="enkephalin" spawnposition="ThisInventory" />
+    <SpawnItem identifier="swimbladder" spawnposition="ThisInventory" />
+  </StatusEffect>
+  <!-- human stuff -->
+  <Vars>
+    <Var var="GENDER" tags="female,male" />
+  </Vars>
+  <HeadAttachments>
+    <Wearable type="Hair" tags="male">
+      <sprite name="Hair 1" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="0,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="male">
+      <sprite name="Hair 2" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="1,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="male">
+      <sprite name="Hair 3" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="2,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 4" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="3,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 5" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="0,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 6" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="1,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 7" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="2,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 8" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="3,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 9" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="0,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 10" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="1,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 11" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="2,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 12" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="3,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 13" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="0,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 14" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="1,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 15" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="2,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
+      <sprite name="Hair 16" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="3,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="female">
+      <sprite name="Hair 1" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="0,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="female">
+      <sprite name="Hair 2" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="1,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="female">
+      <sprite name="Hair 3" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="2,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 4" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="3,0" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 5" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="0,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 6" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="1,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 7" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="2,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 8" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="3,1" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 9" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="0,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 10" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="1,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 11" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="2,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 12" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="3,2" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 13" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="0,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 14" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="1,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 15" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="2,3" />
+    </Wearable>
+    <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
+      <sprite name="Hair 16" texture="Content/Characters/Human/Human_female_hair.png" sheetindex="3,3" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 1" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="0,0" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 2" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="1,0" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 3" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="2,0" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 4" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="3,0" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.02">
+      <sprite name="FaceAttachment 5" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="0,1" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.02">
+      <sprite name="FaceAttachment 6" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="1,1" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.02">
+      <sprite name="FaceAttachment 7" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="2,1" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.02">
+      <sprite name="FaceAttachment 8" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="3,1" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.05">
+      <sprite name="FaceAttachment 9" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="0,2" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 10" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="1,2" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.03">
+      <sprite name="FaceAttachment 11" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="2,2" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.02">
+      <sprite name="FaceAttachment 12" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="3,2" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 13" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="0,3" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 14" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="1,3" />
+    </Wearable>
+    <Wearable type="FaceAttachment" commonness="0.01">
+      <sprite name="FaceAttachment 15" texture="Content/Characters/Human/Human_head_accessories.png" sheetindex="2,3" />
+    </Wearable>
+  </HeadAttachments>
+  <!-- On death, create worm -->
+  <StatusEffect type="OnDeath" target="Character" duration="2" stackable="false">
+    <ParticleEmitter particle="blackblood" particlespersecond="15" scalemin="1.5" scalemax="2.5" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
+  </StatusEffect>
+  <StatusEffect type="OnDeath" target="Character" delay="1" stackable="false">
+    <SpawnCharacter speciesname="exuviaeparasite" count="1" spread="50" />
+  </StatusEffect>
+</Character>

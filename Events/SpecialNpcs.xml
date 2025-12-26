@@ -1,0 +1,2484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="abnormalitynpcs">
+    <npc identifier="roland" job="roland" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="10000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Joker">
+        <job name="Roland" identifier="roland">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="60" />
+          <skill identifier="medical" level="45" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="blacksilencegloves" equip="true">
+          <Item identifier="crystalatalier" />
+          <Item identifier="crystalatalier" />
+          <Item identifier="zelkovamace" />
+          <Item identifier="zelkovaaxe" />
+          <Item identifier="oldboysworkshop" />
+          <Item identifier="allasworkshop" />
+          <Item identifier="wheelsindustry" />
+          <Item identifier="rangaworkshop" />
+          <Item identifier="rangaworkshopgauntlets" />
+          <Item identifier="atalierlogicrevolver" />
+          <Item identifier="atalierlogicrevolver" />
+          <Item identifier="atalierlogicshotgun" />
+          <Item identifier="mookworkshop" />
+        </Item>
+        <Item identifier="perceptionblockingmask" equip="true" />
+        <Item identifier="rolandsuit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="rolandidcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="rcorprhino" job="rcorprhino" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1250" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="advancedegosplicer_bomb" equip="True">
+          <Item identifier="bodymod_grade7_defense" />
+        </Item>
+        <Item identifier="rabbituniform" equip="true" />
+        <Item identifier="rhinosuit" equip="true" outfit="true">
+          <Item identifier="enkephalinmodule" />
+          <Item identifier="enkephalinmodule" />
+          <Item identifier="enkephalinmodule" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="rhinohammer" />
+        <Item identifier="rhinofist" />
+        <Item identifier="rhinofist" />
+        <Item identifier="crowbar" equip="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="rhinohelmet" equip="true">
+          <Item identifier="oxygentank" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="rcorprabbit" job="rcorprabbit" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="advancedegosplicer_bomb" equip="True">
+          <Item identifier="bodymod_grade7_offense" />
+        </Item>
+        <Item identifier="rabbituniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="rabbitknife" />
+        <Item identifier="rabbitgun">
+          <Item identifier="rcorpcoilgunclip" />
+        </Item>
+        <Item identifier="crowbar" equip="false" />
+        <Item identifier="hiddenarmor" equip="true">
+          <Item identifier="rcorpcoilgunclip" />
+          <Item identifier="rcorpcoilgunclip" />
+          <Item identifier="rcorpcoilgunclip" />
+          <Item identifier="rcorpcoilgunclip" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="rabbithelmet" equip="true">
+          <Item identifier="oxygentank" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="ncorpkleinhammer" job="ncorpkleinhammer" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="ncorpuniform_kleinhammer" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="kleinhammer" equip="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_kleinhammer" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_kleinhammer" equip="true" />
+        <Item identifier="advancedegosplicer">
+          <Item identifier="bodymod_grade8_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="ncorpmittelhammer1" job="ncorpmittelhammer1" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="4000" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="ncorpuniform_kleinhammer" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="mittelhammer_1" equip="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_mittelhammer_1" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_mittelhammer_1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="advancedegosplicer">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="ncorpmittelhammer2" job="ncorpmittelhammer2" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="6000" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="mittelhammer_2" equip="false" />
+        <Item identifier="olongnail2" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_mittelhammer_2" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_mittelhammer_2" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="advancedegosplicer">
+          <Item identifier="bodymod_grade4_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="guido" job="ncorpgroshammer" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="8000" BaseSalary="1500" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Tough">
+        <job name="ncorpgroshammer" identifier="ncorpgroshammer">
+          <skill identifier="electrical" level="100" />
+          <skill identifier="mechanical" level="100" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="100" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun">
+          <Item identifier="nailmag_standard" showpreview="false" />
+        </Item>
+        <Item identifier="groshammer_longnail" equip="false" />
+        <Item identifier="groshammer_gauntlet" equip="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="nailmag_standard" showpreview="false" />
+        <Item identifier="ncorparmor_groshammer" equip="true" outfit="true" />
+        <Item identifier="ncorphelmet_groshammer" equip="true">
+          <Item identifier="oxygentank" showpreview="False" />
+        </Item>
+        <Item identifier="advancedegosplicer">
+          <Item identifier="bodymod_grade2_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="kromer" job="kromer" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="10000" BaseSalary="2000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="female" headspriteid="16" hairindex="16" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Crazy">
+        <job name="Kromer" identifier="kromer">
+          <skill identifier="electrical" level="100" />
+          <skill identifier="mechanical" level="100" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="100" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="kromercoat" equip="true" outfit="true" />
+        <Item identifier="kromeridcard" equip="true" showpreview="false" />
+        <Item identifier="purifiernailgun" />
+        <Item identifier="kromernailimpaling" />
+        <Item identifier="kromernailslashing" />
+        <Item identifier="kromernailthrowing" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="fanaticbooster" />
+        <Item identifier="advancedegosplicer">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="ringstudent" job="ringstudent" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade8_offense" />
+        </Item>
+        <Item identifier="ringstudentarmor" equip="true" />
+        <Item identifier="ringstudentoutfit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ringstudentpaintbrush" />
+        <Item identifier="ringstudenthat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="middle" job="middle" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft" />
+        <Item identifier="middlechainsright" />
+        <Item identifier="repairpack" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="middletattoos2" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft" />
+        <Item identifier="middlechainsright" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="repairpack" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="middletattoos3" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+        </Item>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft" />
+        <Item identifier="middlechainsright" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="repairpack" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="werner" job="werner" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="werner" identifier="werner">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="werner_coat" equip="true" />
+        <Item identifier="werner_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_junior" />
+          <Item identifier="bodymod_grade5_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft_physicorium" />
+        <Item identifier="middlechainsright_physicorium" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="ricardo" job="ricardo" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="255,105,180,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="ricardo" identifier="ricardo">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="ricardo_coat" equip="true" />
+        <Item identifier="ricardo_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_senior" />
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft_physicorium" />
+        <Item identifier="middlechainsright_physicorium" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="thumbsoldato" job="thumbsoldato" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade8_offense" />
+        </Item>
+        <Item identifier="thumbcoat_outer" equip="true" />
+        <Item identifier="thumbcoat" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="soldatorifle" />
+        <Item identifier="discipline" />
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="thumbhat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="thumbsoldato_east" job="thumbsoldato" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade8_offense" />
+        </Item>
+        <Item identifier="thumbcoat_outer" equip="true" />
+        <Item identifier="thumbcoat" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="soldatobayonetspear" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="propellantbullet" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="thumbhat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="thumbcapo" job="thumbcapo" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="1500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade4_premium" />
+        </Item>
+        <Item identifier="thumb_capo_coat_outer" equip="true">
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatoarmorround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatofreezeround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+          <Item identifier="soldatoflameround" />
+        </Item>
+        <Item identifier="thumb_capo_coat" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="capopistol" />
+        <Item identifier="discipline" />
+        <Item identifier="thumbhat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="leiheng" job="leiheng" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="3000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="10" hairindex="3" beardindex="1" moustacheindex="0" faceattachmentindex="5" skincolor="243,198,150,255" haircolor="50,50,50,255" facialhaircolor="50,50,50,255" personality="Joker">
+        <job name="leiheng" identifier="leiheng">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="75" />
+          <skill identifier="medical" level="50" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="tiantui_star_blade" />
+        <Item identifier="cigar" />
+        <Item identifier="leiheng_coat_outer" equip="true">
+          <Item identifier="propellantbullet_speedloader" />
+          <Item identifier="propellantbullet_speedloader" />
+          <Item identifier="propellantbullet_speedloader" />
+          <Item identifier="propellantbullet_speedloader" />
+          <Item identifier="propellantbullet_highpower_speedloader" />
+          <Item identifier="propellantbullet_highpower_speedloader" />
+          <Item identifier="propellantbullet_tigermark_speedloader" />
+        </Item>
+        <Item identifier="leiheng_coat" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="leihenghat" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="LCCB" job="LCCB" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
+      <ItemSet probability="1">
+        <Item identifier="lccbhandgun">
+          <Item identifier="quakeroundmagazine" />
+        </Item>
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbuniform" equip="true" outfit="true">
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="lccbshield" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="lccbhelmetvisor" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet probability="1">
+        <Item identifier="lccbshotgun">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+        </Item>
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbuniform" equip="true" outfit="true">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="lccbbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="lccbhelmetbalaclava" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet probability="1">
+        <Item identifier="lccbhandgun">
+          <Item identifier="quakeroundmagazine" />
+        </Item>
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbuniform" equip="true" outfit="true">
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="lccbshield" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="lccbhelmetlight" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet probability="1">
+        <Item identifier="lccbshotgun">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+        </Item>
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="lccbuniform" equip="true" outfit="true">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="lccbbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <!-- gasmask -->
+        <Item identifier="lccbhelmetmask" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="KCorp" job="KCorp" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="800" SkillSalaryMultiplier="0.75">
+      <ItemSet probability="1">
+        <Item identifier="lccbshotgun">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+        </Item>
+        <Item identifier="kcorpbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="kcorpaxe" />
+        <Item identifier="kcorpuniform" equip="true" outfit="true">
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="quakeshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="kcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <!-- gasmask -->
+        <Item identifier="kcorphelmet" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet probability="1">
+        <Item identifier="lccbhandgun">
+          <Item identifier="quakeroundmagazine" />
+        </Item>
+        <Item identifier="kcorpbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="kcorpaxe" />
+        <Item identifier="kcorpuniform" equip="true" outfit="true">
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="quakeroundmagazine" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="kcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="lccbshield" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kcorphelmet" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="KCorpExcision" job="KCorpExcision" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" BaseSalary="1200" SkillSalaryMultiplier="0.75">
+      <ItemSet probability="1">
+        <Item identifier="kcorpstaff" />
+        <Item identifier="kcorpbaton">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="kcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="kcorpexcisionsuit" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kcorphelmet" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="wcorpcleanupcrew" job="wcorpcleanupcrew" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="500" SkillSalaryMultiplier="0.75">
+      <ItemSet probability="1">
+        <Item identifier="warpaxe">
+          <Item identifier="enkephalinmodule" />
+        </Item>
+        <Item identifier="warpknife">
+          <Item identifier="enkephalinmodule" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" showpreview="False" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="sprayer">
+          <Item identifier="ethanol" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="enkephalinmodule" showpreview="False" />
+          <Item identifier="enkephalinmodule" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+          <Item identifier="ethanol" showpreview="False" />
+          <Item identifier="ethanol" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet probability="1">
+        <Item identifier="warpmachete">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="warpmachete">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet probability="1">
+        <Item identifier="warpglaive">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="warpknife">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="arbiter" job="arbiter" moduleflags="none" behavior="Patrol" healthmultiplier="1.5">
+      <Character speciesname="human" gender="female" headspriteid="16" hairindex="10" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="50,50,50,255" personality="Laid-Back">
+        <job name="Arbiter" identifier="arbiter">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="100" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer_teleport" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="abno_binahcostume" equip="true" outfit="true">
+          <Item identifier="truearbiterchainspell" />
+          <Item identifier="truearbiterblastspell" />
+          <Item identifier="truearbiterslashspell" />
+          <Item identifier="truearbiterpillarspell" />
+          <Item identifier="ultimatearbiterblastspell" />
+          <Item identifier="fairybeam" />
+          <Item identifier="lockbeam" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="abno_binahcoat" equip="true" outfit="true" />
+        <Item identifier="arbiteridcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="claw" job="claw" moduleflags="none" behavior="Patrol" healthmultiplier="1.5">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="0" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="Claw" identifier="claw">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="50" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer_retreat" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="trueclawuniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor_t3" equip="true" />
+        <Item identifier="clawclaw" />
+        <Item identifier="clawhandopen" />
+        <Item identifier="clawidcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="wildhunt" job="wildhunt" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75">
+      <Character speciesname="human" gender="male" headspriteid="10" hairindex="16" beardindex="7" faceattachmentindex="16" skincolor="171,112,70,255" haircolor="109,59,55,255" facialhaircolor="109,59,55,255" personality="Crazy">
+        <job name="Wildhunt" identifier="wildhunt">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer_bomb" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="wildhuntcoatspecial" equip="true" outfit="true" />
+        <Item identifier="wildhunthelmet" equip="true" />
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="wildhuntsword" />
+        <Item identifier="wildhuntcoffin" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="redmist" job="redmist" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="10000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="female" headspriteid="3" hairindex="13" beardindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="138,33,34,255" personality="Tough">
+        <job name="redmist" identifier="redmist">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="abno_redmistmask" outfit="true" />
+        <Item identifier="thumbcoat" equip="true" />
+        <Item identifier="abno_redmistcostume" equip="true" />
+        <Item identifier="hiddenarmor" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="protomimicry" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <!-- Vergilius -->
+    <npc identifier="redgaze" job="redgaze" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="10000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Tough">
+        <job name="redgaze" identifier="redgaze">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="vergiliusmask" equip="true" outfit="true" />
+        <Item identifier="vergiliussuit" equip="true" />
+        <Item identifier="hiddenarmor" />
+        <Item identifier="abno_redgazeego" equip="True" />
+        <Item identifier="abno_gladius" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_twilight" job="lobcorpremnant" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="3000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="abno_twilight_sword" equip="true" />
+        <Item identifier="abno_twilight_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="abno_twilight_wings" equip="true" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_mimicry" job="lobcorpremnant" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="mimicry" equip="true" />
+        <Item identifier="hiddenarmor" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="mimicry_gear" equip="true" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_contemptawe" job="lobcorpremnant" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="contemptawe_blade1" />
+        <Item identifier="contemptawe_blade2" />
+        <Item identifier="contemptawesuit" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade3_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_blindobsession" job="lobcorpremnant" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="blindobsession_weapon" />
+        <Item identifier="blindobsession_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="blindobsession_coat" equip="true" />
+        <Item identifier="blindobsession_hat" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade3_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="blindobsession_sword" />
+        <Item identifier="blindobsession_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="blindobsession_coat" equip="true" />
+        <Item identifier="blindobsession_hat" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade3_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_magicbullet" job="lobcorpremnant" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="magicbulletoutis" />
+        <Item identifier="derfreischutz" equip="true" outfit="true" />
+        <Item identifier="derfreischutzovercoat" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade5_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_fellbullet" job="ncorpfellbullet" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="fellbullet" />
+        <Item identifier="DerFluchschutze" equip="true" outfit="true" />
+        <Item identifier="DerFluchschutzeovercoat" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade5_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_regret" job="lobcorpremnant" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="regret" />
+        <Item identifier="forsakenmurdererstraightjacket" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade7_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="lobcorpremnant_cavernouswailing" job="lobcorpremnant" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="cavernouswailinghammer" />
+        <Item identifier="glupoarmor" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="glupomaskcorroded" equip="true" />
+        <Item identifier="advancedegosplicer_teleport" equip="true">
+          <Item identifier="bodymod_grade9_premium" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="heishoupackhare" job="heishoupack" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="heishoupack_cursedsword" />
+        <Item identifier="heishoupack_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_armor" equip="true" />
+        <Item identifier="heishoupack_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="zilu" job="zilu" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="2000" SkillSalaryMultiplier="0.75">
+      <Character speciesname="human" gender="female" headspriteid="3" hairindex="16" beardindex="0" faceattachmentindex="1" skincolor="255,255,255,255" haircolor="25,25,25,255" personality="Professional">
+        <job name="zilu" identifier="zilu">
+          <skill identifier="electrical" level="50" />
+          <skill identifier="mechanical" level="50" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="75" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade3_premium" />
+        </Item>
+        <Item identifier="heishoupack_cursedsword_zilu" />
+        <Item identifier="tianjiu_star_blade" />
+        <Item identifier="heishoupack_robes_zilu" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_armor" equip="true" />
+        <Item identifier="heishoupack_hat_zilu" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="heishoupacksnake" job="heishoupack_sibranch" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="heishoupack_sibranch_cursedspear_slashing" />
+        <Item identifier="heishoupack_sibranch_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_sibranch_armor" equip="true" />
+        <Item identifier="heishoupack_sibranch_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="heishoupack_sibranch_cursedspear_thrusting" />
+        <Item identifier="heishoupack_sibranch_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="heishoupack_sibranch_armor" equip="true" />
+        <Item identifier="heishoupack_sibranch_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="heishoupack_youbranch" job="heishoupack_youbranch" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="you_sword_rupture" />
+        <Item identifier="you_sword_burn" />
+        <Item identifier="you_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="you_armor" equip="true" />
+        <Item identifier="you_hat" equip="true" />
+        <Item identifier="you_scabbard" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="heishoupack_wubranch" job="heishoupack_wubranch" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="egosplicer" equip="True">
+          <Item identifier="bodymod_grade6_premium" />
+        </Item>
+        <Item identifier="wu_guandao" />
+        <Item identifier="wu_robes" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="wu_armor" equip="true" />
+        <Item identifier="wu_hat" equip="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="fullstopoffice" job="fullstopoffice" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="fullstoprifle">
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="fullstophandgun">
+          <Item identifier="9mmmag_corporate" />
+        </Item>
+        <Item identifier="fullstop_machete" />
+        <Item identifier="oasistux" equip="true" outfit="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="trenchcoat_armored" equip="True">
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="9mmmag_corporate" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="atalierlogicrifleround" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bladelineagesalsu" job="bladelineagesalsu" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="bladelineage_sword" />
+        <Item identifier="oasistux" equip="true" outfit="true" />
+        <Item identifier="trenchcoat_salsu" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="bladelineage_scabbard" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bladelineagementor" job="bladelineagementor" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="2000" SkillSalaryMultiplier="0.75">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="bladelineagementor" identifier="bladelineagementor">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="200" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="bladelineage_sword" />
+        <Item identifier="oasistux" equip="true" outfit="true" />
+        <Item identifier="trenchcoat_salsu" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="bladelineage_hat" equip="True" />
+        <Item identifier="bladelineage_scabbard" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="kurokumoclanwakashu" job="kurokumoclanwakashu" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kurokumo_sword_1" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_1" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kurokumo_sword_2" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_2" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="kurokumoclancaptain" job="kurokumoclancaptain" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kokuunto_1" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="kurokumo_coat" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_1" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="kokuunto_2" />
+        <Item identifier="kurokumo_uniform" equip="true" outfit="true" />
+        <Item identifier="kurokumo_coat" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="kurokumo_scabbard_2" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <!-- Jia Qiu -->
+    <npc identifier="jadeqilin" job="jadeqilin" moduleflags="none" behavior="Patrol" experiencepoints="2850" aimspeed="2.0" aimaccuracy="2.0" BaseSalary="5000" SkillSalaryMultiplier="0.75">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="216,189,177,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="jadeqilin" identifier="jadeqilin">
+          <skill identifier="electrical" level="100" />
+          <skill identifier="mechanical" level="100" />
+          <skill identifier="weapons" level="200" />
+          <skill identifier="medical" level="200" />
+          <skill identifier="helm" level="100" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+          <!-- <Item identifier="egogift_killinpendant" /> -->
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="jiaqiu_staff" />
+        <Item identifier="answermeheishoupacks" />
+        <Item identifier="heedmezilu" />
+        <Item identifier="likearoaringstorm" />
+        <Item identifier="jiaqiu_robes" equip="true" outfit="true" />
+        <Item identifier="jiaqiu_armor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="jiaqiu_hair" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="jiabaoyu_guandao" />
+        <Item identifier="answermeheishoupacks" />
+        <Item identifier="heedmezilu" />
+        <Item identifier="likearoaringstorm" />
+        <Item identifier="jiaqiu_robes" equip="true" outfit="true" />
+        <Item identifier="jiaqiu_armor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="jiaqiu_hair" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <!-- Hong Lu -->
+    <npc identifier="jiabaoyu" job="jadeqilin" moduleflags="none" behavior="Patrol" experiencepoints="2850" aimspeed="2.0" aimaccuracy="2.0" BaseSalary="5000" SkillSalaryMultiplier="0.75">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="216,189,177,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="jadeqilin" identifier="jadeqilin">
+          <skill identifier="electrical" level="100" />
+          <skill identifier="mechanical" level="100" />
+          <skill identifier="weapons" level="200" />
+          <skill identifier="medical" level="200" />
+          <skill identifier="helm" level="100" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="jiabaoyu_guandao" />
+        <Item identifier="answermeheishoupacks" />
+        <Item identifier="heedmezilu" />
+        <Item identifier="likearoaringstorm" />
+        <Item identifier="jiaqiu_robes" equip="true" outfit="true" />
+        <Item identifier="jiaqiu_armor" equip="True">
+          <Item identifier="antidama1" amount="4" />
+          <Item identifier="antibleeding1" amount="4" />
+          <Item identifier="antibloodloss2" amount="4" />
+        </Item>
+        <Item identifier="jiabaoyu_hair" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="firefistoffice" job="firefistoffice" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="firefist_ranged">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="firefistbackpack" equip="true" />
+        <Item identifier="firefist_melee" />
+        <Item identifier="firefistsuit" equip="true" outfit="true">
+          <Item identifier="weldingfueltank" />
+          <Item identifier="weldingfueltank" />
+          <Item identifier="oxygentank" />
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="firefistmask" equip="True">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="shi_east" job="shi_east" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="shiuniform_east" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="shi_bowblade_melee" equip="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_arrow" showpreview="false" />
+        <Item identifier="shi_quiver" equip="True" />
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="ncorpfellbullet" job="ncorpfellbullet" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ncorpfellbullet" />
+        <Item identifier="ncorpfellbulletuniform" equip="true" outfit="true" />
+        <Item identifier="ncorpfellbulletcoat" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="ncorpcontemptawe" job="ncorpcontemptawe" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="ncorpcontemptawelance" />
+        <Item identifier="ncorpcontemptawesuit" equip="true" outfit="true" />
+        <Item identifier="ncorpcontemptawecoat" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="indexproselyte" job="indexproselyte" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="500" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="index_sword" />
+        <Item identifier="index_uniform" equip="true" outfit="true" />
+        <Item identifier="index_scabbard" equip="True" />
+        <Item identifier="index_cloak" equip="True" />
+        <Item identifier="index_mask" equip="True">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="philip" job="dawnoffice" moduleflags="none" behavior="Patrol" experiencepoints="3000" BaseSalary="1000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="5" beardindex="1" moustacheindex="0" faceattachmentindex="12" skincolor="244,190,152,255" haircolor="210,163,111,255" facialhaircolor="210,163,111,255" personality="Joker">
+        <job name="dawnoffice" identifier="dawnoffice">
+          <skill identifier="electrical" level="30" />
+          <skill identifier="mechanical" level="30" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="50" />
+          <skill identifier="helm" level="60" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="dawnoffice_sword" />
+        <Item identifier="dawnofficesuit" equip="true" outfit="true" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="egostabilizer" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="thelastknight" job="thelastknight" moduleflags="none" behavior="Patrol" experiencepoints="3000" BaseSalary="2500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="5" beardindex="0" moustacheindex="0" faceattachmentindex="12" skincolor="244,190,152,255" haircolor="255,255,255,255" facialhaircolor="210,163,111,255" personality="Joker">
+        <job name="thelastknight" identifier="thelastknight">
+          <skill identifier="electrical" level="30" />
+          <skill identifier="mechanical" level="30" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="50" />
+          <skill identifier="helm" level="60" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tlklance" equip="false" />
+        <Item identifier="tlkarmor" equip="true" outfit="true" />
+        <Item identifier="tlkhelmet" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="tcorpclass2" job="tcorpclass2" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="700" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tcorpfistleft" equip="false" />
+        <Item identifier="tcorpfistright" equip="false" />
+        <Item identifier="tcorp_class2armor" equip="true" outfit="true" />
+        <Item identifier="tcorp_tux" equip="true" />
+        <Item identifier="tcorp_hat_t1" equip="true" />
+        <Item identifier="tcorpwatch" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="tcorpclass3" job="tcorpclass3" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tcorp_class3_pickaxe" equip="false" />
+        <Item identifier="tcorp_class3_chainsaw" equip="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="tcorp_class3armor" equip="true" outfit="true" />
+        <Item identifier="tcorp_tux" equip="true" />
+        <Item identifier="tcorp_class3helmet" equip="true">
+          <Item identifier="oxygentank" showpreview="false" />
+        </Item>
+        <Item identifier="tcorpwatch" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="tcorpvdcu" job="tcorpvdcu" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="tcorpfistleft" equip="false" />
+        <Item identifier="tcorpfistright" equip="false" />
+        <Item identifier="tcorp_vdcumace" equip="false" />
+        <Item identifier="tcorp_vdcuarmor" equip="true" outfit="true" />
+        <Item identifier="tcorp_tux_vdcu" equip="true" />
+        <Item identifier="tcorp_hat_vdcu" equip="true" />
+        <Item identifier="tcorpwatch" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="wcorpcleanupcrew_cca" job="wcorpcleanupcrew_cca" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="warpknife">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="weldingtool">
+          <Item identifier="weldingfueltank" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpuniform" equip="true" outfit="true">
+          <Item identifier="batterycell" showpreview="False" />
+          <Item identifier="batterycell" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+          <Item identifier="weldingfueltank" showpreview="False" />
+        </Item>
+        <Item identifier="wcorpbodyarmor" equip="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+        </Item>
+        <Item identifier="wcorp_cca" equip="true">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="wcorphat" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="allen" job="nightawls" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="7" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="nightawls" identifier="nightawls">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="45" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="nightawls_stiletto" />
+        <Item identifier="nightawls_uniform" equip="true" outfit="true" />
+        <Item identifier="nightawls_armor" equip="True" />
+        <Item identifier="nightawls_prosthetics" equip="True" />
+        <Item identifier="kromerhelmet_t2" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="hanafuda" job="hanafuda" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="female" headspriteid="16" hairindex="13" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="50,50,50,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="hanafuda" identifier="hanafuda">
+          <skill identifier="electrical" level="5" />
+          <skill identifier="mechanical" level="5" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="45" />
+          <skill identifier="helm" level="5" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="hanafuda_sword" />
+        <Item identifier="hanafuda_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="hanafuda_scabbard" equip="True" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="devyat" job="devyat" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="devyat_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="devyat_hammertrunk" equip="True" />
+        <Item identifier="devyat_goggles_t1" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="devyat_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="devyat_pistontrunk" equip="True" />
+        <Item identifier="devyat_goggles_t1" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="devyat_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="devyat_knifetrunk" equip="True" />
+        <Item identifier="devyat_goggles_t1" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="zweisouth" job="zweisouth" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="zweiuniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True">
+          <Item identifier="batterycell" showpreview="false" />
+          <Item identifier="batterycell" showpreview="false" />
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="zweizweihander" />
+        <Item identifier="lccbbaton">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bloodfiendmanager" job="bloodfiendmanager" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="10000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="female" headspriteid="16" hairindex="16" beardindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="205,151,90,255" personality="Professional">
+        <job name="bloodfiendmanager" identifier="bloodfiendmanager">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="bloodfiend_manager_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="bloodfiendmanagerlance" />
+        <Item identifier="priest_staff" />
+        <Item identifier="bloodfiend_scissors_t2" />
+        <Item identifier="kromerhelmet" equip="True" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bloodfiendbarber" job="bloodfiendbarber" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="female" headspriteid="16" hairindex="16" beardindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="52,48,48,255" personality="Crazy">
+        <job name="bloodfiendbarber" identifier="bloodfiendbarber">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade2_premium" />
+        </Item>
+        <Item identifier="bloodfiend_barber_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="bloodfiend_scissors_t2" />
+        <Item identifier="bloodfiend_barber_mask" equip="True" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bloodfiendprince" job="bloodfiendprince" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="4000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="52,48,48,255" personality="Professional">
+        <job name="bloodfiendprince" identifier="bloodfiendprince">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="bloodfiend_prince_uniform" equip="true" outfit="true" />
+        <Item identifier="bloodfiend_prince_armor" equip="True" />
+        <Item identifier="prince_staff" />
+        <Item identifier="bloodfiend_prince_helmet" equip="True" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bloodfiendpriest" job="bloodfiendpriest" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2000" SkillSalaryMultiplier="0.75" healthmultiplier="1.5">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="16" beardindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="52,48,48,255" personality="Crazy">
+        <job name="bloodfiendpriest" identifier="bloodfiendpriest">
+          <skill identifier="electrical" level="25" />
+          <skill identifier="mechanical" level="25" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="70" />
+          <skill identifier="helm" level="25" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="advancedegosplicer" equip="True">
+          <Item identifier="bodymod_grade2_premium" />
+        </Item>
+        <Item identifier="bloodfiend_priest_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="priest_staff" />
+        <Item identifier="bloodfiend_priest_mask" equip="True" />
+        <Item identifier="headset" equip="True" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bloodfiendbarberfollower" job="bloodfiendbarberfollower" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_barberfollower_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="bloodfiend_scissors_t1" />
+        <Item identifier="bloodfiend_barberfollower_mask" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="bloodfiendpriestfollower" job="bloodfiendpriestfollower" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="1000" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="bloodfiend_priestfollower_uniform" equip="true" outfit="true" />
+        <Item identifier="hiddenarmor" equip="True" />
+        <Item identifier="priestfollower_staff" />
+        <Item identifier="bloodfiend_priestfollower_mask" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

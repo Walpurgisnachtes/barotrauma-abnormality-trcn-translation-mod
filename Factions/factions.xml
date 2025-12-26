@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <Faction identifier="middle" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="4" secondarycontrolledoutpostpercentage="20" opposingfaction="ring,thumb,coalition">
+    <Icon name="MiddleIcon" texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" color="206,62,62,255" />
+    <Portrait name="MiddlePortait" texture="%ModDir%/Factions/middlebackground.png" sourcerect="0,0,1920,1081" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="middle" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="werner" minreputation="70" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ricardo" minreputation="100" />
+    <AutomaticMission leveltype="LocationConnection" missiontag="middleattack" minreputation="-100" maxreputation="-50" MaxDistanceFromFactionOutpost="3" DisallowBetweenOtherFactionOutposts="false" minprobability="0.2" maxprobability="0.01" />
+  </Faction>
+  <Faction identifier="ring" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="5" secondarycontrolledoutpostpercentage="20" opposingfaction="middle,thumb,coalition">
+    <Icon name="RingIcon" texture="%ModDir%/Images/icons.png" sourcerect="526,128,128,128" color="206,62,62,255" />
+    <Portrait name="RingPortait" texture="%ModDir%/Factions/ringbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ringstudent" minreputation="40" />
+  </Faction>
+  <Faction identifier="thumb" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="6" secondarycontrolledoutpostpercentage="20" opposingfaction="middle,ring,coalition">
+    <Icon name="ThumbIcon" texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" color="206,62,62,255" />
+    <Portrait name="ThumbPortait" texture="%ModDir%/Factions/thumbbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="kurokumoclanwakashu" minreputation="20" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="thumbsoldato" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="thumbsoldato_east" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="kurokumoclancaptain" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="thumbcapo" minreputation="80" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="leiheng" minreputation="100" />
+    <AutomaticMission leveltype="LocationConnection" missiontag="thumbattack" minreputation="-100" maxreputation="-50" MaxDistanceFromFactionOutpost="3" DisallowBetweenOtherFactionOutposts="false" minprobability="0.2" maxprobability="0.01" />
+  </Faction>
+  <Faction identifier="fixers" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="7" secondarycontrolledoutpostpercentage="10">
+    <Icon name="FixersIcon" texture="%ModDir%/Images/Icons.png" sourcerect="512,640,128,128" color="206,62,62,255" />
+    <Portrait name="FixersPortait" texture="%ModDir%/Factions/fixersbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="roland" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="redmist" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="redgaze" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="fullstopoffice" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="firefistoffice" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="shi_east" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="philip" minreputation="75" />
+  </Faction>
+  <Faction identifier="syndicates" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="8" secondarycontrolledoutpostpercentage="10" opposingfaction="coalition">
+    <Icon name="FixersIcon" texture="%ModDir%/Images/Icons2.png" sourcerect="256,0,128,128" color="206,62,62,255" />
+    <Portrait name="FixersPortait" texture="%ModDir%/Factions/syndicatesbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="bladelineagesalsu" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="bladelineagementor" minreputation="100" />
+  </Faction>
+  <Faction identifier="wings" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="9" secondarycontrolledoutpostpercentage="10" opposingfaction="separatists,lobotomycorporation">
+    <Icon name="WingsIcon" texture="%ModDir%/Images/Icons.png" sourcerect="0,128,128,128" color="206,62,62,255" />
+    <Portrait name="FixersPortait" texture="%ModDir%/Factions/corporationsbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lccb" minreputation="30" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="wcorpcleanupcrew" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="kcorp" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="kcorpexcision" minreputation="80" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="rcorprabbit" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="rcorprhino" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ncorpkleinhammer" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ncorpmittelhammer1" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ncorpmittelhammer2" minreputation="80" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="guido" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="kromer" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ncorpfellbullet" minreputation="70" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="ncorpcontemptawe" minreputation="70" />
+  </Faction>
+  <Faction identifier="lobotomycorporation" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="10" secondarycontrolledoutpostpercentage="10" opposingfaction="coalition,wings">
+    <Icon name="WingsIcon" texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" color="206,62,62,255" />
+    <Portrait name="FixersPortait" texture="%ModDir%/Factions/lobotomycorporationbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_cavernouswailing" minreputation="20" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_regret" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_fellbullet" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_magicbullet" minreputation="60" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_blindobsession" minreputation="80" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_contemptawe" minreputation="80" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_mimicry" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="lobcorpremnant_twilight" minreputation="100" />
+  </Faction>
+  <Faction identifier="hongyuan" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="11" secondarycontrolledoutpostpercentage="10" opposingfaction="separatists,wings">
+    <Icon name="WingsIcon" texture="%ModDir%/Images/icons2.png" sourcerect="640,256,128,128" color="206,62,62,255" />
+    <Portrait name="FixersPortait" texture="%ModDir%/Factions/hongyuanbackground.png" sourcerect="0,0,1920,1080" color="255,255,255,255" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="heishoupackhare" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="zilu" minreputation="100" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="heishoupacksnake" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="heishoupack_youbranch" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="heishoupack_wubranch" minreputation="40" />
+    <Hireable npcsetidentifier="abnormalitynpcs" npcidentifier="jadeqilin" minreputation="100" />
+  </Faction>
+</Factions>

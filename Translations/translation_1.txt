@@ -1,0 +1,102 @@
+1. 異常體（Abnormalities）名稱
+
+Nothing There： 「一無所有」
+Glupo (Blubbering Toad)： 悲泣蟾蜍
+One Sin and Hundreds of Good Deeds： 一罪與百善
+Punishing Bird： 懲戒鳥
+Forsaken Murderer： 被遺棄的殺人魔
+So That No One Will Cry： 因而無人哭泣
+KQE-1J-23： KQE-1J-23
+Der Freischütz： 魔彈射手
+Headless Ichthys： 斷首魚
+The Naked Nest： 裸巢
+Wayward Passenger： 迷失乘客
+Spiral of Contempt： 輕蔑螺旋
+Blue Star： 碧藍新星
+CENSORED： [CENSORED]
+Amber Dawn / Amber Dusk： 琥珀色的 正午 / 黃昏
+Crimson Dawn / Crimson Dusk： 血色的 正午 / 黃昏
+Green Dawn / Green Dusk： 綠色的 正午 / 黃昏
+Indigo Dawn / Indigo Dusk： 靛藍色的 正午 / 黃昏
+Violet Dawn / Violet Dusk： 紫羅蘭的 正午 / 黃昏
+White Dawn / White Dusk： 慘白的 正午 / 黃昏
+Dawn / Noon / Dusk / Midnight: 黎明 / 正午 / 黃昏 / 午夜
+Apocalypse Bird： 終末鳥
+Dream-Devouring Siltcurrent： 噬夢的濁流
+The King in Binds： 受縛之王
+The Crying Children： 哭泣之子
+
+2. 物品與裝備（Items & Gear）相關術語
+
+EGO Gifts： EGO飾品
+Regret: 悔恨
+Penitence: 懺悔
+Mimicry： 擬態
+Fluid Sac： 液囊
+Magic Bullet： 魔彈射手
+Exuviae： 蛻落之皮
+Enkephalin Module： 腦啡肽模組
+Don't Touch Me： 別按我
+Melty Eyes： 融化的眼球
+Sunshower： 狐雨
+Pinpoint Logic Circuit： 單點打擊邏輯電路
+Book of Vengeance： 復仇帳簿
+Corroded Inquisitor Equipment： 異端審判官的裝備
+Bolus： 丸藥
+Vestige： EGO 殘影
+
+3. 角色與敵人（Characters & Enemies）相關術語
+
+Corroded Inquisitor： 異端審判官
+Exuviae Parasite： 裸蛇
+Small Bird / Punishing Bird： 小鳥 / 懲戒鳥
+Drenched Gossypium： 浸染棉花
+Meat Doggy： 小肉狗
+Der Fluchschütze： 凶彈射手
+Smoke Monster： 霧霾怪物
+Smoldering Byproduct： 霧霾副產品
+
+4. 派系（Factions）相關術語
+
+Thumb： 拇指
+Middle： 中指
+Ring： 環指
+Fixers： 收尾人
+Syndicates： 組織
+Wings： 世界之翼
+Lobotomy Corporation： 腦葉公司
+Kurokumo Clan： 黑雲會
+Blade Lineage： 劍契組
+N Corp： N公司
+Liu Association： 六協會
+Zwei Association： 二協會
+Seven Association： 七協會
+Index： 食指
+Devyat Association： 九協會
+Bloodfiends： 血魔
+
+5. 天賦與技能（Talents & Skills）相關術語
+
+Poise： 呼吸
+Rupture： 破裂
+Tremor： 震顫
+Bleed / Bloodloss： 出血 / 失血
+Fanatic： 狂熱
+Charge： 充能
+Parry： 招架
+Sanity / Psychosis： 理智 / 癲狂
+Bloodfeast： 血宴
+Hardblood： 硬血
+
+6. 遊戲機制與其他術語（Game Mechanics & Others）
+
+ZAYIN / TETH / HE / WAW / ALEPH： ZAYIN / TETH / HE / WAW / ALEPH
+Ordeal： 考驗
+E.G.O.： E.G.O.
+Singularity： 奇點科技
+Enkephalin： 腦啡肽
+Work (Instinct/Insight/Attachment/Repression)： 工作 (本能/洞察/溝通/壓迫)
+Augment Splicer： 強化接合器
+Body Modifications： 身體改造
+Enhancement Tattoos： 強化紋身
+Index Prescript： 指令之意

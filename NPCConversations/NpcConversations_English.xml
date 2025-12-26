@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="abnormalitiesconversations" Language="English" nowhitespace="False">
+  <Conversation line="333...1973" speaker="0" allowedjobs="sweeper">
+    <Conversation line="" speaker="0" />
+    <Conversation line="What?" speaker="1">
+      <Conversation line="Huh?" speaker="2" />
+      <Conversation line="333...1973" speaker="2" allowedjobs="sweeper" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Don't worry, guys. There's Nothing There to worry about." speaker="0" speakertags="joker">
+    <Conversation line="" speaker="0" />
+    <Conversation line="Don't joke about that thing. I wish I could forget it." speaker="1">
+      <Conversation line="You've seen it? And lived?" speaker="2">
+        <Conversation line="Only in pictures, thank Jove." speaker="1" />
+        <Conversation line="Seen what? There's Nothing There to see!" speaker="0" speakertags="joker">
+          <Conversation line="Shut the fuck up." speaker="1" speakertags="rude" />
+          <Conversation line="Take a hint, jackass." speaker="2" speakertags="rude" />
+          <Conversation line="..." speaker="1" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="That's that, and this is this." speaker="0" allowedjobs="roland" />
+  <Conversation line="I have nothing but my sorrow and I want nothing more. It has been, it still is, faithful to me." speaker="0" allowedjobs="roland,arbiter">
+    <Conversation line="Why should I begrudge it, since during the hours when my soul crushed the depths of my heart, it was seated there beside me?" speaker="0">
+      <Conversation line="O sorrow, I have ended, you see, by respecting you, because I am certain you will never leave me. " speaker="0">
+        <Conversation line="Ah! I realize it: your beauty lies in the force of your being. You are like those who never left the sad fireside corner of my poor black heart. " speaker="0">
+          <Conversation line="O my sorrow, you are better than a well-beloved: because I know that on the day of my final agony, you will be there, lying in my sheets, O sorrow, so that you might once again attempt to enter my heart. " speaker="0">
+            <Conversation line="Are you okay?" speaker="1">
+              <Conversation line="..." speaker="0" />
+              <Conversation line="" speaker="0" />
+              <Conversation line="That's that, and this is this." speaker="0" />
+              <Conversation line="Just leave them alone, they get like that sometimes." speaker="2" />
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+</Conversations>

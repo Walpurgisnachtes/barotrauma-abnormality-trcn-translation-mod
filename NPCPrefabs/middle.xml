@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="middle">
+    <npc identifier="hireablemiddle" job="middle" spawnpointtags="security" skillmultiplier="1.0" experiencepoints="2000">
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos1" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos2" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos3" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos4" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+    </npc>
+    <npc identifier="outpostmiddle" job="middle" faction="middle" spawnpointtags="engineering" behavior="Passive">
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos1" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos2" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos3" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="middleoutfit" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="middlechains" />
+        <Item identifier="middlechains" />
+        <Item identifier="bookofvengeance" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antidama1" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibloodloss2" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="middletattoos4" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

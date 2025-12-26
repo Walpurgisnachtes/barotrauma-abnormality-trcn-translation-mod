@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Missions>
+  <!-- Suppress Headless Ichthys -->
+  <MonsterMission identifier="killheadlessichthys" tags="killmonster,killswarm" type="Monster" difficulty="3" commonness="100" reward="2500" sonarlabel="character.headlessichthys" minleveldifficulty="40" maxsonarmarkerdistance="10000">
+    <monster character="headlessichthys" min="1" max="1" />
+    <Reputation identifier="location" amount="5" />
+    <Reputation identifier="lobotomycorporation" amount="5" />
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="0,0,256,256" color="255,255,255" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <!-- Suppress the Naked Nest -->
+  <AbandonedOutpostMission identifier="abandonedoutpostthenakednest" textidentifier="abandonedoutpostabnormality" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="5000" difficulty="4" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="60" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="0,0,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="exuviaeparasite" min="3" max="6" />
+      <Character identifier="exuviaeparasite" min="2" max="4" multiplayeronly="true" />
+    </Characters>
+    <Items>
+      <Item identifier="nakednest" spawnpointtags="nest" />
+    </Items>
+    <message header="missionheader0.abandonedoutpostabnormality" text="missionmessage0.abandonedoutpostabnormality" />
+    <Reputation identifier="lobotomycorporation" amount="15" />
+  </AbandonedOutpostMission>
+  <!-- Suppress Nothing There -->
+  <AbandonedOutpostMission identifier="abandonedoutpostnothingthere" textidentifier="abandonedoutpostabnormality" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="10000" difficulty="5" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="80" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="256,256,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="corrodedinquisitor1" min="2" max="3" />
+      <Character identifier="corrodedinquisitor1" min="2" max="3" multiplayeronly="True" />
+      <Character identifier="corrodedinquisitor2" min="2" max="3" />
+      <Character identifier="corrodedinquisitor2" min="2" max="3" multiplayeronly="True" />
+    </Characters>
+    <Items>
+      <Item identifier="nothingthereegg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" />
+      </Item>
+    </Items>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostabnormality" text="missionmessage0.abandonedoutpostabnormality" />
+    <Reputation identifier="lobotomycorporation" amount="20" />
+  </AbandonedOutpostMission>
+  <!-- Suppress Blue Star -->
+  <AbandonedOutpostMission identifier="abandonedoutpostbluestar" textidentifier="abandonedoutpostabnormality" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="7500" difficulty="5" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="80" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="256,256,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="bluestar" min="1" max="1" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostabnormality" text="missionmessage0.abandonedoutpostabnormality" />
+    <Reputation identifier="lobotomycorporation" amount="20" />
+  </AbandonedOutpostMission>
+  <!-- Suppress CENSORED -->
+  <AbandonedOutpostMission identifier="abandonedoutpostcensored" textidentifier="abandonedoutpostabnormality" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="10000" difficulty="5" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="80" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="256,256,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="censored" min="1" max="1" />
+      <Character identifier="censoredhuman" min="1" max="3" />
+      <Character identifier="censoredhuman" min="1" max="3" multiplayeronly="True" />
+      <Character identifier="censoredhusk" min="1" max="3" />
+      <Character identifier="censoredhusk" min="1" max="3" multiplayeronly="True" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostabnormality" text="missionmessage0.abandonedoutpostabnormality" />
+    <Reputation identifier="lobotomycorporation" amount="20" />
+  </AbandonedOutpostMission>
+  <!-- Suppress Der Freischutz -->
+  <AbandonedOutpostMission identifier="abandonedoutpostderfreischutz" textidentifier="abandonedoutpostabnormality" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="2500" difficulty="3" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="40" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="256,256,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="derfreischutz" min="1" max="1" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostabnormality" text="missionmessage0.abandonedoutpostabnormality" />
+    <Reputation identifier="lobotomycorporation" amount="10" />
+  </AbandonedOutpostMission>
+  <!-- Suppress breached TETH-level Abnormalities -->
+  <AbandonedOutpostMission identifier="abandonedoutpostcontainmentbreach1" textidentifier="abandonedoutpostabnormalitybreach" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="3000" difficulty="3" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="20" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="0,0,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="forsakenmurderer" min="0" max="1" />
+      <Character identifier="corrodedinquisitor1" min="0" max="1" />
+      <Character identifier="corrodedinquisitor2" min="0" max="1" />
+      <Character identifier="blubberingtoad" min="-1" max="1" />
+      <Character identifier="onesin" min="-1" max="1" />
+      <Character identifier="smallbird" min="-1" max="1" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostabnormalitybreach" text="missionmessage0.abandonedoutpostabnormalitybreach" />
+    <Reputation identifier="lobotomycorporation" amount="5" />
+  </AbandonedOutpostMission>
+  <!-- Suppress breached HE-level Abnormalities -->
+  <AbandonedOutpostMission identifier="abandonedoutpostcontainmentbreach2" textidentifier="abandonedoutpostabnormalitybreach" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="5000" difficulty="4" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="40" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="0,0,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="forsakenmurderer" min="-1" max="1" />
+      <Character identifier="blubberingtoad" min="-2" max="1" />
+      <Character identifier="onesin" min="-2" max="1" />
+      <Character identifier="smallbird" min="-2" max="1" />
+      <Character identifier="derfreischutz" min="0" max="1" />
+      <Character identifier="waywardpassenger" min="0" max="1" />
+      <Character identifier="talisman" min="0" max="1" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostabnormalitybreach" text="missionmessage0.abandonedoutpostabnormalitybreach" />
+    <Reputation identifier="lobotomycorporation" amount="10" />
+  </AbandonedOutpostMission>
+  <!-- Suppress the Amber Ordeal 1 -->
+  <AbandonedOutpostMission identifier="abandonedoutpostamberordealdawn" textidentifier="abandonedoutpostordealamberdawn" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="2500" difficulty="2" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="20" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="0,0,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="amberdawn" min="5" max="10" />
+      <Character identifier="amberdawn" min="5" max="5" multiplayeronly="true" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostordealamberdawn" text="missionmessage0.abandonedoutpostordealamberdawn" />
+    <Reputation identifier="lobotomycorporation" amount="5" />
+  </AbandonedOutpostMission>
+  <!-- Suppress the Amber Ordeal 2 -->
+  <AbandonedOutpostMission identifier="abandonedoutpostamberordealdusk" textidentifier="abandonedoutpostordealamberdusk" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroymonsters" type="OutpostDestroy" reward="4000" difficulty="4" commonness="100" allowretry="true" sonarlabel="nest" minleveldifficulty="60" unhideentitysubcategories="abandonedmonster">
+    <Icon texture="%ModDir%/Images/MissionIcons.png" sourcerect="0,0,256,256" color="255,255,255" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="amberdusk" min="2" max="3" />
+      <Character identifier="amberdawn" min="1" max="2" multiplayeronly="true" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostordealamberdusk" text="missionmessage0.abandonedoutpostordealamberdusk" />
+    <Reputation identifier="lobotomycorporation" amount="10" />
+  </AbandonedOutpostMission>
+  <!-- Pulling up on the opps -->
+  <PirateMission type="Pirate" identifier="thumbpirates" tags="separatistsub" faction="thumb" difficulty="4" commonness="100" reward="4000" achievementidentifier="combatmissioncoalitionvsseparatists" addedmissiondifficultyperplayer="8">
+    <Reputation identifier="middle" amount="10" amountforopposingfaction="-10" />
+    <Reputation identifier="ring" amount="10" amountforopposingfaction="-10" />
+    <!--
+    <SubmarineTypes>
+      <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" faction="separatists" preferreddifficulty="10" alternatereward="3200"/>
+      <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" faction="separatists" preferreddifficulty="40" alternatereward="4400"/>
+      <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" faction="separatists" preferreddifficulty="70" alternatereward="5600"/>
+    </SubmarineTypes>    
+    -->
+    <Characters>
+      <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistsecurity" minamount="2" maxamount="5" />
+      <Character typeidentifier="separatistmechanic" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistengineer" minamount="1" maxamount="1" />
+    </Characters>
+    <CharacterTypes>
+      <CharacterType typeidentifier="separatistcaptain">
+        <Character identifier="thumbcapo" from="abnormalitynpcs" preferreddifficulty="50" iscommander="true" />
+        <Character identifier="leiheng" from="abnormalitynpcs" preferreddifficulty="90" iscommander="true" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistsecurity">
+        <Character identifier="thumbsoldato" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistmechanic">
+        <Character identifier="thumbsoldato" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistengineer">
+        <Character identifier="thumbsoldato" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+    </CharacterTypes>
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="243,146,55" />
+    <message header="missionheader0.pirate1" text="missionmessage0.pirate1" />
+    <message header="missionheader1.pirate1" text="missionmessage1.pirate1" />
+    <LocationType from="AnyOutpost" to="Any" />
+  </PirateMission>
+  <PirateMission type="Pirate" identifier="thumbattack" tags="separatistsub" faction="thumb" difficulty="4" showinmenus="false" showstartmessage="false" issideobjective="true" commonness="0" reward="0" achievementidentifier="combatmissioncoalitionvsseparatists" addedmissiondifficultyperplayer="8">
+    <Reputation identifier="middle" amount="10" amountforopposingfaction="-10" />
+    <Reputation identifier="ring" amount="10" amountforopposingfaction="-10" />
+    <!--
+    <SubmarineTypes>
+      <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" faction="separatists" preferreddifficulty="10" alternatereward="3200"/>
+      <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" faction="separatists" preferreddifficulty="40" alternatereward="4400"/>
+      <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" faction="separatists" preferreddifficulty="70" alternatereward="5600"/>
+    </SubmarineTypes>    
+    -->
+    <Characters>
+      <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistsecurity" minamount="2" maxamount="5" />
+      <Character typeidentifier="separatistmechanic" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistengineer" minamount="1" maxamount="1" />
+    </Characters>
+    <CharacterTypes>
+      <CharacterType typeidentifier="separatistcaptain">
+        <Character identifier="thumbcapo" from="abnormalitynpcs" preferreddifficulty="50" iscommander="true" />
+        <Character identifier="leiheng" from="abnormalitynpcs" preferreddifficulty="90" iscommander="true" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistsecurity">
+        <Character identifier="thumbsoldato" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistmechanic">
+        <Character identifier="thumbsoldato" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistengineer">
+        <Character identifier="thumbsoldato" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+    </CharacterTypes>
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="243,146,55" />
+    <message header="missionheader0.separatistattack1" text="missionmessage0.separatistattack1" />
+    <LocationType from="AnyOutpost" to="Any" />
+  </PirateMission>
+  <PirateMission type="Pirate" identifier="middlepirates" tags="separatistsub" faction="thumb" difficulty="4" commonness="100" reward="4000" achievementidentifier="combatmissioncoalitionvsseparatists" addedmissiondifficultyperplayer="8">
+    <Reputation identifier="thumb" amount="10" amountforopposingfaction="-10" />
+    <Reputation identifier="ring" amount="10" amountforopposingfaction="-10" />
+    <!--
+    <SubmarineTypes>
+      <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" faction="separatists" preferreddifficulty="10" alternatereward="3200"/>
+      <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" faction="separatists" preferreddifficulty="40" alternatereward="4400"/>
+      <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" faction="separatists" preferreddifficulty="70" alternatereward="5600"/>
+    </SubmarineTypes>    
+    -->
+    <Characters>
+      <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistsecurity" minamount="2" maxamount="5" />
+      <Character typeidentifier="separatistmechanic" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistengineer" minamount="1" maxamount="1" />
+    </Characters>
+    <CharacterTypes>
+      <CharacterType typeidentifier="separatistcaptain">
+        <Character identifier="werner" from="abnormalitynpcs" preferreddifficulty="50" iscommander="true" />
+        <Character identifier="ricardo" from="abnormalitynpcs" preferreddifficulty="90" iscommander="true" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistsecurity">
+        <Character identifier="middle" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistmechanic">
+        <Character identifier="middle" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistengineer">
+        <Character identifier="middle" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+    </CharacterTypes>
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="243,146,55" />
+    <message header="missionheader0.pirate1" text="missionmessage0.pirate1" />
+    <message header="missionheader1.pirate1" text="missionmessage1.pirate1" />
+    <LocationType from="AnyOutpost" to="Any" />
+  </PirateMission>
+  <PirateMission type="Pirate" identifier="middleattack" tags="separatistsub" faction="thumb" showinmenus="false" showstartmessage="false" issideobjective="true" difficulty="4" commonness="0" reward="0" achievementidentifier="combatmissioncoalitionvsseparatists" addedmissiondifficultyperplayer="8">
+    <Reputation identifier="thumb" amount="10" amountforopposingfaction="-10" />
+    <Reputation identifier="ring" amount="10" amountforopposingfaction="-10" />
+    <!--
+    <SubmarineTypes>
+      <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" faction="separatists" preferreddifficulty="10" alternatereward="3200"/>
+      <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" faction="separatists" preferreddifficulty="40" alternatereward="4400"/>
+      <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" faction="separatists" preferreddifficulty="70" alternatereward="5600"/>
+    </SubmarineTypes>    
+    -->
+    <Characters>
+      <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistsecurity" minamount="2" maxamount="5" />
+      <Character typeidentifier="separatistmechanic" minamount="1" maxamount="1" />
+      <Character typeidentifier="separatistengineer" minamount="1" maxamount="1" />
+    </Characters>
+    <CharacterTypes>
+      <CharacterType typeidentifier="separatistcaptain">
+        <Character identifier="werner" from="abnormalitynpcs" preferreddifficulty="50" iscommander="true" />
+        <Character identifier="ricardo" from="abnormalitynpcs" preferreddifficulty="90" iscommander="true" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistsecurity">
+        <Character identifier="middle" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistmechanic">
+        <Character identifier="middle" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+      <CharacterType typeidentifier="separatistengineer">
+        <Character identifier="middle" from="abnormalitynpcs" preferreddifficulty="40" />
+      </CharacterType>
+    </CharacterTypes>
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="243,146,55" />
+    <message header="missionheader0.separatistattack1" text="missionmessage0.separatistattack1" />
+    <LocationType from="AnyOutpost" to="Any" />
+  </PirateMission>
+</Missions>

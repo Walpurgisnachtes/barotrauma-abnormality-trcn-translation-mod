@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisembarkPerks>
+  <!-- Engineering -->
+  <DisembarkPerk identifier="enkephalinstartup" cost="1" sortcategory="Abnormalities" sortkey="0">
+    <SpawnItemPerk identifier="enkephalinprocessor" MinAmount="1" />
+    <SpawnItemPerk identifier="enkephalin" MinAmount="8" PerPlayer="1" />
+  </DisembarkPerk>
+  <DisembarkPerk identifier="enkephalinestablishment" cost="2" sortcategory="Abnormalities" prerequisite="enkephalinstartup" sortkey="1">
+    <SpawnItemPerk identifier="gatetotheblackforest" MinAmount="1" />
+    <SpawnItemPerk identifier="containmentcell" MinAmount="1" />
+    <SpawnItemPerk identifier="enkephalin" MinAmount="4" PerPlayer="0.5" />
+  </DisembarkPerk>
+  <DisembarkPerk identifier="enkephalinfactory" cost="3" sortcategory="Abnormalities" prerequisite="enkephalinestablishment" sortkey="2">
+    <SpawnItemPerk identifier="egogiftresearchstation" MinAmount="1" />
+    <SpawnItemPerk identifier="enkephalingenerator" MinAmount="1" />
+    <SpawnItemPerk identifier="enkephalin" MinAmount="4" PerPlayer="0.5" />
+  </DisembarkPerk>
+</DisembarkPerks>

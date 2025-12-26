@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="thumb">
+    <npc identifier="hireablethumb" job="thumbsoldato" spawnpointtags="security" skillmultiplier="1.0" experiencepoints="2000">
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="thumbcoat" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="soldatorifle" />
+        <Item identifier="soldatoriflemelee" />
+        <Item identifier="discipline" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+    </npc>
+    <npc identifier="outpostthumbsoldato" job="thumbsoldato" spawnpointtags="admin" preferredoutpostmoduletypes="admin,adminmodule" behavior="Passive">
+      <ItemSet commonness="1">
+        <Item identifier="hiddenarmor" equip="true" />
+        <Item identifier="thumbcoat" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="soldatorifle" />
+        <Item identifier="soldatoriflemelee" />
+        <Item identifier="discipline" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatoarmorround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatofreezeround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="soldatoflameround" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="headset" equip="true" />
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

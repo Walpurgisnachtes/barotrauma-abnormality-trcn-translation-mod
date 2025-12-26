@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Research Fragment: Craft them to get recipes -->
+  <Item name="Urban Myth Research Fragment" identifier="abno_researchcomponent_t1" maxstacksize="32" maxstacksizecharacterinventory="8" description="Research Fragments that may lead to an understanding of common Enkephalin-infused item recipes." spritecolor="100,255,100,255" inventoryiconcolor="100,255,100,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+      <RequiredItem identifier="vestige_dark" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="323,193,60,61" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="149,371,69,93" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- Grants the recipe to self -->
+  <Item name="Urban Myth Blueprints (Personal)" useinhealthinterface="true" identifier="abno_weaponblueprintspersonal_t1" description="A complete blueprint that will permanently unlock Urban Myth Weapon recipes." spritecolor="100,255,100,255" inventoryiconcolor="100,255,100,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t1" amount="10" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="urbanmythblueprints" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Grants the recipe to everyone -->
+  <Item name="Urban Myth Blueprints (Crew)" identifier="abno_weaponblueprints_t1" description="A complete blueprint that will permanently unlock Urban Myth Weapon recipes." spritecolor="100,255,100,255" inventoryiconcolor="100,255,100,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t1" amount="30" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="260" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" unlockrecipe="bodymod_grade9_general,bodymod_grade8_general,bodymod_grade9_offense,bodymod_grade8_offense,bodymod_grade9_defense,bodymod_grade8_defense,bodymod_grade9_premium,bodymod_grade8_premium,liuuniform,liucoat,liusword,thumbcoat,thumbcoat_outer,thumbhat,soldatobayonetspear,soldatorifle,discipline,middleoutfit,middlechainsleft,middlechainsright,kleinhammer,mittelhammer_1,ncorpuniform_kleinhammer,ncorparmor_kleinhammer,ncorphelmet_kleinhammer,ncorparmor_mittelhammer_1,ncorphelmet_mittelhammer_1,hellspannerrepair,kromerhelmet,hiddenarmor,sevenuniform1,sevenuniform2,sevenvest,sevencoat,abnoinvisbackpack,fullstophandgun,fullstop_machete,trenchcoat_salsu,bladelineage_hat,bladelineage_sword,bladelineage_scabbard,kurokumo_uniform,kurokumo_coat,kurokumo_coat_rolled,kurokumo_sword_1,kurokumo_sword_2,kurokumo_scabbard_1,kurokumo_scabbard_2,tcorp_tux,corruptedblood,skillbook_parry" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <RemoveItem />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <!-- ================================================================================================================================================================================================================================ -->
+  <!-- Research Fragment: Craft them to get recipes -->
+  <Item name="Urban Legend Research Fragment" identifier="abno_researchcomponent_t2" maxstacksize="32" maxstacksizecharacterinventory="8" description="Research Fragments that may lead to an understanding of uncommon Enkephalin-infused item recipes." spritecolor="100,100,255,255" inventoryiconcolor="100,100,255,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="45">
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+      <RequiredItem identifier="abno_researchcomponent_t1" />
+      <RequiredItem identifier="vestige_faint" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="323,193,60,61" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="149,371,69,93" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- Grants the recipe to self -->
+  <Item name="Urban Legend Blueprints (Personal)" useinhealthinterface="true" identifier="abno_weaponblueprintspersonal_t2" description="A complete blueprint that will permanently unlock Urban Legend recipes for yourself." spritecolor="100,100,255,255" inventoryiconcolor="100,100,255,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t2" amount="10" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="urbanlegendblueprints" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Grants the recipe to everyone -->
+  <Item name="Urban Legend Blueprints (Crew)" identifier="abno_weaponblueprints_t2" description="A complete blueprint that will permanently unlock Urban Legend recipes for the crew." spritecolor="100,100,255,255" inventoryiconcolor="100,100,255,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t2" amount="30" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="260" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" unlockrecipe="reindeerstaff,reindeerhelmet_festive,reindeeruniform,bodymod_grade7_general,bodymod_grade6_general,bodymod_grade7_offense,bodymod_grade6_offense,bodymod_grade7_defense,bodymod_grade6_defense,bodymod_grade7_premium,bodymod_grade6_premium,werner_uniform,werner_coat,tattoo_middle_junior,ringstudentoutfit,ringstudentarmor,ringstudenthat,ringstudentpaintbrush,mittelhammer_2,ncorphelmet_mittelhammer_2,ncorparmor_mittelhammer_2,kromerhelmet_t2,lccbuniform,lccbbodyarmor,lccbhelmetmask,lccbhandgun,lccbbaton,lccbshotgun,lccbshield,kcorpuniform,kcorpbodyarmor,kcorphelmet,kcorpaxe,kcorpbaton,rabbituniform,rabbithelmet,hiddenarmor_t2,rabbitknife,rabbitgun,warpmachete,warpknife,warpglaive,warpaxe,wcorpuniform,wcorpbodyarmor,wcorphat,zweizweihander,zweiuniform,sevensword,7revolverround,7riflebullet,enkephalingenerator,heishoupack_cursedsword,heishoupack_robes,heishoupack_hat,heishoupack_armor,heishoupack_sibranch_cursedspear_slashing,heishoupack_sibranch_robes,heishoupack_sibranch_hat,heishoupack_sibranch_armor,fullstoprifle,trenchcoat_mentor,kokuunto_1,kokuunto_2,you_robes,you_hat,you_armor,you_scabbard,you_sword_rupture,you_sword_burn,wu_robes,wu_hat,wu_armor,wu_guandao,firefistsuit,firefistmask,firefistbackpack,firefist_melee,firefist_ranged,index_uniform,index_cloak,index_mask,index_sword,index_scabbard,tcorpwatch,tcorp_class2armor,tcorp_hat_t1,tcorpfistleft,tcorpfistright,abno_timecollector,devyat_uniform,devyat_goggles_t1,devyat_goggles_t2,devyat_hammertrunk,devyat_pistontrunk,devyat_knifetrunk,bloodfiend_priestfollower_uniform,bloodfiend_priestfollower_mask,bloodfiend_barberfollower_uniform,bloodfiend_barberfollower_mask,bloodfiend_scissors_t1,priestfollower_staff,corruptedblood_prayers,corruptedblood_fashion" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <RemoveItem />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <!-- ================================================================================================================================================================================================================================ -->
+  <!-- Research Fragment: Craft them to get recipes -->
+  <Item name="Urban Plague Research Fragment" identifier="abno_researchcomponent_t3" maxstacksize="32" maxstacksizecharacterinventory="8" description="Research Fragments that may lead to an understanding of rare Enkephalin-infused item recipes." spritecolor="255,100,255,255" inventoryiconcolor="255,100,255,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="60">
+      <RequiredSkill identifier="weapons" level="70" />
+      <RequiredItem identifier="enkephalinbox" amount="4" />
+      <RequiredItem identifier="abno_researchcomponent_t2" />
+      <RequiredItem identifier="vestige_twinkling" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="323,193,60,61" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="149,371,69,93" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- Grants the recipe to self -->
+  <Item name="Urban Plague Blueprints (Personal)" useinhealthinterface="true" identifier="abno_weaponblueprintspersonal_t3" description="A complete blueprint that will permanently unlock Urban Plague recipes for yourself." spritecolor="255,100,255,255" inventoryiconcolor="255,100,255,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t3" amount="10" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="urbanplagueblueprints" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Grants the recipe to everyone -->
+  <Item name="Urban Plague Blueprints (Crew)" identifier="abno_weaponblueprints_t3" description="A complete blueprint that will permanently unlock Urban Plague recipes for the crew." spritecolor="255,100,255,255" inventoryiconcolor="255,100,255,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t3" amount="30" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="260" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" unlockrecipe="abno_weakenedbinahcostume,abno_weakenedbinahcoat,abno_weakenedredmistmask,abno_weakenedredmistcostume,bodymod_grade5_general,bodymod_grade4_general,bodymod_grade5_offense,bodymod_grade4_offense,bodymod_grade5_defense,bodymod_grade4_defense,bodymod_grade5_premium,bodymod_grade4_premium,thumb_capo_coat,thumb_capo_coat_outer,capopistol,ricardo_uniform,ricardo_coat,middlechainsleft_physicorium,middlechainsright_physicorium,tattoo_middle_senior,seniormiddletattoos1,seniormiddletattoos2,seniormiddletattoos3,groshammer_longnail,groshammer_gauntlet,ncorphelmet_groshammer,ncorparmor_groshammer,kromerhelmet_t3,kromercoat,ahabgaspoweredharpoon,kcorpexcisionsuit,kcorpstaff,hiddenarmor_t3,rhinosuit,rhinohelmet,rhinohammer,warpteleportationanchor,warprecalldevice,wcorp_cca,wildhuntsword,wildhuntcoffin,wildhuntcoat,atalierlogicrifleround,shiuniform_east,shi_quiver,shi_bowblade_melee,shi_bowblade_ranged,dawnofficesuit,dawnoffice_sword,tcorp_class3armor,tcorp_class3helmet,tcorp_class3_pickaxe,tcorp_class3_chainsaw,tcorp_tux_vdcu,tcorp_vdcuarmor,tcorp_hat_vdcu,tcorp_vdcumace,nightawls_stiletto,nightawls_uniform,nightawls_armor,nightawls_prosthetics,hanafuda_uniform,hanafuda_sword,hanafuda_scabbard,devyat_goggles_t3,bloodfiend_priest_uniform,bloodfiend_priest_mask,bloodfiend_barber_uniform,bloodfiend_barber_mask,bloodfiend_scissors_t2,priest_staff,vermillionscleaver" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <RemoveItem />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <!-- ================================================================================================================================================================================================================================ -->
+  <!-- Research Fragment: Craft them to get recipes -->
+  <Item name="Urban Nightmare Research Fragment" identifier="abno_researchcomponent_t4" maxstacksize="32" maxstacksizecharacterinventory="8" description="Research Fragments that may lead to an understanding of elite Enkephalin-infused item recipes." spritecolor="255,255,0,255" inventoryiconcolor="255,255,0,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="75">
+      <RequiredSkill identifier="weapons" level="90" />
+      <RequiredItem identifier="abno_researchcomponent_t3" />
+      <RequiredItem identifier="refinedenkephalinmodule" />
+      <RequiredItem identifier="vestige_brilliant" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="323,193,60,61" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="149,371,69,93" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- Grants the recipe to self -->
+  <Item name="Urban Nightmare Blueprints (Personal)" useinhealthinterface="true" identifier="abno_weaponblueprintspersonal_t4" description="A complete blueprint that will permanently unlock Urban Nightmare recipes for yourself." spritecolor="255,255,0,255" inventoryiconcolor="255,255,0,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t4" amount="10" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="urbannightmareblueprints" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Grants the recipe to everyone -->
+  <Item name="Urban Nightmare Blueprints (Crew)" identifier="abno_weaponblueprints_t4" description="A complete blueprint that will permanently unlock Urban Nightmare recipes for the crew." spritecolor="255,255,0,255" inventoryiconcolor="255,255,0,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t4" amount="30" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="260" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" unlockrecipe="bodymod_grade3_general,bodymod_grade2_general,bodymod_grade3_offense,bodymod_grade2_offense,bodymod_grade3_defense,bodymod_grade2_defense,bodymod_grade3_premium,bodymod_grade2_premium,xiaoguandaofake,leiheng_coat,leiheng_coat_outer,leihenghat,tiantui_star_blade,clawuniform,clawclaw,clawhandopen,heishoupack_cursedsword_zilu,tianjiu_star_blade,heishoupack_robes_zilu,heishoupack_hat_zilu,jiabaoyu_guandao,jiaqiu_staff,jiaqiu_robes,jiaqiu_armor,jiaqiu_hair,jiabaoyu_hair,tlkhelmet,tlkarmor,tlklance,bloodfiend_manager_uniform,bloodfiend_prince_uniform,bloodfiend_prince_armor,bloodfiend_prince_helmet,prince_staff,bloodfiendmanagerlance" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <RemoveItem />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <!-- ================================================================================================================================================================================================================================ -->
+  <!-- Research Fragment: Craft them to get recipes -->
+  <Item name="Star of the City Research Fragment" identifier="abno_researchcomponent_t5" maxstacksize="32" maxstacksizecharacterinventory="8" description="Research Fragments that may lead to an understanding of the pinnacle of Enkephalin-infused item recipes." spritecolor="255,50,50,255" inventoryiconcolor="255,50,50,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="90">
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredItem identifier="abno_researchcomponent_t4" />
+      <RequiredItem identifier="vestige_lunar" />
+      <RequiredItem identifier="aliencircuitry" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="323,193,60,61" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="149,371,69,93" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- Grants the recipe to self -->
+  <Item name="Star of the City Blueprints (Personal)" useinhealthinterface="true" identifier="abno_weaponblueprintspersonal_t5" description="A complete blueprint that will permanently unlock Star of the City recipes for yourself." spritecolor="255,50,50,255" inventoryiconcolor="255,50,50,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t5" amount="10" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="starofthecityblueprints" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Grants the recipe to everyone -->
+  <Item name="Star of the City Blueprints (Crew)" identifier="abno_weaponblueprints_t5" description="A complete blueprint that will permanently unlock Star of the City recipes for the crew." spritecolor="255,50,50,255" inventoryiconcolor="255,50,50,255" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor,enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="abno_researchcomponent_t5" amount="30" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="512,576,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="260" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" unlockrecipe="atalierlogicrevolverround,atalierlogicrifleround,ataliershotgunshell,abno_binahcostume,abno_binahcoat,abno_redmistmask,abno_redmistcostume,bodymod_grade1_general,bodymod_grade1_offense,bodymod_grade1_defense,bodymod_grade1_premium,trueclawuniform,vergiliussuit,vergiliusmask,abno_redgazeego,abno_gladius,blacksilencegloves,perceptionblockingmask,rolandsuit,abno_weakenedbinahcostume,abno_weakenedbinahcoat,abno_weakenedredmistmask,abno_weakenedredmistcostume" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <RemoveItem />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+</Items>

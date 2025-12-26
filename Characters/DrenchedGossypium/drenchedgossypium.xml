@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character visiblity="100" SpeciesName="DrenchedGossypium" SpeciesTranslationOverride="" DisplayName="Drenched Gossypium" Group="Abnormality" Humanoid="False" HasInfo="False" CanInteract="True" CanClimb="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="True" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="abnocrate">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <!--<sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralstoneidle.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralstone01.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralstone02.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralstone03.ogg" State="Idle" Range="1000" Volume="0.8" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralmetal01.ogg" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralmetal02.ogg" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralmetal03.ogg" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/SpiralofContempt/Sounds/spiralmetal04.ogg" State="Damage" Range="1000" Volume="1" Tags="" />-->
+  <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <health Vitality="1500" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="1" BurnReduction="0" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="5" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="0" EmpVulnerability="0" ApplyAfflictionColors="False">
+    <Limb name="Torso">
+      <VitalityMultiplier type="burn" multiplier="1.3" />
+      <VitalityMultiplier type="damage" multiplier="0.75" />
+      <VitalityMultiplier identifier="CENSORED" multiplier="0.0" />
+      <VitalityMultiplier identifier="exuviaeinfection" multiplier="0.0" />
+      <VitalityMultiplier identifier="gazeprecursor" multiplier="0.0" />
+      <VitalityMultiplier identifier="allbeholdinggaze" multiplier="0.0" />
+      <VitalityMultiplier identifier="graspextension" multiplier="0.0" />
+    </Limb>
+  </health>
+  <ai infiltrate="True" CombatStrength="1000" Sight="2" Hearing="1.5" AggressionHurt="150" AggressionGreed="5" FleeHealthThreshold="0" AttackWhenProvoked="True" AvoidGunfire="False" DamageThreshold="0" AvoidTime="0" MinFleeTime="0" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="False" RandomAttack="True" CanOpenDoors="False" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="False" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="100" MaxAggression="100" AggressionCumulation="100" WallTargetingMethod="Target">
+    <target damagethreshold="0" Tag="decoy" State="Attack" Priority="500" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="provocative" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="5" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weapon" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="5" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="human" State="Attack" Priority="90" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="stronger" State="Attack" Priority="80" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weaker" State="Attack" Priority="85" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target tag="dead" state="Eat" priority="75" reactdistance="0" />
+    <target damagethreshold="0" Tag="nasonov" State="Attack" Priority="70" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <!-- <target tag="tool" state="Aggressive" priority="50" reactdistance="1000" ignoreifnotinsamesub="True"/> -->
+    <target damagethreshold="0" Tag="sonar" State="Attack" Priority="30" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="room" State="Attack" Priority="10" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+  </ai>
+  <inventory Slots="Any, Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="10">
+    <!-- <Item Identifier="enkephalinbox" /> -->
+  </inventory>
+  <StatusEffect type="OnDeath" target="This" delay="1">
+    <particleemitter particle="whitegoosplash" particleamount="20" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.3" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" colormultiplier="181,230,29,255" />
+    <particleemitter particle="brownchunks" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" colormultiplier="181,230,29,255" />
+    <particleemitter particle="heavygib" particleamount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <particleemitter particle="gib" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <Sound file="Content/Sounds/Damage/Gore6.ogg" range="800" />
+    <SpawnItem identifier="gossypiumegg" spawnposition="this" />
+    <RemoveCharacter />
+  </StatusEffect>
+</Character>

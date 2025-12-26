@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Charactervariant inherit="Siltcurrent" speciesname="Siltcurrent_boss" speciestranslationoverride="Siltcurrent" usebosshealthbar="true">
+  <health vitality="7500" />
+  <ai combatstrength="7500" avoidgunfire="False">
+    <!--Disables latching-->
+    <chooserandom>
+      <clear />
+    </chooserandom>
+  </ai>
+  <ragdoll scalemultiplier="2.5" />
+  <attack damagemultiplier="2.5" rangemultiplier="1.3" impactmultiplier="1.3" />
+  <StatusEffect type="OnDeath" target="This">
+    <SpawnItem identifier="siltcurrent_bossdrop" spawnposition="this" />
+  </StatusEffect>
+</Charactervariant>

@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Body Mods -->
+  <!-- General -->
+  <Item name="" identifier="bodymod_grade9_general" nameidentifier="bodymod" category="Equipment" maxstacksize="1" tags="smallitem,bodymod" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_metal_light" hideconditionbar="true" hideconditionintooltip="false" allowsellingwhenbroken="true">
+    <PreferredContainer primary="medfabcab" />
+    <Price baseprice="25" sold="false">
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" multiplier="1.2" />
+    </Price>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="true">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredSkill identifier="mechanical" level="10" />
+      <RequiredItem identifier="fpgacircuit" amount="1" />
+      <RequiredItem identifier="aluminium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="2" />
+    </Fabricate>
+    <Deconstruct time="5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade9_general" effect="bodymod_grade9_general" conditionincreaseoncombinemin="0.0" conditionincreaseoncombinemax="0.0" ConditionIncreaseOnLowQualityCombine="0.0" ConditionIncreaseOnHighQualityCombine="0.0" tooltipvaluemin="0" tooltipvaluemax="5" SetTaintedOnDeath="false" CanBeUntainted="true">
+      <RequiredSkill identifier="medical" level="30" />
+      <StatusEffect type="OnSevered" target="Character" duration="0.0">
+        <Remove />
+      </StatusEffect>
+    </GeneticMaterial>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <Body width="23" height="31" density="20" />
+    <Holdable handle1="0,0" slots="Any" />
+    <ItemContainer hideitems="True" capacity="1" maxstacksize="1" canbeselected="true" drawinventory="true">
+      <Containable items="enkephalin">
+        <StatusEffect type="OnInserted" target="This" targetslot="0" disabledeltatime="true" condition="25" stackable="false">
+          <Conditional condition="lt 100" />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" target="Contained" targetslot="0" disabledeltatime="true">
+          <Conditional condition="lt 100" targetcontainer="True" />
+          <Remove />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="bodymod_grade8_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="bodymod_grade9_general" amount="1" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="3" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade8_general" effect="bodymod_grade8_general" tooltipvaluemin="5" tooltipvaluemax="10" />
+  </Item>
+  <Item name="" identifier="bodymod_grade7_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="bodymod_grade8_general" amount="1" />
+      <RequiredItem identifier="titanium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade7_general" effect="bodymod_grade7_general" tooltipvaluemin="10" tooltipvaluemax="15" />
+  </Item>
+  <Item name="" identifier="bodymod_grade6_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="70" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="bodymod_grade7_general" amount="1" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="5" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade6_general" effect="bodymod_grade6_general" tooltipvaluemin="15" tooltipvaluemax="20" />
+  </Item>
+  <Item name="" identifier="bodymod_grade5_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="bodymod_grade6_general" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="dementonite" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="6" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade5_general" effect="bodymod_grade5_general" tooltipvaluemin="20" tooltipvaluemax="25" />
+  </Item>
+  <Item name="" identifier="bodymod_grade4_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="90" />
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredItem identifier="bodymod_grade5_general" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade4_general" effect="bodymod_grade4_general" tooltipvaluemin="25" tooltipvaluemax="30" />
+  </Item>
+  <Item name="" identifier="bodymod_grade3_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="70" />
+      <RequiredItem identifier="bodymod_grade4_general" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="physicorium" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade3_general" effect="bodymod_grade3_general" tooltipvaluemin="30" tooltipvaluemax="35" />
+  </Item>
+  <Item name="" identifier="bodymod_grade2_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="45" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="80" />
+      <RequiredItem identifier="bodymod_grade3_general" amount="1" />
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade2_general" effect="bodymod_grade2_general" tooltipvaluemin="35" tooltipvaluemax="40" />
+  </Item>
+  <Item name="" identifier="bodymod_grade1_general" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="60" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="100" />
+      <RequiredSkill identifier="electrical" level="100" />
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredSkill identifier="helm" level="100" />
+      <RequiredItem identifier="bodymod_grade2_general" amount="1" />
+      <RequiredItem identifier="physicorium" amount="4" />
+      <RequiredItem identifier="fulgurium" amount="4" />
+      <RequiredItem identifier="dementonite" amount="4" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade1_general" effect="bodymod_grade1_general" tooltipvaluemin="40" tooltipvaluemax="50" />
+  </Item>
+  <!-- Offense -->
+  <Item name="" identifier="bodymod_grade9_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredSkill identifier="mechanical" level="10" />
+      <RequiredItem identifier="fpgacircuit" amount="1" />
+      <RequiredItem identifier="aluminium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="2" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade9_offense" effect="bodymod_grade9_offense" tooltipvaluemin="0" tooltipvaluemax="5" />
+  </Item>
+  <Item name="" identifier="bodymod_grade8_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="bodymod_grade9_offense" amount="1" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="3" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade8_offense" effect="bodymod_grade8_offense" tooltipvaluemin="5" tooltipvaluemax="10" />
+  </Item>
+  <Item name="" identifier="bodymod_grade7_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="bodymod_grade8_offense" amount="1" />
+      <RequiredItem identifier="titanium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade7_offense" effect="bodymod_grade7_offense" tooltipvaluemin="10" tooltipvaluemax="15" />
+  </Item>
+  <Item name="" identifier="bodymod_grade6_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="70" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="bodymod_grade7_offense" amount="1" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="5" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade6_offense" effect="bodymod_grade6_offense" tooltipvaluemin="15" tooltipvaluemax="20" />
+  </Item>
+  <Item name="" identifier="bodymod_grade5_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="bodymod_grade6_offense" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="dementonite" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="6" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade5_offense" effect="bodymod_grade5_offense" tooltipvaluemin="20" tooltipvaluemax="25" />
+  </Item>
+  <Item name="" identifier="bodymod_grade4_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="90" />
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredItem identifier="bodymod_grade5_offense" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade4_offense" effect="bodymod_grade4_offense" tooltipvaluemin="25" tooltipvaluemax="30" />
+  </Item>
+  <Item name="" identifier="bodymod_grade3_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="70" />
+      <RequiredItem identifier="bodymod_grade4_offense" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="physicorium" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade3_offense" effect="bodymod_grade3_offense" tooltipvaluemin="30" tooltipvaluemax="35" />
+  </Item>
+  <Item name="" identifier="bodymod_grade2_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="45" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="80" />
+      <RequiredItem identifier="bodymod_grade3_offense" amount="1" />
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade2_offense" effect="bodymod_grade2_offense" tooltipvaluemin="35" tooltipvaluemax="40" />
+  </Item>
+  <Item name="" identifier="bodymod_grade1_offense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="60" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="100" />
+      <RequiredSkill identifier="electrical" level="100" />
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredSkill identifier="helm" level="100" />
+      <RequiredItem identifier="bodymod_grade2_offense" amount="1" />
+      <RequiredItem identifier="physicorium" amount="4" />
+      <RequiredItem identifier="fulgurium" amount="4" />
+      <RequiredItem identifier="dementonite" amount="4" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade1_offense" effect="bodymod_grade1_offense" tooltipvaluemin="40" tooltipvaluemax="50" />
+  </Item>
+  <!-- Defense -->
+  <Item name="" identifier="bodymod_grade9_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredSkill identifier="mechanical" level="10" />
+      <RequiredItem identifier="fpgacircuit" amount="1" />
+      <RequiredItem identifier="aluminium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="2" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade9_defense" effect="bodymod_grade9_defense" tooltipvaluemin="0" tooltipvaluemax="5" />
+  </Item>
+  <Item name="" identifier="bodymod_grade8_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="bodymod_grade9_defense" amount="1" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="3" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade8_defense" effect="bodymod_grade8_defense" tooltipvaluemin="5" tooltipvaluemax="10" />
+  </Item>
+  <Item name="" identifier="bodymod_grade7_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="bodymod_grade8_defense" amount="1" />
+      <RequiredItem identifier="titanium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade7_defense" effect="bodymod_grade7_defense" tooltipvaluemin="10" tooltipvaluemax="15" />
+  </Item>
+  <Item name="" identifier="bodymod_grade6_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="70" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="bodymod_grade7_defense" amount="1" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="5" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade6_defense" effect="bodymod_grade6_defense" tooltipvaluemin="15" tooltipvaluemax="20" />
+  </Item>
+  <Item name="" identifier="bodymod_grade5_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="bodymod_grade6_defense" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="dementonite" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="6" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade5_defense" effect="bodymod_grade5_defense" tooltipvaluemin="20" tooltipvaluemax="25" />
+  </Item>
+  <Item name="" identifier="bodymod_grade4_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="90" />
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredItem identifier="bodymod_grade5_defense" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade4_defense" effect="bodymod_grade4_defense" tooltipvaluemin="25" tooltipvaluemax="30" />
+  </Item>
+  <Item name="" identifier="bodymod_grade3_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="70" />
+      <RequiredItem identifier="bodymod_grade4_defense" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="physicorium" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade3_defense" effect="bodymod_grade3_defense" tooltipvaluemin="30" tooltipvaluemax="35" />
+  </Item>
+  <Item name="" identifier="bodymod_grade2_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="45" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="80" />
+      <RequiredItem identifier="bodymod_grade3_defense" amount="1" />
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade2_defense" effect="bodymod_grade2_defense" tooltipvaluemin="35" tooltipvaluemax="40" />
+  </Item>
+  <Item name="" identifier="bodymod_grade1_defense" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod">
+    <Deconstruct />
+    <Fabricate suitablefabricators="enkfab" requiredtime="60" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="100" />
+      <RequiredSkill identifier="electrical" level="100" />
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredSkill identifier="helm" level="100" />
+      <RequiredItem identifier="bodymod_grade2_defense" amount="1" />
+      <RequiredItem identifier="physicorium" amount="4" />
+      <RequiredItem identifier="fulgurium" amount="4" />
+      <RequiredItem identifier="dementonite" amount="4" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade1_defense" effect="bodymod_grade1_defense" tooltipvaluemin="40" tooltipvaluemax="50" />
+  </Item>
+  <!-- Premium -->
+  <Item name="" identifier="bodymod_grade9_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade9_general" />
+      <Item identifier="bodymod_grade9_defense" />
+      <Item identifier="bodymod_grade9_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredSkill identifier="mechanical" level="10" />
+      <RequiredItem identifier="bodymod_grade9_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade9_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade9_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="2" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade9_premium" effect="bodymod_grade9_premium" tooltipvaluemin="0" tooltipvaluemax="10" />
+  </Item>
+  <Item name="" identifier="bodymod_grade8_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade8_general" />
+      <Item identifier="bodymod_grade8_defense" />
+      <Item identifier="bodymod_grade8_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="bodymod_grade8_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade8_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade8_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="3" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade8_premium" effect="bodymod_grade8_premium" tooltipvaluemin="10" tooltipvaluemax="20" />
+  </Item>
+  <Item name="" identifier="bodymod_grade7_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade7_general" />
+      <Item identifier="bodymod_grade7_defense" />
+      <Item identifier="bodymod_grade7_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="bodymod_grade7_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade7_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade7_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade7_premium" effect="bodymod_grade7_premium" tooltipvaluemin="20" tooltipvaluemax="30" />
+  </Item>
+  <Item name="" identifier="bodymod_grade6_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade6_general" />
+      <Item identifier="bodymod_grade6_defense" />
+      <Item identifier="bodymod_grade6_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="70" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="bodymod_grade6_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade6_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade6_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="5" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade6_premium" effect="bodymod_grade6_premium" tooltipvaluemin="30" tooltipvaluemax="40" />
+  </Item>
+  <Item name="" identifier="bodymod_grade5_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade5_general" />
+      <Item identifier="bodymod_grade5_defense" />
+      <Item identifier="bodymod_grade5_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="bodymod_grade5_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade5_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade5_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="6" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade5_premium" effect="bodymod_grade5_premium" tooltipvaluemin="40" tooltipvaluemax="50" />
+  </Item>
+  <Item name="" identifier="bodymod_grade4_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade4_general" />
+      <Item identifier="bodymod_grade4_defense" />
+      <Item identifier="bodymod_grade4_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="90" />
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredItem identifier="bodymod_grade4_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade4_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade4_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade4_premium" effect="bodymod_grade4_premium" tooltipvaluemin="50" tooltipvaluemax="60" />
+  </Item>
+  <Item name="" identifier="bodymod_grade3_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade3_general" />
+      <Item identifier="bodymod_grade3_defense" />
+      <Item identifier="bodymod_grade3_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="70" />
+      <RequiredItem identifier="bodymod_grade3_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade3_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade3_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade3_premium" effect="bodymod_grade3_premium" tooltipvaluemin="60" tooltipvaluemax="70" />
+  </Item>
+  <Item name="" identifier="bodymod_grade2_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade2_general" />
+      <Item identifier="bodymod_grade2_defense" />
+      <Item identifier="bodymod_grade2_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="45" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="80" />
+      <RequiredItem identifier="bodymod_grade2_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade2_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade2_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade2_premium" effect="bodymod_grade2_premium" tooltipvaluemin="70" tooltipvaluemax="80" />
+  </Item>
+  <Item name="" identifier="bodymod_grade1_premium" variantof="bodymod_grade9_general" nameidentifier="bodymod" tags="smallitem,bodymod,lightcomponent">
+    <Deconstruct time="10">
+      <Item identifier="bodymod_grade1_general" />
+      <Item identifier="bodymod_grade1_defense" />
+      <Item identifier="bodymod_grade1_offense" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="60" outcondition="0.1" requiresrecipe="True">
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="mechanical" level="100" />
+      <RequiredSkill identifier="electrical" level="100" />
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredSkill identifier="helm" level="100" />
+      <RequiredItem identifier="bodymod_grade1_general" amount="1" />
+      <RequiredItem identifier="bodymod_grade1_defense" amount="1" />
+      <RequiredItem identifier="bodymod_grade1_offense" amount="1" />
+      <RequiredItem identifier="enkephalin" amount="8" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Icons.png" sheetindex="5,7" sheetelementsize="128,128" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="entityname.bodymod_grade1_premium" effect="bodymod_grade1_premium" tooltipvaluemin="80" tooltipvaluemax="100" />
+  </Item>
+</Items>

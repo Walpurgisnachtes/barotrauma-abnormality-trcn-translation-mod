@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style>
+  <bookofvengeance color="255,255,255,255" textcolor="0,0,0,255">
+    <Sprite name="bookofvengeance" texture="%ModDir%/Images/bookofvengeance.png" size="0.0, 0.0" sourcerect="0,0,414,583" origin="0.5,0.5" compress="false" tile="false" />
+  </bookofvengeance>
+  <jobapplicationlobcorp color="255,255,255,255" textcolor="0,0,0,0">
+    <Sprite name="jobapplicationlobcorp" texture="%ModDir%/Images/application.png" size="0.0, 0.0" sourcerect="0,0,414,583" origin="0.5,0.5" compress="false" tile="false" />
+  </jobapplicationlobcorp>
+  <RedItemUI color="255,255,255,242" textcolor="0,0,0,255">
+    <Sprite name="RedItemUI" texture="%ModDir%/Images/CultUIAtlasFrames.png" size="0.0, 0.0" sourcerect="7,7,360,361" slice="33,38,340,340" origin="0.5,0.5" compress="false" />
+  </RedItemUI>
+  <Override>
+    <MainMenuBackground color="255,255,255,255">
+      <Sprite texture="%ModDir%/Factions/middlebackground.png" sourcerect="0,0,1920,1081" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/ringbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/thumbbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/thumbbackground2.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/thumbbackground3.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/fixersbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/syndicatesbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/corporationsbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/lobotomycorporationbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/hongyuanbackground.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/tcorp_1.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/tcorp_2.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/tcorp_3.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/Factions/tcorp_4.png" sourcerect="0,0,1920,1080" premultiplyalpha="false" />
+    </MainMenuBackground>
+    <TitleText color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" pressedcolor="255,255,255,255">
+      <Sprite texture="%ModDir%/Images/titleText.png" sourcerect="0,520,1024,328" tile="false" maintainaspectratio="true">
+        <override language="Traditional Chinese" texture="Content/UI/titleText.png" sourcerect="0,176,1024,343" />
+        <override language="Simplified Chinese" texture="Content/UI/titleText.png" sourcerect="0,176,1024,343" />
+      </Sprite>
+    </TitleText>
+  </Override>
+</style>

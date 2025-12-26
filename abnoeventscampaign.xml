@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                              All Difficulties                             -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <EventSet identifier="campaignZAYIN" minleveldifficulty="0" maxleveldifficulty="100" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <EventSet identifier="campaignfriendlyabnosinbeacon" chooserandom="false" triggereventcooldown="false" allowatstart="true" commonness="1">
+      <!-- Beacon crawler nest -->
+      <MonsterEvent characterfile="OneSin" minamount="1" maxamount="1" spawntype="beaconstation" spawnprobability="1" spawnpointtag="beacon_crawler" />
+      <!-- Beacon mudraptor nest -->
+      <MonsterEvent characterfile="BlubberingToad" minamount="1" maxamount="1" spawntype="beaconstation" spawnprobability="1" spawnpointtag="beacon_mudraptor" />
+    </EventSet>
+  </EventSet>
+  <EventSet identifier="campaignTETH" minleveldifficulty="20" maxleveldifficulty="100" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <!-- Populate the wrecks. -->
+    <EventSet identifier="campaignwreckinquisitors" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false">
+      <EventSet identifier="campaigncorrodedinquisitor" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false" commonness="10">
+        <MonsterEvent characterfile="corrodedinquisitor1" minamount="1" maxamount="1" spawntype="wreck" probability="0.5" />
+        <MonsterEvent characterfile="corrodedinquisitor2" minamount="1" maxamount="1" spawntype="wreck" probability="0.5" />
+      </EventSet>
+    </EventSet>
+    <EventSet identifier="campaignhostileabnosinbeacon" chooserandom="false" triggereventcooldown="false" allowatstart="true">
+      <EventSet identifier="campaignbeaconinquisitors" commonness="1">
+        <MonsterEvent characterfile="corrodedinquisitor1" minamount="0" maxamount="1" spawntype="beaconstation" spawnpointtag="beacon_crawler" spawnprobability="0.25" />
+        <MonsterEvent characterfile="corrodedinquisitor2" minamount="0" maxamount="1" spawntype="beaconstation" pawnpointtag="beacon_mudraptor" spawnprobability="0.25" />
+        <MonsterEvent characterfile="corrodedinquisitor1" minamount="0" maxamount="2" spawntype="beaconstation" pawnpointtag="beacon_bandit" spawnprobability="0.2" />
+        <MonsterEvent characterfile="corrodedinquisitor2" minamount="0" maxamount="2" spawntype="beaconstation" spawnpointtag="beacon_bandit" spawnprobability="0.2" />
+      </EventSet>
+    </EventSet>
+    <EventSet identifier="campaignruinstethabnos" chooserandom="false" allowatstart="true" perruin="true" triggereventcooldown="false" commonness="1">
+      <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="2" spawntype="ruin" probability="0.5" spawnpointtag="husk" />
+    </EventSet>
+    <EventSet identifier="campaigntethfirst" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="0.15">
+      <EventSet identifier="campaignamberdawns" chooserandom="true" commonness="5">
+        <MonsterEvent characterfile="amberdawn" minamount="3" maxamount="5" spawntype="mainpath,sidepath" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <EventSet identifier="campaignHE" minleveldifficulty="40" maxleveldifficulty="100" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <EventSet identifier="campaignHEabnormalities" chooserandom="true" mindistancetraveled="1.0" minmissiontime="300" minintensity="0.0" maxintensity="1.0" allowatstart="false">
+      <EventSet identifier="campaignheadlessichthysspawn" chooserandom="true" commonness="15">
+        <MonsterEvent characterfile="headlessichthys" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
+      </EventSet>
+      <EventSet identifier="campaigncensoredspawnwater" chooserandom="true" commonness="4">
+        <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="3" spawntype="mainpath, sidepath" />
+        <MonsterEvent characterfile="censoredhusk" minamount="1" maxamount="3" spawntype="mainpath, sidepath" />
+        <MonsterEvent characterfile="censoredcrawler" minamount="1" maxamount="2" spawntype="mainpath, sidepath" />
+      </EventSet>
+      <EventSet identifier="campaignhewater" chooserandom="true" commonness="1">
+        <MonsterEvent characterfile="amberdusk" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
+      </EventSet>
+      <EventSet identifier="campaignhewreckkqe" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false" commonness="1">
+        <MonsterEvent characterfile="kqe-1j-23" minamount="1" maxamount="1" spawntype="wreck" />
+      </EventSet>
+      <EventSet identifier="campaignhewreckamberdusk" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false" commonness="2">
+        <MonsterEvent characterfile="amberdusk" minamount="1" maxamount="1" spawntype="wreck" />
+      </EventSet>
+      <EventSet identifier="campaignhewreckcensored" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false" commonness="1">
+        <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="3" spawntype="wreck" />
+        <MonsterEvent characterfile="censoredhusk" minamount="1" maxamount="3" spawntype="wreck" />
+        <MonsterEvent characterfile="censoredcrawler" minamount="1" maxamount="2" spawntype="wreck" />
+      </EventSet>
+      <EventSet identifier="campaignhebeacon" chooserandom="true" allowatstart="true" triggereventcooldown="false" commonness="1">
+        <MonsterEvent characterfile="kqe-1j-23" minamount="0" maxamount="1" spawntype="beaconstation" spawnpointtag="beacon_bandit" />
+      </EventSet>
+      <EventSet identifier="campaignhebeacon" chooserandom="true" allowatstart="true" triggereventcooldown="false" commonness="1">
+        <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="3" spawntype="beacon_bandit" />
+        <MonsterEvent characterfile="censoredhusk" minamount="1" maxamount="3" spawntype="beacon_husk" />
+        <MonsterEvent characterfile="censoredcrawler" minamount="1" maxamount="2" spawntype="beacon_crawler" />
+      </EventSet>
+    </EventSet>
+    <EventSet identifier="campaignruinsheabnos" chooserandom="false" allowatstart="true" perruin="true" triggereventcooldown="false">
+      <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="3" spawntype="ruin" probability="0.5" spawnpointtag="husk" />
+      <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="3" spawntype="ruin" probability="0.5" spawnpointtag="husk" />
+    </EventSet>
+    <EventSet identifier="campaignheabyss" chooserandom="true" allowatstart="true" triggereventcooldown="false" disableinhuntinggrounds="true" resettime="180">
+      <EventSet identifier="campaignsiltcurrentabyss_he" chooserandom="true" commonness="3">
+        <MonsterEvent characterfile="siltcurrent" minamount="1" maxamount="1" spawntype="abyss" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <EventSet identifier="campaignWAW" minleveldifficulty="60" maxleveldifficulty="100" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <EventSet identifier="campaignWAWabnormalities" chooserandom="true" mindistancetraveled="1.0" minmissiontime="300" minintensity="0.0" maxintensity="1.0" allowatstart="false">
+      <EventSet identifier="campaignamberduskspawn" chooserandom="true" commonness="5">
+        <MonsterEvent characterfile="amberdusk" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
+      </EventSet>
+    </EventSet>
+    <EventSet identifier="campaignruinswawabnos" chooserandom="false" allowatstart="true" perruin="true" triggereventcooldown="false" commonness="2">
+      <MonsterEvent characterfile="censoredhuman" minamount="1" maxamount="3" spawntype="ruin" probability="0.5" spawnpointtag="husk" />
+      <MonsterEvent characterfile="amberdusk" minamount="1" maxamount="3" spawntype="ruin" probability="0.5" spawnpointtag="husk" />
+    </EventSet>
+    <EventSet identifier="campaignwawfirst" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="0.15">
+      <EventSet identifier="campaignamberdusks" chooserandom="true" commonness="3">
+        <MonsterEvent characterfile="amberdawn" minamount="4" maxamount="6" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="amberdusk" minamount="1" maxamount="3" spawntype="mainpath,sidepath" />
+      </EventSet>
+      <EventSet identifier="campaignsiltcurrent" chooserandom="true" commonness="3">
+        <MonsterEvent characterfile="siltcurrent" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
+      </EventSet>
+    </EventSet>
+    <EventSet identifier="campaignwawabyss" chooserandom="true" allowatstart="true" triggereventcooldown="false" disableinhuntinggrounds="true" resettime="180">
+      <EventSet identifier="campaignsiltcurrentabyss" chooserandom="true" commonness="3">
+        <MonsterEvent characterfile="siltcurrent" minamount="1" maxamount="1" spawntype="abyss" />
+      </EventSet>
+      <EventSet identifier="campaignsiltcurrentabyssboss" chooserandom="true" commonness="1">
+        <MonsterEvent characterfile="siltcurrent_boss" minamount="1" maxamount="1" spawntype="abyss" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <EventSet identifier="campaignALEPH" minleveldifficulty="80" maxleveldifficulty="100" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <!-- Populate the wrecks. -->
+    <EventSet identifier="campaignwreck" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false">
+      <EventSet identifier="campaignnothingtheregang" chooserandom="true" allowatstart="true" perwreck="true" triggereventcooldown="false" commonness="1">
+        <MonsterEvent characterfile="corrodedinquisitor1" minamount="1" maxamount="2" spawntype="wreck" />
+        <MonsterEvent characterfile="corrodedinquisitor2" minamount="1" maxamount="2" spawntype="wreck" />
+        <MonsterEvent characterfile="nothingthere" maxamountperlevel="1" minamount="1" maxamount="1" spawntype="wreck" probability="1" />
+      </EventSet>
+    </EventSet>
+    <EventSet identifier="alephabyss" chooserandom="true" allowatstart="true" triggereventcooldown="false" disableinhuntinggrounds="true" resettime="180">
+      <EventSet identifier="apocalypsebirdabyss" chooserandom="true" commonness="1">
+        <MonsterEvent characterfile="ApocalypseBird_boss" minamount="1" maxamount="1" spawntype="abyss" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+</Randomevents>

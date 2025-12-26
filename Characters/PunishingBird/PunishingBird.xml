@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character visiblity="100" SpeciesName="PunishingBird" DisplayName="Punishing Bird" Group="human" Humanoid="False" HasInfo="False" CanInteract="True" CanClimb="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="5" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <health Vitality="1000" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="1" BurnReduction="0.5" ConstantHealthRegeneration="0.01" HealthRegenerationWhenEating="10" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="0" EmpVulnerability="0" ApplyAfflictionColors="False">
+    <Limb name="Torso" />
+  </health>
+  <Inventory Slots="Any, Any" AccessibleWhenAlive="False" Commonness="1" />
+  <ai CombatStrength="500" Sight="1" Hearing="1" AggressionHurt="200" AggressionGreed="10" FleeHealthThreshold="0" AttackWhenProvoked="False" AvoidGunfire="False" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="False" EnforceAggressiveBehaviorForMissions="False" TargetOuterWalls="False" RandomAttack="False" CanOpenDoors="False" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="True" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
+    <target damagethreshold="0" Tag="decoy" State="Attack" Priority="500" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="hostile" State="Attack" Priority="500" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="provocative" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="5" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weapon" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="5" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="human" State="Attack" Priority="50" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="stronger" State="Attack" Priority="80" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weaker" State="Attack" Priority="85" ReactDistance="2000" AttackDistance="500" Timer="10" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target tag="dead" state="Eat" priority="75" reactdistance="0" />
+    <target damagethreshold="0" Tag="nasonov" State="Attack" Priority="70" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <!-- <target tag="tool" state="Aggressive" priority="50" reactdistance="1000" ignoreifnotinsamesub="True"/> -->
+  </ai>
+  <StatusEffect type="OnDamaged" target="This">
+    <requiredaffliction type="damage" minstrength="1" />
+    <Affliction identifier="enraged" strength="100" dividebylimbcount="false" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" target="This" delay="1" checkconditionalalways="True" stackable="false">
+    <Conditional enraged="eq 0" />
+    <SpawnCharacter speciesname="SmallBird" transferafflictions="true" transfercontrol="True" transferinventory="True" removepreviouscharacter="True" />
+  </StatusEffect>
+  <StatusEffect type="OnSpawn" target="This">
+    <Affliction identifier="enraged" amount="10000" DisableDeltaTime="True" />
+  </StatusEffect>
+  <StatusEffect type="OnDeath" target="This" delay="1">
+    <particleemitter particle="whitegoosplash" particleamount="20" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.3" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" colormultiplier="181,230,29,255" />
+    <particleemitter particle="brownchunks" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" colormultiplier="181,230,29,255" />
+    <particleemitter particle="heavygib" particleamount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <particleemitter particle="gib" particleamount="30" velocitymin="0" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <Sound file="Content/Sounds/Damage/Gore6.ogg" range="800" />
+    <SpawnItem identifier="punishingbirdegg" spawnposition="this" />
+    <RemoveCharacter />
+  </StatusEffect>
+</Character>

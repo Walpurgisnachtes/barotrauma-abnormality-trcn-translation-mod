@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <redmist LifeTime="7" LifeTimeMin="1" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="2,2" StartSizeMax="5,5" SizeChangeMin="0.4,0.4" SizeChangeMax="0.4,0.4" GrowTime="0.1" StartColor="50,50,50,150" MiddleColor="100,0,0,100" EndColor="10,10,10,0" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
+    <sprite texture="Content/Particles/ParticleAtlas.png" sourcerect="384,254,128,128" />
+  </redmist>
+  <warpslash LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="2,2" StartSizeMax="2,2" SizeChangeMin="-2,-2" SizeChangeMax="-2,-2" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/waywardslash.png" sourcerect="0,0,278,516" origin="0.5,0.5" premultiplyalpha="false" />
+  </warpslash>
+  <censored LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="2,2" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0" LoopAnim="False">
+    <sprite texture="%ModDir%/Characters/CENSORED/censored.png" sourcerect="421,26,84,23" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Characters/CENSORED/censored.png" sourcerect="102,2,21,111" origin="0.5,0.5" premultiplyalpha="false" />
+  </censored>
+  <bluestarping LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="10,10" SizeChangeMax="200,200" GrowTime="0.5" StartColor="0,255,255,255" MiddleColor="0,200,200,200" EndColor="0,125,125,125" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="True" BlendState="AlphaBlend" Priority="1" AnimDuration="1" LoopAnim="False">
+    <sprite texture="Content/Particles/ParticleAtlas.png" sourcerect="0,256,128,128" />
+  </bluestarping>
+  <corrosionping LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="10,10" SizeChangeMax="200,200" GrowTime="0.5" StartColor="255,255,255,255" MiddleColor="200,200,200,200" EndColor="125,125,125,125" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="True" BlendState="AlphaBlend" Priority="1" AnimDuration="1" LoopAnim="False">
+    <sprite texture="Content/Particles/ParticleAtlas.png" sourcerect="0,256,128,128" />
+  </corrosionping>
+  <arbiterping LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="10,10" SizeChangeMax="200,200" GrowTime="0.5" StartColor="255,215,0,255" MiddleColor="255,215,0,200" EndColor="255,215,0,125" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="True" BlendState="AlphaBlend" Priority="1" AnimDuration="1" LoopAnim="False">
+    <sprite texture="Content/Particles/ParticleAtlas.png" sourcerect="0,256,128,128" />
+  </arbiterping>
+  <fairyblast LifeTime="0.15" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.8,0.8" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,0" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="5" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/fairyblast.png" sourcerect="0,0,169,256" origin="0.15,0.5" premultiplyalpha="false" />
+  </fairyblast>
+  <arbiterblast LifeTime="1" LifeTimeMin="1" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0" StartColor="255,255,255,255" MiddleColor="255,255,255,200" EndColor="255,255,255,0" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
+    <sprite texture="%ModDir%/Particles/arbiterblast.png" sourcerect="0,0,256,210" />
+  </arbiterblast>
+  <contemptgaze LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.5,0.5" StartSizeMax="0.5,0.5" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/gaze.png" sourcerect="0,0,512,512" />
+  </contemptgaze>
+  <grasp LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1.0,1.0" StartSizeMax="1.0,1.0" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/invmiscabno.png" sourcerect="288,851,256,173" />
+  </grasp>
+  <arbiterchain1 LifeTime="1" LifeTimeMin="1" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
+    <sprite texture="%ModDir%/Particles/arbiterchain1.png" sourcerect="0,0,255,131" />
+  </arbiterchain1>
+  <arbiterchain2 LifeTime="1" LifeTimeMin="1" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
+    <sprite texture="%ModDir%/Particles/arbiterchain2.png" sourcerect="0,0,256,177" />
+  </arbiterchain2>
+  <arbiterslash LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/arbiterslash.png" sourcerect="0,0,512,316" origin="0.5,0.5" premultiplyalpha="false" />
+  </arbiterslash>
+  <!-- note: doesn't work because buggytrauma -->
+  <!--<mimicryslash
+    lifetime="0.25"
+    startdelaymin="0"
+    startdelaymax="0"
+    angularvelocitymin="0"
+    angularvelocitymax="0"
+    startrotationmin="0"
+    startrotationmax="0"
+    rotatetodirection="True"
+    drag="0"
+    waterdrag="0"
+    velocitychange="0,0"
+    velocitychangewater="0,0"
+    collisionradius="1"
+    usecollision="False"
+    deleteoncollision="False"
+    friction="0.5"
+    restitution="0.5"
+    startsizemin="0.35,0.35"
+    startsizemax="0.35,0.35"
+    growtime="0.0"
+    startcolor="255,0,0,255"
+    endcolor="255,0,0,0"
+    drawtarget="Both"
+    drawontop="True"
+    blendstate="Additive"
+    loopanim="False"
+    sizechangemin="0,0"
+    sizechangemax="0,0"
+    animduration="1"
+    lifetimemin="0"
+    middlecolor="255,0,0,100"
+    usemiddlecolor="False"
+    priority="5">
+    <sprite
+      texture="%ModDir%/Particles/mimicry.png"
+	  sourcerect="0,0,453,115"
+      origin="0.5,0.5"
+      premultiplyalpha="false" />
+  </mimicryslash>-->
+  <lccb_shield_bash LifeTime="0.2" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.35,0.35" StartSizeMax="0.45,0.45" SizeChangeMin="1,1" SizeChangeMax="2,2" GrowTime="0.1" StartColor="255,225,255,250" MiddleColor="255,255,255,255" EndColor="255,255,255,10" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="Additive" Priority="10" AnimDuration="0.5" LoopAnim="False">
+    <sprite name="Shield Bash" texture="%ModDir%/Particles/omega_shieldbashvisualsmall.png" sourcerect="0,0,330,236" origin="0.6,0.5" depth="0.565" />
+  </lccb_shield_bash>
+  <DerFresichutzParticle LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1.5,1.5" StartSizeMax="1.5,1.5" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/DerFreischutzParticle.png" sourcerect="0,0,83,256" />
+  </DerFresichutzParticle>
+  <DerFresichutzParticleLong LifeTime="0.5" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1.5,1.5" StartSizeMax="1.5,1.5" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/DerFreischutzParticle.png" sourcerect="0,0,83,256" />
+  </DerFresichutzParticleLong>
+  <bluestarteleport LifeTime="2" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="1" AngularVelocityMax="100" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="2,2" StartSizeMax="2,2" SizeChangeMin="-2,-2" SizeChangeMax="-2,-2" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0.5" LoopAnim="False">
+    <sprite texture="%ModDir%/Characters/BlueStar/BlueStarsprite.png" SourceRect="0,0,350,353" origin="0.5,0.5" premultiplyalpha="false" />
+  </bluestarteleport>
+  <mookparticle LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,180" MiddleColor="255,255,255,255" EndColor="255,255,255,180" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/mook.png" sourcerect="0,0,420,420" />
+    <sprite texture="%ModDir%/Particles/mook.png" sourcerect="420,0,420,420" />
+    <sprite texture="%ModDir%/Particles/mook.png" sourcerect="0,420,420,420" />
+    <sprite texture="%ModDir%/Particles/mook.png" sourcerect="420,420,420,420" />
+  </mookparticle>
+  <priestwhip LifeTime="0.2" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,180" MiddleColor="255,255,255,255" EndColor="255,255,255,180" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/priestwhip.png" sourcerect="0,0,512,512" />
+    <sprite texture="%ModDir%/Particles/priestwhip.png" sourcerect="512,0,512,512" />
+    <sprite texture="%ModDir%/Particles/priestwhip.png" sourcerect="0,512,512,512" />
+    <sprite texture="%ModDir%/Particles/priestwhip.png" sourcerect="512,512,512,512" />
+  </priestwhip>
+  <mookmuzzleflash LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.6,0.6" StartSizeMax="0.6,0.6" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,180" MiddleColor="255,255,255,255" EndColor="255,255,255,180" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/mookmuzzleflash.png" sourcerect="0,0,640,214" />
+  </mookmuzzleflash>
+  <allasparticle LifeTime="0.25" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,180" MiddleColor="255,255,255,255" EndColor="255,255,255,180" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/Pierce.png" sourcerect="0,0,640,214" />
+  </allasparticle>
+  <clawserumw LifeTime="0.5" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.02" StartColor="255,255,255,180" MiddleColor="255,255,255,255" EndColor="255,255,255,180" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="100" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/JudgementCutEnd.png" sourcerect="0,0,1024,1024" />
+  </clawserumw>
+  <butterflyliving LifeTime="3" LifeTimeMin="2" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,2" VelocityChangeWater="0,1" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="True" Friction="0.5" Restitution="0.5" StartSizeMin="0.5,0.5" StartSizeMax="0.6,0.6" SizeChangeMin="0.1,0.1" SizeChangeMax="0.2,0.2" GrowTime="3" StartColor="255,255,255,255" MiddleColor="60,60,55,255" EndColor="255,255,255,0" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="100" AnimDuration="0.5" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="384,384,128,128" />
+  </butterflyliving>
+  <butterflydeparted LifeTime="3" LifeTimeMin="2" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,2" VelocityChangeWater="0,1" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="True" Friction="0.5" Restitution="0.5" StartSizeMin="0.5,0.5" StartSizeMax="0.6,0.6" SizeChangeMin="0.1,0.1" SizeChangeMax="0.2,0.2" GrowTime="3" StartColor="255,255,255,255" MiddleColor="60,60,55,255" EndColor="255,255,255,0" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="100" AnimDuration="0.5" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/afflictions.png" sourcerect="256,384,128,128" />
+  </butterflydeparted>
+  <greatsplithorizontal LifeTime="2" LifeTimeMin="1" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0" StartColor="255,255,255,255" MiddleColor="255,255,255,200" EndColor="255,255,255,0" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
+    <sprite texture="%ModDir%/Particles/greatsplithorizontal1.png" sourcerect="0,0,256,256" />
+    <sprite texture="%ModDir%/Particles/greatsplithorizontal2.png" sourcerect="0,0,256,256" />
+  </greatsplithorizontal>
+  <greatsplitvertical LifeTime="2" LifeTimeMin="2" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0" StartColor="255,255,255,255" MiddleColor="255,255,255,200" EndColor="255,255,255,0" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
+    <sprite texture="%ModDir%/Particles/greatsplitvertical.png" sourcerect="0,0,256,256" />
+  </greatsplitvertical>
+  <traceratalier lifetime="0.4" startdelaymin="0" startdelaymax="0" angularvelocitymin="0" angularvelocitymax="0" startrotationmin="0" startrotationmax="0" rotatetodirection="False" drag="0" waterdrag="0" velocitychange="0,0" velocitychangewater="0,0" collisionradius="1" usecollision="False" deleteoncollision="False" friction="0.5" restitution="0.5" startsizemin="0.75,0.15" startsizemax="0.75,0.15" growtime="0.02" startcolor="255,255,255,180" endcolor="255,255,255,0" drawtarget="Both" drawontop="True" blendstate="Additive" loopanim="False" lifetimemin="0" sizechangemin="1,-1" sizechangemax="1,-1" middlecolor="255,255,255,255" usemiddlecolor="False" animduration="1" priority="0">
+    <sprite name="traceratalier" texture="%ModDir%/Images/blacksilenceweapons.png" sourcerect="0,956,1,68" origin="0.5,0.5" />
+  </traceratalier>
+  <casingderfluchschutze lifetime="8" angularvelocitymin="-180" angularvelocitymax="-200" startrotationmin="0" startrotationmax="0" rotatetodirection="False" drag="0" waterdrag="0.5" velocitychange="0,-9" velocitychangewater="0,-9" collisionradius="3" usecollision="True" deleteoncollision="False" friction="0.5" restitution="0.25" startsizemin="0.4,0.4" startsizemax="0.4,0.4" sizechangemin="0,0" sizechangemax="0,0" growtime="0" startcolor="255,255,255,255" endcolor="255,255,255,255" middlecolor="255,255,255,0" usemiddlecolor="True" drawtarget="Both" blendstate="AlphaBlend" startdelaymin="0" startdelaymax="0" animduration="1" loopanim="True" drawontop="False" priority="0">
+    <Sprite texture="%ModDir%/Particles/derfluch_casing.png" sourcerect="0,0,39,17" depth="0.55" origin="0.5,0.5" />
+  </casingderfluchschutze>
+  <DerFluchshutzParticle LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1.0,1.0" StartSizeMax="1.0,1.0" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/DerSchutze_Circle.png" sourcerect="0,0,256,256" />
+  </DerFluchshutzParticle>
+  <DerFluchshutzParticle_2 LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1.0,1.0" StartSizeMax="1.0,1.0" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,256,128,128" />
+  </DerFluchshutzParticle_2>
+  <targetmarkedparticle LifeTime="0.1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.5,0.5" StartSizeMax="0.5,0.5" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0.0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="Additive" Priority="0" AnimDuration="1" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/Icons.png" sourcerect="384,768,128,128" />
+  </targetmarkedparticle>
+  <maoslash LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0" LoopAnim="False">
+    <sprite texture="%ModDir%/Particles/maoslash.png" sourcerect="0,0,512,316" origin="0.5,0.5" premultiplyalpha="false" />
+  </maoslash>
+  <Abno_RiftSmoke LifeTime="2" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="0.25,0.25" SizeChangeMax="0.3,0.3" GrowTime="0.2" StartColor="40,40,40,120" MiddleColor="75,0,130,200" EndColor="139,0,0,50" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="0.5" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="0,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="128,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="256,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="384,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="0,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="128,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="256,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="384,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="0,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="128,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="256,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="384,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="0,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="128,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="256,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/dust_clouds_colorless.png" sourcerect="384,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+  </Abno_RiftSmoke>
+  <Abno_RiftBurst LifeTime="2" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="-60" AngularVelocityMax="60" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="1,1" StartSizeMax="1,1" SizeChangeMin="-0.5,-0.5" SizeChangeMax="-1,-1" GrowTime="0.1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0.5" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+  </Abno_RiftBurst>
+  <Abno_RiftBurstLarge LifeTime="2" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="-60" AngularVelocityMax="60" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="4,4" StartSizeMax="5,5" SizeChangeMin="-4,-4" SizeChangeMax="-4.5,-4.5" GrowTime="0.1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="False" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0.5" LoopAnim="False">
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,0,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,128,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,256,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="0,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="128,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="256,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="%ModDir%/Images/nebula_dark.png" sourcerect="384,384,128,128" origin="0.5,0.5" premultiplyalpha="false" />
+  </Abno_RiftBurstLarge>
+  <abno_page lifetime="3" startdelaymin="0" startdelaymax="0" angularvelocitymin="0" angularvelocitymax="0" startrotationmin="0" startrotationmax="360" rotatetodirection="False" drag="0.2" waterdrag="0.2" velocitychange="0,1" velocitychangewater="0,1" collisionradius="80" usecollision="True" deleteoncollision="False" friction="0.01" restitution="0.01" startsizemin="0.4,0.4" startsizemax="0.5,0.5" sizechangemin="0.2,0.2" sizechangemax="0.2,0.2" growtime="0" startcolor="255,255,255,50" endcolor="255,255,255,0" drawtarget="Both" blendstate="AlphaBlend" animduration="1" loopanim="False" drawontop="False" lifetimemin="0" middlecolor="255,255,255,255" usemiddlecolor="False" priority="0">
+    <animatedsprite texture="%ModDir%/Particles/PageParticleSheet.png" sourcerect="0,0,1024,1024" columns="5" rows="4" />
+  </abno_page>
+</prefabs>

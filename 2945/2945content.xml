@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Uniform of the Arbiter" identifier="abno_binahcostume" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A uniform belonging to an Arbiter, which grants passive healing in critical condition. Credit to lin2945 for the sprites." impactsoundtag="impact_soft" scale="0.5">
+    <InventoryIcon name="" texture="%ModDir%/2945/ImagesBinah/Binah_Body.png" sourcerect="50,150,64,64" origin="0.5,0.5" />
+    <Sprite name="Captain's Uniform 3" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="244,292,126,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="600" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredItem identifier="enkephalinbox" amount="16" />
+      <RequiredItem identifier="physicorium" amount="16" />
+      <RequiredItem identifier="fulgurium" amount="16" />
+      <RequiredItem identifier="dementonite" amount="16" />
+      <RequiredItem identifier="abno_weakenedbinahcostume" />
+    </Fabricate>
+    <Deconstruct time="40"></Deconstruct>
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Head" texture="%ModDir%/2945/ImagesBinah/Binah_Head.png" limb="Head" hidelimb="false" hideotherwearables="false" inherittexturescale="true" origin="0.48,0.43" sourcerect="0,0,1,1" />
+      <sprite name="Torso" texture="%ModDir%/2945/ImagesBinah/Binah_Body.png" limb="Torso" hidelimb="true" hideotherwearables="false" inherittexturescale="true" origin="0.55,0.3" sourcerect="0,0,152,248" />
+      <sprite name="Waist" texture="%ModDir%/2945/ImagesBinah/Binah_Waist.png" limb="Waist" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Hand" texture="%ModDir%/2945/ImagesBinah/Binah_Hand.png" limb="RightHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Left Hand" texture="%ModDir%/2945/ImagesBinah/Binah_Hand.png" limb="LeftHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/2945/ImagesBinah/Binah_LowerArm.png" limb="RightArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/2945/ImagesBinah/Binah_LowerArm.png" limb="LeftArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/2945/ImagesBinah/Binah_UpperArm.png" limb="RightForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/2945/ImagesBinah/Binah_UpperArm.png" limb="LeftForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Right Thigh" texture="%ModDir%/2945/ImagesBinah/Binah_Thigh.png" limb="RightThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Left Thigh" texture="%ModDir%/2945/ImagesBinah/Binah_Thigh.png" limb="LeftThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Right Leg" texture="%ModDir%/2945/ImagesBinah/Binah_Leg.png" limb="RightLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Left Leg" texture="%ModDir%/2945/ImagesBinah/Binah_Leg.png" limb="LeftLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Right Shoe" texture="%ModDir%/2945/ImagesBinah/Binah_Shoe.png" limb="RightFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,36" sound="%ModDir%/Audio/Footstep.ogg" />
+      <sprite name="Left Shoe" texture="%ModDir%/2945/ImagesBinah/Binah_Shoe.png" limb="LeftFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,36" sound="%ModDir%/Audio/Footstep.ogg" />
+      <!-- Resistance-->
+      <damagemodifier afflictiontypes="stun,poison" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <damagemodifier afflictiontypes="damage,burn,manadrain,souldamage,bleeding,psychosis,pale,bloodloss" armorsector="0.0,360.0" damagemultiplier="0.25" />
+      <damagemodifier afflictiontypes="fairy" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <StatValue stattype="FlowResistance" value="1.0" />
+      <StatusEffect type="OnWearing" target="Character" delay="1" stackable="False" disabledeltatime="True">
+        <Conditional healthpercentage="lte 0" />
+        <Affliction identifier="serumk" amount="100" disabledeltatime="True" multiplybymaxvitality="True" setvalue="True" />
+      </StatusEffect>
+    </Wearable>
+    <!-- Item Container -->
+    <ItemContainer capacity="7" slotsperrow="2">
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="4" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="5" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="6" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <Containable items="arbiterspell,truearbiterchainspell,truearbiterblastspell,truearbiterslashspell,truearbiterpillarspell,ultimatearbiterblastspell,fairybeam,lockbeam" />
+    </ItemContainer>
+  </Item>
+  <Item name="Coat of the Arbiter" identifier="abno_binahcoat" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A coat belonging to an Arbiter, granting immunity to the seas and considerable storage space." impactsoundtag="impact_soft" scale="0.5">
+    <InventoryIcon name="" texture="%ModDir%/2945/ImagesBinah/Binah_Coat.png" sourcerect="50,150,64,64" origin="0.5,0.5" />
+    <Sprite name="Captain's Uniform 3" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="244,292,126,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="600" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredItem identifier="enkephalinbox" amount="16" />
+      <RequiredItem identifier="physicorium" amount="16" />
+      <RequiredItem identifier="fulgurium" amount="16" />
+      <RequiredItem identifier="dementonite" amount="16" />
+      <RequiredItem identifier="abno_weakenedbinahcoat" />
+    </Fabricate>
+    <Deconstruct time="40"></Deconstruct>
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Torso" texture="%ModDir%/2945/ImagesBinah/Binah_Coat.png" limb="Torso" depthlimb="RightForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="false" inherittexturescale="true" origin="0.8,0.39" sourcerect="0,0,188,332" />
+      <!-- Resistance-->
+      <damagemodifier afflictiontypes="stun,poison" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <damagemodifier afflictiontypes="damage,burn,manadrain,souldamage,bleeding,psychosis,pale,bloodloss" armorsector="0.0,360.0" damagemultiplier="0.1" />
+      <damagemodifier afflictiontypes="fairy" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="1000.0" PressureProtection="10000.0" setvalue="true" disabledeltatime="true"></StatusEffect>
+    </Wearable>
+    <ItemContainer capacity="9" slotsperrow="3">
+      <Containable items="smallitem,mediumitem,medical" />
+    </ItemContainer>
+  </Item>
+  <Item name="Degraded Uniform of the Arbiter" identifier="abno_weakenedbinahcostume" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A uniform formerly belonging to an Arbiter. Its power has since waned. Credit to lin2945 for the sprites." impactsoundtag="impact_soft" scale="0.5">
+    <PreferredContainer primary="wreckstoragecab" amount="1" spawnprobability="0.01" />
+    <PreferredContainer primary="crewcab" />
+    <InventoryIcon name="" texture="%ModDir%/2945/ImagesBinah/Binah_Body.png" sourcerect="50,150,64,64" origin="0.5,0.5" />
+    <Sprite name="Captain's Uniform 3" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="244,292,126,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="ballisticfiber" amount="3" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Head" texture="%ModDir%/2945/ImagesBinah/Binah_Head.png" limb="Head" hidelimb="false" hideotherwearables="false" inherittexturescale="true" origin="0.48,0.43" sourcerect="0,0,1,1" />
+      <sprite name="Torso" texture="%ModDir%/2945/ImagesBinah/Binah_Body.png" limb="Torso" hidelimb="true" hideotherwearables="false" inherittexturescale="true" origin="0.55,0.3" sourcerect="0,0,152,248" />
+      <sprite name="Waist" texture="%ModDir%/2945/ImagesBinah/Binah_Waist.png" limb="Waist" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Hand" texture="%ModDir%/2945/ImagesBinah/Binah_Hand.png" limb="RightHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Left Hand" texture="%ModDir%/2945/ImagesBinah/Binah_Hand.png" limb="LeftHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/2945/ImagesBinah/Binah_LowerArm.png" limb="RightArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/2945/ImagesBinah/Binah_LowerArm.png" limb="LeftArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/2945/ImagesBinah/Binah_UpperArm.png" limb="RightForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/2945/ImagesBinah/Binah_UpperArm.png" limb="LeftForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Right Thigh" texture="%ModDir%/2945/ImagesBinah/Binah_Thigh.png" limb="RightThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Left Thigh" texture="%ModDir%/2945/ImagesBinah/Binah_Thigh.png" limb="LeftThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Right Leg" texture="%ModDir%/2945/ImagesBinah/Binah_Leg.png" limb="RightLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Left Leg" texture="%ModDir%/2945/ImagesBinah/Binah_Leg.png" limb="LeftLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Right Shoe" texture="%ModDir%/2945/ImagesBinah/Binah_Shoe.png" limb="RightFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,36" sound="%ModDir%/Audio/Footstep.ogg" />
+      <sprite name="Left Shoe" texture="%ModDir%/2945/ImagesBinah/Binah_Shoe.png" limb="LeftFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,36" sound="%ModDir%/Audio/Footstep.ogg" />
+      <!-- Resistance-->
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage,burn,bleeding" damagemultiplier="0.85" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.7" deflectprojectiles="true" />
+    </Wearable>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.1,0.1" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.025,0.093" style="ItemUI" />
+      <Button text="Manifest">
+        <StatusEffect type="OnUse" targettype="Character" comparison="and" delay="0.5" stackable="false">
+          <RequiredItem items="enkephalinmodule" type="Contained" targetslot="1" />
+          <Affliction identifier="spellspawn" amount="5" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" targettype="Character" comparison="and" delay="0.5" stackable="false">
+          <RequiredItem items="refinedenkephalinmodule" type="Contained" targetslot="1" />
+          <Affliction identifier="superspellspawn" amount="5" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" targettype="Contained" comparison="and" delay="0.5" stackable="false" spawnitemrandomly="True" targetslot="1">
+          <RequiredItem items="enkephalinmodule,refinedenkephalinmodule" type="Contained" targetslot="1" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <ItemContainer capacity="1" maxstacksize="1">
+      <!-- Spell icon -->
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <Containable items="arbiterspell,arbiterchainspell,arbiterblastspell,arbiterslashspell,arbiterpillarspell" />
+      <!-- Enkephalin Module icon -->
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/StatusMonitorUI.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="enkephalinmodule,refinedenkephalinmodule" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+  <Item name="Degraded Coat of the Arbiter" identifier="abno_weakenedbinahcoat" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A coat formerly belonging to an Arbiter. Its power has since waned. Credit to lin2945 for the sprites." impactsoundtag="impact_soft" scale="0.5">
+    <PreferredContainer primary="wreckstoragecab" amount="1" spawnprobability="0.001" />
+    <PreferredContainer primary="crewcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="3" />
+      <RequiredItem identifier="ballisticfiber" amount="3" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon name="" texture="%ModDir%/2945/ImagesBinah/Binah_Coat.png" sourcerect="50,150,64,64" origin="0.5,0.5" />
+    <Sprite name="Captain's Uniform 3" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="244,292,126,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Deconstruct time="40"></Deconstruct>
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Torso" texture="%ModDir%/2945/ImagesBinah/Binah_Coat.png" limb="Torso" depthlimb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="false" inherittexturescale="true" origin="0.8,0.39" sourcerect="0,0,188,332" />
+      <!-- Resistance-->
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding,damage,burn" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+    </Wearable>
+  </Item>
+  <Item name="Mask of the Red Mist" identifier="abno_redmistmask" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A solid manifestation of the Red Mist's EGO, their mind made corporeal. Grants immunity to low oxygen environments and thermal sight." scale="0.25">
+    <Sprite name="" texture="%ModDir%/2945/ImagesRedMist/RedMist_Mask.png" depth="0.6" sourcerect="0,0,96,116" origin="0.5,0.5" scale="0.25" />
+    <Body width="40" radius="30" density="15" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="300" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredItem identifier="enkephalinbox" amount="12" />
+      <RequiredItem identifier="physicorium" amount="12" />
+      <RequiredItem identifier="fulgurium" amount="12" />
+      <RequiredItem identifier="dementonite" amount="12" />
+      <RequiredItem identifier="abno_weakenedredmistmask" />
+    </Fabricate>
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="" texture="%ModDir%/2945/ImagesRedMist/RedMist_Head.png" limb="Head" inheritlimbdepth="true" inheritscale="true" hidelimb="true" hideotherwearables="true" ignorelimbscale="true" scale="0.5" sourcerect="0,0,448,232" origin="0.85,0.32" />
+      <damagemodifier afflictiontypes="stun,poison,psychosis" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <damagemodifier afflictiontypes="damage,burn,manadrain,souldamage,bleeding,pale,bloodloss" armorsector="0.0,360.0" damagemultiplier="0.05" />
+      <damagemodifier afflictiontypes="fairy" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="1000.0" HideFace="true" duration="0.1" stackable="false" />
+    </Wearable>
+    <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="1500" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+  </Item>
+  <Item name="Degraded Mask of the Red Mist" identifier="abno_weakenedredmistmask" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A solid manifestation of the Red Mist's EGO, their mind made corporeal. It has spent quite some time away from the creator and has thus lost much of its original strength. Credit to lin2945 for the sprites." scale="0.25">
+    <PreferredContainer primary="wreckstoragecab" amount="1" spawnprobability="0.01" />
+    <PreferredContainer primary="crewcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="enkephalinmodule" amount="2" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="enkephalinmodule" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Sprite name="" texture="%ModDir%/2945/ImagesRedMist/RedMist_Mask.png" depth="0.6" sourcerect="0,0,96,116" origin="0.5,0.5" scale="0.25" />
+    <Body width="40" radius="30" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="" texture="%ModDir%/2945/ImagesRedMist/RedMist_Head.png" limb="Head" inheritlimbdepth="true" inheritscale="true" hidelimb="true" hideotherwearables="true" ignorelimbscale="true" scale="0.5" sourcerect="0,0,448,232" origin="0.85,0.32" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage,burn" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.9" deflectprojectiles="true" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource" />
+    </ItemContainer>
+  </Item>
+  <Item name="EGO of the Red Mist" identifier="abno_redmistcostume" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A solid manifestation of the Red Mist's EGO, their mind made corporeal. Grants pressure immunity and a considerable speed boost. Credit to lin2945 for the sprites." impactsoundtag="impact_soft" scale="0.5">
+    <InventoryIcon name="" texture="%ModDir%/2945/ImagesRedMist/RedMist_Body.png" sourcerect="384,448,64,64" origin="0.5,0.5" />
+    <Sprite name="Clown Costume" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="247,14,117,55" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="300" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredItem identifier="enkephalinbox" amount="12" />
+      <RequiredItem identifier="physicorium" amount="12" />
+      <RequiredItem identifier="fulgurium" amount="12" />
+      <RequiredItem identifier="dementonite" amount="12" />
+      <RequiredItem identifier="abno_weakenedredmistcostume" />
+    </Fabricate>
+    <Deconstruct time="40"></Deconstruct>
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Torso" texture="%ModDir%/2945/ImagesRedMist/RedMist_Body.png" limb="Torso" hidelimb="true" hideotherwearables="false" inherittexturescale="true" origin="0.82,0.26" sourcerect="0,0,272,284" />
+      <sprite name="Right Hand" texture="%ModDir%/2945/ImagesRedMist/RedMist_RightHand.png" limb="RightHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Left Hand" texture="%ModDir%/2945/ImagesRedMist/RedMist_LeftHand.png" limb="LeftHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_LowerArm.png" limb="RightArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_LowerArm.png" limb="LeftArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_UpperArm.png" limb="RightForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_UpperArm.png" limb="LeftForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Waist" texture="%ModDir%/2945/ImagesRedMist/RedMist_Waist.png" limb="Waist" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Thigh" texture="%ModDir%/2945/ImagesRedMist/RedMist_Thigh.png" limb="RightThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Left Thigh" texture="%ModDir%/2945/ImagesRedMist/RedMist_Thigh.png" limb="LeftThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Right Leg" texture="%ModDir%/2945/ImagesRedMist/RedMist_Leg.png" limb="RightLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Left Leg" texture="%ModDir%/2945/ImagesRedMist/RedMist_Leg.png" limb="LeftLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Right Shoe" texture="%ModDir%/2945/ImagesRedMist/RedMist_Shoe.png" limb="RightFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,40" sound="%ModDir%/Audio/Footstep.ogg" />
+      <sprite name="Left Shoe" texture="%ModDir%/2945/ImagesRedMist/RedMist_Shoe.png" limb="LeftFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,40" sound="%ModDir%/Audio/Footstep.ogg" />
+      <!-- Resistance-->
+      <damagemodifier afflictiontypes="stun,poison,psychosis" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <damagemodifier afflictiontypes="damage,burn,manadrain,souldamage,bleeding,pale,bloodloss" armorsector="0.0,360.0" damagemultiplier="0.1" />
+      <damagemodifier afflictiontypes="fairy" armorsector="0.0,360.0" damagemultiplier="0.0" />
+      <StatusEffect type="OnWearing" target="Character" PressureProtection="10000.0" SpeedMultiplier="1.5" PropulsionSpeedMultiplier="1.5" setvalue="true" disabledeltatime="true"></StatusEffect>
+    </Wearable>
+  </Item>
+  <Item name="Degraded EGO of the Red Mist" identifier="abno_weakenedredmistcostume" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="A solid manifestation of the Red Mist's EGO, their mind made corporeal. It has spent quite some time away from the creator and has thus lost much of its original strength. Credit to lin2945 for the sprites." impactsoundtag="impact_soft" scale="0.5">
+    <PreferredContainer primary="wreckstoragecab" amount="1" spawnprobability="0.001" />
+    <PreferredContainer primary="crewcab" />
+    <InventoryIcon name="" texture="%ModDir%/2945/ImagesRedMist/RedMist_Body.png" sourcerect="384,448,64,64" origin="0.5,0.5" />
+    <Sprite name="Clown Costume" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="247,14,117,55" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="enkephalinmodule" amount="2" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="enkephalinmodule" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Torso" texture="%ModDir%/2945/ImagesRedMist/RedMist_Body.png" limb="Torso" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.82,0.26" sourcerect="0,0,272,284" />
+      <sprite name="Right Hand" texture="%ModDir%/2945/ImagesRedMist/RedMist_RightHand.png" limb="RightHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Left Hand" texture="%ModDir%/2945/ImagesRedMist/RedMist_LeftHand.png" limb="LeftHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,28,40" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_LowerArm.png" limb="RightArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_LowerArm.png" limb="LeftArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,48,88" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_UpperArm.png" limb="RightForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/2945/ImagesRedMist/RedMist_UpperArm.png" limb="LeftForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,44,64" />
+      <sprite name="Waist" texture="%ModDir%/2945/ImagesRedMist/RedMist_Waist.png" limb="Waist" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Thigh" texture="%ModDir%/2945/ImagesRedMist/RedMist_Thigh.png" limb="RightThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Left Thigh" texture="%ModDir%/2945/ImagesRedMist/RedMist_Thigh.png" limb="LeftThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,68,108" />
+      <sprite name="Right Leg" texture="%ModDir%/2945/ImagesRedMist/RedMist_Leg.png" limb="RightLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Left Leg" texture="%ModDir%/2945/ImagesRedMist/RedMist_Leg.png" limb="LeftLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,60,116" />
+      <sprite name="Right Shoe" texture="%ModDir%/2945/ImagesRedMist/RedMist_Shoe.png" limb="RightFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,40" sound="%ModDir%/Audio/Footstep.ogg" />
+      <sprite name="Left Shoe" texture="%ModDir%/2945/ImagesRedMist/RedMist_Shoe.png" limb="LeftFoot" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.5,0.5" sourcerect="0,0,72,40" sound="%ModDir%/Audio/Footstep.ogg" />
+      <!-- Resistance-->
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding,bloodloss" damagemultiplier="0.8" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage,burn" damagemultiplier="0.9" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.9" deflectprojectiles="true" />
+      <!-- Stats -->
+      <SkillModifier skillidentifier="weapons" skillvalue="10" />
+    </Wearable>
+    <ItemContainer capacity="4" hideitems="true">
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="Prototype Twilight" identifier="abno_twilight_sword_proto" description="Just like how the ever-watching eyes, the scale that could measure any and all sin, and the beak that could swallow everything protected the peace of the Black Forest... The wielder of this armament may also bring peace as they did." category="Weapon" subcategory="Abnormalities" Tags="bulkyweapon,mediumitem,weapon,gunsmith,mountableweapon,twilightsword" scale="0.33" allowasextracargo="false" hideinmenus="True" requireaimtouse="true" impactsoundtag="impact_metal_light">
+    <!-- <PreferredContainer primary="abandonedsecarmcab,wrecksecarmcab" amount="1" spawnprobability="0.1"/> -->
+    <!-- <PreferredContainer primary="wreckstoragecab" amount="1" spawnprobability="0.01"/> -->
+    <Price baseprice="186" sold="false" />
+    <InventoryIcon texture="%ModDir%/Images/invweapons.png" sourcerect="640,512,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/invweaponsprites3.png" sourcerect="0,507,489,73" depth="0.55" origin="0.5,0.5" />
+    <Body width="161" height="20" density="25" />
+    <MeleeWeapon slots="Any,LeftHand" aimpos="50,0" holdangle="30" aimangle="10" reload="1.5" handle1="-60,0">
+      <RequiredSkill identifier="weapons" level="100" />
+      <RequiredSkill identifier="medical" level="100" />
+      <RequiredSkill identifier="helm" level="100" />
+      <RequiredSkill identifier="electrical" level="100" />
+      <RequiredSkill identifier="mechanical" level="100" />
+      <!-- avoid hitting the ceiling by having 0 structure damage -->
+      <Attack targetimpulse="5" severlimbsprobability="0.15" itemdamage="100" structuredamage="0" penetration="0.35">
+        <Affliction identifier="lacerations" strength="40" />
+        <Affliction identifier="blunttrauma" strength="20" />
+        <Affliction identifier="pale" strength="30" />
+        <Affliction identifier="psychosis" strength="25" />
+        <Affliction identifier="bleeding" strength="10" />
+        <Affliction identifier="stun" strength="0.1" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+          <Explosion showeffects="false" shockwave="true" range="200" />
+        </StatusEffect>
+      </Attack>
+      <!-- Parry & Guard -->
+      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
+        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True" />
+        <Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True" />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
+        <Conditional abnoparrycooldown="eq 0" />
+        <Affliction identifier="abnoparry_perfect" amount="100000" disabledeltatime="True" multiplybymaxvitality="True" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
+        <ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True" />
+      </StatusEffect>
+      <!-- Parry End -->
+    </MeleeWeapon>
+    <Quality>
+      <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
+    </Quality>
+    <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
+    <SkillRequirementHint identifier="weapons" level="100" />
+    <SkillRequirementHint identifier="medical" level="100" />
+    <SkillRequirementHint identifier="helm" level="100" />
+    <SkillRequirementHint identifier="electrical" level="100" />
+    <SkillRequirementHint identifier="mechanical" level="100" />
+  </Item>
+</Items>

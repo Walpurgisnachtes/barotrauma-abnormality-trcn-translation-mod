@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Sweeper Mask" identifier="sweepermask_SO" category="Equipment" tags="smallitem,clothing,sweepermask_SO" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.3">
+    <PreferredContainer primary="armcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredItem identifier="divingmask" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="geneticmaterial_unresearched" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <Sprite name="Sweeper Mask" texture="%ModDir%/Sweepers/textures/sweepermask.png" sourcerect="0,0,128,128" depth="0.6" origin="0.5,0.5" />
+    <Body radius="60" density="30" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound,burn,huskinfection,radiationsickness" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite name="Sweeper Mask Wearable" texture="%ModDir%/Sweepers/textures/sweepermask.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hideotherwearables="true" hidewearablesoftype="Hair" sourcerect="0,0,128,128" origin="0.5,0.5">
+        <LightComponent range="0.0" lightcolor="255,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+          <sprite texture="%ModDir%/Sweepers/textures/sweepereyes.png" hidelimb="true" sourcerect="0,0,128,128" depth="0.55" origin="0.5,0.5" alpha="1.0" />
+        </LightComponent>
+      </sprite>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="sweepermask_worn_SO" amount="3" />
+      </StatusEffect>
+      <LightComponent range="0.0" lightcolor="255,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+        <sprite texture="%ModDir%/Sweepers/textures/sweepereyes.png" sourcerect="0,0,128,128" depth="0.59" origin="0.5,0.5" alpha="1.0" />
+      </LightComponent>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="3.0" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+      <Containable items="oxygensource,weldingtoolfuel" excludeditems="oxygenitetank" />
+      <Containable items="oxygenitetank">
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="1.3" setvalue="true" comparison="And" targetslot="0">
+          <Conditional IsDead="false" />
+          <Conditional HullOxygenPercentage="lt 50" />
+          <Conditional InWater="false" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="Sweeper Mask" translationoverride="sweepermask_SO" identifier="sweepermask_alt1_SO" category="Equipment" tags="smallitem,clothing,sweepermask_SO" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.3">
+    <PreferredContainer primary="armcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredItem identifier="divingmask" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="geneticmaterial_unresearched" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <Sprite name="Sweeper Mask" texture="%ModDir%/Sweepers/textures/sweepermask_alt1.png" sourcerect="0,0,128,128" depth="0.6" origin="0.5,0.5" />
+    <Body radius="60" density="30" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound,burn,huskinfection,radiationsickness" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite name="Sweeper Mask Wearable" texture="%ModDir%/Sweepers/textures/sweepermask_alt1.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hideotherwearables="true" hidewearablesoftype="Hair" sourcerect="0,0,128,128" origin="0.5,0.5">
+        <LightComponent range="0.0" lightcolor="255,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+          <sprite texture="%ModDir%/Sweepers/textures/sweepereyes_alt1.png" hidelimb="true" sourcerect="0,0,128,128" depth="0.55" origin="0.5,0.5" alpha="1.0" />
+        </LightComponent>
+      </sprite>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="sweepermask_worn_SO" amount="3" />
+      </StatusEffect>
+      <LightComponent range="0.0" lightcolor="255,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+        <sprite texture="%ModDir%/Sweepers/textures/sweepereyes_alt1.png" sourcerect="0,0,128,128" depth="0.59" origin="0.5,0.5" alpha="1.0" />
+      </LightComponent>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="3.0" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+      <Containable items="oxygensource,weldingtoolfuel" excludeditems="oxygenitetank" />
+      <Containable items="oxygenitetank">
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="1.3" setvalue="true" comparison="And" targetslot="0">
+          <Conditional IsDead="false" />
+          <Conditional HullOxygenPercentage="lt 50" />
+          <Conditional InWater="false" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="Sweeper Mask" translationoverride="sweepermask_SO" identifier="sweepermask_alt2_SO" category="Equipment" tags="smallitem,clothing,sweepermask_SO" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.3">
+    <PreferredContainer primary="armcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredItem identifier="divingmask" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="geneticmaterial_unresearched" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <Sprite name="Sweeper Mask" texture="%ModDir%/Sweepers/textures/sweepermask_alt2.png" sourcerect="0,0,128,128" depth="0.6" origin="0.5,0.5" />
+    <Body radius="60" density="30" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound,burn,huskinfection,radiationsickness" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite name="Sweeper Mask Wearable" texture="%ModDir%/Sweepers/textures/sweepermask_alt2.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hideotherwearables="true" hidewearablesoftype="Hair" sourcerect="0,0,128,128" origin="0.5,0.5">
+        <LightComponent range="0.0" lightcolor="255,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+          <sprite texture="%ModDir%/Sweepers/textures/sweepereyes_alt2.png" hidelimb="true" sourcerect="0,0,128,128" depth="0.55" origin="0.5,0.5" alpha="1.0" />
+        </LightComponent>
+      </sprite>
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="sweepermask_worn_SO" amount="3" />
+      </StatusEffect>
+      <LightComponent range="0.0" lightcolor="255,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+        <sprite texture="%ModDir%/Sweepers/textures/sweepereyes_alt2.png" sourcerect="0,0,128,128" depth="0.59" origin="0.5,0.5" alpha="1.0" />
+      </LightComponent>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="3.0" />
+      </StatusEffect>
+      <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+        <StatusEffect type="OnActive" target="Contained,Character" comparison="And">
+          <RequiredItem items="oxygensource" type="Contained" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
+        </StatusEffect>
+      </ItemComponent>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+      <Containable items="oxygensource,weldingtoolfuel" excludeditems="oxygenitetank" />
+      <Containable items="oxygenitetank">
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="1.3" setvalue="true" comparison="And" targetslot="0">
+          <Conditional IsDead="false" />
+          <Conditional HullOxygenPercentage="lt 50" />
+          <Conditional InWater="false" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="Sweeper Suit" identifier="sweepersuit_SO" category="Equipment" tags="smallitem,clothing,sweepersuit_SO" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="armcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="45">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredItem identifier="titaniumaluminiumalloy" count="2" />
+      <RequiredItem identifier="ballisticfiber" count="3" />
+      <RequiredItem identifier="geneticmaterial_unresearched" />
+      <RequiredItem identifier="divingsuit" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="titaniumaluminiumalloy" amount="1" />
+      <Item identifier="ballisticfiber" amount="1" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Sweepers/textures/sweepersuit.png" sourcerect="448,0,64,64" origin="0.5,0.5" />
+    <Sprite name="Sweeper Suit Item" texture="%ModDir%/Sweepers/textures/sweepersuit_item.png" sourcerect="0,0,157,121" depth="0.55" origin="0.5,0.5" />
+    <Body width="62" height="120" density="30" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnWearing" target="Character" PressureProtection="6000.0" setvalue="true" disabledeltatime="true">
+        <Conditional sweepermask_worn_SO="gt 0" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="250" loop="true" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="250" loop="true" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true" comparison="and">
+        <Conditional sweepermask_worn_SO="gt 0" />
+        <Conditional sweeper_persistence_cooldown_SO="eq 0" />
+        <Affliction identifier="sweeper_persistence_SO" amount="3" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.95" PropulsionSpeedMultiplier="1.4" setvalue="true" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="sweepersuit_worn_SO" amount="3" />
+      </StatusEffect>
+      <sprite name="Sweeper Torso" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="Torso" hidelimb="false" inherittexturescale="true" hideotherwearables="true" origin="0.7,0.5" sourcerect="400,64,112,192">
+        <LightComponent range="0.0" lightcolor="100,0,0,50" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+          <sprite texture="%ModDir%/Sweepers/textures/sweeper_tank_light.png" hidelimb="false" sourcerect="0,0,100,140" inheritlimbdepth="true" origin="0.85,0.7" alpha="1.0" />
+        </LightComponent>
+      </sprite>
+      <sprite name="Sweeper Armor Right Hand" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Left Hand" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Right Upper Arm" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Left Upper Arm" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Right Forearm" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Left Forearm" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Waist" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Right Thigh" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="RightThigh" depthlimb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Left Thigh" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="LeftThigh" depthlimb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Right Leg" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="RightLeg" depthlimb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Left Leg" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="LeftLeg" depthlimb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Left Shoe" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Sweeper Armor Right Shoe" texture="%ModDir%/Sweepers/textures/sweepersuit.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,lacerations" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bitewounds,bleeding" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.25" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.25" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor" />
+      <!--<StatusEffect type="OnWearing" target="Character" interval="1">
+	    <Affliction identifier="sweepbutcher" amount="5" />
+	  </StatusEffect>-->
+    </Wearable>
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="1" autoinject="true" AutoInjectThreshold="0" SpawnWithId="sweeper_persistence_medical_SO" drawinventory="false" canbeselected="false" removecontaineditemsondeconstruct="true" showcontainedstateindicator="false">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="384,448,64,64" origin="0.5,0.5" />
+      <Containable items="sweeper_persistence_medical_SO" />
+    </ItemContainer>
+  </Item>
+  <Item name="Persistence" identifier="sweeper_persistence_medical_SO" category="Medical" maxstacksize="1" Tags="smallitem,chem,medical" hideinmenus="true" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="228,380,64,64" depth="0.6" origin="0.5,0.5" />
+    <ItemComponent>
+      <RequiredSkill identifier="medical" level="0" />
+      <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+        <Conditional sweeper_persistence_SO="gt 0" />
+        <Affliction identifier="sweepheal_SO2" amount="3" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+        <Conditional sweeper_persistence_SO="gt 0" />
+        <Affliction identifier="sweeper_persistence_cooldown_SO" amount="60" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnFailure" target="UseTarget" disabledeltatime="true" />
+      <StatusEffect type="OnNotContained" target="This" disabledeltatime="true" delay="1">
+        <Remove />
+      </StatusEffect>
+    </ItemComponent>
+  </Item>
+  <Item name="Sweeper Hook" identifier="sweeperhook_SO" category="Weapon" Tags="smallitem,weapon,gunsmith,mountableweapon" description="" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <PreferredContainer primary="armcab" />
+    <Fabricate suitablefabricators="enkfab" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredItem identifier="dementonite" count="1" />
+      <RequiredItem identifier="titaniumaluminiumalloy" count="2" />
+      <RequiredItem identifier="enkephalin" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" amount="1" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Sweepers/textures/sweeperhook.png" sourcerect="0,0,136,300" depth="0.55" origin="0.5,0.5" />
+    <Body width="170" height="30" density="20" />
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-10,-10" holdangle="-30" reload="0.75" range="70" combatPriority="42" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="2" severlimbsprobability="0.8" itemdamage="3" structuredamage="5" structuresoundtype="StructureSlash" targettype="Character">
+        <Affliction identifier="lacerations" strength="15" />
+        <Affliction identifier="acidburn" strength="7.5" />
+        <Affliction identifier="bleeding" strength="7.5" />
+        <Affliction identifier="stun" strength="0.1" probability="0.5" />
+        <StatusEffect type="OnUse" target="UseTarget" comparison="and">
+          <Conditional entitytype="eq Character" />
+          <Conditional isDead="false" />
+          <Sound file="%ModDir%/Sweepers/sounds/sweep/sweep1.ogg" selectionmode="random" range="500" />
+          <Sound file="%ModDir%/Sweepers/sounds/sweep/sweep2.ogg" range="500" />
+          <Sound file="%ModDir%/Sweepers/sounds/sweep/sweep3.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="UseTarget" comparison="and">
+          <Conditional entitytype="eq Character" />
+          <Conditional isDead="true" />
+          <Sound file="%ModDir%/Sweepers/sounds/sweep/sweep_spec1.ogg" selectionmode="random" range="500" />
+          <Sound file="%ModDir%/Sweepers/sounds/sweep/sweep_spec2.ogg" range="500" />
+        </StatusEffect>
+        <!-- If dead, apply sweepbutcher -->
+        <StatusEffect type="OnUse" target="UseTarget" Comparison="And">
+          <Conditional isdead="true" />
+          <Affliction identifier="sweepbutcher" strength="1" />
+        </StatusEffect>
+        <!-- If at 10 sweepbutcher, Dissolve -->
+        <StatusEffect type="OnUse" target="Character,UseTarget" Comparison="And">
+          <Conditional sweepbutcher="gte 10" isdead="true" />
+          <Conditional sweepbutcher="lt 11" isdead="true" />
+          <Affliction identifier="sweepheal_SO" strength="100" />
+          <ParticleEmitter particle="bloodsplash" anglemax="360" velocitymin="0" velocitymax="0" scalemin="1" scalemax="2" particleamount="10" colormultiplier="50,50,50,255" />
+        </StatusEffect>
+        <!--<StatusEffect type="OnUse" target="UseTarget" Comparison="And">
+         <Conditional sweepbutcher="gte 10" isdead="true"/>
+		 <ParticleEmitter particle="bloodsplash" anglemax="360" velocitymin="0" velocitymax="0" scalemin="1" scalemax="2" particleamount="10" colormultiplier="50,50,50,255"/>
+		 <RemoveCharacter />
+        </StatusEffect>-->
+        <!-- Lets you heal up to 5 times per corpse -->
+        <StatusEffect type="OnUse" target="UseTarget" disabledeltatime="true" comparison="and">
+          <Conditional sweepbutcher="lte 5" />
+          <Conditional IsDead="True" />
+          <Explosion range="100.0" showeffects="false">
+            <Affliction identifier="sweepheal_SO" strength="1.5" />
+          </Explosion>
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <LightComponent range="0" lightcolor="210,0,0,255" IsOn="true" castshadows="false" alphablend="false" allowingameediting="false">
+      <sprite texture="%ModDir%/Sweepers/textures/sweeperhook_light.png" sourcerect="0,0,136,300" depth="0.52" origin="0.5,0.5" alpha="1.0" />
+    </LightComponent>
+    <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
+  </Item>
+</Items>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character inherit="CorrodedInquisitor1" SpeciesName="CorrodedInquisitor2" SpeciesTranslationOverride="" DisplayName="Everything There of an Inquisitor">
+  <ragdolls folder="default" />
+  <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="True" Commonness="1" />
+  <StatusEffect type="OnSpawn" target="This" disabledeltatime="True">
+    <SpawnItem identifier="corrodedinquisitorarmor" spawnposition="ThisInventory" equip="True" />
+    <SpawnItem identifier="corrodedinquisitornail" spawnposition="ThisInventory" equip="True" />
+    <SpawnItem identifier="corrodedhandlock" spawnposition="ThisInventory" equip="True" />
+    <SpawnItem identifier="egofragment_corrodedinquisitor" spawnposition="ThisInventory" />
+  </StatusEffect>
+</Character>

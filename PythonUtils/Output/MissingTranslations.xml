@@ -1,0 +1,872 @@
+<Overrides>
+  <afflictiondescription.CENSORED>The patient is CENSORED.</afflictiondescription.CENSORED>
+  <afflictiondescription.DerFluchschutze_Stigmatized>Prioritized by Der Fluchschütze.</afflictiondescription.DerFluchschutze_Stigmatized>
+  <afflictiondescription.abno_acceleratedtime>A time surplus causes you to move faster. From the perspective of the beneficiary, they move at a normal rate while everything else moves slower.</afflictiondescription.abno_acceleratedtime>
+  <afflictiondescription.abno_battleready>Kill 'em all!</afflictiondescription.abno_battleready>
+  <afflictiondescription.abno_borrowedtime>A time surplus causes you to move faster. From the perspective of the beneficiary, they move at a normal rate while everything else moves slower.</afflictiondescription.abno_borrowedtime>
+  <afflictiondescription.abno_charge>Charging up.</afflictiondescription.abno_charge>
+  <afflictiondescription.abno_losttime>A time deficit causes you to move slower. From the perspective of the sufferer, they move at a normal rate while everything else moves faster.</afflictiondescription.abno_losttime>
+  <afflictiondescription.abno_shield>Protected from harm.</afflictiondescription.abno_shield>
+  <afflictiondescription.abno_smoke>The patient is breathing chemical smoke, causing them to cough violently.</afflictiondescription.abno_smoke>
+  <afflictiondescription.abno_timedebt>Overspent time.</afflictiondescription.abno_timedebt>
+  <afflictiondescription.abno_timemoratorium>It looks like you're not taking any damage, but that doesn't seem right...</afflictiondescription.abno_timemoratorium>
+  <afflictiondescription.abnoblocking>Defending against incoming damage.</afflictiondescription.abnoblocking>
+  <afflictiondescription.abnoblunttrauma>boom</afflictiondescription.abnoblunttrauma>
+  <afflictiondescription.abnoinsanity>The subject is losing their grip on reality due to exposure to supernatural forces.</afflictiondescription.abnoinsanity>
+  <afflictiondescription.abnolevelslash>You are outspeeding your enemy.</afflictiondescription.abnolevelslash>
+  <afflictiondescription.abnonvgoverlay>totally not stolen</afflictiondescription.abnonvgoverlay>
+  <afflictiondescription.abnoonrush>In the wake of death, you feel a rush of exhiliration.</afflictiondescription.abnoonrush>
+  <afflictiondescription.abnoparry>An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off.</afflictiondescription.abnoparry>
+  <afflictiondescription.abnoparry_perfect>An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off.</afflictiondescription.abnoparry_perfect>
+  <afflictiondescription.abnoparry_waxen>An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off.</afflictiondescription.abnoparry_waxen>
+  <afflictiondescription.abnoparry_zwei>An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off.</afflictiondescription.abnoparry_zwei>
+  <afflictiondescription.abnoretaliation>Retaliating against incoming damage.</afflictiondescription.abnoretaliation>
+  <afflictiondescription.abnormalitygaze>Deal more damage based on this effect's value, but if it reaches its maximum, suffer massive bleed damage.</afflictiondescription.abnormalitygaze>
+  <afflictiondescription.abnospear>You are piercing your enemy.</afflictiondescription.abnospear>
+  <afflictiondescription.abnoupstandingslash>You are overpowering your enemy.</afflictiondescription.abnoupstandingslash>
+  <afflictiondescription.ajustvengeance>Seeking vengeance.</afflictiondescription.ajustvengeance>
+  <afflictiondescription.allbeholdinggaze>Take damage over time equivalent to this effect's level.</afflictiondescription.allbeholdinggaze>
+  <afflictiondescription.arbiter_healing>In the absence of damage, heal your wounds.</afflictiondescription.arbiter_healing>
+  <afflictiondescription.arbiterchained>You can't move.</afflictiondescription.arbiterchained>
+  <afflictiondescription.beforethekinginbinds>Gain power, but lose speed.</afflictiondescription.beforethekinginbinds>
+  <afflictiondescription.blackshield>A shield is protecting the subject against infections.</afflictiondescription.blackshield>
+  <afflictiondescription.bleeddeluge>A considerable portion of blood is being sucked out of the body, but the process is also reducing the existing rate of blood loss - trading bleeding for blood loss.</afflictiondescription.bleeddeluge>
+  <afflictiondescription.blindobsession>Set bonus: Pressure immunity.</afflictiondescription.blindobsession>
+  <afflictiondescription.bloodfeastcompatible>Able to benefit from the effects of Bloodfeast.</afflictiondescription.bloodfeastcompatible>
+  <afflictiondescription.bloodiedhand>Your combat capabilities are improved.</afflictiondescription.bloodiedhand>
+  <afflictiondescription.bloodtingedscissorblades>Your combat capabilities are improved.</afflictiondescription.bloodtingedscissorblades>
+  <afflictiondescription.brokencoffinspawn>GO IN THE FOREVER BOX</afflictiondescription.brokencoffinspawn>
+  <afflictiondescription.censoredcorrosion>E.G.O. Resonance can offer great power, but one should be wary not to lose themselves to the Abnormality's influence.</afflictiondescription.censoredcorrosion>
+  <afflictiondescription.chainsofloyaltybuff>.</afflictiondescription.chainsofloyaltybuff>
+  <afflictiondescription.chainsofloyaltyself>.</afflictiondescription.chainsofloyaltyself>
+  <afflictiondescription.coagulatedblood>Your combat capabilities are improved.</afflictiondescription.coagulatedblood>
+  <afflictiondescription.coffin>Lasts 15 seconds. Grants up to 50% more melee attack power and speed.</afflictiondescription.coffin>
+  <afflictiondescription.coffinbonk>GO IN THE FOREVER BOX</afflictiondescription.coffinbonk>
+  <afflictiondescription.concentrating>Ready to fire.</afflictiondescription.concentrating>
+  <afflictiondescription.concussed>Disoriented.</afflictiondescription.concussed>
+  <afflictiondescription.couriertrunk>Devyat Courier Trunks emanate energy that can empower the wielder, but an excess of this power can be dangerous.</afflictiondescription.couriertrunk>
+  <afflictiondescription.curse_atrophy>You are no longer able to run.</afflictiondescription.curse_atrophy>
+  <afflictiondescription.curse_disempowered>Reduced buff duration.</afflictiondescription.curse_disempowered>
+  <afflictiondescription.darkcloud>Let's split the clouds!</afflictiondescription.darkcloud>
+  <afflictiondescription.deathrite>Increases Rupture damage taken.</afflictiondescription.deathrite>
+  <afflictiondescription.deathrite_deluge>Deathrite activation.</afflictiondescription.deathrite_deluge>
+  <afflictiondescription.deathrite_wane>Increases Deathrite activation.</afflictiondescription.deathrite_wane>
+  <afflictiondescription.deathritefissure>Slows the target.</afflictiondescription.deathritefissure>
+  <afflictiondescription.defup>Your defensive capabilities are improved.</afflictiondescription.defup>
+  <afflictiondescription.dontrushme_charge>Readying a powerful attack.</afflictiondescription.dontrushme_charge>
+  <afflictiondescription.egodestabilized>The E.G.O. has become destabilized, risking deterioration into something terrible.</afflictiondescription.egodestabilized>
+  <afflictiondescription.egostrengthened>The E.G.O. has become strengthened, making the impossible possible.</afflictiondescription.egostrengthened>
+  <afflictiondescription.enraged>RAAAAAAAAAAQ</afflictiondescription.enraged>
+  <afflictiondescription.execution>Summary judgement.</afflictiondescription.execution>
+  <afflictiondescription.exuviaeinfection>A parasitic infection has taken root in your body. Antibiotics should flush it out.</afflictiondescription.exuviaeinfection>
+  <afflictiondescription.fanaticdetection>Thou shalt be purged.</afflictiondescription.fanaticdetection>
+  <afflictiondescription.fanaticdetection_seal>Thou shalt be purged.</afflictiondescription.fanaticdetection_seal>
+  <afflictiondescription.fanaticmanager>.</afflictiondescription.fanaticmanager>
+  <afflictiondescription.fellbulletcorrosion>E.G.O. Resonance can offer great power, but one should be wary not to lose themselves to the Abnormality's influence.</afflictiondescription.fellbulletcorrosion>
+  <afflictiondescription.forsakenrage>RAAAAAAAAAAQ</afflictiondescription.forsakenrage>
+  <afflictiondescription.glupocorrosion>E.G.O. Resonance can offer great power, but one should be wary not to lose themselves to the Abnormality's influence.</afflictiondescription.glupocorrosion>
+  <afflictiondescription.gossypium>The patient is flowering. Stun damage is converted to bleeding.</afflictiondescription.gossypium>
+  <afflictiondescription.grasp>You need to break out before you get crushed!</afflictiondescription.grasp>
+  <afflictiondescription.hardbloodarmor>Your combat capabilities are improved.</afflictiondescription.hardbloodarmor>
+  <afflictiondescription.highspeedripspace>1300</afflictiondescription.highspeedripspace>
+  <afflictiondescription.hphealingdown>Medicines are less effective on the patient.</afflictiondescription.hphealingdown>
+  <afflictiondescription.impendingruin>Lose Offense Level based on how much Psychosis you have.</afflictiondescription.impendingruin>
+  <afflictiondescription.indeliblestigma>An indelible stigma has been left on your heart.</afflictiondescription.indeliblestigma>
+  <afflictiondescription.inquisitorcorrosion>E.G.O. Resonance can offer great power, but one should be wary not to lose themselves to the Abnormality's influence.</afflictiondescription.inquisitorcorrosion>
+  <afflictiondescription.judgement>You are being judged.</afflictiondescription.judgement>
+  <afflictiondescription.kinginbindsult>.</afflictiondescription.kinginbindsult>
+  <afflictiondescription.lamanchaparade>More vulnerable to Bloodfiends.</afflictiondescription.lamanchaparade>
+  <afflictiondescription.lasangre_newdress_charging>Readying a powerful attack.</afflictiondescription.lasangre_newdress_charging>
+  <afflictiondescription.livingbutterfly>A solemn lamentation for the life-bound.</afflictiondescription.livingbutterfly>
+  <afflictiondescription.magicbulletcorrosion>E.G.O. Resonance can offer great power, but one should be wary not to lose themselves to the Abnormality's influence.</afflictiondescription.magicbulletcorrosion>
+  <afflictiondescription.mookworkshopcut>boohoo my wife is dead</afflictiondescription.mookworkshopcut>
+  <afflictiondescription.n_gaze>Why don't you just die standing up? The freshness of your hideous gaze is decaying by the second.</afflictiondescription.n_gaze>
+  <afflictiondescription.naildrivebleed>Drives nails into the body.</afflictiondescription.naildrivebleed>
+  <afflictiondescription.naildriveparalyze>Drives nails into the body and inflicts Paralyze.</afflictiondescription.naildriveparalyze>
+  <afflictiondescription.noripspace>Debug.</afflictiondescription.noripspace>
+  <afflictiondescription.offup>Your offensive capabilities are improved.</afflictiondescription.offup>
+  <afflictiondescription.onailed>Metal nails are protruding from the victim's flesh.</afflictiondescription.onailed>
+  <afflictiondescription.opiatecooldown>You aren't allowed to inject more medicine of this type at the moment.</afflictiondescription.opiatecooldown>
+  <afflictiondescription.opiatevulnerability>The body is more susceptible to damage.</afflictiondescription.opiatevulnerability>
+  <afflictiondescription.overheat>I'm burning up.</afflictiondescription.overheat>
+  <afflictiondescription.paleshield>A shield is protecting the subject against Abnormality-specific damage.</afflictiondescription.paleshield>
+  <afflictiondescription.paralyze>The body is physically weakened, reducing the ability to fight.</afflictiondescription.paralyze>
+  <afflictiondescription.portalbladespawn>.</afflictiondescription.portalbladespawn>
+  <afflictiondescription.portalbullet_6reuse>.</afflictiondescription.portalbullet_6reuse>
+  <afflictiondescription.portalbulletspawn2>.</afflictiondescription.portalbulletspawn2>
+  <afflictiondescription.portalbulletspawn3>.</afflictiondescription.portalbulletspawn3>
+  <afflictiondescription.portalbulletspawn4>.</afflictiondescription.portalbulletspawn4>
+  <afflictiondescription.portalbulletspawn5>.</afflictiondescription.portalbulletspawn5>
+  <afflictiondescription.portalbulletspawn6>.</afflictiondescription.portalbulletspawn6>
+  <afflictiondescription.portalbulletspawnmanager1>Determines if the target is valid.</afflictiondescription.portalbulletspawnmanager1>
+  <afflictiondescription.redplumblossom>An experienced swordsman's mark has been left on the body.</afflictiondescription.redplumblossom>
+  <afflictiondescription.redshield>A shield is protecting the subject against physical damage.</afflictiondescription.redshield>
+  <afflictiondescription.redshieldbuff>.</afflictiondescription.redshieldbuff>
+  <afflictiondescription.rupture>The body has been ruptured by an unusual energy source. Wounds appear to have been cut cleanly and then forced open, causing massive trauma and increasing how quickly blood loss occurs.</afflictiondescription.rupture>
+  <afflictiondescription.savagetigerslayer>All I want is to bare my fangs.</afflictiondescription.savagetigerslayer>
+  <afflictiondescription.serumk>Fortifies the subject and regenerates any damage they may have taken.</afflictiondescription.serumk>
+  <afflictiondescription.serumr>Greatly improves the subject's strength and speed for a short duration. Its effect is strongest immediately after injection.</afflictiondescription.serumr>
+  <afflictiondescription.shockwave>A powerful shockwave has struck your body.</afflictiondescription.shockwave>
+  <afflictiondescription.shockwaveimmunity>Immune to the shockwaves.</afflictiondescription.shockwaveimmunity>
+  <afflictiondescription.slashfragility>The body is more susceptible to slashing damage.</afflictiondescription.slashfragility>
+  <afflictiondescription.sweepbutcher>Any useful flesh has been removed from this creature.</afflictiondescription.sweepbutcher>
+  <afflictiondescription.sweeper_persistence_SO>Gain a burst of healing when entering critical condition. 60 second cool-down.</afflictiondescription.sweeper_persistence_SO>
+  <afflictiondescription.tianjiu_star_blade_blocker>An ominous power stirs within the blade.</afflictiondescription.tianjiu_star_blade_blocker>
+  <afflictiondescription.tornmemory>You don't want to remember them. Not right now. Or your wrath might harm them too.</afflictiondescription.tornmemory>
+  <afflictiondescription.tornmemory_der>You don't want to remember them. Not right now. Or your wrath might harm them too.</afflictiondescription.tornmemory_der>
+  <afflictiondescription.tremor>The body is resonating with a strange energy.</afflictiondescription.tremor>
+  <afflictiondescription.truearbiterchained>You can't move.</afflictiondescription.truearbiterchained>
+  <afflictiondescription.truefairy>It's 'unlocking' every pore of your body.</afflictiondescription.truefairy>
+  <afflictiondescription.waxenpinion>With this passion... Burn.</afflictiondescription.waxenpinion>
+  <afflictiondescription.whiteshield>A shield is protecting the subject against psychological damage.</afflictiondescription.whiteshield>
+  <afflictiondescription.wildhuntallymark>You're spared from the wrath of the Wild Hunt.</afflictiondescription.wildhuntallymark>
+  <afflictiondescription.wildhuntcoffin>GO IN THE FOREVER BOX</afflictiondescription.wildhuntcoffin>
+  <afflictiondescription.wildhuntcooldown>You aren't allowed to summon the wild hunt again at the moment.</afflictiondescription.wildhuntcooldown>
+  <afflictionhuskname.Lament_Trench>Lament_Trench</afflictionhuskname.Lament_Trench>
+  <afflictionhuskname.NightAwls_Trench>NightAwls_Trench</afflictionhuskname.NightAwls_Trench>
+  <afflictionhuskname.Oasis_Trench>Oasis_Trench</afflictionhuskname.Oasis_Trench>
+  <afflictionhuskname.Salsu_Trench>Salsu_Trench</afflictionhuskname.Salsu_Trench>
+  <afflictionhuskname.nothingtheremutation_mudraptor>Natural Melee Weapon</afflictionhuskname.nothingtheremutation_mudraptor>
+  <afflictionhuskname.nothingtheremutation_spineling>Natural Ranged Weapon</afflictionhuskname.nothingtheremutation_spineling>
+  <afflictionname.CENSORED>CENSORED</afflictionname.CENSORED>
+  <afflictionname.DerFluchschutze_Stigmatized>Stigmatized</afflictionname.DerFluchschutze_Stigmatized>
+  <afflictionname.abno_acceleratedtime>Accelerated Time</afflictionname.abno_acceleratedtime>
+  <afflictionname.abno_battleready>Battle Ready</afflictionname.abno_battleready>
+  <afflictionname.abno_booked>Booking</afflictionname.abno_booked>
+  <afflictionname.abno_borrowedtime>Borrowed Time</afflictionname.abno_borrowedtime>
+  <afflictionname.abno_bright>Bright [光]</afflictionname.abno_bright>
+  <afflictionname.abno_charge>Charge</afflictionname.abno_charge>
+  <afflictionname.abno_cold>Cold</afflictionname.abno_cold>
+  <afflictionname.abno_executiontarget>Execution Target</afflictionname.abno_executiontarget>
+  <afflictionname.abno_losttime>Lost Time</afflictionname.abno_losttime>
+  <afflictionname.abno_shield>Shielded</afflictionname.abno_shield>
+  <afflictionname.abno_smoke>Smoke</afflictionname.abno_smoke>
+  <afflictionname.abno_timedebt>Time Debt</afflictionname.abno_timedebt>
+  <afflictionname.abno_timemoratorium>Time Moratorium</afflictionname.abno_timemoratorium>
+  <afflictionname.abnoblocking>Blocking</afflictionname.abnoblocking>
+  <afflictionname.abnoblunttrauma>Abnormality Blunt Blast</afflictionname.abnoblunttrauma>
+  <afflictionname.abnoburrowing>Burrowing</afflictionname.abnoburrowing>
+  <afflictionname.abnocell_working>Working</afflictionname.abnocell_working>
+  <afflictionname.abnodarkflame>Dark Flame</afflictionname.abnodarkflame>
+  <afflictionname.abnoinsanity>Insanity</afflictionname.abnoinsanity>
+  <afflictionname.abnolevelslash>Level Slash</afflictionname.abnolevelslash>
+  <afflictionname.abnonvgoverlay>Night Vision</afflictionname.abnonvgoverlay>
+  <afflictionname.abnoonrush>Onrush</afflictionname.abnoonrush>
+  <afflictionname.abnoparry>Parry</afflictionname.abnoparry>
+  <afflictionname.abnoparry_perfect>Perfect Parry</afflictionname.abnoparry_perfect>
+  <afflictionname.abnoparry_waxen>Stigmatized Parry</afflictionname.abnoparry_waxen>
+  <afflictionname.abnoparry_zwei>Zwei Parry</afflictionname.abnoparry_zwei>
+  <afflictionname.abnoretaliation>Retaliation</afflictionname.abnoretaliation>
+  <afflictionname.abnormalitygaze>Gaze</afflictionname.abnormalitygaze>
+  <afflictionname.abnospear>Spear</afflictionname.abnospear>
+  <afflictionname.abnoupstandingslash>Upstanding Slash</afflictionname.abnoupstandingslash>
+  <afflictionname.ajustvengeance>A Just Vengeance</afflictionname.ajustvengeance>
+  <afflictionname.allbeholdinggaze>All-Beholding Gaze</afflictionname.allbeholdinggaze>
+  <afflictionname.arbiter_healing>Passive Regeneration</afflictionname.arbiter_healing>
+  <afflictionname.arbiterchained>Degraded Enchained</afflictionname.arbiterchained>
+  <afflictionname.arbiterchained2>Enchained</afflictionname.arbiterchained2>
+  <afflictionname.backstreetscooldown>Dark Cloud Blade Cooldown</afflictionname.backstreetscooldown>
+  <afflictionname.beforethekinginbinds>Before the King in Binds</afflictionname.beforethekinginbinds>
+  <afflictionname.betrayal>Betrayal</afflictionname.betrayal>
+  <afflictionname.blackshield>Infection Shield</afflictionname.blackshield>
+  <afflictionname.bleeddeluge>Blood Deluge</afflictionname.bleeddeluge>
+  <afflictionname.blindobsession>Blind Obsession</afflictionname.blindobsession>
+  <afflictionname.bloodfeastcompatible>Bloodfeast Compatible</afflictionname.bloodfeastcompatible>
+  <afflictionname.bloodflamemassacre_check>bfmc</afflictionname.bloodflamemassacre_check>
+  <afflictionname.bloodiedhand>Bloodied Hand</afflictionname.bloodiedhand>
+  <afflictionname.bloodredmane_talent>Blood-Red Mane</afflictionname.bloodredmane_talent>
+  <afflictionname.bloodtingedscissorblades>Blood-Tinged Scissorblades</afflictionname.bloodtingedscissorblades>
+  <afflictionname.bowsglimmercooldown>Bow's Glimmer</afflictionname.bowsglimmercooldown>
+  <afflictionname.brokencoffinspawn>brocoffined</afflictionname.brokencoffinspawn>
+  <afflictionname.burrowingheavenfx>Burrowing Heaven</afflictionname.burrowingheavenfx>
+  <afflictionname.censoredcorrosion>CENSORED Corrosion</afflictionname.censoredcorrosion>
+  <afflictionname.chainsofloyaltybuff>Chains of Loyalty (Buff)</afflictionname.chainsofloyaltybuff>
+  <afflictionname.chainsofloyaltyself>Chains of Loyalty (Self)</afflictionname.chainsofloyaltyself>
+  <afflictionname.coagulatedblood>Coagulated Blood</afflictionname.coagulatedblood>
+  <afflictionname.coffin>Coffin</afflictionname.coffin>
+  <afflictionname.coffinbonk>Coffinbonk</afflictionname.coffinbonk>
+  <afflictionname.concentrating>Concentration</afflictionname.concentrating>
+  <afflictionname.concussed>Concussed</afflictionname.concussed>
+  <afflictionname.countering>Counter Ready</afflictionname.countering>
+  <afflictionname.couriertrunk>Courier Trunk</afflictionname.couriertrunk>
+  <afflictionname.criticalhit>Critical Hit</afflictionname.criticalhit>
+  <afflictionname.curse_atrophy>Curse: Atrophy</afflictionname.curse_atrophy>
+  <afflictionname.curse_disempowered>Curse: Disempowered</afflictionname.curse_disempowered>
+  <afflictionname.darkcloud>Dark Cloud</afflictionname.darkcloud>
+  <afflictionname.deathrite>Deathrite [Haste]</afflictionname.deathrite>
+  <afflictionname.deathrite_deluge>Deathrite [Deluge]</afflictionname.deathrite_deluge>
+  <afflictionname.deathrite_wane>Deathrite [Wane]</afflictionname.deathrite_wane>
+  <afflictionname.deathritefissure>Deathrite [Fissure]</afflictionname.deathritefissure>
+  <afflictionname.defup>Defense Up</afflictionname.defup>
+  <afflictionname.disciplinarypresence_disciplined>Disciplinary Presence (Mentored)</afflictionname.disciplinarypresence_disciplined>
+  <afflictionname.disciplined>Disciplined</afflictionname.disciplined>
+  <afflictionname.dontrushme_charge>Don't Rush Me (Charging)</afflictionname.dontrushme_charge>
+  <afflictionname.drawoftheswordcooldown>Poised Blade Cooldown</afflictionname.drawoftheswordcooldown>
+  <afflictionname.egodestabilized>E.G.O. Destabilized</afflictionname.egodestabilized>
+  <afflictionname.egogift_beak>Beak</afflictionname.egogift_beak>
+  <afflictionname.egogift_perversion>Perversion</afflictionname.egogift_perversion>
+  <afflictionname.egogift_pinpointlogiccircuit>Pinpoint Logic</afflictionname.egogift_pinpointlogiccircuit>
+  <afflictionname.egogift_sunshower>Sunshower</afflictionname.egogift_sunshower>
+  <afflictionname.egogift_upssystem>UPS System</afflictionname.egogift_upssystem>
+  <afflictionname.egogiftaffliction_venomousskin>Venomous Skin</afflictionname.egogiftaffliction_venomousskin>
+  <afflictionname.egostrengthened>E.G.O. Strengthened</afflictionname.egostrengthened>
+  <afflictionname.enraged>Rage</afflictionname.enraged>
+  <afflictionname.execution>Execution</afflictionname.execution>
+  <afflictionname.exuviaeinfection>Exuviae Infection</afflictionname.exuviaeinfection>
+  <afflictionname.fanaticdetection>Marked for Purification</afflictionname.fanaticdetection>
+  <afflictionname.fanaticdetection_seal>Marked for Purification</afflictionname.fanaticdetection_seal>
+  <afflictionname.fanaticmanager>Fanatic Manager</afflictionname.fanaticmanager>
+  <afflictionname.fatalwound>Fatal Wound</afflictionname.fatalwound>
+  <afflictionname.fellbulletcorrosion>Fell Bullet Corrosion</afflictionname.fellbulletcorrosion>
+  <afflictionname.forsakenrage>Rage</afflictionname.forsakenrage>
+  <afflictionname.glupocorrosion>Blubbering Toad Corrosion</afflictionname.glupocorrosion>
+  <afflictionname.gossypium>Gossypium</afflictionname.gossypium>
+  <afflictionname.grasp>Grasp</afflictionname.grasp>
+  <afflictionname.greatersplithorizontal>Greater Split: Horizontal</afflictionname.greatersplithorizontal>
+  <afflictionname.greatersplitimmunity>Greater Split Immunity</afflictionname.greatersplitimmunity>
+  <afflictionname.greatsplitcooldown>Great Split Cooldown</afflictionname.greatsplitcooldown>
+  <afflictionname.greatsplitvertical>Great Split: Vertical</afflictionname.greatsplitvertical>
+  <afflictionname.hardbloodarmor>Hardblood Armor</afflictionname.hardbloodarmor>
+  <afflictionname.hardbloodarmor_cooldown>Hardblood Armor Cooldown</afflictionname.hardbloodarmor_cooldown>
+  <afflictionname.heathcliffbuff>Erlking</afflictionname.heathcliffbuff>
+  <afflictionname.heavensthorn>Heaven's Thorn</afflictionname.heavensthorn>
+  <afflictionname.heavensthornfriendly>Heaven's Thorn (Friendly)</afflictionname.heavensthornfriendly>
+  <afflictionname.highspeedripspace>High Speed Rip Space</afflictionname.highspeedripspace>
+  <afflictionname.hphealingdown>Reduced Healing Effectiveness</afflictionname.hphealingdown>
+  <afflictionname.impendingruin>Impending Ruin</afflictionname.impendingruin>
+  <afflictionname.indeliblestigma>Indelible Stigma</afflictionname.indeliblestigma>
+  <afflictionname.indexmeleeboost>Melee Boost</afflictionname.indexmeleeboost>
+  <afflictionname.indexrangedboost>Ranged Boost</afflictionname.indexrangedboost>
+  <afflictionname.inquisitorcorrosion>Mimicry Corrosion</afflictionname.inquisitorcorrosion>
+  <afflictionname.judgement>Judgement</afflictionname.judgement>
+  <afflictionname.kinginbindsult>Present Thyself Before the King</afflictionname.kinginbindsult>
+  <afflictionname.kinginbindsult_cooldown>Cooldown</afflictionname.kinginbindsult_cooldown>
+  <afflictionname.lamanchaparade>Parade</afflictionname.lamanchaparade>
+  <afflictionname.lasangre_newdress_charging>Split Apart (Charging)</afflictionname.lasangre_newdress_charging>
+  <afflictionname.livingbutterfly>The Living Butterfly</afflictionname.livingbutterfly>
+  <afflictionname.magicbulletcorrosion>Magic Bullet Corrosion</afflictionname.magicbulletcorrosion>
+  <afflictionname.maostrider>Strider [Mao]</afflictionname.maostrider>
+  <afflictionname.mookworkshopcut>Mook Workshop Cut</afflictionname.mookworkshopcut>
+  <afflictionname.n_gaze>Gaze</afflictionname.n_gaze>
+  <afflictionname.naildrivebleed>Nail Drive: Bleeding</afflictionname.naildrivebleed>
+  <afflictionname.naildriveparalyze>Nail Drive: Paralyzing</afflictionname.naildriveparalyze>
+  <afflictionname.noripspace>Ripspaceproof</afflictionname.noripspace>
+  <afflictionname.offup>Offense Up</afflictionname.offup>
+  <afflictionname.onailed>Nails</afflictionname.onailed>
+  <afflictionname.openwound>Open Wound</afflictionname.openwound>
+  <afflictionname.opiatecooldown>Opiate Medicine Cooldown</afflictionname.opiatecooldown>
+  <afflictionname.opiatevulnerability>Fragile</afflictionname.opiatevulnerability>
+  <afflictionname.overheat>Overheat</afflictionname.overheat>
+  <afflictionname.paleshield>PALE Shield</afflictionname.paleshield>
+  <afflictionname.paralyze>Paralyze</afflictionname.paralyze>
+  <afflictionname.portalbladespawn>Portal Blade Target</afflictionname.portalbladespawn>
+  <afflictionname.portalbladespawncooldown>Cooldown</afflictionname.portalbladespawncooldown>
+  <afflictionname.portalbullet_6reuse>Magic Bullet 6 Reuse</afflictionname.portalbullet_6reuse>
+  <afflictionname.portalbulletspawn2>Portal Bullet Target: Tier 2</afflictionname.portalbulletspawn2>
+  <afflictionname.portalbulletspawn3>Portal Bullet Target: Tier 3</afflictionname.portalbulletspawn3>
+  <afflictionname.portalbulletspawn4>Portal Bullet Target: Tier 4</afflictionname.portalbulletspawn4>
+  <afflictionname.portalbulletspawn5>Portal Bullet Target: Tier 5</afflictionname.portalbulletspawn5>
+  <afflictionname.portalbulletspawn6>Portal Bullet Target: Tier 6</afflictionname.portalbulletspawn6>
+  <afflictionname.portalbulletspawnmanager1>Portal Bullet Targeting Precursor: Tier 1</afflictionname.portalbulletspawnmanager1>
+  <afflictionname.readytodance>Ready to Dance</afflictionname.readytodance>
+  <afflictionname.redgazesight>Red Gaze</afflictionname.redgazesight>
+  <afflictionname.redplumblossom>Red Plum Blossom</afflictionname.redplumblossom>
+  <afflictionname.redshield>Physical Intervention Shield</afflictionname.redshield>
+  <afflictionname.redshieldbuff>RED Shield (Buff)</afflictionname.redshieldbuff>
+  <afflictionname.rhinoblunttrauma>Blunt force trauma</afflictionname.rhinoblunttrauma>
+  <afflictionname.rupture>Rupture</afflictionname.rupture>
+  <afflictionname.savagetigerslayer>Savage Tigerslayer</afflictionname.savagetigerslayer>
+  <afflictionname.serpentarm>Serpent Arm</afflictionname.serpentarm>
+  <afflictionname.serumk>Serum K</afflictionname.serumk>
+  <afflictionname.serumr>Serum R</afflictionname.serumr>
+  <afflictionname.serumwimmunity>Serum W Immunity</afflictionname.serumwimmunity>
+  <afflictionname.serumwsever>Serum W Severance</afflictionname.serumwsever>
+  <afflictionname.shockwave>Shockwave</afflictionname.shockwave>
+  <afflictionname.shockwaveimmunity>Arbiter's Strength</afflictionname.shockwaveimmunity>
+  <afflictionname.slashfragility>Slash Fragility</afflictionname.slashfragility>
+  <afflictionname.striderwu>Strider [Wu]</afflictionname.striderwu>
+  <afflictionname.suit_bluesakura>Blue Sakura Suit</afflictionname.suit_bluesakura>
+  <afflictionname.suit_pinecrane>Pine Crane Suit</afflictionname.suit_pinecrane>
+  <afflictionname.suit_susukigrass>Susuki Grass Suit</afflictionname.suit_susukigrass>
+  <afflictionname.suppressiondrills_disciplined>Suppression Drills (Mentored)</afflictionname.suppressiondrills_disciplined>
+  <afflictionname.sweepbutcher>Butchered</afflictionname.sweepbutcher>
+  <afflictionname.sweeper_persistence_SO>Persistence</afflictionname.sweeper_persistence_SO>
+  <afflictionname.sweeper_persistence_cooldown_SO>Persistence Cooldown</afflictionname.sweeper_persistence_cooldown_SO>
+  <afflictionname.sweepermask_worn_SO>sweepermask_worn</afflictionname.sweepermask_worn_SO>
+  <afflictionname.sweepersuit_worn_SO>sweepersuit_worn</afflictionname.sweepersuit_worn_SO>
+  <afflictionname.sweepheal_SO>Sweep Heal</afflictionname.sweepheal_SO>
+  <afflictionname.sweepheal_SO2>Sweep Heal 2</afflictionname.sweepheal_SO2>
+  <afflictionname.sweepheal_SO3>Sweep Heal 3</afflictionname.sweepheal_SO3>
+  <afflictionname.teleporteffects>Teleporting...</afflictionname.teleporteffects>
+  <afflictionname.tianjiu_star_blade_blocker>Tianjiu Star Blade Unsheathed</afflictionname.tianjiu_star_blade_blocker>
+  <afflictionname.toclaimtheirbones_damage>tctb</afflictionname.toclaimtheirbones_damage>
+  <afflictionname.tornmemory>Torn Memory</afflictionname.tornmemory>
+  <afflictionname.tornmemory_der>Torn Memory</afflictionname.tornmemory_der>
+  <afflictionname.tremor>Tremor</afflictionname.tremor>
+  <afflictionname.tremor_amplitude_entanglement>Amplitude Entanglement</afflictionname.tremor_amplitude_entanglement>
+  <afflictionname.tremor_conversion_Decay>Tremor Conversion: Decay</afflictionname.tremor_conversion_Decay>
+  <afflictionname.tremor_conversion_Hemorrhage>Tremor Conversion: Hemorrhage</afflictionname.tremor_conversion_Hemorrhage>
+  <afflictionname.tremor_conversion_chain>Tremor Conversion: Chain</afflictionname.tremor_conversion_chain>
+  <afflictionname.tremor_conversion_reverb>Tremor Conversion: Reverb</afflictionname.tremor_conversion_reverb>
+  <afflictionname.tremor_conversion_scorch>Tremor Conversion: Scorch</afflictionname.tremor_conversion_scorch>
+  <afflictionname.truearbiterchained>Enchained</afflictionname.truearbiterchained>
+  <afflictionname.truefairy>Fairy</afflictionname.truefairy>
+  <afflictionname.umbrastrikercooldown>Umbrastriker Cooldown</afflictionname.umbrastrikercooldown>
+  <afflictionname.untraceabletosightandsound>Untraceable to Sight and Sound</afflictionname.untraceabletosightandsound>
+  <afflictionname.waxenpinion>Effloresced E.G.O.: Waxen Pinion</afflictionname.waxenpinion>
+  <afflictionname.whiteshield>Trauma Shield</afflictionname.whiteshield>
+  <afflictionname.wildhuntallymark>Ally Mark</afflictionname.wildhuntallymark>
+  <afflictionname.wildhuntcoffin>Coffined</afflictionname.wildhuntcoffin>
+  <afflictionname.wildhuntcooldown>Wild Hunt Cooldown</afflictionname.wildhuntcooldown>
+  <afflictionname.wildhuntdissipation>Wild Hunt Dissipation</afflictionname.wildhuntdissipation>
+  <afflictionname.wildhuntenemymark>Enemy Mark</afflictionname.wildhuntenemymark>
+  <afflictionname.work_skillgain_electrical>Work Skill Electrical</afflictionname.work_skillgain_electrical>
+  <afflictionname.work_skillgain_helm>Work Skill Helm</afflictionname.work_skillgain_helm>
+  <afflictionname.work_skillgain_mechanical>Work Skill Mechanical</afflictionname.work_skillgain_mechanical>
+  <afflictionname.work_skillgain_medical>Work Skill Medical</afflictionname.work_skillgain_medical>
+  <afflictionname.work_skillgain_weapons>Work Skill Weapons</afflictionname.work_skillgain_weapons>
+  <afflictionname.workdamage_black>BLACK Damage</afflictionname.workdamage_black>
+  <afflictionname.workdamage_pale>PALE Damage</afflictionname.workdamage_pale>
+  <afflictionname.workdamage_red>RED Damage</afflictionname.workdamage_red>
+  <afflictionname.workdamage_white>WHITE Damage</afflictionname.workdamage_white>
+  <dragdowndescription.bodragdown>The Individuals soon to be dragged to the ground and ripped apart. Stun resistance may help delay this fate.</dragdowndescription.bodragdown>
+  <dragdownname.bodragdown>Dragdown</dragdownname.bodragdown>
+  <entitydescription.abno_buswall>A background wall based on the background of Mephistopheles from Limbus Company.</entitydescription.abno_buswall>
+  <entitydescription.abno_researchcomponent_t1>Research Fragments that may lead to an understanding of common Enkephalin-infused item recipes.</entitydescription.abno_researchcomponent_t1>
+  <entitydescription.abno_researchcomponent_t2>Research Fragments that may lead to an understanding of uncommon Enkephalin-infused item recipes.</entitydescription.abno_researchcomponent_t2>
+  <entitydescription.abno_researchcomponent_t3>Research Fragments that may lead to an understanding of rare Enkephalin-infused item recipes.</entitydescription.abno_researchcomponent_t3>
+  <entitydescription.abno_researchcomponent_t4>Research Fragments that may lead to an understanding of elite Enkephalin-infused item recipes.</entitydescription.abno_researchcomponent_t4>
+  <entitydescription.abno_researchcomponent_t5>Research Fragments that may lead to an understanding of the pinnacle of Enkephalin-infused item recipes.</entitydescription.abno_researchcomponent_t5>
+  <entitydescription.abno_warpcargowall>A background wall based on the background of the WARP Train's cargo bay.</entitydescription.abno_warpcargowall>
+  <entitydescription.abno_warptrainwall>A background wall based on the background of the WARP Train's passenger bay.</entitydescription.abno_warptrainwall>
+  <entitydescription.abno_weaponblueprints_t1>A complete blueprint that will permanently unlock Urban Myth Weapon recipes.</entitydescription.abno_weaponblueprints_t1>
+  <entitydescription.abno_weaponblueprints_t2>A complete blueprint that will permanently unlock Urban Legend recipes for the crew.</entitydescription.abno_weaponblueprints_t2>
+  <entitydescription.abno_weaponblueprints_t3>A complete blueprint that will permanently unlock Urban Plague recipes for the crew.</entitydescription.abno_weaponblueprints_t3>
+  <entitydescription.abno_weaponblueprints_t4>A complete blueprint that will permanently unlock Urban Nightmare recipes for the crew.</entitydescription.abno_weaponblueprints_t4>
+  <entitydescription.abno_weaponblueprints_t5>A complete blueprint that will permanently unlock Star of the City recipes for the crew.</entitydescription.abno_weaponblueprints_t5>
+  <entitydescription.abno_weaponblueprintspersonal_t1>A complete blueprint that will permanently unlock Urban Myth Weapon recipes.</entitydescription.abno_weaponblueprintspersonal_t1>
+  <entitydescription.abno_weaponblueprintspersonal_t2>A complete blueprint that will permanently unlock Urban Legend recipes for yourself.</entitydescription.abno_weaponblueprintspersonal_t2>
+  <entitydescription.abno_weaponblueprintspersonal_t3>A complete blueprint that will permanently unlock Urban Plague recipes for yourself.</entitydescription.abno_weaponblueprintspersonal_t3>
+  <entitydescription.abno_weaponblueprintspersonal_t4>A complete blueprint that will permanently unlock Urban Nightmare recipes for yourself.</entitydescription.abno_weaponblueprintspersonal_t4>
+  <entitydescription.abno_weaponblueprintspersonal_t5>A complete blueprint that will permanently unlock Star of the City recipes for yourself.</entitydescription.abno_weaponblueprintspersonal_t5>
+  <entitydescription.abnocrate>A special crate designed to hold Abnormality-related items.</entitydescription.abnocrate>
+  <entitydescription.abnospawnshop>A terminal that allows for a direct uplink with Coalition Central Command, who can coordinate bait to lure certain monsters to the area - for a price.</entitydescription.abnospawnshop>
+  <entitydescription.ahabgasharpoonthrowable>A sturdy metal spear which can be thrown, to explosive ends.</entitydescription.ahabgasharpoonthrowable>
+  <entitydescription.ahabgaspoweredharpoon>A sturdy gas-powered spear, whetted to pierce the hearts of whales.</entitydescription.ahabgaspoweredharpoon>
+  <entitydescription.antiteleportsickness>These W Corp issued Enkephalin pills treat teleportation sickness, a common side effect of using teleportation technology. One dose should deal with one teleportation's worth of sickness.</entitydescription.antiteleportsickness>
+  <entitydescription.arbitercloak>'I know you well, even though you know nothing about me.' This cloak can generate degraded Arbiter spells at the cost of Enkephalin Modules.</entitydescription.arbitercloak>
+  <entitydescription.binds_blade>'How insipid… Must I deal with it myself?' Swinging the blade applies a special buff to the user, reducing movement speed and increasing melee attack potency.</entitydescription.binds_blade>
+  <entitydescription.binds_gear>'I am bound to reign alone atop this solitary throne...' Reduces movement speed, but improves melee attack potency when worn.</entitydescription.binds_gear>
+  <entitydescription.blackshieldbullet>A bullet that fits in revolvers and rifles which, when fired at an ally, will grant them a shield against infections.</entitydescription.blackshieldbullet>
+  <entitydescription.bluezippolighter>Useful for lighting ignitable items, but it also grants the user Charge when used.</entitydescription.bluezippolighter>
+  <entitydescription.bolus_unresearched>A mixture of genetics and Enkephalin, just waiting to be combined into something greater.</entitydescription.bolus_unresearched>
+  <entitydescription.censoredegoweapon>(CENSORED) has the ability to (CENSORED), but this is a horrendous sight for those watching. Looking at the E.G.O for more than 3 seconds will make you sick.</entitydescription.censoredegoweapon>
+  <entitydescription.chairwaytohell>A bizarre chair which, if not properly placed, can and will cause the user to phase unpredictably through floors and walls.</entitydescription.chairwaytohell>
+  <entitydescription.derfreischutzegg>This burning egg houses a devil. If not contained, it will eventually hatch into Der Freischütz.</entitydescription.derfreischutzegg>
+  <entitydescription.devyat_goggles_t3>A further improvement to the goggles' design increases resilience again and adds thermals.</entitydescription.devyat_goggles_t3>
+  <entitydescription.egodestabilizer>A haloperidol syringe charged with Enkephalin to weaken one's E.G.O. and render them more susceptible to mental harm.</entitydescription.egodestabilizer>
+  <entitydescription.electricguitar>A guitar which is tuned to play music unique to the Middle Syndicate.</entitydescription.electricguitar>
+  <entitydescription.fellbullet_ai_player>A powerful shotgun that derives its appearance from an Old Earth weapon. There is some confusion about its classification; in reality, it is a rifle, but its bullets scatter due to the Abnormality's power.</entitydescription.fellbullet_ai_player>
+  <entitydescription.forensicsdata>A useful tidbit of information, pertinent to a case. Use this in your Health HUD to gain some experience.</entitydescription.forensicsdata>
+  <entitydescription.glupomask>Croohoo.</entitydescription.glupomask>
+  <entitydescription.heavencrown>As it spreads its wings for an old god, a heaven just for you burrows its way. Wearing this crown marks you as an ally of the Heaven's Thorns that are created by the Heaven Staff.</entitydescription.heavencrown>
+  <entitydescription.heavenstaff>A sharp staff that seems to be made from the same strange living material as the Burrowing Heaven. Killing enemies with this weapon converts them into special Heaven's Thorns upon their death. Beware, these Thorns will attack anyone not wearing a Heaven Crown.</entitydescription.heavenstaff>
+  <entitydescription.hellspannersaw>An oversized metal wrench. In Saw Mode it becomes a dangerous weapon and applies Tremor, but requires a battery to function. It can cut through walls and doors with ease, with a fulgurium battery it can shred monster armor too.</entitydescription.hellspannersaw>
+  <entitydescription.ironmaiden>A cute-looking pastel white automated iron maiden that inflicts severe pain and damage on the occupant in exchange for Enkephalin modules.</entitydescription.ironmaiden>
+  <entitydescription.kinginbindsegg>This egg is tightly bound, or is it bandages?. If not contained, it will eventually hatch into The King in Binds.</entitydescription.kinginbindsegg>
+  <entitydescription.kqeradio>Some kind of built-in communications system.</entitydescription.kqeradio>
+  <entitydescription.kromerhelmet_t3>This helmet is conveniently invisible, and useful for fashion with function.</entitydescription.kromerhelmet_t3>
+  <entitydescription.lobcorpjobapplication>the horrors</entitydescription.lobcorpjobapplication>
+  <entitydescription.magicbulletpipe>A gilded pipe used to calm even a devil's nerves. Smoking this pipe will reduce Insanity caused by Abnormalities as well as Psychosis.</entitydescription.magicbulletpipe>
+  <entitydescription.meleesoldatorifle>When the Soldatos of the Thumb Syndicate run out of ammo, they are known to turn their rifles into improvised melee weapons.</entitydescription.meleesoldatorifle>
+  <entitydescription.nakednestseed>A seed that allows the cultivation of a Naked Nest plant.. not sure why you'd want to do this.</entitydescription.nakednestseed>
+  <entitydescription.ncorpcontemptawesword>Blood will scatter.</entitydescription.ncorpcontemptawesword>
+  <entitydescription.oasistux_reinforced>Want to look dapper without missing out on protection? We've got you covered.</entitydescription.oasistux_reinforced>
+  <entitydescription.olongnail>An exceptionally long nail intended for use as a weapon.</entitydescription.olongnail>
+  <entitydescription.olongnail3>A long nail which can be thrown.</entitydescription.olongnail3>
+  <entitydescription.onail>A thin piece of iron used to bind soft materials together.</entitydescription.onail>
+  <entitydescription.onailgun>An antiquated tool which predated the use of standalone welding tools. Though it remains effective, welding tools surpass it in almost every way.</entitydescription.onailgun>
+  <entitydescription.orustynail>Rusty nails, made brittle by the elements, are useless for construction and deal little physical damage. You should avoid getting stabbed by one.</entitydescription.orustynail>
+  <entitydescription.paleshieldbullet>A bullet that fits in revolvers and rifles which, when fired at an ally, will grant them a shield against special damage caused by Abnormalities.</entitydescription.paleshieldbullet>
+  <entitydescription.patrollingflashlight>A high-powered flashlight like this might just blind someone, so be careful where you point it.</entitydescription.patrollingflashlight>
+  <entitydescription.penitencehammer>A hammer which can slightly recover the wielder's sanity when they hit an enemy.</entitydescription.penitencehammer>
+  <entitydescription.rcorpcoilgunclipexplosive>A clip of 30 explosive coilgun rounds.</entitydescription.rcorpcoilgunclipexplosive>
+  <entitydescription.rcorpcoilgunclipphysicorium>A clip of 30 Physicorium coilgun rounds.</entitydescription.rcorpcoilgunclipphysicorium>
+  <entitydescription.rcorpcoilgunclippiercing>A clip of 30 piercing coilgun rounds.</entitydescription.rcorpcoilgunclippiercing>
+  <entitydescription.redshieldbullet>A gel bullet that fits in revolvers and rifles which, when fired at an ally, will grant them a shield against physical damage.</entitydescription.redshieldbullet>
+  <entitydescription.seniormiddletattoos1>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work.</entitydescription.seniormiddletattoos1>
+  <entitydescription.seniormiddletattoos2>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work.</entitydescription.seniormiddletattoos2>
+  <entitydescription.seniormiddletattoos3>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work.</entitydescription.seniormiddletattoos3>
+  <entitydescription.seniormiddletattoos_retreat>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work.</entitydescription.seniormiddletattoos_retreat>
+  <entitydescription.shi_arrow_physicorium>A highly advanced arrow for the Shi East Bowblade. Using Physicorium lightens yet reinforces the arrow, allowing it to fly straighter and pierce armor more effectively, at the cost of causing less bleeding on the target. It's also capable of piercing a wall or window and will still deal full damage if a skillful headshot is landed on the target beyond.</entitydescription.shi_arrow_physicorium>
+  <entitydescription.shi_arrow_sedative>A sedative-tipped arrow for the Shi East Bowblade. Deals significantly less damage than standard arrows, with the obvious tradeoff of being able to knock out targets that you fail to kill. Assuming they don't have stun resistance of course, but if you land a headshot you'll guarantee a takedown.</entitydescription.shi_arrow_sedative>
+  <entitydescription.shopsummon_amberdawn>Summons the Amber Dawn ordeal. These small worms are protected by tough shells but are otherwise fragile, and can be harvested for basic organic resources.</entitydescription.shopsummon_amberdawn>
+  <entitydescription.shopsummon_amberdusk>Summons the Amber Dusk ordeal. These large worms are protected by tough shells, and will summon weaker worms to aid them if not quickly eliminated.</entitydescription.shopsummon_amberdusk>
+  <entitydescription.shopsummon_apocalypsebird>Summons Apocalypse Bird.</entitydescription.shopsummon_apocalypsebird>
+  <entitydescription.shopsummon_bluestar>Summons Blue Star, a singularity full of human legs.</entitydescription.shopsummon_bluestar>
+  <entitydescription.shopsummon_burrow>Summons Burrowing Heaven, a fleshy tree that embodies eldritch horror.</entitydescription.shopsummon_burrow>
+  <entitydescription.shopsummon_censored>Summons CENSORED, a CENSORED.</entitydescription.shopsummon_censored>
+  <entitydescription.shopsummon_corrodedinquisitor>Summons Corroded Inquisitors, hostile TETH-grade Corrosions.</entitydescription.shopsummon_corrodedinquisitor>
+  <entitydescription.shopsummon_derfluchshutzeenemy>Summons Der Fluchschütze, a shotgun-toting mercenary, as an enemy.</entitydescription.shopsummon_derfluchshutzeenemy>
+  <entitydescription.shopsummon_derfreischutzally>Summons Der Freischutz, a rifle-toting mercenary. This spawns him as an ally.</entitydescription.shopsummon_derfreischutzally>
+  <entitydescription.shopsummon_derfreischutzenemy>Summons Der Freischutz, a rifle-toting mercenary. This spawns him as an enemy.</entitydescription.shopsummon_derfreischutzenemy>
+  <entitydescription.shopsummon_drenchedgossypium>Summons Drenched Gossypium, a hostile TETH-grade Abnormality.</entitydescription.shopsummon_drenchedgossypium>
+  <entitydescription.shopsummon_forsakenmurderer>Summons Forsaken Murderer, a hostile TETH-grade Abnormality.</entitydescription.shopsummon_forsakenmurderer>
+  <entitydescription.shopsummon_glupo>glupo :)</entitydescription.shopsummon_glupo>
+  <entitydescription.shopsummon_kinginbinds>Summons The King in Binds.</entitydescription.shopsummon_kinginbinds>
+  <entitydescription.shopsummon_kqe>Summons KQE-1J-23, a humanoid amalgamation of flesh and circuits.</entitydescription.shopsummon_kqe>
+  <entitydescription.shopsummon_meatdoggy>nothing there?! nothing there! !! ! o my gosh meat doggy</entitydescription.shopsummon_meatdoggy>
+  <entitydescription.shopsummon_nakednest>Summons The Naked Nest, a fleshy hive of parasitic worms.</entitydescription.shopsummon_nakednest>
+  <entitydescription.shopsummon_nothingthere>Summons Nothing There, a monster that tries to mimic human behavior.</entitydescription.shopsummon_nothingthere>
+  <entitydescription.shopsummon_onesin>Summons One Sin and Hundreds of Good Deeds, a beneficial ZAYIN-grade Abnormality.</entitydescription.shopsummon_onesin>
+  <entitydescription.shopsummon_punishingbird>Summons Punishing Bird, a beneficial TETH-grade Abnormality.</entitydescription.shopsummon_punishingbird>
+  <entitydescription.shopsummon_silt>Summons the Dream-Devouring Siltcurrent.</entitydescription.shopsummon_silt>
+  <entitydescription.shopsummon_siltpet>Summons the Dream-Devouring Siltcurrent in a weaker, friendly form.</entitydescription.shopsummon_siltpet>
+  <entitydescription.shopsummon_spiral>Summons Spiral of Contempt, a statue-like Abnormality with the ability to paralyze people with summoned statues.</entitydescription.shopsummon_spiral>
+  <entitydescription.shopsummon_talisman>Summons STNOWC, a wooden doll that deals mostly blunt and Rupture damage.</entitydescription.shopsummon_talisman>
+  <entitydescription.shopsummon_waywardpassenger>Summons Wayward Passenger, a dimension-hopping mutated human.</entitydescription.shopsummon_waywardpassenger>
+  <entitydescription.solemnlamentcoat>The undertaker's outfit belongs to those who pay tribute to the dead. Only a solemn mind is required to express condolences; there is no need for showy accessories. If you see a mound standing out in the middle of the desert, please do not desecrate it. It is the grave of the countless butterflies that have died in this place.</entitydescription.solemnlamentcoat>
+  <entitydescription.solemnlamentdeparted>A somewhat bulky handgun that appears to fire high-velocity butterflies instead of bullets. The weapon reloads with the user's sanity instead of physical ammunition. Inflicts Butterfly (Departed), dealing physical damage based on the target's sanity.</entitydescription.solemnlamentdeparted>
+  <entitydescription.solemnlamentliving>A somewhat bulky handgun that appears to fire high-velocity butterflies instead of bullets. The weapon reloads with the user's sanity instead of physical ammunition. Inflicts Butterfly (Living), dealing sanity damage.</entitydescription.solemnlamentliving>
+  <entitydescription.tcorptimecollectionbattery>Powers the T Corp Time Collection Beam. Otherwise works like a normal battery.</entitydescription.tcorptimecollectionbattery>
+  <entitydescription.truearbitercloak>'There will be no obstacle you cannot overcome.'</entitydescription.truearbitercloak>
+  <entitydescription.warprecalldevice>This handy W Corp recall device allows the user to quickly teleport back to their submarine! The W Corp logo is printed on the back of the device. If you want to teleport again before it's finished charging on its own, insert an Enkephalin module. WARNING: Excessive use may result in unwanted side effects.</entitydescription.warprecalldevice>
+  <entitydescription.warprecalldevice_special>This handy W Corp recall device allows the user to quickly teleport back to safety. (WARNING: Long range teleports on a personal level are far more dangerous! Recalling will hurt, and recalling while in critical condition may kill you!) ((THIS DELETES YOUR CHARACTER))</entitydescription.warprecalldevice_special>
+  <entitydescription.warpteleportationanchor>This item needs to be placed in a submarine and powered so that WARP Recall Devices can teleport to it.</entitydescription.warpteleportationanchor>
+  <entitydescription.wcorpccafistleft>A devastating gauntlet attached to the W Corp CCA Exoskeleton.</entitydescription.wcorpccafistleft>
+  <entitydescription.wcorpccafistright>A devastating gauntlet attached to the W Corp CCA Exoskeleton.</entitydescription.wcorpccafistright>
+  <entitydescription.whiteshieldbullet>A bullet that fits in revolvers and rifles which, when fired at an ally, will grant them a shield against psychological damage.</entitydescription.whiteshieldbullet>
+  <entitydescription.wildhuntcoat>For the Hunt.</entitydescription.wildhuntcoat>
+  <entityname.abno_buswall>Mephistopheles Background Wall</entityname.abno_buswall>
+  <entityname.abno_researchcomponent_t1>Urban Myth Research Fragment</entityname.abno_researchcomponent_t1>
+  <entityname.abno_researchcomponent_t2>Urban Legend Research Fragment</entityname.abno_researchcomponent_t2>
+  <entityname.abno_researchcomponent_t3>Urban Plague Research Fragment</entityname.abno_researchcomponent_t3>
+  <entityname.abno_researchcomponent_t4>Urban Nightmare Research Fragment</entityname.abno_researchcomponent_t4>
+  <entityname.abno_researchcomponent_t5>Star of the City Research Fragment</entityname.abno_researchcomponent_t5>
+  <entityname.abno_warpcargowall>WARP Train Cargo Background Wall</entityname.abno_warpcargowall>
+  <entityname.abno_warptrainwall>WARP Train Background Wall</entityname.abno_warptrainwall>
+  <entityname.abno_weaponblueprints_t1>Urban Myth Blueprints (Crew)</entityname.abno_weaponblueprints_t1>
+  <entityname.abno_weaponblueprints_t2>Urban Legend Blueprints (Crew)</entityname.abno_weaponblueprints_t2>
+  <entityname.abno_weaponblueprints_t3>Urban Plague Blueprints (Crew)</entityname.abno_weaponblueprints_t3>
+  <entityname.abno_weaponblueprints_t4>Urban Nightmare Blueprints (Crew)</entityname.abno_weaponblueprints_t4>
+  <entityname.abno_weaponblueprints_t5>Star of the City Blueprints (Crew)</entityname.abno_weaponblueprints_t5>
+  <entityname.abno_weaponblueprintspersonal_t1>Urban Myth Blueprints (Personal)</entityname.abno_weaponblueprintspersonal_t1>
+  <entityname.abno_weaponblueprintspersonal_t2>Urban Legend Blueprints (Personal)</entityname.abno_weaponblueprintspersonal_t2>
+  <entityname.abno_weaponblueprintspersonal_t3>Urban Plague Blueprints (Personal)</entityname.abno_weaponblueprintspersonal_t3>
+  <entityname.abno_weaponblueprintspersonal_t4>Urban Nightmare Blueprints (Personal)</entityname.abno_weaponblueprintspersonal_t4>
+  <entityname.abno_weaponblueprintspersonal_t5>Star of the City Blueprints (Personal)</entityname.abno_weaponblueprintspersonal_t5>
+  <entityname.abnocrate>Abnormality Crate</entityname.abnocrate>
+  <entityname.abnospawnshop>Abnormality Lure</entityname.abnospawnshop>
+  <entityname.ahabgasharpoonthrowable>Ahab's Gas-harpoon (Throwing)</entityname.ahabgasharpoonthrowable>
+  <entityname.ahabgaspoweredharpoon>Ahab's Gas-harpoon (Slashing)</entityname.ahabgaspoweredharpoon>
+  <entityname.antiteleportsickness>Teleportation Sickness Pills</entityname.antiteleportsickness>
+  <entityname.arbitercloak>Degraded Arbiter's Cloak</entityname.arbitercloak>
+  <entityname.binds_blade>LCE E.G.O.: Binds Blade</entityname.binds_blade>
+  <entityname.binds_gear>LCE E.G.O.: Binds Uniform</entityname.binds_gear>
+  <entityname.blackshieldbullet>Infection Shield Bullet</entityname.blackshieldbullet>
+  <entityname.bluezippolighter>Blue Zippo Lighter</entityname.bluezippolighter>
+  <entityname.bolus_unresearched>H Corp. Bolus Base</entityname.bolus_unresearched>
+  <entityname.censoredegoweapon>Lobotomy E.G.O.: CENSORED</entityname.censoredegoweapon>
+  <entityname.chairwaytohell>[ZAYIN] Chairway to Hell</entityname.chairwaytohell>
+  <entityname.derfreischutzegg>[HE] Der Freischütz (Abnormality Egg)</entityname.derfreischutzegg>
+  <entityname.devyat_goggles_t3>Devyat Association Goggles (T3: Thermal)</entityname.devyat_goggles_t3>
+  <entityname.egodestabilizer>E.G.O. Destabilizer</entityname.egodestabilizer>
+  <entityname.electricguitar>Electronic Devil Maker</entityname.electricguitar>
+  <entityname.fellbullet_ai_player>Fell Bullet (Abnormality)</entityname.fellbullet_ai_player>
+  <entityname.forensicsdata>Forensics Data</entityname.forensicsdata>
+  <entityname.forsakenhandcuffs>Forsaken Handcuffs</entityname.forsakenhandcuffs>
+  <entityname.glupomask>Glupo Mask</entityname.glupomask>
+  <entityname.heavencrown>Heaven's Crown</entityname.heavencrown>
+  <entityname.heavenstaff>Lobotomy E.G.O.: Heaven's Staff</entityname.heavenstaff>
+  <entityname.hellspannersaw>Rosespanner (Chainsaw Mode)</entityname.hellspannersaw>
+  <entityname.ironmaiden>[ZAYIN] We Can Change Anything</entityname.ironmaiden>
+  <entityname.kinginbindsegg>[WAW] The King in Binds (Abnormality Egg)</entityname.kinginbindsegg>
+  <entityname.kqeradio>KQE Radio</entityname.kqeradio>
+  <entityname.kromerhelmet_t3>Cosmetically Hidden Helmet Tier III</entityname.kromerhelmet_t3>
+  <entityname.lobcorpjobapplication>Job Application</entityname.lobcorpjobapplication>
+  <entityname.magicbulletpipe>Der Freischütz's Pipe</entityname.magicbulletpipe>
+  <entityname.meleesoldatorifle>Soldato's Rifle (Melee Mode)</entityname.meleesoldatorifle>
+  <entityname.moneytagplaceholder>Placeholder</entityname.moneytagplaceholder>
+  <entityname.nakednestseed>Naked Nest Seed</entityname.nakednestseed>
+  <entityname.ncorpcontemptawesword>N Corp E.G.O: Contempt, Awe's Sword</entityname.ncorpcontemptawesword>
+  <entityname.oasistux_reinforced>Reinforced Tuxedo</entityname.oasistux_reinforced>
+  <entityname.olongnail>Long Nail (Impaling)</entityname.olongnail>
+  <entityname.olongnail3>Long Nail (Throwing)</entityname.olongnail3>
+  <entityname.onail>Nail</entityname.onail>
+  <entityname.onailgun>Nail Gun</entityname.onailgun>
+  <entityname.orustynail>Rusty Nail</entityname.orustynail>
+  <entityname.paleshieldbullet>PALE Shield Bullet</entityname.paleshieldbullet>
+  <entityname.patrollingflashlight>Patrolling Flashlight</entityname.patrollingflashlight>
+  <entityname.penitencehammer>Lobotomy E.G.O.: Penitence Hammer</entityname.penitencehammer>
+  <entityname.plank_wall_h>Horizontal Plank Wall</entityname.plank_wall_h>
+  <entityname.plank_wall_h_alt>Horizontal Plank Wall (Alt 1)</entityname.plank_wall_h_alt>
+  <entityname.plank_wall_h_alt_2>Horizontal Plank Wall (Alt 2)</entityname.plank_wall_h_alt_2>
+  <entityname.plank_wall_v>Vertical Plank Wall</entityname.plank_wall_v>
+  <entityname.plank_wall_v_alt>Vertical Plank Wall (Alt 1)</entityname.plank_wall_v_alt>
+  <entityname.plank_wall_v_alt_2>Vertical Plank Wall (Alt 2)</entityname.plank_wall_v_alt_2>
+  <entityname.rcorpcoilgunclipexplosive>R Corp Coilgun Clip (Explosive)</entityname.rcorpcoilgunclipexplosive>
+  <entityname.rcorpcoilgunclipphysicorium>R Corp Coilgun Clip (Physicorium)</entityname.rcorpcoilgunclipphysicorium>
+  <entityname.rcorpcoilgunclippiercing>R Corp Coilgun Clip (Piercing)</entityname.rcorpcoilgunclippiercing>
+  <entityname.redshieldbullet>Physical Shield Bullet</entityname.redshieldbullet>
+  <entityname.seniormiddletattoos1>Senior Middle Tattoos (1)</entityname.seniormiddletattoos1>
+  <entityname.seniormiddletattoos2>Senior Middle Tattoos (2)</entityname.seniormiddletattoos2>
+  <entityname.seniormiddletattoos3>Senior Middle Tattoos (3)</entityname.seniormiddletattoos3>
+  <entityname.seniormiddletattoos_retreat>Senior Middle Tattoos (Retreat)</entityname.seniormiddletattoos_retreat>
+  <entityname.shi_arrow_physicorium>Bowblade Arrow (Physicorium)</entityname.shi_arrow_physicorium>
+  <entityname.shi_arrow_sedative>Bowblade Arrow (Sedative)</entityname.shi_arrow_sedative>
+  <entityname.shi_bowblade_ranged>Shi Association East Bowblade (Ranged)</entityname.shi_bowblade_ranged>
+  <entityname.shopsummon_amberdawn>[TETH] Amber Dawn</entityname.shopsummon_amberdawn>
+  <entityname.shopsummon_amberdusk>[WAW] Amber Dusk</entityname.shopsummon_amberdusk>
+  <entityname.shopsummon_apocalypsebird>[ALEPH] Apocalypse Bird</entityname.shopsummon_apocalypsebird>
+  <entityname.shopsummon_bluestar>[ALEPH] Blue Star</entityname.shopsummon_bluestar>
+  <entityname.shopsummon_burrow>[WAW] Burrowing Heaven</entityname.shopsummon_burrow>
+  <entityname.shopsummon_censored>[ALEPH] CENSORED</entityname.shopsummon_censored>
+  <entityname.shopsummon_corrodedinquisitor>[TETH] Corroded Inquisitor</entityname.shopsummon_corrodedinquisitor>
+  <entityname.shopsummon_derfluchshutzeenemy>[HE] Der Fluchschütze (Hostile)</entityname.shopsummon_derfluchshutzeenemy>
+  <entityname.shopsummon_derfreischutzally>[HE] Der Freischütz (Hired)</entityname.shopsummon_derfreischutzally>
+  <entityname.shopsummon_derfreischutzenemy>[HE] Der Freischütz (Hostile)</entityname.shopsummon_derfreischutzenemy>
+  <entityname.shopsummon_drenchedgossypium>[TETH] Drenched Gossypium</entityname.shopsummon_drenchedgossypium>
+  <entityname.shopsummon_forsakenmurderer>[TETH] Forsaken Murderer</entityname.shopsummon_forsakenmurderer>
+  <entityname.shopsummon_glupo>[ZAYIN] Blubbering Toad</entityname.shopsummon_glupo>
+  <entityname.shopsummon_kinginbinds>[WAW] The King in Binds</entityname.shopsummon_kinginbinds>
+  <entityname.shopsummon_kqe>[HE] KQE-1J-23</entityname.shopsummon_kqe>
+  <entityname.shopsummon_meatdoggy>[ALEPH] Meat Doggy</entityname.shopsummon_meatdoggy>
+  <entityname.shopsummon_nakednest>[WAW] The Naked Nest</entityname.shopsummon_nakednest>
+  <entityname.shopsummon_nothingthere>[ALEPH] Nothing There</entityname.shopsummon_nothingthere>
+  <entityname.shopsummon_onesin>[ZAYIN] One Sin</entityname.shopsummon_onesin>
+  <entityname.shopsummon_punishingbird>[TETH] Punishing Bird</entityname.shopsummon_punishingbird>
+  <entityname.shopsummon_silt>[WAW] Dream-Devouring Siltcurrent</entityname.shopsummon_silt>
+  <entityname.shopsummon_siltpet>[WAW] Dream-Devouring Siltcurrent (Pet)</entityname.shopsummon_siltpet>
+  <entityname.shopsummon_spiral>[WAW] Spiral of Contempt</entityname.shopsummon_spiral>
+  <entityname.shopsummon_talisman>[TETH] So That No One Will Cry</entityname.shopsummon_talisman>
+  <entityname.shopsummon_waywardpassenger>[HE] Wayward Passenger</entityname.shopsummon_waywardpassenger>
+  <entityname.solemnlamentcoat>Lobotomy E.G.O.: Solemn Lament Coat</entityname.solemnlamentcoat>
+  <entityname.solemnlamentdeparted>Lobotomy E.G.O.: Congratulations for the Departed</entityname.solemnlamentdeparted>
+  <entityname.solemnlamentliving>Lobotomy E.G.O.: Solemn Lament for the Living</entityname.solemnlamentliving>
+  <entityname.tcorptimecollectionbattery>T Corp. Time Collection Beam Battery</entityname.tcorptimecollectionbattery>
+  <entityname.truearbitercloak>True Arbiter's Cloak</entityname.truearbitercloak>
+  <entityname.vermillionscleaver>Hardblood Cleaver</entityname.vermillionscleaver>
+  <entityname.warprecalldevice>WARP Recall Device</entityname.warprecalldevice>
+  <entityname.warprecalldevice_special>WARP Retreat Device</entityname.warprecalldevice_special>
+  <entityname.warpteleportationanchor>WARP Teleportation Anchor</entityname.warpteleportationanchor>
+  <entityname.warptrainbench>WARP Train Chair</entityname.warptrainbench>
+  <entityname.wcorpccafistleft>W Corp CCA Exoskeleton Gauntlet (Left)</entityname.wcorpccafistleft>
+  <entityname.wcorpccafistright>W Corp CCA Exoskeleton Gauntlet (Right)</entityname.wcorpccafistright>
+  <entityname.whiteshieldbullet>Mental Shield Bullet</entityname.whiteshieldbullet>
+  <entityname.wildhuntcoat>Wild Hunt Coat</entityname.wildhuntcoat>
+  <afflictiondescription.abno_accumulatedtime>Stored time.</afflictiondescription.abno_accumulatedtime>
+  <afflictiondescription.abnoparrycooldown>Cannot parry again at the moment.</afflictiondescription.abnoparrycooldown>
+  <afflictiondescription.abnoretaliation_perfect>Retaliating against incoming damage.</afflictiondescription.abnoretaliation_perfect>
+  <afflictiondescription.contemptofthegaze>Take and deal 70% less damage.</afflictiondescription.contemptofthegaze>
+  <afflictiondescription.deathrite_halt>Stuns.</afflictiondescription.deathrite_halt>
+  <afflictiondescription.deathrite_impede>Reduces offense level.</afflictiondescription.deathrite_impede>
+  <afflictiondescription.defdown>Your defensive capabilities are reduced.</afflictiondescription.defdown>
+  <afflictiondescription.departedbutterfly>A congratulation for the departed dead.</afflictiondescription.departedbutterfly>
+  <afflictiondescription.exuviaeinfectionmanager>An affliction for handling the infection.</afflictiondescription.exuviaeinfectionmanager>
+  <afflictiondescription.fairy>It's 'unlocking' every pore of your body.</afflictiondescription.fairy>
+  <afflictiondescription.focusfirebuff>Open fire!</afflictiondescription.focusfirebuff>
+  <afflictiondescription.hereticpurged>.</afflictiondescription.hereticpurged>
+  <afflictiondescription.hereticpurged_seal>.</afflictiondescription.hereticpurged_seal>
+  <afflictiondescription.jingangbolushealth>Recovered from critical condition.</afflictiondescription.jingangbolushealth>
+  <afflictiondescription.jingangcooldown>You aren't allowed to avoid death again at the moment.</afflictiondescription.jingangcooldown>
+  <afflictiondescription.markofvengeance>The Middle never forgets.</afflictiondescription.markofvengeance>
+  <afflictiondescription.n_contempt>There's no escaping the 'spiral'.</afflictiondescription.n_contempt>
+  <afflictiondescription.offdown>Your offensive capabilities are reduced.</afflictiondescription.offdown>
+  <afflictiondescription.portalbulletspawn1>.</afflictiondescription.portalbulletspawn1>
+  <afflictiondescription.teleportsickness>You're feeling uneasy and your stomach is turning. Teleporting again may cause unwanted side-effects!</afflictiondescription.teleportsickness>
+  <afflictiondescription.tremor_Decay>The body is resonating with a strange, deteriorating energy.</afflictiondescription.tremor_Decay>
+  <afflictiondescription.tremor_Hemorrhage>The body is resonating with a strange, sanguine energy.</afflictiondescription.tremor_Hemorrhage>
+  <afflictiondescription.tremor_chain>The body is resonating with a strange, burdensome energy.</afflictiondescription.tremor_chain>
+  <afflictiondescription.tremor_reverb>The body is resonating with a strange, impactful energy.</afflictiondescription.tremor_reverb>
+  <afflictiondescription.tremor_scorch>The body is resonating with a strange, fiery energy.</afflictiondescription.tremor_scorch>
+  <afflictiondescription.tremorburst>Vine boom.</afflictiondescription.tremorburst>
+  <afflictionname.abno_accumulatedtime>Accumulated Time</afflictionname.abno_accumulatedtime>
+  <afflictionname.abnoparrycooldown>Parry Cooldown</afflictionname.abnoparrycooldown>
+  <afflictionname.abnoretaliation_perfect>Flawless Retaliation</afflictionname.abnoretaliation_perfect>
+  <afflictionname.backstreetsallydeath>bsad</afflictionname.backstreetsallydeath>
+  <afflictionname.contemptofthegaze>Contempt of the Gaze</afflictionname.contemptofthegaze>
+  <afflictionname.deathrite_halt>Deathrite [Halt]</afflictionname.deathrite_halt>
+  <afflictionname.deathrite_impede>Deathrite [Impede]</afflictionname.deathrite_impede>
+  <afflictionname.deepwound>Deep Wound</afflictionname.deepwound>
+  <afflictionname.defdown>Defense Down</afflictionname.defdown>
+  <afflictionname.departedbutterfly>The Departed Butterfly</afflictionname.departedbutterfly>
+  <afflictionname.exuviaeinfectionmanager>Exuvie Precursor</afflictionname.exuviaeinfectionmanager>
+  <afflictionname.fairy>Degraded Fairy</afflictionname.fairy>
+  <afflictionname.focusedperformance>Focused Performance</afflictionname.focusedperformance>
+  <afflictionname.focusfirebuff>Focus Fire</afflictionname.focusfirebuff>
+  <afflictionname.graspescape>Escaping the Grasp</afflictionname.graspescape>
+  <afflictionname.hereticpurged>Purged Heretic</afflictionname.hereticpurged>
+  <afflictionname.hereticpurged_seal>Purged Heretic</afflictionname.hereticpurged_seal>
+  <afflictionname.inkover1>io1</afflictionname.inkover1>
+  <afflictionname.jingangbolushealth>Jin Gang Bolus Revitalization</afflictionname.jingangbolushealth>
+  <afflictionname.jingangcooldown>Jin Gang Bolus Cooldown</afflictionname.jingangcooldown>
+  <afflictionname.markofvengeance>Mark of Vengeance</afflictionname.markofvengeance>
+  <afflictionname.n_contempt>Contempt</afflictionname.n_contempt>
+  <afflictionname.observed>Observed</afflictionname.observed>
+  <afflictionname.offdown>Offense Down</afflictionname.offdown>
+  <afflictionname.portalbulletspawn1>Portal Bullet Target: Tier 1</afflictionname.portalbulletspawn1>
+  <afflictionname.rupture_applier>application</afflictionname.rupture_applier>
+  <afflictionname.targetreadjustmentfire_2>Target Readjustment Fire (Kill)</afflictionname.targetreadjustmentfire_2>
+  <afflictionname.teleportcooldown>Serum W Cooldown</afflictionname.teleportcooldown>
+  <afflictionname.teleportsickness>Teleportation Sickness</afflictionname.teleportsickness>
+  <afflictionname.tremor_Decay>Tremor: Decay</afflictionname.tremor_Decay>
+  <afflictionname.tremor_Hemorrhage>Tremor: Hemorrhage</afflictionname.tremor_Hemorrhage>
+  <afflictionname.tremor_chain>Tremor: Chain</afflictionname.tremor_chain>
+  <afflictionname.tremor_reverb>Tremor: Reverb</afflictionname.tremor_reverb>
+  <afflictionname.tremor_scorch>Tremor: Scorch</afflictionname.tremor_scorch>
+  <afflictionname.tremorburst>Tremor Burst</afflictionname.tremorburst>
+  <entitydescription.Apocalypse_bossdrop>Yippie!</entitydescription.Apocalypse_bossdrop>
+  <entitydescription.DerFluchschutze>I shall feel the ponderous mass of the gun barrel rest upon my viscera.</entitydescription.DerFluchschutze>
+  <entitydescription.DerFluchschutzeegg>This burning egg seems shell-shocked, somehow. If not contained, it will eventually hatch into Der Fluchschütze.</entitydescription.DerFluchschutzeegg>
+  <entitydescription.DerFluchschutzeovercoat>Let this accursed bullet pierce through them...!</entitydescription.DerFluchschutzeovercoat>
+  <entitydescription.abno_twilight_robes>The three birds united their efforts to defeat the beast. This could stop countless incidents, but you’ll have to be prepared to step into the Black Forest…</entitydescription.abno_twilight_robes>
+  <entitydescription.abno_twilight_sword>Just like how the ever-watching eyes, the scale that could measure any and all sin, and the beak that could swallow everything protected the peace of the Black Forest... The wielder of this armament may also bring peace as they did.</entitydescription.abno_twilight_sword>
+  <entitydescription.abno_twilight_wings>The twilight was endured, and we now face towards dawn. Has the birds' twittering in the forest finally stopped?</entitydescription.abno_twilight_wings>
+  <entitydescription.abnobombimplantsmall>An implant distributed to elite units to destroy their gear and body upon death, rendering everything irrecoverable for enemies.</entitydescription.abnobombimplantsmall>
+  <entitydescription.allymark>When applied to someone, marks them as an Ally of the Wild Hunt. They will not be attacked by Thralls.</entitydescription.allymark>
+  <entitydescription.apocalypsebirdegg>Don't let it hatch.</entitydescription.apocalypsebirdegg>
+  <entitydescription.arbiterbinding>Your hands are bound by magic.</entitydescription.arbiterbinding>
+  <entitydescription.binds_blade_abno>How insipid… Must I deal with it myself?</entitydescription.binds_blade_abno>
+  <entitydescription.binds_blade_admin>How insipid… Must I deal with it myself?</entitydescription.binds_blade_admin>
+  <entitydescription.blindobsession_coat>'All hands, full speed towards where the lights flicker.' Grants 15% additional defense to the torso.</entitydescription.blindobsession_coat>
+  <entitydescription.blindobsession_hat>A symbol of authority. Protects the wearer from oxygen deprivation.</entitydescription.blindobsession_hat>
+  <entitydescription.blindobsession_uniform>'I am the only one who moves in these waves.' Increases movement speed while you have Psychosis.</entitydescription.blindobsession_uniform>
+  <entitydescription.bloodfiend_barber_mask>We've an event for you! +10 Weapons Skill and 10% more ranged attack speed.</entitydescription.bloodfiend_barber_mask>
+  <entitydescription.bloodfiend_barber_uniform>I'll sew you a new dress! Move 15% faster at 50+ Bloodfeast.</entitydescription.bloodfiend_barber_uniform>
+  <entitydescription.bloodfiend_priest_mask>Functions as a health scanner and recovers sanity at 50+ Bloodfeast.</entitydescription.bloodfiend_priest_mask>
+  <entitydescription.bloodfiend_priest_uniform>Did you think about blood today? Heals Bleeding while you have 100+ Bloodfeast.</entitydescription.bloodfiend_priest_uniform>
+  <entitydescription.bluestaregg>This isn't a statue, it's a dormant god. If not contained, it will eventually hatch into Blue Star.</entitydescription.bluestaregg>
+  <entitydescription.brokenwildhuntcoffincuffs>Can be broken out of and dropped.</entitydescription.brokenwildhuntcoffincuffs>
+  <entitydescription.capopistol>An antique-looking manually operated pistol. It looks like a fossil, but you'd be surprised what it can do. Its variable chamber and internal magazine allows it to load various kinds of single-shot ammo with a max capacity of 6. A mainstay of the Thumb's upper echelons and a symbol of authority.</entitydescription.capopistol>
+  <entitydescription.cavernouswailinghammer>Croohoo, croohoo.</entitydescription.cavernouswailinghammer>
+  <entitydescription.cavernouswailinghammerperm>Croohoo, croohoo.</entitydescription.cavernouswailinghammerperm>
+  <entitydescription.censoredegg>You can't perceive whatever this horrible THING is. If not contained, it will eventually hatch into CENSORED.</entitydescription.censoredegg>
+  <entitydescription.containmentcell>A durable containment cell designed to hold and perform works with Abnormality Eggs to generate Enkephalin.</entitydescription.containmentcell>
+  <entitydescription.contemptawe_blade1>A blade made of shimmering liquid gold, this EGO was extracted from the Spiral of Contempt.</entitydescription.contemptawe_blade1>
+  <entitydescription.contemptawe_blade2>A blade made of rippling blood, this EGO was extracted from the Spiral of Contempt.</entitydescription.contemptawe_blade2>
+  <entitydescription.contemptawesuit>'Scatter. Every gaze shall be drawn to this squalidity.' Attire created from the Spiral of Contempt's E.G.O.</entitydescription.contemptawesuit>
+  <entitydescription.dawnofficesuit>Dawn Office is a small but wealthy Grade 4 Office and an associate Office of the Liu Association. Run by Salvador, a veteran Fixer, the Office is located in V Corp. (Note: At high Psychosis and while under the effects of an E.G.O. Stabilizer, summons unique armor and grants Waxen Pinion.)</entitydescription.dawnofficesuit>
+  <entitydescription.egogiftresearchstation>A specialized research station able to process some of the intricacies of the E.G.O. In other words, it can process not only genetic materials, but E.G.O. Gifts as well. It is also uniquely suited to processing H Corp.'s Boluses due to its support for Enkephalin-infused materials.</entitydescription.egogiftresearchstation>
+  <entitydescription.egostabilizer>A haloperidol syringe charged with Enkephalin to strengthen one's E.G.O. and keep them safe from mental harm.</entitydescription.egostabilizer>
+  <entitydescription.enkephalin>Enkephalin was the energy resource which Lobotomy Corporation produced. It was extracted from the Abnormalities created through its Singularity, which produced Enkephalin when their needs were met. Enkephalin is often stored in PE-boxes, and is considered an efficient and eco-friendly resource, making it popular with both other Corps and Europan denizens even after the Collapse of L Corp.</entitydescription.enkephalin>
+  <entitydescription.enkephalinbox>A stable container storing liquid Enkephalin. A label reads: [CAUTION] Handling this box without following the prescribed procedures may result in accidents such as Enkephalin leakage. Unregulated ingestion of Enkephalin may cause a wide range of unverified psychopathological symptoms.</entitydescription.enkephalinbox>
+  <entitydescription.enkephalinprocessor>A machine designed to process Enkephalin-related items.</entitydescription.enkephalinprocessor>
+  <entitydescription.fanaticbooster>Expands the subject's sensory awareness, improving their ability to passively learn and progress.</entitydescription.fanaticbooster>
+  <entitydescription.fellbullet>A powerful shotgun that derives its appearance from an Old Earth weapon. There is some confusion about its classification; in reality, it is a rifle, but its bullets scatter due to the Abnormality's power.</entitydescription.fellbullet>
+  <entitydescription.forsakenmurdereregg>This egg seems to be made entirely out of solid metal. If not contained, it will eventually hatch into Forsaken Murderer.</entitydescription.forsakenmurdereregg>
+  <entitydescription.gatetotheblackforest>This Enkephalin-powered portal is one-way: nothing can enter, but things can be brought here from the other side. Exercise caution.</entitydescription.gatetotheblackforest>
+  <entitydescription.glupoarmor>An E.G.O. suit created from the Blubbering Toad's essence, worn in place of a gene splicer. This one provides a fair bit of general protection and slowly heals insanity. Disappears if the wearer dies. Avoid losing your mind while wearing this.</entitydescription.glupoarmor>
+  <entitydescription.glupomaskcorroded>Croohoo.</entitydescription.glupomaskcorroded>
+  <entitydescription.gossypiumegg>This flowered egg is soaked with human blood. If not contained, it will eventually hatch into Drenched Gossypium.</entitydescription.gossypiumegg>
+  <entitydescription.groshammer_gauntlet>The Groshammer's Gauntlet.</entitydescription.groshammer_gauntlet>
+  <entitydescription.hanafuda_scabbard>Whenever a game happens with something at stake, a go-between needs to be there to prove that the results were legitimate. (Actually a backpack, cosmetically a scabbard.)</entitydescription.hanafuda_scabbard>
+  <entitydescription.hanafuda_sword>This blade allows for switching between three Card Suits: Pine Crane (Red), Susuki Grass (Yellow), and Blue Sakura (Blue). Each Suit grants bonus damage effects: Bleed, Tremor, and Offense Down respectively.</entitydescription.hanafuda_sword>
+  <entitydescription.hanafuda_uniform>Jeong's Office is a subsidiary of the Oufi Association which most often oversees gambling matches and games. It is the job of Offices like these to verify the results of games and prevent cheating or violence from sore losers.</entitydescription.hanafuda_uniform>
+  <entitydescription.headlessichthysegg>This fishy egg seems to hold a sac of blue fluid. If kept underwater, it will eventually hatch into a Headless Ichthys.</entitydescription.headlessichthysegg>
+  <entitydescription.hiddenarmor_t3>An armor vest designed to be concealed under one's clothing. The use of alloys improves physical protection without costing in the mobility department.</entitydescription.hiddenarmor_t3>
+  <entitydescription.kcorpexcisionsuit>An armored suit designed for K Corp's Class 3 Excision Staff. Regeneration Ampule fluid can easily conduct through the suit to regenerate its wearer, if they know how to use it.</entitydescription.kcorpexcisionsuit>
+  <entitydescription.kcorpstaff>A two handed staff made for K Corp Class 3 Excision Units which inflicts Rupture on hit.</entitydescription.kcorpstaff>
+  <entitydescription.kqeegg>This cybernetic egg seems to be making idle calculations. If not contained, it will eventually hatch into KQE-1J-23.</entitydescription.kqeegg>
+  <entitydescription.kromernailimpaling>An exceptionally long nail wielded by the One who Grips. It is well known for its rapid stabbing strikes.</entitydescription.kromernailimpaling>
+  <entitydescription.kromernailslashing>An exceptionally long nail wielded by the One who Grips. Despite looking like a nail, it is very functionally similar to a longsword.</entitydescription.kromernailslashing>
+  <entitydescription.kromernailthrowing>A long nail which can be thrown. This is the One who Grips' signature skill, one which catches most off surprise and is often fatal.</entitydescription.kromernailthrowing>
+  <entitydescription.meatdoggyegg>This egg is made of what looks like human flesh. If not contained, it will eventually hatch into the friendly Meat Doggy.</entitydescription.meatdoggyegg>
+  <entitydescription.middlechainsleft_physicorium>Members of the Middle Syndicate prefer heavy chains for melee combat. Using Physicorium around a dense lead interior gives these chains both weight and durability, allowing for powerful blows.</entitydescription.middlechainsleft_physicorium>
+  <entitydescription.middlechainsright_physicorium>Members of the Middle Syndicate prefer heavy chains for melee combat. Using Physicorium around a dense lead interior gives these chains both weight and durability, allowing for powerful blows.</entitydescription.middlechainsright_physicorium>
+  <entitydescription.middletattoos1>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments.</entitydescription.middletattoos1>
+  <entitydescription.middletattoos2>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments.</entitydescription.middletattoos2>
+  <entitydescription.middletattoos3>The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments.</entitydescription.middletattoos3>
+  <entitydescription.mimicry_gear>It takes human hide to protect human flesh. To protect humans, you need something made out of humans. Even though this is not the skin of a human, it is still akin to that barrier which protects us. Employees using this equipment may lose the last bits of love for humanity that they may have left.</entitydescription.mimicry_gear>
+  <entitydescription.nailmag_standard>A magazine for the nailgun. Holds 30 nails.</entitydescription.nailmag_standard>
+  <entitydescription.nakednestegg>This fleshy egg is so slick, it's hard to hold onto. If not contained, it will eventually hatch into The Naked Nest.</entitydescription.nakednestegg>
+  <entitydescription.ncorparmor_groshammer>A custom-made suit of armor built for the Inquisition's second in command, the Großhammer. When worn with its helmet counterpart, it grants 10000m of pressure resistance. (Note: The armor grants an additional defense bonus to the torso, upper arms, waist and thighs, making it more protective than the listed stats here.)</entitydescription.ncorparmor_groshammer>
+  <entitydescription.ncorpcontemptawecoat>Don't go blind on me now.</entitydescription.ncorpcontemptawecoat>
+  <entitydescription.ncorpcontemptawesuit>Eyes. On. Me.</entitydescription.ncorpcontemptawesuit>
+  <entitydescription.ncorpfellbulletcoat>A fellow of mine has once spoken thusly to me—too late, too late...</entitydescription.ncorpfellbulletcoat>
+  <entitydescription.ncorpfellbulletuniform>They would point and jeer at the rags splattered with the blood of fellowship. The fools; only I can grasp the highest degree of tragedy upon this earth.</entitydescription.ncorpfellbulletuniform>
+  <entitydescription.ncorphelmet_groshammer>A top of the line helmet constructed exclusively for use by the Großhammer of the N Corp Inquisition. Aside from being highly protective, it also consumes oxygen much slower than standard oxygen masks.</entitydescription.ncorphelmet_groshammer>
+  <entitydescription.nightawls_armor>The fate of the Night Awls, to be purged by the Thumb, is rather ironic. They were once the Purge Enforcers of the Thumb.</entitydescription.nightawls_armor>
+  <entitydescription.nightawls_prosthetics>Serving under the Thumb means stepping out of line carries a price, often paid in limbs. (Functions as a cosmetically hidden backpack.)</entitydescription.nightawls_prosthetics>
+  <entitydescription.nightawls_uniform>The Night Awls were a Syndicate operating as a subsidiary of the Thumb, at least until their hot-headed Captain angered a Sottocapo, an act which triggered a purge of the entire subsidiary Syndicate.</entitydescription.nightawls_uniform>
+  <entitydescription.oasistux>Nice formal wear for a more stylish submariner.</entitydescription.oasistux>
+  <entitydescription.olongnail2>An exceptionally long nail intended for use as a weapon.</entitydescription.olongnail2>
+  <entitydescription.onesinegg>This egg forgives your sins. If it is not contained, it will eventually hatch into One Sin.</entitydescription.onesinegg>
+  <entitydescription.propellantbullet>A special type of ammo which trades out the projectile for an increased powder load. It's necessary for some Thumb-designed melee weapons to function, but it'll also load into rifles and fire a very short ranged blast if needed.</entitydescription.propellantbullet>
+  <entitydescription.propellantbullet_highpower>A Propellant Bullet with exceptional powder load, capable of hitting harder than its standard counterpart. The heat generated by this round also burns the target.</entitydescription.propellantbullet_highpower>
+  <entitydescription.propellantbullet_highpower_speedloader>A pre-loaded cylinder that contains six rounds of its respective ammunition type. Functions more or less as a magazine for Soldato Bayonet Rifles and a certain blade.</entitydescription.propellantbullet_highpower_speedloader>
+  <entitydescription.propellantbullet_speedloader>A pre-loaded cylinder that contains six rounds of its respective ammunition type. Functions more or less as a magazine for Soldato Bayonet Rifles and a certain blade.</entitydescription.propellantbullet_speedloader>
+  <entitydescription.propellantbullet_tigermark>A Propellant Bullet with an Incendium powder load, allowing it to heat up bayonet spears and burn the target.</entitydescription.propellantbullet_tigermark>
+  <entitydescription.propellantbullet_tigermark_speedloader>A pre-loaded cylinder that contains six rounds of its respective ammunition type. Functions more or less as a magazine for Soldato Bayonet Rifles and a certain blade.</entitydescription.propellantbullet_tigermark_speedloader>
+  <entitydescription.punishingbirdegg>A large mouth protrudes from this 'egg'. If it is not contained, it will eventually hatch into a Small Bird.</entitydescription.punishingbirdegg>
+  <entitydescription.purifiernailgun>A compact nailgun, not terribly dangerous on its own but it can supplement hammers quite well.</entitydescription.purifiernailgun>
+  <entitydescription.rcorpcoilgunclip>A clip of 30 standard coilgun rounds.</entitydescription.rcorpcoilgunclip>
+  <entitydescription.reindeerbackpack>A bulky tank capable of carrying ample energy reserves for staves. (In-game though, it LARPs as a backpack.)</entitydescription.reindeerbackpack>
+  <entitydescription.reindeerhelmet_festive>A helmet made for R Corp 4th Pack Reindeers.</entitydescription.reindeerhelmet_festive>
+  <entitydescription.reindeerstaff>A staff that focuses the brainwaves of its user to fire bolts of energy at targets.</entitydescription.reindeerstaff>
+  <entitydescription.reindeeruniform>A middleweight armored suit designed for R Corp 4th Pack's Reindeer Team.</entitydescription.reindeeruniform>
+  <entitydescription.rhinofist>A melee weapon for Rhinos. Stronger with Charge.</entitydescription.rhinofist>
+  <entitydescription.rhinohammer>A massive hammer best utilized by the heavily suited 4th Pack Rhinos. It excels at knocking down doors and crushing bones.</entitydescription.rhinohammer>
+  <entitydescription.ricardo_coat>MY HAIR COUPONS!!!</entitydescription.ricardo_coat>
+  <entitydescription.ricardo_uniform>A very luscious outfit.</entitydescription.ricardo_uniform>
+  <entitydescription.shi_arrow>A sturdy arrow for the Shi East Bowblade. Expensive, but powerful, and can be retrieved.</entitydescription.shi_arrow>
+  <entitydescription.shi_bowblade_melee>A bowblade given to members of the Shi Association's East Section.</entitydescription.shi_bowblade_melee>
+  <entitydescription.shi_quiver>Actually a backpack, cosmetically a quiver.</entitydescription.shi_quiver>
+  <entitydescription.shiuniform_east>Rain pelts awake hearts, Alleyways puddle with steps; The rest is silence.</entitydescription.shiuniform_east>
+  <entitydescription.siltcurrent_bossdrop>Yippie!</entitydescription.siltcurrent_bossdrop>
+  <entitydescription.siltcurrentegg>This smooth egg seems to hold a sac of glowing fluid. If kept underwater, it will eventually hatch into a Dream-Devouring Siltcurrent.</entitydescription.siltcurrentegg>
+  <entitydescription.soldatoarmorround>A powerful bullet that pierces armor very well and can pierce through a door or wall to hit its target.</entitydescription.soldatoarmorround>
+  <entitydescription.soldatoflameround>An incendiary round produced by the Thumb Syndicate. Its payload cauterizes any wounds it causes almost immediately, and therefore cannot cause significant bleeding.</entitydescription.soldatoflameround>
+  <entitydescription.soldatofreezeround>A cryogenic round produced by the Thumb Syndicate. Its frigid payload can cause muscle paralysis.</entitydescription.soldatofreezeround>
+  <entitydescription.spiralegg>This gilded egg seems to be looking down on you, even now. If not contained, it will eventually hatch into Spiral of Contempt.</entitydescription.spiralegg>
+  <entitydescription.talismanegg>This splintered wooden egg is covered in cursed talismans. If not contained, it will eventually hatch into So That No One Will Cry.</entitydescription.talismanegg>
+  <entitydescription.tcorp_class3_chainsaw>A high-powered chainsaw for close quarters battle with Time Tax Defaulters.</entitydescription.tcorp_class3_chainsaw>
+  <entitydescription.tcorp_class3_pickaxe>A huge pickaxe capable of siphoning time from struck targets, proving quite useful in taking down Time Tax evaders.</entitydescription.tcorp_class3_pickaxe>
+  <entitydescription.tcorp_class3armor>Class 3 Tax Collectors are commonly sent to apprehend wealthier Time Tax evaders. Their stronger armor and greater reserve of Borrowed Time allows them to counteract whatever traps such individuals could afford. (The torso has an additional 75% protection on top of what is listed here.)</entitydescription.tcorp_class3armor>
+  <entitydescription.tcorp_class3helmet>When worn with the Class 3 armor, provides pressure protection.</entitydescription.tcorp_class3helmet>
+  <entitydescription.tcorp_hat_vdcu>A top hat and gear which protect the user's head from harm. Just avoid short doorways.</entitydescription.tcorp_hat_vdcu>
+  <entitydescription.tcorp_tux_vdcu>The Violent Defaulter Collections Unit specializes in taking down organized, violent crime related to Time.</entitydescription.tcorp_tux_vdcu>
+  <entitydescription.tcorp_vdcuarmor>Many of T Corp's Tax Collectors are skilled in quickly attaching their armor prior to combat using a brief burst of Borrowed Time, but the VDCU can go even further and attach or detach their armor at will, seemingly manifesting it from thin air. Although less protective than simply wearing it at all times, this affords a higher range of movement. (The torso has an additional 75% protection on top of what is listed here.)</entitydescription.tcorp_vdcuarmor>
+  <entitydescription.tcorp_vdcumace>A transforming mace with a hefty blow to it, capable of easily knocking foes off-balance.</entitydescription.tcorp_vdcumace>
+  <entitydescription.thumb_capo_coat>Capo, or Captain, is the rank above Soldato. Any given Capo is roughly equivalent to a Grade 1-2 Fixer in terms of combat capabilities and commands their own small army of Soldatos. This is their usual attire.</entitydescription.thumb_capo_coat>
+  <entitydescription.thumb_capo_coat_outer>So-called 'combat coats' with ballistic weave infused with Enkephalin are quite popular among Fixers, as they are bulletproof and can cover the entire torso. The Thumb is especially well known for having no shortage of them.</entitydescription.thumb_capo_coat_outer>
+  <entitydescription.trenchcoat_armored>A trench coat with a ballistic vest hidden underneath, popular among mercenaries with a fashion sense or a need for subtlety.</entitydescription.trenchcoat_armored>
+  <entitydescription.waxenpinion_armor>I’ll end this fight for sure this time.</entitydescription.waxenpinion_armor>
+  <entitydescription.waywardpassengeregg>This horribly warped egg is much older than it seems. If not contained, it will eventually hatch into Wayward Passenger.</entitydescription.waywardpassengeregg>
+  <entitydescription.wcorp_cca>Extremely heavy armor worn by W Corp agents of Level 4 or higher to 'clean up' significant threats. Although powerful, it restricts the user to using its fists for battle, and it can't be carried without wearing it due to its extreme weight. If its battery runs out, it completely immobilizes the user, and it has no space for storing items. Despite all of this, it can be a gamechanger on the battlefield.</entitydescription.wcorp_cca>
+  <entitydescription.wildhuntcoatspecial>For the Hunt.</entitydescription.wildhuntcoatspecial>
+  <entitydescription.wildhuntsword>A huge and unconventional blade, one that is difficult to wield if you aren't abnormally strong. Who or what made it, and for what purpose, is unknown.</entitydescription.wildhuntsword>
+  <entityname.Apocalypse_bossdrop>Apocalypse Boss Loot</entityname.Apocalypse_bossdrop>
+  <entityname.DerFluchschutze>LCE E.G.O: Fell Bullet Uniform</entityname.DerFluchschutze>
+  <entityname.DerFluchschutzeegg>[HE] Der Fluchschütze (Abnormality Egg)</entityname.DerFluchschutzeegg>
+  <entityname.DerFluchschutzeovercoat>LCE E.G.O: Fell Bullet Coat</entityname.DerFluchschutzeovercoat>
+  <entityname.abno_twilight_robes>Lobotomy E.G.O.: Twilight's Robes</entityname.abno_twilight_robes>
+  <entityname.abno_twilight_sword>Lobotomy E.G.O.: Twilight's Sword</entityname.abno_twilight_sword>
+  <entityname.abno_twilight_wings>Lobotomy E.G.O.: Twilight's Wings</entityname.abno_twilight_wings>
+  <entityname.abnobombimplantsmall>Immolator Implant (Small)</entityname.abnobombimplantsmall>
+  <entityname.advancedegosplicer_teleport>Advanced Augment Splicer (Retreat)</entityname.advancedegosplicer_teleport>
+  <entityname.allymark>Ally of the Wild Hunt</entityname.allymark>
+  <entityname.apocalypsebirdegg>[ALEPH] Apocalypse Bird (Abnormality Egg)</entityname.apocalypsebirdegg>
+  <entityname.arbiterbinding>Bound Hands</entityname.arbiterbinding>
+  <entityname.binds_blade_abno>Binds</entityname.binds_blade_abno>
+  <entityname.binds_blade_admin>Binds</entityname.binds_blade_admin>
+  <entityname.blindobsession_coat>LCE E.G.O.: Blind Obsession's Coat</entityname.blindobsession_coat>
+  <entityname.blindobsession_hat>LCE E.G.O.: Blind Obsession's Hat</entityname.blindobsession_hat>
+  <entityname.blindobsession_uniform>LCE E.G.O.: Blind Obsession's Uniform</entityname.blindobsession_uniform>
+  <entityname.bloodfiend_barber_mask>Bloodfiend Barber Mask</entityname.bloodfiend_barber_mask>
+  <entityname.bloodfiend_barber_uniform>Bloodfiend Barber Attire</entityname.bloodfiend_barber_uniform>
+  <entityname.bloodfiend_priest_mask>Bloodfiend Priest Mask</entityname.bloodfiend_priest_mask>
+  <entityname.bloodfiend_priest_uniform>Bloodfiend Priest Attire</entityname.bloodfiend_priest_uniform>
+  <entityname.bloodfiend_scissors_t2>Bloodfiend Barber's Scissors</entityname.bloodfiend_scissors_t2>
+  <entityname.bluestaregg>[ALEPH] Blue Star (Abnormality Egg)</entityname.bluestaregg>
+  <entityname.brokenwildhuntcoffincuffs>Broken Coffin</entityname.brokenwildhuntcoffincuffs>
+  <entityname.capopistol>Capo Pistol</entityname.capopistol>
+  <entityname.cavernouswailinghammer>LCE E.G.O: Cavernous Wailing Hammer</entityname.cavernouswailinghammer>
+  <entityname.cavernouswailinghammerperm>Cavernous Wailing Hammer (Locked)</entityname.cavernouswailinghammerperm>
+  <entityname.censoredegg>[ALEPH] CENSORED (Abnormality Egg)</entityname.censoredegg>
+  <entityname.containmentcell>Containment Chamber</entityname.containmentcell>
+  <entityname.contemptawe_blade1>LCE E.G.O.: Blade of Awe</entityname.contemptawe_blade1>
+  <entityname.contemptawe_blade2>LCE E.G.O.: Blade of Contempt</entityname.contemptawe_blade2>
+  <entityname.contemptawesuit>LCE E.G.O.: Contempt, Awe</entityname.contemptawesuit>
+  <entityname.corrodedhandlock>Unusable Hand</entityname.corrodedhandlock>
+  <entityname.dawnofficesuit>Dawn Office Uniform</entityname.dawnofficesuit>
+  <entityname.egogiftresearchstation>Portable Infusion Station</entityname.egogiftresearchstation>
+  <entityname.egostabilizer>E.G.O. Stabilizer</entityname.egostabilizer>
+  <entityname.enkephalin>Enkephalin</entityname.enkephalin>
+  <entityname.enkephalinbox>Enkephalin Box</entityname.enkephalinbox>
+  <entityname.enkephalinprocessor>Enkephalin Processor</entityname.enkephalinprocessor>
+  <entityname.fanaticbooster>Fanatic Booster</entityname.fanaticbooster>
+  <entityname.fellbullet>LCE E.G.O: Fell Bullet</entityname.fellbullet>
+  <entityname.forsakenmurdereregg>[TETH] Forsaken Murderer (Abnormality Egg)</entityname.forsakenmurdereregg>
+  <entityname.gatetotheblackforest>Black Gate</entityname.gatetotheblackforest>
+  <entityname.glupoarmor>LCE E.G.O: Cavernous Wailing</entityname.glupoarmor>
+  <entityname.glupomaskcorroded>LCE E.G.O: Cavernous Wailing Mask</entityname.glupomaskcorroded>
+  <entityname.gossypiumegg>[TETH] Drenched Gossypium (Abnormality Egg)</entityname.gossypiumegg>
+  <entityname.groshammer_gauntlet>Großhammer's Gauntlet</entityname.groshammer_gauntlet>
+  <entityname.hanafuda_scabbard>Jeong's Office Rep Scabbard</entityname.hanafuda_scabbard>
+  <entityname.hanafuda_sword>Jeong's Office Rep Sword</entityname.hanafuda_sword>
+  <entityname.hanafuda_uniform>Jeong's Office Rep Uniform</entityname.hanafuda_uniform>
+  <entityname.headlessichthysegg>[HE] Headless Ichthys (Abnormality Egg)</entityname.headlessichthysegg>
+  <entityname.hiddenarmor_t3>Cosmetically Hidden Armor Vest Tier III</entityname.hiddenarmor_t3>
+  <entityname.kcorpexcisionsuit>K Corp Class 3 Excision Suit</entityname.kcorpexcisionsuit>
+  <entityname.kcorpstaff>K Corp Excision Staff</entityname.kcorpstaff>
+  <entityname.kqeegg>[HE] KQE-1J-23 (Abnormality Egg)</entityname.kqeegg>
+  <entityname.kromernailimpaling>Kromer's Nail (Impaling)</entityname.kromernailimpaling>
+  <entityname.kromernailslashing>Kromer's Nail (Slashing)</entityname.kromernailslashing>
+  <entityname.kromernailthrowing>Kromer's Nail (Throwing)</entityname.kromernailthrowing>
+  <entityname.meatdoggyegg>[ALEPH] Meat Doggy (Abnormality Egg)</entityname.meatdoggyegg>
+  <entityname.middlechainsleft_physicorium>Physicorium Chains of the Middle (Left)</entityname.middlechainsleft_physicorium>
+  <entityname.middlechainsright_physicorium>Physicorium Chains of the Middle (Right)</entityname.middlechainsright_physicorium>
+  <entityname.middletattoos1>Cosmetic Middle Tattoos (1)</entityname.middletattoos1>
+  <entityname.middletattoos2>Cosmetic Middle Tattoos (2)</entityname.middletattoos2>
+  <entityname.middletattoos3>Cosmetic Middle Tattoos (3)</entityname.middletattoos3>
+  <entityname.mimicry_gear>Lobotomy E.G.O.: Mimicry's Shell</entityname.mimicry_gear>
+  <entityname.nailmag_standard>N Corp Nailgun Magazine</entityname.nailmag_standard>
+  <entityname.nakednest>The Naked Nest</entityname.nakednest>
+  <entityname.nakednestegg>[WAW] The Naked Nest (Abnormality Egg)</entityname.nakednestegg>
+  <entityname.ncorparmor_groshammer>N Corp Großhammer Armor</entityname.ncorparmor_groshammer>
+  <entityname.ncorpcontemptawecoat>N Corp E.G.O: Contempt, Awe Coat</entityname.ncorpcontemptawecoat>
+  <entityname.ncorpcontemptawesuit>N Corp E.G.O.: Contempt, Awe Suit</entityname.ncorpcontemptawesuit>
+  <entityname.ncorpfellbulletcoat>N Corp E.G.O: Fell Bullet Coat</entityname.ncorpfellbulletcoat>
+  <entityname.ncorpfellbulletround1>Fell Bullet Stage 1</entityname.ncorpfellbulletround1>
+  <entityname.ncorpfellbulletround2>Fell Bullet Stage 2</entityname.ncorpfellbulletround2>
+  <entityname.ncorpfellbulletround3>Fell Bullet Stage 3</entityname.ncorpfellbulletround3>
+  <entityname.ncorpfellbulletuniform>N Corp E.G.O: Fell Bullet Uniform</entityname.ncorpfellbulletuniform>
+  <entityname.ncorphelmet_groshammer>N Corp Großhammer Helmet</entityname.ncorphelmet_groshammer>
+  <entityname.nightawls_armor>Night Awls Coat</entityname.nightawls_armor>
+  <entityname.nightawls_prosthetics>Night Awls Prosthetics</entityname.nightawls_prosthetics>
+  <entityname.nightawls_uniform>Night Awls Uniform</entityname.nightawls_uniform>
+  <entityname.oasistux>Tuxedo</entityname.oasistux>
+  <entityname.olongnail2>Long Nail (Slashing)</entityname.olongnail2>
+  <entityname.onesinegg>[ZAYIN] One Sin (Abnormality Egg)</entityname.onesinegg>
+  <entityname.priest_staff>Bloodfiend Priest's Staff</entityname.priest_staff>
+  <entityname.propellantbullet>Propellant Bullet (Standard)</entityname.propellantbullet>
+  <entityname.propellantbullet_highpower>Propellant Bullet (Tigermark)</entityname.propellantbullet_highpower>
+  <entityname.propellantbullet_highpower_speedloader>Propellant Bullet Speedloader (Tigermark)</entityname.propellantbullet_highpower_speedloader>
+  <entityname.propellantbullet_speedloader>Propellant Bullet Speedloader (Standard)</entityname.propellantbullet_speedloader>
+  <entityname.propellantbullet_tigermark>Propellant Bullet (Savage Tigermark)</entityname.propellantbullet_tigermark>
+  <entityname.propellantbullet_tigermark_speedloader>Propellant Bullet Speedloader (Savage Tigermark)</entityname.propellantbullet_tigermark_speedloader>
+  <entityname.punishingbirdegg>[TETH] Small Bird (Abnormality Egg)</entityname.punishingbirdegg>
+  <entityname.purifiernailgun>N Corp Nailgun</entityname.purifiernailgun>
+  <entityname.rcorpcoilgunclip>R Corp Coilgun Clip (Standard)</entityname.rcorpcoilgunclip>
+  <entityname.reindeerbackpack>R Corp 4th Pack Reindeer Tank</entityname.reindeerbackpack>
+  <entityname.reindeerhelmet_festive>R Corp 4th Pack Reindeer Helmet (Festive)</entityname.reindeerhelmet_festive>
+  <entityname.reindeerstaff>R Corp 4th Pack Reindeer Staff</entityname.reindeerstaff>
+  <entityname.reindeeruniform>R Corp 4th Pack Reindeer Uniform</entityname.reindeeruniform>
+  <entityname.rhinofist>Rhino Fist</entityname.rhinofist>
+  <entityname.rhinohammer>R Corp 4th Pack Rhino Warhammer</entityname.rhinohammer>
+  <entityname.ricardo_coat>Ricardo's Coat</entityname.ricardo_coat>
+  <entityname.ricardo_uniform>Ricardo's Uniform</entityname.ricardo_uniform>
+  <entityname.shi_arrow>Bowblade Arrow (Standard)</entityname.shi_arrow>
+  <entityname.shi_bowblade_melee>Shi Association East Bowblade (Melee)</entityname.shi_bowblade_melee>
+  <entityname.shi_quiver>Shi Association East Quiver</entityname.shi_quiver>
+  <entityname.shiuniform_east>Shi Association East Uniform</entityname.shiuniform_east>
+  <entityname.siltcurrent_bossdrop>Siltcurrent Boss Loot</entityname.siltcurrent_bossdrop>
+  <entityname.siltcurrentegg>[WAW] Dream-Devouring Siltcurrent (Abnormality Egg)</entityname.siltcurrentegg>
+  <entityname.soldatoarmorround>Soldato Armor Piercing Ammunition</entityname.soldatoarmorround>
+  <entityname.soldatoflameround>Soldato Flame Ammunition</entityname.soldatoflameround>
+  <entityname.soldatofreezeround>Soldato Freeze Ammunition</entityname.soldatofreezeround>
+  <entityname.spiralegg>[WAW] Spiral of Contempt (Abnormality Egg)</entityname.spiralegg>
+  <entityname.sweepermask_alt1_SO>Sweeper Mask</entityname.sweepermask_alt1_SO>
+  <entityname.sweepermask_alt2_SO>Sweeper Mask</entityname.sweepermask_alt2_SO>
+  <entityname.talismanegg>[TETH] So That No One Will Cry (Abnormality Egg)</entityname.talismanegg>
+  <entityname.tcorp_class3_chainsaw>T Corp Tax Collector Class 3 Chainsaw</entityname.tcorp_class3_chainsaw>
+  <entityname.tcorp_class3_pickaxe>T Corp Tax Collector Class 3 Pickaxe</entityname.tcorp_class3_pickaxe>
+  <entityname.tcorp_class3armor>T Corp Tax Collector Class 3 Armor</entityname.tcorp_class3armor>
+  <entityname.tcorp_class3helmet>T Corp. Tax Collector Class 3 Helmet</entityname.tcorp_class3helmet>
+  <entityname.tcorp_hat_vdcu>T Corp Class 3 VDCU Hat</entityname.tcorp_hat_vdcu>
+  <entityname.tcorp_tux_vdcu>T Corp Class 3 VDCU Tuxedo</entityname.tcorp_tux_vdcu>
+  <entityname.tcorp_vdcuarmor>T Corp Class 3 VDCU Armor</entityname.tcorp_vdcuarmor>
+  <entityname.tcorp_vdcumace>T Corp VDCU Collections Mace</entityname.tcorp_vdcumace>
+  <entityname.thumb_capo_coat>Thumb Capo Uniform</entityname.thumb_capo_coat>
+  <entityname.thumb_capo_coat_outer>Thumb Capo Coat</entityname.thumb_capo_coat_outer>
+  <entityname.trenchcoat_armored>Armored Trench Coat</entityname.trenchcoat_armored>
+  <entityname.waxenpinion_armor>Effloresced E.G.O.: Waxen Pinion's Armor</entityname.waxenpinion_armor>
+  <entityname.waywardpassengeregg>[HE] Wayward Passenger (Abnormality Egg)</entityname.waywardpassengeregg>
+  <entityname.wcorp_cca>W Corp CCA Exoskeleton</entityname.wcorp_cca>
+  <entityname.wildhuntcoatspecial>Heathcliff's Coat</entityname.wildhuntcoatspecial>
+  <entityname.wildhuntcoffincuffs>Coffin</entityname.wildhuntcoffincuffs>
+  <entityname.wildhuntsword>Wild Hunt Blade</entityname.wildhuntsword>
+  <jobname.bloodfiendbarber>bloodfiendbarber</jobname.bloodfiendbarber>
+  <jobname.bloodfiendpriest>bloodfiendpriest</jobname.bloodfiendpriest>
+  <jobname.bloodfiendprince>bloodfiendprince</jobname.bloodfiendprince>
+</Overrides>

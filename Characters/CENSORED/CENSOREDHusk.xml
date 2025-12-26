@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character SpeciesName="CENSOREDHusk" SpeciesTranslationOverride="" DisplayName="" Group="CENSORED" Humanoid="True" HasInfo="False" CanInteract="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="False" Noise="300" Visibility="300" BloodDecal="blackblood" BleedParticleAir="blackblood" BleedParticleWater="blackwaterblood" BleedParticleMultiplier="1" CanEat="False" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="abnocrate">
+  <ragdolls folder="default" />
+  <animations folder="default" />
+  <damageemitter drawontop="True" Particle="blackgib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blackblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blackwaterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="blackgib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="blackgib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="50" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <health Vitality="300" DoesBleed="True" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="0.5" BurnReduction="0.5" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="False" PoisonVulnerability="1" EmpVulnerability="0" ApplyAfflictionColors="False" />
+  <!-- <sound file="%ModDir%/Characters/CENSORED/Sounds/CENSOREDHusk_Attack01.ogg" state="Attack" range="1500" volume="1" gender="None" /> -->
+  <!-- <sound file="%ModDir%/Characters/CENSORED/Sounds/CENSOREDHusk_Attack02.ogg" state="Attack" range="1500" volume="1" gender="None" /> -->
+  <sound gender="None" File="%ModDir%/Characters/CENSORED/Sounds/CENSOREDAttack1.ogg" State="Attack" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CENSORED/Sounds/CENSOREDAttack2.ogg" State="Attack" Range="1000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CENSORED/Sounds/CENSOREDAttack3.ogg" State="Attack" Range="1000" Volume="1" Tags="" />
+  <sound file="%ModDir%/Characters/CENSORED/Sounds/CENSOREDHusk_Damage1.ogg" state="Damage" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/CENSORED/Sounds/CENSOREDHusk_Damage2.ogg" state="Damage" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/CENSORED/Sounds/CENSOREDHusk_Death.ogg" state="Die" range="1500" volume="1" gender="None" />
+  <ai infiltrate="True" CombatStrength="500" Sight="1.5" Hearing="1.5" AggressionHurt="150" AggressionGreed="5" FleeHealthThreshold="0" AttackWhenProvoked="False" AvoidGunfire="False" DamageThreshold="0" AvoidTime="0" MinFleeTime="0" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="True" RandomAttack="True" CanOpenDoors="False" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="False" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="100" MaxAggression="100" AggressionCumulation="100" WallTargetingMethod="Target">
+    <target damagethreshold="0" Tag="decoy" State="Attack" Priority="500" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="provocative" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weapon" State="Attack" Priority="100" ReactDistance="1500" AttackDistance="500" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="human" State="Attack" Priority="90" ReactDistance="2000" AttackDistance="500" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="stronger" State="Attack" Priority="80" ReactDistance="2000" AttackDistance="500" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="weaker" State="Attack" Priority="85" ReactDistance="2000" AttackDistance="500" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="nasonov" State="Attack" Priority="70" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="sonar" State="Attack" Priority="30" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target damagethreshold="0" Tag="room" State="Attack" Priority="10" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" />
+    <target Tag="CENSORED" State="Protect" Priority="5" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="True" IgnoreOutside="True" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" Threshold="1" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+  </ai>
+  <Inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="1"></Inventory>
+  <StatusEffect type="OnSpawn" target="This" disabledeltatime="True" spawnitemrandomly="true">
+    <SpawnItem identifier="enkephalin" count="2" spawnposition="ThisInventory" />
+  </StatusEffect>
+</Character>
