@@ -194,6 +194,7 @@ K Corp. Class (Level) (Classification)-> K公司(等級)級員工 (Classificatio
 R Corp. 4th Pack -> R公司第4集團軍
 Rabbit -> 兔子
 Rhino -> 犀牛
+Deer -> 馴鹿
 Ring Pointillist Student -> 環指點彩派學徒
 W Corp. Cleanup Crew -> W公司清掃人員
 L4 Cleanup Agent: CCA -> W公司4級清掃人員
