@@ -622,6 +622,8 @@
   <jobdescription.rcorprabbit>Rabbits are elite soldiers employed by R Corp. No expense is spared when training R Corp troops.</jobdescription.rcorprabbit>
   <jobname.rcorprhino>R Corp. 4th Pack Rhino</jobname.rcorprhino>
   <jobdescription.rcorprhino>Rhinos are the demolitionists of R Corp.</jobdescription.rcorprhino>
+  <jobname.rcorpreindeer>R Corp. 4th Pack Reindeer</jobname.rcorpreindeer>
+  <jobdescription.rcorpreindeer>Reindeer convert their own brainwaves into energy to inflict psychic damage against their enemies. Unfortunately, this often drives them insane.</jobdescription.rcorpreindeer>
   <jobname.ringstudent>Ring Pointillist Student</jobname.ringstudent>
   <jobdescription.ringstudent>Out of the Five Fingers, the Ring are notorious for their very literal human exhibitions — constructing galleries of art made from other people and even themselves. They value self-expression but pursue gruesome forms of art dedicated to depicting human suffering by perpetuating it.</jobdescription.ringstudent>
   <jobname.wcorpcleanupcrew>W Corp. Cleanup Crew</jobname.wcorpcleanupcrew>
@@ -734,6 +736,7 @@
   <charactername.roland>Roland</charactername.roland>
   <npctitle.rcorprhino>4th Pack Rhino</npctitle.rcorprhino>
   <npctitle.rcorprabbit>4th Pack Rabbit</npctitle.rcorprabbit>
+  <npctitle.rcorpreindeer>4th Pack Reindeer</npctitle.rcorpreindeer>
   <npctitle.ncorpkleinhammer>Kleinhammer</npctitle.ncorpkleinhammer>
   <npctitle.ncorpmittelhammer1>Mittelhammer I</npctitle.ncorpmittelhammer1>
   <npctitle.ncorpmittelhammer2>Mittelhammer II</npctitle.ncorpmittelhammer2>
@@ -1797,193 +1800,193 @@
   <entitydescription.indexprescript41>Ask the 7th person you meet their age if they look younger than you. If they are older than you, cough twice into your left arm and walk away.</entitydescription.indexprescript41>
   <entitydescription.indexprescript42>Spin a wheel and throw something at the person determined by the result.</entitydescription.indexprescript42>
   <entitydescription.indexprescript43>Tell a joke to the 5th person you meet if they don’t laugh, tell another until they do.</entitydescription.indexprescript43>
-  <talentname.urbanmythblueprints>Urban Myth</talentname.urbanmythblueprints>
-  <talentname.urbanlegendblueprints>Urban Legend</talentname.urbanlegendblueprints>
-  <talentname.urbanplagueblueprints>Urban Plague</talentname.urbanplagueblueprints>
-  <talentname.urbannightmareblueprints>Urban Nightmare</talentname.urbannightmareblueprints>
-  <talentname.starofthecityblueprints>Star of the City</talentname.starofthecityblueprints>
-  <entityname.grade9and8bodymods>Grade 9 and 8 Augments</entityname.grade9and8bodymods>
-  <entityname.grade7and6bodymods>Grade 7 and 6 Augments</entityname.grade7and6bodymods>
-  <entityname.grade5and4bodymods>Grade 5 and 4 Augments</entityname.grade5and4bodymods>
-  <entityname.grade3and2bodymods>Grade 3 and 2 Augments</entityname.grade3and2bodymods>
-  <entityname.grade1bodymods>Grade 1 Augments</entityname.grade1bodymods>
-  <entityname.liuuniform>Liu Association Uniform</entityname.liuuniform>
-  <entityname.liucoat>Liu Association Coat</entityname.liucoat>
-  <entityname.liusword>Liu Association Sword</entityname.liusword>
-  <entityname.thumbcoat>Thumb Soldato Uniform</entityname.thumbcoat>
-  <entityname.thumbcoat_outer>Thumb Soldato Coat</entityname.thumbcoat_outer>
-  <entityname.thumbhat>Thumb Soldato Hat</entityname.thumbhat>
-  <entityname.soldatobayonetspear>Thumb Soldato Bayonet Spear</entityname.soldatobayonetspear>
-  <entityname.soldatorifle>Thumb Soldato Rifle</entityname.soldatorifle>
-  <entityname.discipline>Bayonet</entityname.discipline>
-  <entityname.middleoutfit>Middle Little Sibling Uniform</entityname.middleoutfit>
-  <entityname.middlechainsleft>Chains of the Middle (Left)</entityname.middlechainsleft>
-  <entityname.middlechainsright>Chains of the Middle (Right)</entityname.middlechainsright>
-  <entityname.kleinhammer>Kleinhammer</entityname.kleinhammer>
-  <entityname.mittelhammer_1>Mittelhammer I</entityname.mittelhammer_1>
-  <entityname.ncorpuniform_kleinhammer>N Corp Kleinhammer Uniform</entityname.ncorpuniform_kleinhammer>
-  <entityname.ncorparmor_kleinhammer>N Corp Kleinhammer Armor Vest</entityname.ncorparmor_kleinhammer>
-  <entityname.ncorphelmet_kleinhammer>N Corp Kleinhammer Helmet</entityname.ncorphelmet_kleinhammer>
-  <entityname.ncorparmor_mittelhammer_1>N Corp Mittelhammer I Vest</entityname.ncorparmor_mittelhammer_1>
-  <entityname.ncorphelmet_mittelhammer_1>N Corp Mittelhammer I Helmet</entityname.ncorphelmet_mittelhammer_1>
-  <entityname.hellspannerrepair>Hellspanner (Repair)</entityname.hellspannerrepair>
-  <entityname.kromerhelmet>Cosmetically Hidden Helmet (Tier 1)</entityname.kromerhelmet>
-  <entityname.hiddenarmor>Cosmetically Hidden Armor Vest (Tier 1)</entityname.hiddenarmor>
-  <entityname.sevenuniform1>Seven Association Uniform (Green)</entityname.sevenuniform1>
-  <entityname.sevenuniform2>Seven Association Uniform (Black)</entityname.sevenuniform2>
-  <entityname.sevenvest>Seven Association Vest</entityname.sevenvest>
-  <entityname.sevencoat>Seven Association Coat</entityname.sevencoat>
-  <entityname.abnoinvisbackpack>Cosmetically Hidden Backpack</entityname.abnoinvisbackpack>
-  <entityname.trenchcoat_salsu>Blade Lineage Salsu Dopo Robe</entityname.trenchcoat_salsu>
-  <entityname.bladelineage_hat>Blade Lineage Bamboo Hat</entityname.bladelineage_hat>
-  <entityname.bladelineage_sword>Blade Lineage Sword</entityname.bladelineage_sword>
-  <entityname.bladelineage_scabbard>Blade Lineage Scabbard</entityname.bladelineage_scabbard>
-  <entityname.kurokumo_uniform>Kurokumo Clan Uniform</entityname.kurokumo_uniform>
-  <entityname.kurokumo_coat>Kurokumo Clan Coat</entityname.kurokumo_coat>
-  <entityname.kurokumo_coat_rolled>Kurokumo Clan Coat (Rolled Sleeves)</entityname.kurokumo_coat_rolled>
-  <entityname.kurokumo_sword_1>Kurokumo Clan Henchman's Sword</entityname.kurokumo_sword_1>
-  <entityname.kurokumo_sword_2>Kurokumo Clan Wakashu's Sword</entityname.kurokumo_sword_2>
-  <entityname.kurokumo_scabbard_1>Kurokumo Clan Scabbard (Type 1)</entityname.kurokumo_scabbard_1>
-  <entityname.kurokumo_scabbard_2>Kurokumo Clan Scabbard (Type 2)</entityname.kurokumo_scabbard_2>
-  <entityname.tcorp_tux>T Corp. Tuxedo</entityname.tcorp_tux>
-  <entityname.corruptedblood>Corrupted Blood</entityname.corruptedblood>
-  <entityname.skillbook_parry>Fencing Manual</entityname.skillbook_parry>
-  <entityname.werner_uniform>Middle Young Brother Uniform</entityname.werner_uniform>
-  <entityname.werner_coat>Middle Young Brother Coat</entityname.werner_coat>
-  <entityname.ringstudentoutfit>Ring Pointillist Student Uniform</entityname.ringstudentoutfit>
-  <entityname.ringstudentarmor>Ring Pointillist Student Apron</entityname.ringstudentarmor>
-  <entityname.ringstudenthat>Ring Pointillist Student Hat</entityname.ringstudenthat>
-  <entityname.ringstudentpaintbrush>Ring Pointillist Student Paintbrush</entityname.ringstudentpaintbrush>
-  <entityname.mittelhammer_2>Mittelhammer II</entityname.mittelhammer_2>
-  <entityname.ncorphelmet_mittelhammer_2>N Corp Mittelhammer II Helmet</entityname.ncorphelmet_mittelhammer_2>
-  <entityname.ncorparmor_mittelhammer_2>N Corp Mittelhammer II Armor</entityname.ncorparmor_mittelhammer_2>
-  <entityname.kromerhelmet_t2>Cosmetically Hidden Helmet (Tier 2)</entityname.kromerhelmet_t2>
-  <entityname.lccbuniform>LCCB Uniform</entityname.lccbuniform>
-  <entityname.lccbbodyarmor>LCCB Body Armor</entityname.lccbbodyarmor>
-  <entityname.lccbhelmetmask>LCCB Helmet</entityname.lccbhelmetmask>
-  <entityname.lccbhandgun>LCCB Handgun</entityname.lccbhandgun>
-  <entityname.lccbbaton>LCCB Baton</entityname.lccbbaton>
-  <entityname.lccbshotgun>LCCB Shotgun</entityname.lccbshotgun>
-  <entityname.lccbshield>LCCB Shield</entityname.lccbshield>
-  <entityname.kcorpuniform>K Corp Uniform</entityname.kcorpuniform>
-  <entityname.kcorpbodyarmor>K Corp Body Armor</entityname.kcorpbodyarmor>
-  <entityname.kcorphelmet>K Corp Helmet</entityname.kcorphelmet>
-  <entityname.kcorpaxe>K Corp Axe</entityname.kcorpaxe>
-  <entityname.kcorpbaton>K Corp Baton</entityname.kcorpbaton>
-  <entityname.rabbituniform>R Corp 4th Pack Rabbit Uniform</entityname.rabbituniform>
-  <entityname.rabbithelmet>R Corp 4th Pack Rabbit Helmet</entityname.rabbithelmet>
-  <entityname.hiddenarmor_t2>Cosmetically Hidden Armor (Tier 2)</entityname.hiddenarmor_t2>
-  <entityname.rabbitknife>R Corp 4th Pack Rabbit Knife</entityname.rabbitknife>
-  <entityname.rabbitgun>R Corp 4th Pack Rabbit Coilgun</entityname.rabbitgun>
-  <entityname.warpmachete>W Corp Machete</entityname.warpmachete>
-  <entityname.warpknife>W Corp Knife</entityname.warpknife>
-  <entityname.warpglaive>W Corp Glaive</entityname.warpglaive>
-  <entityname.warpaxe>W Corp Axe</entityname.warpaxe>
-  <entityname.wcorpuniform>W Corp Uniform</entityname.wcorpuniform>
-  <entityname.wcorpbodyarmor>W Corp Body Armor</entityname.wcorpbodyarmor>
-  <entityname.wcorphat>W Corp Hat</entityname.wcorphat>
-  <entityname.zweizweihander>Zwei Association Zweihander</entityname.zweizweihander>
-  <entityname.zweiuniform>Zwei Association Uniform</entityname.zweiuniform>
-  <entityname.sevensword>Seven Association Sword</entityname.sevensword>
-  <entityname.7revolverround>Seven Association Revolver Round</entityname.7revolverround>
-  <entityname.7riflebullet>Seven Association Rifle Round</entityname.7riflebullet>
-  <entityname.enkephalingenerator>Enkephalin Generator</entityname.enkephalingenerator>
-  <entityname.heishoupack_cursedsword>Mao Branch Sword</entityname.heishoupack_cursedsword>
-  <entityname.heishoupack_robes>Mao Branch Robes</entityname.heishoupack_robes>
-  <entityname.heishoupack_hat>Mao Branch Bamboo Hat</entityname.heishoupack_hat>
-  <entityname.heishoupack_armor>Mao Branch Hidden Armor</entityname.heishoupack_armor>
-  <entityname.heishoupack_sibranch_cursedspear_slashing>Si Branch Polearm (Slashing)</entityname.heishoupack_sibranch_cursedspear_slashing>
-  <entityname.heishoupack_sibranch_robes>Si Branch Robes</entityname.heishoupack_sibranch_robes>
-  <entityname.heishoupack_sibranch_hat>Si Branch Bamboo Hat</entityname.heishoupack_sibranch_hat>
-  <entityname.heishoupack_sibranch_armor>Si Branch Hidden Armor</entityname.heishoupack_sibranch_armor>
-  <entityname.trenchcoat_mentor>Blade Lineage Mentor Dopo Robes</entityname.trenchcoat_mentor>
-  <entityname.kokuunto_1>Kokuunto (Gold)</entityname.kokuunto_1>
-  <entityname.kokuunto_2>Kokuunto (Black)</entityname.kokuunto_2>
-  <entityname.you_robes>You Branch Robes</entityname.you_robes>
-  <entityname.you_hat>You Branch Bamboo Hat</entityname.you_hat>
-  <entityname.you_armor>You Branch Hidden Armor</entityname.you_armor>
-  <entityname.you_scabbard>You Branch Scabbard</entityname.you_scabbard>
-  <entityname.you_sword_rupture>Xueyan Blade</entityname.you_sword_rupture>
-  <entityname.you_sword_burn>Bloodflame Blade</entityname.you_sword_burn>
-  <entityname.wu_robes>Wu Branch Robes</entityname.wu_robes>
-  <entityname.wu_hat>Wu Branch Hat</entityname.wu_hat>
-  <entityname.wu_armor>Wu Branch Armor</entityname.wu_armor>
-  <entityname.wu_guandao>Wu Branch Guandao</entityname.wu_guandao>
-  <entityname.firefistsuit>Firefist Office Uniform</entityname.firefistsuit>
-  <entityname.firefistmask>Firefist Office Mask</entityname.firefistmask>
-  <entityname.firefistbackpack>Firefist Office Fuel Tank</entityname.firefistbackpack>
-  <entityname.firefist_melee>Firefist Office Gauntlet</entityname.firefist_melee>
-  <entityname.firefist_ranged>Firefist Office Flamethrower</entityname.firefist_ranged>
-  <entityname.index_uniform>Index Proselyte Uniform</entityname.index_uniform>
-  <entityname.index_cloak>Index Proselyte Cloak</entityname.index_cloak>
-  <entityname.index_mask>Index Proselyte Mask</entityname.index_mask>
-  <entityname.index_sword>Index Proselyte Sword</entityname.index_sword>
-  <entityname.index_scabbard>Index Proselyte Scabbard</entityname.index_scabbard>
-  <entityname.tcorpwatch>T Corp Watch</entityname.tcorpwatch>
-  <entityname.tcorp_class2armor>T Corp Class 2 Armor</entityname.tcorp_class2armor>
-  <entityname.tcorp_hat_t1>T Corp Class 2 Helmet</entityname.tcorp_hat_t1>
-  <entityname.tcorpfistleft>T Corp Class 2 Exoskeleton Gauntlet (Left)</entityname.tcorpfistleft>
-  <entityname.tcorpfistright>T Corp Class 2 Exoskeleton Gauntlet (Right)</entityname.tcorpfistright>
-  <entityname.abno_timecollector>T Corp Time Collection Beam</entityname.abno_timecollector>
-  <entityname.devyat_uniform>Devyat Association Uniform</entityname.devyat_uniform>
-  <entityname.devyat_goggles_t1>Devyat Association Goggles (Tier 1)</entityname.devyat_goggles_t1>
-  <entityname.devyat_goggles_t2>Devyat Association Goggles (Tier 2)</entityname.devyat_goggles_t2>
-  <entityname.devyat_hammertrunk>Devyat Association Courier Trunk (Hammer)</entityname.devyat_hammertrunk>
-  <entityname.devyat_pistontrunk>Devyat Association Courier Trunk (Piston)</entityname.devyat_pistontrunk>
-  <entityname.devyat_knifetrunk>Devyat Association Courier Trunk (Knife)</entityname.devyat_knifetrunk>
-  <entityname.bloodfiend_priestfollower_uniform>Bloodfiend of Prayers Uniform</entityname.bloodfiend_priestfollower_uniform>
-  <entityname.bloodfiend_priestfollower_mask>Bloodfiend of Prayers Mask</entityname.bloodfiend_priestfollower_mask>
-  <entityname.bloodfiend_barberfollower_uniform>Fashionista Bloodfiend Uniform</entityname.bloodfiend_barberfollower_uniform>
-  <entityname.bloodfiend_barberfollower_mask>Fashionista Bloodfiend Mask</entityname.bloodfiend_barberfollower_mask>
-  <entityname.bloodfiend_scissors_t1>Fashionista Bloodfiend Scissors</entityname.bloodfiend_scissors_t1>
-  <entityname.priestfollower_staff>Bloodfiend of Prayers Staff</entityname.priestfollower_staff>
-  <entityname.corruptedblood_prayers>Corrupted Blood of Prayers</entityname.corruptedblood_prayers>
-  <entityname.corruptedblood_fashion>Corrupted Blood of Fashion</entityname.corruptedblood_fashion>
-  <entityname.abno_weakenedbinahcostume>Degraded Arbiter's Uniform</entityname.abno_weakenedbinahcostume>
-  <entityname.abno_weakenedbinahcoat>Degraded Arbiter's Coat</entityname.abno_weakenedbinahcoat>
-  <entityname.abno_weakenedredmistmask>Degraded Mask of the Red Mist</entityname.abno_weakenedredmistmask>
-  <entityname.abno_weakenedredmistcostume>Degraded EGO of the Red Mist</entityname.abno_weakenedredmistcostume>
-  <entityname.abno_binahcostume>Arbiter's Uniform</entityname.abno_binahcostume>
-  <entityname.abno_binahcoat>Arbiter's Coat</entityname.abno_binahcoat>
-  <entityname.abno_redmistmask>Mask of the Red Mist</entityname.abno_redmistmask>
-  <entityname.abno_redmistcostume>EGO of the Red Mist</entityname.abno_redmistcostume>
-  <entityname.kromercoat>Kromer's Coat</entityname.kromercoat>
-  <entityname.entityname.xiaoguandaofake>Xiao's Guandao (Replica)</entityname.entityname.xiaoguandaofake>
-  <entityname.entityname.leiheng_coat>Lei Heng's Uniform</entityname.entityname.leiheng_coat>
-  <entityname.entityname.leiheng_coat_outer>Lei Heng's Coat</entityname.entityname.leiheng_coat_outer>
-  <entityname.entityname.leihenghat>Lei Heng's Hair</entityname.entityname.leihenghat>
-  <entityname.entityname.tiantui_star_blade>Tiantui Star Blade</entityname.entityname.tiantui_star_blade>
-  <entityname.entityname.clawuniform>Claw Uniform</entityname.entityname.clawuniform>
-  <entityname.entityname.clawclaw>Claw's Grasp (Weapon)</entityname.entityname.clawclaw>
-  <entityname.entityname.clawhandopen>Open Claw (Wearable)</entityname.entityname.clawhandopen>
-  <entityname.entityname.heishoupack_cursedsword_zilu>Zilu's Curse-Engraved Blade</entityname.entityname.heishoupack_cursedsword_zilu>
-  <entityname.entityname.tianjiu_star_blade>Tianjiu Star Blade</entityname.entityname.tianjiu_star_blade>
-  <entityname.entityname.heishoupack_robes_zilu>Zilu's Robes</entityname.entityname.heishoupack_robes_zilu>
-  <entityname.entityname.heishoupack_hat_zilu>Zilu's Hat</entityname.entityname.heishoupack_hat_zilu>
-  <entityname.entityname.jiabaoyu_guandao>Tarnished Land of Illusion</entityname.entityname.jiabaoyu_guandao>
-  <entityname.entityname.jiaqiu_staff>Érlì</entityname.entityname.jiaqiu_staff>
-  <entityname.entityname.jiaqiu_robes>Jade Qilin's Robes</entityname.entityname.jiaqiu_robes>
-  <entityname.entityname.jiaqiu_armor>Jade Qilin's Hidden Armor</entityname.entityname.jiaqiu_armor>
-  <entityname.entityname.jiaqiu_hair>Kong Qiu's Hair</entityname.entityname.jiaqiu_hair>
-  <entityname.entityname.jiabaoyu_hair>Jia Baoyu's Hair</entityname.entityname.jiabaoyu_hair>
-  <entityname.entityname.tlkhelmet>The Last Knight's Helmet</entityname.entityname.tlkhelmet>
-  <entityname.entityname.tlkarmor>The Last Knight's Armor</entityname.entityname.tlkarmor>
-  <entityname.entityname.tlklance>The Last Knight's Lance</entityname.entityname.tlklance>
-  <entityname.entityname.bloodfiend_manager_uniform>Bloodfiend Manager's Uniform</entityname.entityname.bloodfiend_manager_uniform>
-  <entityname.entityname.bloodfiend_prince_uniform>Bloodfiend Prince's Uniform</entityname.entityname.bloodfiend_prince_uniform>
-  <entityname.entityname.bloodfiend_prince_armor>Bloodfiend Hardblood Armor</entityname.entityname.bloodfiend_prince_armor>
-  <entityname.entityname.bloodfiend_prince_helmet>Bloodfiend Hardblood Helmet</entityname.entityname.bloodfiend_prince_helmet>
-  <entityname.entityname.prince_staff>Bloodfiend Priest Staff</entityname.entityname.prince_staff>
-  <entityname.entityname.bloodfiendmanagerlance>Bloodfiend Manager's Lance</entityname.entityname.bloodfiendmanagerlance>
-  <entityname.ataliershotgunshell>Atalier Logic Shotgun Shell</entityname.ataliershotgunshell>
-  <entityname.entityname.atalierlogicrevolverround>Atalier Logic Revolver Round</entityname.entityname.atalierlogicrevolverround>
-  <entityname.entityname.atalierlogicrifleround>Atalier Logic Rifle Round</entityname.entityname.atalierlogicrifleround>
-  <entityname.entityname.trueclawuniform>Elite Claw Uniform</entityname.entityname.trueclawuniform>
-  <entityname.entityname.vergiliussuit>Vergilius's Suit</entityname.entityname.vergiliussuit>
-  <entityname.entityname.vergiliusmask>Vergilius Mask</entityname.entityname.vergiliusmask>
-  <entityname.entityname.abno_redgazeego>E.G.O. of the Red Gaze</entityname.entityname.abno_redgazeego>
-  <entityname.entityname.abno_gladius>Vergilius's Gladius</entityname.entityname.abno_gladius>
-  <entityname.entityname.blacksilencegloves>Gloves of the Black Silence</entityname.entityname.blacksilencegloves>
-  <entityname.entityname.perceptionblockingmask>Perception-Blocking Mask</entityname.entityname.perceptionblockingmask>
-  <entityname.entityname.rolandsuit>Washed-Up Grade 9 Fixer's Tuxedo</entityname.entityname.rolandsuit>
+  <talentname.urbanmythblueprints>‖color:gui.green‖Urban Myth‖end‖</talentname.urbanmythblueprints>
+  <talentname.urbanlegendblueprints>‖color:gui.blue‖Urban Legend‖end‖</talentname.urbanlegendblueprints>
+  <talentname.urbanplagueblueprints>‖color:gui.yellow‖Urban Plague‖end‖</talentname.urbanplagueblueprints>
+  <talentname.urbannightmareblueprints>‖color:255,0,255‖Urban Nightmare‖end‖</talentname.urbannightmareblueprints>
+  <talentname.starofthecityblueprints>‖color:gui.red‖Star of the City‖end‖</talentname.starofthecityblueprints>
+  <entityname.grade9and8bodymods>‖color:gui.green‖Grade 9 and 8 Augments‖end‖</entityname.grade9and8bodymods>
+  <entityname.grade7and6bodymods>‖color:gui.blue‖Grade 7 and 6 Augments‖end‖</entityname.grade7and6bodymods>
+  <entityname.grade5and4bodymods>‖color:gui.yellow‖Grade 5 and 4 Augments‖end‖</entityname.grade5and4bodymods>
+  <entityname.grade3and2bodymods>‖color:255,0,255‖color:gui.red‖Grade 3 and 2 Augments‖end‖</entityname.grade3and2bodymods>
+  <entityname.grade1bodymods>‖color:gui.red‖Grade 1 Augments‖end‖</entityname.grade1bodymods>
+  <entityname.liuuniform>‖color:gui.green‖Liu Association Uniform‖end‖</entityname.liuuniform>
+  <entityname.liucoat>‖color:gui.green‖Liu Association Coat‖end‖</entityname.liucoat>
+  <entityname.liusword>‖color:gui.green‖Liu Association Sword‖end‖</entityname.liusword>
+  <entityname.thumbcoat>‖color:gui.green‖Thumb Soldato Uniform‖end‖</entityname.thumbcoat>
+  <entityname.thumbcoat_outer>‖color:gui.green‖Thumb Soldato Coat‖end‖</entityname.thumbcoat_outer>
+  <entityname.thumbhat>‖color:gui.green‖Thumb Soldato Hat‖end‖</entityname.thumbhat>
+  <entityname.soldatobayonetspear>‖color:gui.green‖Thumb Soldato Bayonet Spear‖end‖</entityname.soldatobayonetspear>
+  <entityname.soldatorifle>‖color:gui.green‖Thumb Soldato Rifle‖end‖</entityname.soldatorifle>
+  <entityname.discipline>‖color:gui.green‖Bayonet‖end‖</entityname.discipline>
+  <entityname.middleoutfit>‖color:gui.green‖Middle Little Sibling Uniform‖end‖</entityname.middleoutfit>
+  <entityname.middlechainsleft>‖color:gui.green‖Chains of the Middle (Left)‖end‖</entityname.middlechainsleft>
+  <entityname.middlechainsright>‖color:gui.green‖Chains of the Middle (Right)‖end‖</entityname.middlechainsright>
+  <entityname.kleinhammer>‖color:gui.green‖Kleinhammer‖end‖</entityname.kleinhammer>
+  <entityname.mittelhammer_1>‖color:gui.green‖Mittelhammer I‖end‖</entityname.mittelhammer_1>
+  <entityname.ncorpuniform_kleinhammer>‖color:gui.green‖N Corp Kleinhammer Uniform‖end‖</entityname.ncorpuniform_kleinhammer>
+  <entityname.ncorparmor_kleinhammer>‖color:gui.green‖N Corp Kleinhammer Armor Vest‖end‖</entityname.ncorparmor_kleinhammer>
+  <entityname.ncorphelmet_kleinhammer>‖color:gui.green‖N Corp Kleinhammer Helmet‖end‖</entityname.ncorphelmet_kleinhammer>
+  <entityname.ncorparmor_mittelhammer_1>‖color:gui.green‖N Corp Mittelhammer I Vest‖end‖</entityname.ncorparmor_mittelhammer_1>
+  <entityname.ncorphelmet_mittelhammer_1>‖color:gui.green‖N Corp Mittelhammer I Helmet‖end‖</entityname.ncorphelmet_mittelhammer_1>
+  <entityname.hellspannerrepair>‖color:gui.green‖Hellspanner (Repair)‖end‖</entityname.hellspannerrepair>
+  <entityname.kromerhelmet>‖color:gui.green‖Cosmetically Hidden Helmet (Tier 1)‖end‖</entityname.kromerhelmet>
+  <entityname.hiddenarmor>‖color:gui.green‖Cosmetically Hidden Armor Vest (Tier 1)‖end‖</entityname.hiddenarmor>
+  <entityname.sevenuniform1>‖color:gui.green‖Seven Association Uniform (Green)‖end‖</entityname.sevenuniform1>
+  <entityname.sevenuniform2>‖color:gui.green‖Seven Association Uniform (Black)‖end‖</entityname.sevenuniform2>
+  <entityname.sevenvest>‖color:gui.green‖Seven Association Vest‖end‖</entityname.sevenvest>
+  <entityname.sevencoat>‖color:gui.green‖Seven Association Coat‖end‖</entityname.sevencoat>
+  <entityname.abnoinvisbackpack>‖color:gui.green‖Cosmetically Hidden Backpack‖end‖</entityname.abnoinvisbackpack>
+  <entityname.trenchcoat_salsu>‖color:gui.green‖Blade Lineage Salsu Dopo Robe‖end‖</entityname.trenchcoat_salsu>
+  <entityname.bladelineage_hat>‖color:gui.green‖Blade Lineage Bamboo Hat‖end‖</entityname.bladelineage_hat>
+  <entityname.bladelineage_sword>‖color:gui.green‖Blade Lineage Sword‖end‖</entityname.bladelineage_sword>
+  <entityname.bladelineage_scabbard>‖color:gui.green‖Blade Lineage Scabbard‖end‖</entityname.bladelineage_scabbard>
+  <entityname.kurokumo_uniform>‖color:gui.green‖Kurokumo Clan Uniform‖end‖</entityname.kurokumo_uniform>
+  <entityname.kurokumo_coat>‖color:gui.green‖Kurokumo Clan Coat‖end‖</entityname.kurokumo_coat>
+  <entityname.kurokumo_coat_rolled>‖color:gui.green‖Kurokumo Clan Coat (Rolled Sleeves)‖end‖</entityname.kurokumo_coat_rolled>
+  <entityname.kurokumo_sword_1>‖color:gui.green‖Kurokumo Clan Henchman's Sword‖end‖</entityname.kurokumo_sword_1>
+  <entityname.kurokumo_sword_2>‖color:gui.green‖Kurokumo Clan Wakashu's Sword‖end‖</entityname.kurokumo_sword_2>
+  <entityname.kurokumo_scabbard_1>‖color:gui.green‖Kurokumo Clan Scabbard (Type 1)‖end‖</entityname.kurokumo_scabbard_1>
+  <entityname.kurokumo_scabbard_2>‖color:gui.green‖Kurokumo Clan Scabbard (Type 2)‖end‖</entityname.kurokumo_scabbard_2>
+  <entityname.tcorp_tux>‖color:gui.green‖T Corp. Tuxedo‖end‖</entityname.tcorp_tux>
+  <entityname.corruptedblood>‖color:gui.green‖Corrupted Blood‖end‖</entityname.corruptedblood>
+  <entityname.skillbook_parry>‖color:gui.green‖Fencing Manual‖end‖</entityname.skillbook_parry>
+  <entityname.werner_uniform>‖color:gui.blue‖Middle Young Brother Uniform‖end‖</entityname.werner_uniform>
+  <entityname.werner_coat>‖color:gui.blue‖Middle Young Brother Coat‖end‖</entityname.werner_coat>
+  <entityname.ringstudentoutfit>‖color:gui.blue‖Ring Pointillist Student Uniform‖end‖</entityname.ringstudentoutfit>
+  <entityname.ringstudentarmor>‖color:gui.blue‖Ring Pointillist Student Apron‖end‖</entityname.ringstudentarmor>
+  <entityname.ringstudenthat>‖color:gui.blue‖Ring Pointillist Student Hat‖end‖</entityname.ringstudenthat>
+  <entityname.ringstudentpaintbrush>‖color:gui.blue‖Ring Pointillist Student Paintbrush‖end‖</entityname.ringstudentpaintbrush>
+  <entityname.mittelhammer_2>‖color:gui.blue‖Mittelhammer II‖end‖</entityname.mittelhammer_2>
+  <entityname.ncorphelmet_mittelhammer_2>‖color:gui.blue‖N Corp Mittelhammer II Helmet‖end‖</entityname.ncorphelmet_mittelhammer_2>
+  <entityname.ncorparmor_mittelhammer_2>‖color:gui.blue‖N Corp Mittelhammer II Armor‖end‖</entityname.ncorparmor_mittelhammer_2>
+  <entityname.kromerhelmet_t2>‖color:gui.blue‖Cosmetically Hidden Helmet (Tier 2)‖end‖</entityname.kromerhelmet_t2>
+  <entityname.lccbuniform>‖color:gui.blue‖LCCB Uniform‖end‖</entityname.lccbuniform>
+  <entityname.lccbbodyarmor>‖color:gui.blue‖LCCB Body Armor‖end‖</entityname.lccbbodyarmor>
+  <entityname.lccbhelmetmask>‖color:gui.blue‖LCCB Helmet‖end‖</entityname.lccbhelmetmask>
+  <entityname.lccbhandgun>‖color:gui.blue‖LCCB Handgun‖end‖</entityname.lccbhandgun>
+  <entityname.lccbbaton>‖color:gui.blue‖LCCB Baton‖end‖</entityname.lccbbaton>
+  <entityname.lccbshotgun>‖color:gui.blue‖LCCB Shotgun‖end‖</entityname.lccbshotgun>
+  <entityname.lccbshield>‖color:gui.blue‖LCCB Shield‖end‖</entityname.lccbshield>
+  <entityname.kcorpuniform>‖color:gui.blue‖K Corp Uniform‖end‖</entityname.kcorpuniform>
+  <entityname.kcorpbodyarmor>‖color:gui.blue‖K Corp Body Armor‖end‖</entityname.kcorpbodyarmor>
+  <entityname.kcorphelmet>‖color:gui.blue‖K Corp Helmet‖end‖</entityname.kcorphelmet>
+  <entityname.kcorpaxe>‖color:gui.blue‖K Corp Axe‖end‖</entityname.kcorpaxe>
+  <entityname.kcorpbaton>‖color:gui.blue‖K Corp Baton‖end‖</entityname.kcorpbaton>
+  <entityname.rabbituniform>‖color:gui.blue‖R Corp 4th Pack Rabbit Uniform‖end‖</entityname.rabbituniform>
+  <entityname.rabbithelmet>‖color:gui.blue‖R Corp 4th Pack Rabbit Helmet‖end‖</entityname.rabbithelmet>
+  <entityname.hiddenarmor_t2>‖color:gui.blue‖Cosmetically Hidden Armor (Tier 2)‖end‖</entityname.hiddenarmor_t2>
+  <entityname.rabbitknife>‖color:gui.blue‖R Corp 4th Pack Rabbit Knife‖end‖</entityname.rabbitknife>
+  <entityname.rabbitgun>‖color:gui.blue‖R Corp 4th Pack Rabbit Coilgun‖end‖</entityname.rabbitgun>
+  <entityname.warpmachete>‖color:gui.blue‖W Corp Machete‖end‖</entityname.warpmachete>
+  <entityname.warpknife>‖color:gui.blue‖W Corp Knife‖end‖</entityname.warpknife>
+  <entityname.warpglaive>‖color:gui.blue‖W Corp Glaive‖end‖</entityname.warpglaive>
+  <entityname.warpaxe>‖color:gui.blue‖W Corp Axe‖end‖</entityname.warpaxe>
+  <entityname.wcorpuniform>‖color:gui.blue‖W Corp Uniform‖end‖</entityname.wcorpuniform>
+  <entityname.wcorpbodyarmor>‖color:gui.blue‖W Corp Body Armor‖end‖</entityname.wcorpbodyarmor>
+  <entityname.wcorphat>‖color:gui.blue‖W Corp Hat‖end‖</entityname.wcorphat>
+  <entityname.zweizweihander>‖color:gui.blue‖Zwei Association Zweihander‖end‖</entityname.zweizweihander>
+  <entityname.zweiuniform>‖color:gui.blue‖Zwei Association Uniform‖end‖</entityname.zweiuniform>
+  <entityname.sevensword>‖color:gui.blue‖Seven Association Sword‖end‖</entityname.sevensword>
+  <entityname.7revolverround>‖color:gui.blue‖Seven Association Revolver Round‖end‖</entityname.7revolverround>
+  <entityname.7riflebullet>‖color:gui.blue‖Seven Association Rifle Round‖end‖</entityname.7riflebullet>
+  <entityname.enkephalingenerator>‖color:gui.blue‖Enkephalin Generator‖end‖</entityname.enkephalingenerator>
+  <entityname.heishoupack_cursedsword>‖color:gui.blue‖Mao Branch Sword‖end‖</entityname.heishoupack_cursedsword>
+  <entityname.heishoupack_robes>‖color:gui.blue‖Mao Branch Robes‖end‖</entityname.heishoupack_robes>
+  <entityname.heishoupack_hat>‖color:gui.blue‖Mao Branch Bamboo Hat‖end‖</entityname.heishoupack_hat>
+  <entityname.heishoupack_armor>‖color:gui.blue‖Mao Branch Hidden Armor‖end‖</entityname.heishoupack_armor>
+  <entityname.heishoupack_sibranch_cursedspear_slashing>‖color:gui.blue‖Si Branch Polearm (Slashing)‖end‖</entityname.heishoupack_sibranch_cursedspear_slashing>
+  <entityname.heishoupack_sibranch_robes>‖color:gui.blue‖Si Branch Robes‖end‖</entityname.heishoupack_sibranch_robes>
+  <entityname.heishoupack_sibranch_hat>‖color:gui.blue‖Si Branch Bamboo Hat‖end‖</entityname.heishoupack_sibranch_hat>
+  <entityname.heishoupack_sibranch_armor>‖color:gui.blue‖Si Branch Hidden Armor‖end‖</entityname.heishoupack_sibranch_armor>
+  <entityname.trenchcoat_mentor>‖color:gui.blue‖Blade Lineage Mentor Dopo Robes‖end‖</entityname.trenchcoat_mentor>
+  <entityname.kokuunto_1>‖color:gui.blue‖Kokuunto (Gold)‖end‖</entityname.kokuunto_1>
+  <entityname.kokuunto_2>‖color:gui.blue‖Kokuunto (Black)‖end‖</entityname.kokuunto_2>
+  <entityname.you_robes>‖color:gui.blue‖You Branch Robes‖end‖</entityname.you_robes>
+  <entityname.you_hat>‖color:gui.blue‖You Branch Bamboo Hat‖end‖</entityname.you_hat>
+  <entityname.you_armor>‖color:gui.blue‖You Branch Hidden Armor‖end‖</entityname.you_armor>
+  <entityname.you_scabbard>‖color:gui.blue‖You Branch Scabbard‖end‖</entityname.you_scabbard>
+  <entityname.you_sword_rupture>‖color:gui.blue‖Xueyan Blade‖end‖</entityname.you_sword_rupture>
+  <entityname.you_sword_burn>‖color:gui.blue‖Bloodflame Blade‖end‖</entityname.you_sword_burn>
+  <entityname.wu_robes>‖color:gui.blue‖Wu Branch Robes‖end‖</entityname.wu_robes>
+  <entityname.wu_hat>‖color:gui.blue‖Wu Branch Hat‖end‖</entityname.wu_hat>
+  <entityname.wu_armor>‖color:gui.blue‖Wu Branch Armor‖end‖</entityname.wu_armor>
+  <entityname.wu_guandao>‖color:gui.blue‖Wu Branch Guandao‖end‖</entityname.wu_guandao>
+  <entityname.firefistsuit>‖color:gui.blue‖Firefist Office Uniform‖end‖</entityname.firefistsuit>
+  <entityname.firefistmask>‖color:gui.blue‖Firefist Office Mask‖end‖</entityname.firefistmask>
+  <entityname.firefistbackpack>‖color:gui.blue‖Firefist Office Fuel Tank‖end‖</entityname.firefistbackpack>
+  <entityname.firefist_melee>‖color:gui.blue‖Firefist Office Gauntlet‖end‖</entityname.firefist_melee>
+  <entityname.firefist_ranged>‖color:gui.blue‖Firefist Office Flamethrower‖end‖</entityname.firefist_ranged>
+  <entityname.index_uniform>‖color:gui.blue‖Index Proselyte Uniform‖end‖</entityname.index_uniform>
+  <entityname.index_cloak>‖color:gui.blue‖Index Proselyte Cloak‖end‖</entityname.index_cloak>
+  <entityname.index_mask>‖color:gui.blue‖Index Proselyte Mask‖end‖</entityname.index_mask>
+  <entityname.index_sword>‖color:gui.blue‖Index Proselyte Sword‖end‖</entityname.index_sword>
+  <entityname.index_scabbard>‖color:gui.blue‖Index Proselyte Scabbard‖end‖</entityname.index_scabbard>
+  <entityname.tcorpwatch>‖color:gui.blue‖T Corp Watch‖end‖</entityname.tcorpwatch>
+  <entityname.tcorp_class2armor>‖color:gui.blue‖T Corp Class 2 Armor‖end‖</entityname.tcorp_class2armor>
+  <entityname.tcorp_hat_t1>‖color:gui.blue‖T Corp Class 2 Helmet‖end‖</entityname.tcorp_hat_t1>
+  <entityname.tcorpfistleft>‖color:gui.blue‖T Corp Class 2 Exoskeleton Gauntlet (Left)‖end‖</entityname.tcorpfistleft>
+  <entityname.tcorpfistright>‖color:gui.blue‖T Corp Class 2 Exoskeleton Gauntlet (Right)‖end‖</entityname.tcorpfistright>
+  <entityname.abno_timecollector>‖color:gui.blue‖T Corp Time Collection Beam‖end‖</entityname.abno_timecollector>
+  <entityname.devyat_uniform>‖color:gui.blue‖Devyat Association Uniform‖end‖</entityname.devyat_uniform>
+  <entityname.devyat_goggles_t1>‖color:gui.blue‖Devyat Association Goggles (Tier 1)‖end‖</entityname.devyat_goggles_t1>
+  <entityname.devyat_goggles_t2>‖color:gui.blue‖Devyat Association Goggles (Tier 2)‖end‖</entityname.devyat_goggles_t2>
+  <entityname.devyat_hammertrunk>‖color:gui.blue‖Devyat Association Courier Trunk (Hammer)‖end‖</entityname.devyat_hammertrunk>
+  <entityname.devyat_pistontrunk>‖color:gui.blue‖Devyat Association Courier Trunk (Piston)‖end‖</entityname.devyat_pistontrunk>
+  <entityname.devyat_knifetrunk>‖color:gui.blue‖Devyat Association Courier Trunk (Knife)‖end‖</entityname.devyat_knifetrunk>
+  <entityname.bloodfiend_priestfollower_uniform>‖color:gui.blue‖Bloodfiend of Prayers Uniform‖end‖</entityname.bloodfiend_priestfollower_uniform>
+  <entityname.bloodfiend_priestfollower_mask>‖color:gui.blue‖Bloodfiend of Prayers Mask‖end‖</entityname.bloodfiend_priestfollower_mask>
+  <entityname.bloodfiend_barberfollower_uniform>‖color:gui.blue‖Fashionista Bloodfiend Uniform‖end‖</entityname.bloodfiend_barberfollower_uniform>
+  <entityname.bloodfiend_barberfollower_mask>‖color:gui.blue‖Fashionista Bloodfiend Mask‖end‖</entityname.bloodfiend_barberfollower_mask>
+  <entityname.bloodfiend_scissors_t1>‖color:gui.blue‖Fashionista Bloodfiend Scissors‖end‖</entityname.bloodfiend_scissors_t1>
+  <entityname.priestfollower_staff>‖color:gui.blue‖Bloodfiend of Prayers Staff‖end‖</entityname.priestfollower_staff>
+  <entityname.corruptedblood_prayers>‖color:gui.blue‖Corrupted Blood of Prayers‖end‖</entityname.corruptedblood_prayers>
+  <entityname.corruptedblood_fashion>‖color:gui.blue‖Corrupted Blood of Fashion‖end‖</entityname.corruptedblood_fashion>
+  <entityname.abno_weakenedbinahcostume>‖color:gui.yellow‖Degraded Arbiter's Uniform‖end‖</entityname.abno_weakenedbinahcostume>
+  <entityname.abno_weakenedbinahcoat>‖color:gui.yellow‖Degraded Arbiter's Coat‖end‖</entityname.abno_weakenedbinahcoat>
+  <entityname.abno_weakenedredmistmask>‖color:gui.yellow‖Degraded Mask of the Red Mist‖end‖</entityname.abno_weakenedredmistmask>
+  <entityname.abno_weakenedredmistcostume>‖color:gui.yellow‖Degraded EGO of the Red Mist‖end‖</entityname.abno_weakenedredmistcostume>
+  <entityname.abno_binahcostume>‖color:gui.red‖Arbiter's Uniform‖end‖</entityname.abno_binahcostume>
+  <entityname.abno_binahcoat>‖color:gui.red‖Arbiter's Coat‖end‖</entityname.abno_binahcoat>
+  <entityname.abno_redmistmask>‖color:gui.red‖Mask of the Red Mist‖end‖</entityname.abno_redmistmask>
+  <entityname.abno_redmistcostume>‖color:gui.red‖EGO of the Red Mist‖end‖</entityname.abno_redmistcostume>
+  <entityname.kromercoat>‖color:255,0,255‖Kromer's Coat‖end‖</entityname.kromercoat>
+  <entityname.entityname.xiaoguandaofake>‖color:255,0,255‖Xiao's Guandao (Replica)‖end‖</entityname.entityname.xiaoguandaofake>
+  <entityname.entityname.leiheng_coat>‖color:255,0,255‖Lei Heng's Uniform‖end‖</entityname.entityname.leiheng_coat>
+  <entityname.entityname.leiheng_coat_outer>‖color:255,0,255‖Lei Heng's Coat‖end‖</entityname.entityname.leiheng_coat_outer>
+  <entityname.entityname.leihenghat>‖color:255,0,255‖Lei Heng's Hair‖end‖</entityname.entityname.leihenghat>
+  <entityname.entityname.tiantui_star_blade>‖color:255,0,255‖Tiantui Star Blade‖end‖</entityname.entityname.tiantui_star_blade>
+  <entityname.entityname.clawuniform>‖color:255,0,255‖Claw Uniform‖end‖</entityname.entityname.clawuniform>
+  <entityname.entityname.clawclaw>‖color:255,0,255‖Claw's Grasp (Weapon)‖end‖</entityname.entityname.clawclaw>
+  <entityname.entityname.clawhandopen>‖color:255,0,255‖Open Claw (Wearable)‖end‖</entityname.entityname.clawhandopen>
+  <entityname.entityname.heishoupack_cursedsword_zilu>‖color:255,0,255‖Zilu's Curse-Engraved Blade‖end‖</entityname.entityname.heishoupack_cursedsword_zilu>
+  <entityname.entityname.tianjiu_star_blade>‖color:255,0,255‖Tianjiu Star Blade‖end‖</entityname.entityname.tianjiu_star_blade>
+  <entityname.entityname.heishoupack_robes_zilu>‖color:255,0,255‖Zilu's Robes‖end‖</entityname.entityname.heishoupack_robes_zilu>
+  <entityname.entityname.heishoupack_hat_zilu>‖color:255,0,255‖Zilu's Hat‖end‖</entityname.entityname.heishoupack_hat_zilu>
+  <entityname.entityname.jiabaoyu_guandao>‖color:255,0,255‖Tarnished Land of Illusion‖end‖</entityname.entityname.jiabaoyu_guandao>
+  <entityname.entityname.jiaqiu_staff>‖color:255,0,255‖Érlì‖end‖</entityname.entityname.jiaqiu_staff>
+  <entityname.entityname.jiaqiu_robes>‖color:255,0,255‖Jade Qilin's Robes‖end‖</entityname.entityname.jiaqiu_robes>
+  <entityname.entityname.jiaqiu_armor>‖color:255,0,255‖Jade Qilin's Hidden Armor‖end‖</entityname.entityname.jiaqiu_armor>
+  <entityname.entityname.jiaqiu_hair>‖color:255,0,255‖Kong Qiu's Hair‖end‖</entityname.entityname.jiaqiu_hair>
+  <entityname.entityname.jiabaoyu_hair>‖color:255,0,255‖Jia Baoyu's Hair‖end‖</entityname.entityname.jiabaoyu_hair>
+  <entityname.entityname.tlkhelmet>‖color:255,0,255‖The Last Knight's Helmet‖end‖</entityname.entityname.tlkhelmet>
+  <entityname.entityname.tlkarmor>‖color:255,0,255‖The Last Knight's Armor‖end‖</entityname.entityname.tlkarmor>
+  <entityname.entityname.tlklance>‖color:255,0,255‖The Last Knight's Lance‖end‖</entityname.entityname.tlklance>
+  <entityname.entityname.bloodfiend_manager_uniform>‖color:255,0,255‖Bloodfiend Manager's Uniform‖end‖</entityname.entityname.bloodfiend_manager_uniform>
+  <entityname.entityname.bloodfiend_prince_uniform>‖color:255,0,255‖Bloodfiend Prince's Uniform‖end‖</entityname.entityname.bloodfiend_prince_uniform>
+  <entityname.entityname.bloodfiend_prince_armor>‖color:255,0,255‖Bloodfiend Hardblood Armor‖end‖</entityname.entityname.bloodfiend_prince_armor>
+  <entityname.entityname.bloodfiend_prince_helmet>‖color:255,0,255‖Bloodfiend Hardblood Helmet‖end‖</entityname.entityname.bloodfiend_prince_helmet>
+  <entityname.entityname.prince_staff>‖color:255,0,255‖Bloodfiend Priest Staff‖end‖</entityname.entityname.prince_staff>
+  <entityname.entityname.bloodfiendmanagerlance>‖color:255,0,255‖Bloodfiend Manager's Lance‖end‖</entityname.entityname.bloodfiendmanagerlance>
+  <entityname.ataliershotgunshell>‖color:gui.red‖Atalier Logic Shotgun Shell‖end‖</entityname.ataliershotgunshell>
+  <entityname.entityname.atalierlogicrevolverround>‖color:gui.red‖Atalier Logic Revolver Round‖end‖</entityname.entityname.atalierlogicrevolverround>
+  <entityname.entityname.atalierlogicrifleround>‖color:gui.red‖Atalier Logic Rifle Round‖end‖</entityname.entityname.atalierlogicrifleround>
+  <entityname.entityname.trueclawuniform>‖color:gui.red‖Elite Claw Uniform‖end‖</entityname.entityname.trueclawuniform>
+  <entityname.entityname.vergiliussuit>‖color:gui.red‖Vergilius's Suit‖end‖</entityname.entityname.vergiliussuit>
+  <entityname.entityname.vergiliusmask>‖color:gui.red‖Vergilius Mask‖end‖</entityname.entityname.vergiliusmask>
+  <entityname.entityname.abno_redgazeego>‖color:gui.red‖E.G.O. of the Red Gaze‖end‖</entityname.entityname.abno_redgazeego>
+  <entityname.entityname.abno_gladius>‖color:gui.red‖Vergilius's Gladius‖end‖</entityname.entityname.abno_gladius>
+  <entityname.entityname.blacksilencegloves>‖color:gui.red‖Gloves of the Black Silence‖end‖</entityname.entityname.blacksilencegloves>
+  <entityname.entityname.perceptionblockingmask>‖color:gui.red‖Perception-Blocking Mask‖end‖</entityname.entityname.perceptionblockingmask>
+  <entityname.entityname.rolandsuit>‖color:gui.red‖Washed-Up Grade 9 Fixer's Tuxedo‖end‖</entityname.entityname.rolandsuit>
 </infotexts>
