@@ -153,6 +153,45 @@
         </Item>
       </ItemSet>
     </npc>
+    <npc identifier="rcorpreindeer" job="rcorpreindeer" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="750" SkillSalaryMultiplier="0.75">
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="abnobombimplantsmall" equip="true" showpreview="false" />
+        <Item identifier="reindeeruniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+          <Item identifier="antibleeding2" />
+        </Item>
+        <Item identifier="reindeerstaff">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="crowbar" equip="false" />
+        <Item identifier="reindeerbackpack" equip="true" />
+        <Item identifier="hiddenarmor" equip="true">
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="reindeerhelmet_festive" equip="true">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
     <npc identifier="ncorpkleinhammer" job="ncorpkleinhammer" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="500" SkillSalaryMultiplier="0.75">
       <ItemSet>
         <Item identifier="ncorpuniform_kleinhammer" equip="true" />

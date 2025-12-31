@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Abnormalities" modversion="1.1.429" corepackage="False" gameversion="1.11.5.0">
+<contentpackage name="Abnormalities" modversion="1.1.430" corepackage="False" gameversion="1.11.5.0">
   <Character file="%ModDir%/Characters/NothingThere/NothingThere.xml" />
   <Character file="%ModDir%/Characters/NothingThere/Genes/NothingThereHusk.xml" />
   <Character file="%ModDir%/Characters/BlubberingToad/BlubberingToad.xml" />

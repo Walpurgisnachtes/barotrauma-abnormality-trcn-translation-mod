@@ -1,43 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <prefabs>
-  <!-- Combo Background Walls -->
-  <Structure name="Mephistopheles Background Wall" identifier="abno_buswall" description="A background wall based on the background of Mephistopheles from Limbus Company." scale="0.5" category="Decorative" subcategory="Abnormalities" allowattachitems="true" width="774" height="416" resizehorizontal="true" resizevertical="true" noaitarget="true">
-    <sprite texture="%ModDir%/Structures/Images/backgrounds.png" sourcerect="0,0,774,416" depth="0.98" premultiplyalpha="false" />
-  </Structure>
-  <Structure name="WARP Train Cargo Background Wall" identifier="abno_warpcargowall" description="A background wall based on the background of the WARP Train's cargo bay." scale="0.5" category="Decorative" subcategory="Abnormalities" allowattachitems="true" width="1472" height="416" resizehorizontal="true" resizevertical="true" noaitarget="true">
-    <sprite texture="%ModDir%/Structures/Images/backgrounds.png" sourcerect="0,417,1472,416" depth="0.98" premultiplyalpha="false" />
-  </Structure>
-  <Structure name="WARP Train Background Wall" identifier="abno_warptrainwall" description="A background wall based on the background of the WARP Train's passenger bay." scale="0.5" category="Decorative" subcategory="Abnormalities" allowattachitems="true" width="312" height="415" resizehorizontal="true" resizevertical="true" noaitarget="true">
-    <sprite texture="%ModDir%/Structures/Images/backgrounds.png" sourcerect="0,834,312,415" depth="0.98" premultiplyalpha="false" />
-  </Structure>
-  <structure name="Horizontal Plank Wall" identifier="plank_wall_h" descriptionidentifier="resizeablewallwithcollisiondetection" width="1024" height="96" resizehorizontal="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
-    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="0,0,1008,96" origin="0.5,0.5" />
-    <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="0,0,1008,96" color="60,60,60,255" origin="0.5,0.5" />
-  </structure>
-  <structure name="Vertical Plank Wall" identifier="plank_wall_v" descriptionidentifier="resizeablewallwithcollisiondetection" width="96" height="1024" resizevertical="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
-    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="928,272,96,1008" origin="0.5,0.5" />
-    <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="928,272,96,1008" color="60,60,60,255" origin="0.5,0.5" />
-  </structure>
-  <structure name="Horizontal Plank Wall (Alt 1)" identifier="plank_wall_h_alt" descriptionidentifier="resizeablewallwithcollisiondetection" width="1024" height="96" resizehorizontal="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
-    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="0,103,1024,96" origin="0.5,0.5" />
-    <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="0,103,1024,96" color="60,60,60,255" origin="0.5,0.5" />
-  </structure>
-  <structure name="Vertical Plank Wall (Alt 1)" identifier="plank_wall_v_alt" descriptionidentifier="resizeablewallwithcollisiondetection" width="96" height="1024" resizevertical="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
-    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="821,272,96,1024" origin="0.5,0.5" />
-    <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="821,272,96,1024" color="60,60,60,255" origin="0.5,0.5" />
-  </structure>
-  <structure name="Horizontal Plank Wall (Alt 2)" identifier="plank_wall_h_alt_2" descriptionidentifier="resizeablewallwithcollisiondetection" width="1024" height="96" resizehorizontal="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
-    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="0,1337,1008,96" origin="0.5,0.5" />
-    <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="0,1337,1008,96" color="60,60,60,255" origin="0.5,0.5" />
-  </structure>
-  <structure name="Vertical Plank Wall (Alt 2)" identifier="plank_wall_v_alt_2" descriptionidentifier="resizeablewallwithcollisiondetection" width="96" height="1024" resizevertical="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
-    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="715,272,96,1008" origin="0.5,0.5" />
-    <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="715,272,96,1008" color="60,60,60,255" origin="0.5,0.5" />
-  </structure>
+  <Override>
+    <!-- Combo Background Walls -->
+    <Structure name="Mephistopheles Background Wall" identifier="abno_buswall" description="A background wall based on the background of Mephistopheles from Limbus Company." scale="0.5" category="Decorative" subcategory="Abnormalities" allowattachitems="true" width="774" height="416" resizehorizontal="true" resizevertical="true" noaitarget="true">
+      <sprite texture="%ModDir%/Structures/Images/backgrounds.png" sourcerect="0,0,774,416" depth="0.98" premultiplyalpha="false" />
+    </Structure>
+    <Structure name="WARP Train Cargo Background Wall" identifier="abno_warpcargowall" description="A background wall based on the background of the WARP Train's cargo bay." scale="0.5" category="Decorative" subcategory="Abnormalities" allowattachitems="true" width="1472" height="416" resizehorizontal="true" resizevertical="true" noaitarget="true">
+      <sprite texture="%ModDir%/Structures/Images/backgrounds.png" sourcerect="0,417,1472,416" depth="0.98" premultiplyalpha="false" />
+    </Structure>
+    <Structure name="WARP Train Background Wall" identifier="abno_warptrainwall" description="A background wall based on the background of the WARP Train's passenger bay." scale="0.5" category="Decorative" subcategory="Abnormalities" allowattachitems="true" width="312" height="415" resizehorizontal="true" resizevertical="true" noaitarget="true">
+      <sprite texture="%ModDir%/Structures/Images/backgrounds.png" sourcerect="0,834,312,415" depth="0.98" premultiplyalpha="false" />
+    </Structure>
+    <structure name="Horizontal Plank Wall" identifier="plank_wall_h" descriptionidentifier="resizeablewallwithcollisiondetection" width="1024" height="96" resizehorizontal="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
+      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+      <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="0,0,1008,96" origin="0.5,0.5" />
+      <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="0,0,1008,96" color="60,60,60,255" origin="0.5,0.5" />
+    </structure>
+    <structure name="Vertical Plank Wall" identifier="plank_wall_v" descriptionidentifier="resizeablewallwithcollisiondetection" width="96" height="1024" resizevertical="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
+      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+      <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="928,272,96,1008" origin="0.5,0.5" />
+      <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="928,272,96,1008" color="60,60,60,255" origin="0.5,0.5" />
+    </structure>
+    <structure name="Horizontal Plank Wall (Alt 1)" identifier="plank_wall_h_alt" descriptionidentifier="resizeablewallwithcollisiondetection" width="1024" height="96" resizehorizontal="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
+      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+      <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="0,103,1024,96" origin="0.5,0.5" />
+      <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="0,103,1024,96" color="60,60,60,255" origin="0.5,0.5" />
+    </structure>
+    <structure name="Vertical Plank Wall (Alt 1)" identifier="plank_wall_v_alt" descriptionidentifier="resizeablewallwithcollisiondetection" width="96" height="1024" resizevertical="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
+      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+      <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="821,272,96,1024" origin="0.5,0.5" />
+      <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="821,272,96,1024" color="60,60,60,255" origin="0.5,0.5" />
+    </structure>
+    <structure name="Horizontal Plank Wall (Alt 2)" identifier="plank_wall_h_alt_2" descriptionidentifier="resizeablewallwithcollisiondetection" width="1024" height="96" resizehorizontal="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
+      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+      <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="0,1337,1008,96" origin="0.5,0.5" />
+      <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="0,1337,1008,96" color="60,60,60,255" origin="0.5,0.5" />
+    </structure>
+    <structure name="Vertical Plank Wall (Alt 2)" identifier="plank_wall_v_alt_2" descriptionidentifier="resizeablewallwithcollisiondetection" width="96" height="1024" resizevertical="true" body="true" castshadow="true" health="75" scale="0.5" tags="inner">
+      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+      <sprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.16" sourcerect="715,272,96,1008" origin="0.5,0.5" />
+      <backgroundsprite texture="%ModDir%/Structures/Images/LargeInsideWalls.png" depth="0.85" sourcerect="715,272,96,1008" color="60,60,60,255" origin="0.5,0.5" />
+    </structure>
+  </Override>
 </prefabs>

@@ -2479,9 +2479,8 @@
     </Effect>
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
-  <Affliction name="Greater Split Immunity" identifier="greatersplitimmunity" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" showiconthreshold="0" showicontoothersthreshold="100" showinhealthscannerthreshold="100" maxstrength="1" treatableinmedicalclinic="False" duration="2" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+  <Affliction name="Greater Split Immunity" identifier="greatersplitimmunity" type="immunity" limbspecific="false" showiconthreshold="100" maxstrength="1" treatableinmedicalclinic="False" duration="3">
     <Effect minstrength="0" maxstrength="1" strengthchange="0" resistancefor="greatersplithorizontal" minresistance="1.0" maxresistance="1.0" />
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,640,128,128" color="195,177,60,255" origin="0,0" />
   </Affliction>
   <Affliction name="Great Split: Vertical" identifier="greatsplitvertical" type="talentbuff" hideiconafterdelay="true" limbspecific="false" showiconthreshold="1000" showicontoothersthreshold="1000" showinhealthscannerthreshold="1000" maxstrength="1" treatableinmedicalclinic="False" interval="1" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="1">

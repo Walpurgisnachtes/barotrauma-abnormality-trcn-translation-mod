@@ -227,6 +227,10 @@
           <Conditional greatsplitcooldown="eq 0" />
           <Affliction identifier="greatersplitimmunity" amount="10" disabledeltatime="True" multiplybymaxvitality="True" />
         </StatusEffect>
+        <StatusEffect type="OnUse" target="Character" delay="0.5" stackable="False" disabledeltatime="True" comparison="And">
+          <Conditional greatsplitcooldown="eq 0" />
+          <Affliction identifier="greatersplitimmunity" amount="100" disabledeltatime="True" multiplybymaxvitality="True" />
+        </StatusEffect>
         <StatusEffect type="OnUse" target="Character" delay="1" stackable="False" disabledeltatime="True" comparison="And">
           <Conditional greatsplitcooldown="eq 0" />
           <ParticleEmitter particle="greatsplithorizontal" scalemin="2.5" scalemax="2.5" particleamount="1" CopyEntityAngle="True" />
