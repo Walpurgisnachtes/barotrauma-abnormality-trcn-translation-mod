@@ -1774,9 +1774,11 @@
   <Affliction name="." identifier="mittelarmor" type="armor" limbspecific="false" showiconthreshold="100" maxstrength="2" treatableinmedicalclinic="false" interval="1" duration="1">
     <Effect minstrength="0" maxstrength="2" strengthchange="0" resistancefor="gunshotwound,lacerations,blunttrauma,explosiondamage,bitewounds,burn,bleeding" resistancelimbs="torso,leftarm,rightarm,waist,leftthigh,rightthigh" minresistance="0.75" maxresistance="0.75"></Effect>
   </Affliction>
-  <Affliction name="." identifier="reinforcedtorso" type="armor" limbspecific="false" showiconthreshold="100" maxstrength="2" treatableinmedicalclinic="false" interval="1" duration="1">
-    <Effect minstrength="0" maxstrength="2" strengthchange="0" resistancefor="gunshotwound,lacerations,blunttrauma,explosiondamage,bitewounds,burn,bleeding" resistancelimbs="torso,waist" minresistance="0.75" maxresistance="0.75"></Effect>
-  </Affliction>
+  <Override>
+    <Affliction name="." identifier="reinforcedtorso" type="armor" limbspecific="false" showiconthreshold="100" maxstrength="2" treatableinmedicalclinic="false" interval="1" duration="1">
+      <Effect minstrength="0" maxstrength="2" strengthchange="0" resistancefor="gunshotwound,lacerations,blunttrauma,explosiondamage,bitewounds,burn,bleeding" resistancelimbs="torso,waist" minresistance="0.75" maxresistance="0.75"></Effect>
+    </Affliction>
+  </Override>
   <Affliction identifier="rhinomodification" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="15" treatmentthreshold="1000" interval="1" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="15">
       <AbilityFlag flagtype="AlwaysStayConscious" />

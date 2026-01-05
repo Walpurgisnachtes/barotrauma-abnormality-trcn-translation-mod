@@ -2642,13 +2642,13 @@
   </Talent>
   <Talent identifier="suitpressurization">
     <Description tag="talentdescription.suitpressurization">
-      <Replace tag="[amount]" value="25" color="gui.green" />
+      <Replace tag="[amount]" value="15" color="gui.green" />
     </Description>
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="896,256,128,128" />
     <!-- Gain more maximum health as your charge goes up -->
     <AbilityGroupInterval>
       <Abilities>
-        <CharacterAbilityPsychoClown stattype="MaximumHealthMultiplier" maxvalue="0.25" afflictionidentifier="abno_charge" />
+        <CharacterAbilityPsychoClown stattype="MaximumHealthMultiplier" maxvalue="0.15" afflictionidentifier="abno_charge" />
       </Abilities>
     </AbilityGroupInterval>
   </Talent>
@@ -9158,12 +9158,12 @@
   <Talent identifier="jadeqilin">
     <Icon texture="%ModDir%/Images/talenticons4.png" sheetindex="3,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.jadeqilin">
-      <Replace tag="[amount]" value="25" color="gui.green" />
+      <Replace tag="[amount]" value="10" color="gui.green" />
     </Description>
     <!-- Get more health -->
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.25" />
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.1" />
         <CharacterAbilityGiveStat stattype="DualWieldingPenaltyReduction" value="1.0" />
       </Abilities>
     </AbilityGroupEffect>
@@ -9240,49 +9240,48 @@
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
-  <Talent identifier="whathongyuanneeds">
-    <Icon texture="%ModDir%/Images/talenticons4.png" sheetindex="3,0" sheetelementsize="128,128" />
-    <Description tag="talentdescription.whathongyuanneeds">
-      <Replace tag="[text]" value="...is the end of immortality." color="gui.red" />
+  <!--<Talent identifier="whathongyuanneeds">
+    <Icon texture="%ModDir%/Images/talenticons4.png" sheetindex="3,0" sheetelementsize="128,128"/>
+	<Description tag="talentdescription.whathongyuanneeds">
+      <Replace tag="[text]" value="...is the end of immortality." color="gui.red"/>
     </Description>
-    <!-- Get more stats -->
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.0" />
-        <CharacterAbilityGiveStat stattype="AttackMultiplier" value="0.5" />
-        <CharacterAbilityGiveStat stattype="MeleeAttackSpeed" value="0.5" />
-        <CharacterAbilityGiveStat stattype="RangedAttackSpeed" value="0.5" />
-        <!-- Dying is gay -->
-        <CharacterAbilityGiveFlag flagtype="AlwaysStayConscious" />
-        <CharacterAbilityGiveResistance resistanceid="manadrain" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="souldamage" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="darknessdamage" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="darknessavatar" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="darknessappear" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="darknesscarry" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="darkness" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="thedarkness" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="toolate" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="implode" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="boreapersclock" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="darknessapply" multiplier="0.0" />
-        <CharacterAbilityGiveResistance resistanceid="truearbiterchained" multiplier="0.5" />
-        <CharacterAbilityGiveResistance resistanceid="arbiterchained" multiplier="0.5" />
-        <CharacterAbilityGiveResistance resistanceid="arbiterchained2" multiplier="0.0" />
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.0"/>
+		<CharacterAbilityGiveStat stattype="AttackMultiplier" value="0.5"/>
+		<CharacterAbilityGiveStat stattype="MeleeAttackSpeed" value="0.5"/>
+		<CharacterAbilityGiveStat stattype="RangedAttackSpeed" value="0.5"/>
+
+		<CharacterAbilityGiveFlag flagtype="AlwaysStayConscious" />
+		<CharacterAbilityGiveResistance resistanceid="manadrain" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="souldamage" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="darknessdamage" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="darknessavatar" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="darknessappear" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="darknesscarry" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="darkness" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="thedarkness" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="toolate" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="implode" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="boreapersclock" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="darknessapply" multiplier="0.0"/>
+		<CharacterAbilityGiveResistance resistanceid="truearbiterchained" multiplier="0.5"/>
+		<CharacterAbilityGiveResistance resistanceid="arbiterchained" multiplier="0.5"/>
+		<CharacterAbilityGiveResistance resistanceid="arbiterchained2" multiplier="0.0"/>
       </Abilities>
     </AbilityGroupEffect>
-    <AbilityGroupInterval interval="10">
+	<AbilityGroupInterval interval="10">
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="oasis_stayconscious" amount="1.0" />
+              <Affliction identifier="oasis_stayconscious" amount="1.0"/>
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-  </Talent>
+  </Talent>-->
   <Talent identifier="iwishtoopenthepath">
     <Icon texture="%ModDir%/Images/TalentIcons4.png" sheetindex="4,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.iwishtoopenthepath">
