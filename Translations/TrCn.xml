@@ -1978,6 +1978,8 @@
     <entityname.bloodfiend_prince_helmet>‖color:255,0,255‖血魔硬血頭盔‖end‖</entityname.bloodfiend_prince_helmet>
     <entityname.prince_staff>‖color:255,0,255‖血魔神父權杖‖end‖</entityname.prince_staff>
     <entityname.bloodfiendmanagerlance>‖color:255,0,255‖血魔總督長槍‖end‖</entityname.bloodfiendmanagerlance>
+    <entityname.index_mask_proxy>‖color:255,0,255‖食指代行者面具‖end‖</entityname.index_mask_proxy>
+    <entityname.index_cloak_proxy>‖color:255,0,255‖食指代行者長袍‖end‖</entityname.index_cloak_proxy>
     <entityname.ataliershotgunshell>‖color:gui.red‖工坊邏輯霰彈槍彈藥‖end‖</entityname.ataliershotgunshell>
     <entityname.atalierlogicrevolverround>‖color:gui.red‖工坊邏輯左輪彈藥‖end‖</entityname.atalierlogicrevolverround>
     <entityname.atalierlogicrifleround>‖color:gui.red‖工坊邏輯步槍彈藥‖end‖</entityname.atalierlogicrifleround>
