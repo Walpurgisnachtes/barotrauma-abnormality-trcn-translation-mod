@@ -1978,6 +1978,8 @@
   <entityname.entityname.bloodfiend_prince_helmet>‖color:255,0,255‖Bloodfiend Hardblood Helmet‖end‖</entityname.entityname.bloodfiend_prince_helmet>
   <entityname.entityname.prince_staff>‖color:255,0,255‖Bloodfiend Priest Staff‖end‖</entityname.entityname.prince_staff>
   <entityname.entityname.bloodfiendmanagerlance>‖color:255,0,255‖Bloodfiend Manager's Lance‖end‖</entityname.entityname.bloodfiendmanagerlance>
+  <entityname.index_mask_proxy>‖color:255,0,255‖Index Proxy Mask‖end‖</entityname.index_mask_proxy>
+  <entityname.index_cloak_proxy>‖color:255,0,255‖Index Proxy Cloak‖end‖</entityname.index_cloak_proxy>
   <entityname.ataliershotgunshell>‖color:gui.red‖Atalier Logic Shotgun Shell‖end‖</entityname.ataliershotgunshell>
   <entityname.entityname.atalierlogicrevolverround>‖color:gui.red‖Atalier Logic Revolver Round‖end‖</entityname.entityname.atalierlogicrevolverround>
   <entityname.entityname.atalierlogicrifleround>‖color:gui.red‖Atalier Logic Rifle Round‖end‖</entityname.entityname.atalierlogicrifleround>

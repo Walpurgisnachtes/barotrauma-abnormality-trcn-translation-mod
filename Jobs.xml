@@ -192,9 +192,7 @@
         <Item identifier="index_uniform" equip="true" outfit="true" />
         <Item identifier="index_scabbard" equip="True" />
         <Item identifier="index_cloak" equip="True" />
-        <Item identifier="index_mask" equip="True">
-          <Item identifier="oxygentank" />
-        </Item>
+        <Item identifier="index_mask" equip="True" />
         <Item identifier="headset" equip="true" showpreview="false" />
       </ItemSet>
       <AppropriateOrders>

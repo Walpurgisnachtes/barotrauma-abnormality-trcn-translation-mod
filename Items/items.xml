@@ -7339,6 +7339,36 @@
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
+  <Item name="R Corp Coilgun Clip (Incendiary)" spritecolor="255,100,100,255" inventoryiconcolor="255,100,100,255" identifier="rcorpcoilgunclipincendiary" description="A clip of 30 incendiary coilgun rounds." cargocontaineridentifier="ammocrate" tags="smallitem,handheldcoilgunammo,coilgunammo,ammobox" category="Weapon" subcategory="Abnormalities" maxstacksize="16" maxstacksizecharacterinventory="4" MaxStackSizeHoldableOrWearableInventory="4" impactsoundtag="impact_metal_light" scale="0.25">
+    <PreferredContainer primary="secarmcab" />
+    <!-- <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.005" minleveldifficulty="35" /> -->
+    <Price baseprice="205" displaynonempty="true" sold="false" />
+    <Fabricate suitablefabricators="enkfab,fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="75" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem tag="munition_core" amount="2" description="fabricationdescription.munition_core" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="enkfab,fabricator" displayname="recycleitem" requiredtime="15" amount="1">
+      <RequiredSkill identifier="weapons" level="75" />
+      <RequiredItem tag="handheldcoilgunammo" mincondition="0.0" maxcondition="0.0" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem tag="munition_core" amount="2" description="fabricationdescription.munition_core" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="560,788,95,78" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="rcorpcoilgunboltincendiary" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="rcorpcoilgunboltincendiary" />
+      <StatusEffect type="OnUse" target="This" condition="-3.34" disabledeltatime="true">
+        <SpawnItem identifiers="rcorpcoilgunboltincendiary" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
   <Item name="R Corp Coilgun Clip (Piercing)" identifier="rcorpcoilgunclippiercing" description="A clip of 30 piercing coilgun rounds." cargocontaineridentifier="ammocrate" tags="smallitem,handheldcoilgunammo,coilgunammo,ammobox" category="Weapon" subcategory="Abnormalities" maxstacksize="16" maxstacksizecharacterinventory="4" MaxStackSizeHoldableOrWearableInventory="4" impactsoundtag="impact_metal_light" scale="0.25">
     <PreferredContainer primary="secarmcab" />
     <!-- <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.005" minleveldifficulty="35" /> -->
@@ -7405,6 +7435,31 @@
       <Attack structuredamage="5" itemdamage="15" severlimbsprobability="0.25" penetration="0.1">
         <Affliction identifier="gunshotwound" strength="30" />
         <Affliction identifier="bleeding" strength="10" />
+        <Affliction identifier="stun" strength="0.1" probability="0.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" lifetime="2">
+        <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="-5" anglemax="5" particleamount="5" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This">
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="10" velocitymin="100" velocitymax="2000" scalemin="0.25" scalemax="0.5" />
+        <!-- <Remove /> -->
+      </StatusEffect>
+      <!--<StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>-->
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+  </Item>
+  <Item name="" identifier="rcorpcoilgunboltincendiary" translationoverride="coilgunbolt" tag="riflemanbonus,pistolammoitem,rcorpcoilgunprojectile" category="Weapon" scale="0.5" sonarsize="2" hideinmenus="true">
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="143,414,113,9" depth="0.55" />
+    <Body width="40" height="14" density="30" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="True">
+      <Attack structuredamage="5" itemdamage="15" severlimbsprobability="0.25" penetration="0.1">
+        <Affliction identifier="gunshotwound" strength="20" />
+        <Affliction identifier="bleeding" strength="10" />
+        <Affliction identifier="burn" strength="10" />
+        <Affliction identifier="burning" strength="20" />
         <Affliction identifier="stun" strength="0.1" probability="0.5" />
       </Attack>
       <StatusEffect type="OnActive" target="This" lifetime="2">
@@ -15107,7 +15162,7 @@
     <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
       <!-- Body sprites -->
-      <sprite name="Index Coat Wearable" texture="%ModDir%/Images/Outfits/Indexoutfit.png" limb="Torso" depthlimb="RightForearm" hidelimb="false" inheritscale="true" scale="1" inheritorigin="false" origin="0.85,0.25" inheritsourcerect="false" sourcerect="410,37,80,209" />
+      <sprite name="Index Coat Wearable" texture="%ModDir%/Images/Outfits/Index_proselyte.png" limb="Torso" depthlimb="RightForearm" hidelimb="false" inheritscale="true" scale="1" inheritorigin="false" origin="0.85,0.75" inheritsourcerect="false" sourcerect="420,35,71,64" />
       <!-- Resistances -->
       <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.75" />
       <damagemodifier afflictionidentifiers="lacerations,blunttrauma,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.15" />
@@ -15115,7 +15170,41 @@
       <StatValue stattype="WeaponsSkillBonus" value="5" />
     </Wearable>
   </Item>
-  <Item name="Index Proselyte Mask" identifier="index_mask" category="Equipment" subcategory="Abnormalities" tags="smallitem" cargocontaineridentifier="metalcrate" description="A steel mask that protects the wearer's mouth from injuries. Also functions as a diving mask." scale="0.5">
+  <Item name="Index Proxy Cloak" identifier="index_cloak_proxy" category="Equipment" subcategory="Abnormalities" description="A nice cloak for carrying out Prescripts. Trades storage space for protection." cargocontaineridentifier="abnocrate" tags="smallitem,clothing,Index" scale="0.51" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" />
+    <Price baseprice="342">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="0.9" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="1" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="ballisticfiber" amount="2" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="True">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="index_cloak" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <InventoryIcon name="Index Coat Icon" texture="%ModDir%/Images/Outfits/invclothing.png" sourcerect="243,0,128,85" origin="0.5,0.5" />
+    <Sprite name="Index Coat Dropped" texture="%ModDir%/Images/Outfits/invclothing.png" sourcerect="122,105,115,54" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <!-- Body sprites -->
+      <sprite name="Index Coat Wearable" texture="%ModDir%/Images/Outfits/Indexoutfit.png" limb="Torso" depthlimb="RightForearm" hidelimb="false" inheritscale="true" scale="1" inheritorigin="false" origin="0.85,0.25" inheritsourcerect="false" sourcerect="410,37,80,209" />
+      <!-- Resistances -->
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.7" />
+      <damagemodifier afflictionidentifiers="lacerations,blunttrauma,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.1" />
+      <damagemodifier afflictionidentifiers="bleeding,explosiondamage,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.05" />
+      <StatValue stattype="WeaponsSkillBonus" value="10" />
+    </Wearable>
+  </Item>
+  <Item name="Index Proselyte Mask" identifier="index_mask" category="Equipment" subcategory="Abnormalities" tags="smallitem" cargocontaineridentifier="metalcrate" description="A blindfold that protects the wearer's face from injuries." scale="0.5">
     <!-- <PreferredContainer primary="crewcab" amount="1" spawnprobability="0.1" notcampaign="true"/> -->
     <Price baseprice="560" sold="false" />
     <Deconstruct time="5">
@@ -15131,10 +15220,34 @@
     <Sprite texture="%ModDir%/Images/Outfits/invclothing.png" depth="0.6" sourcerect="283,212,62,40" origin="0.5,0.5" />
     <Body width="59" height="40" density="15" />
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Images/Outfits/invclothing.png" limb="Head" hidewearablesoftype="Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hidelimb="false" sourcerect="283,212,62,40" origin="0.3,0.05" />
+      <sprite texture="%ModDir%/Images/Outfits/invclothing.png" limb="Head" hidewearablesoftype="Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="256,256,128,128" origin="0.5,0.5" />
       <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+    </Wearable>
+  </Item>
+  <Item name="Index Proxy Mask" identifier="index_mask_proxy" category="Equipment" subcategory="Abnormalities" tags="smallitem" cargocontaineridentifier="metalcrate" description="A steel mask that protects the wearer's mouth from injuries. Also functions as a diving mask." scale="0.5">
+    <!-- <PreferredContainer primary="crewcab" amount="1" spawnprobability="0.1" notcampaign="true"/> -->
+    <Price baseprice="560" sold="false" />
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="True">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="index_mask" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Images/Outfits/invclothing.png" depth="0.6" sourcerect="283,212,62,40" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite texture="%ModDir%/Images/Outfits/invclothing.png" limb="Head" hidewearablesoftype="Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hidelimb="false" sourcerect="283,212,62,40" origin="0.3,0.05" />
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
       <!-- pucs logic -->
       <StatusEffect type="OnWearing" target="Character" UseHullOxygen="true" setvalue="true" disabledeltatime="true" />
