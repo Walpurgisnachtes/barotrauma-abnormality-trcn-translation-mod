@@ -70,6 +70,7 @@
   <Particles file="%ModDir%/particleprefabs.xml" />
   <Text file="%ModDir%/Translations/English.xml" />
   <Text file="%ModDir%/Translations/Russian.xml" />
+  <Text file="%ModDir%/Translations/TrCn.xml" />
   <RandomEvents file="%ModDir%/abnoevents.xml" />
   <RandomEvents file="%ModDir%/abnoeventscampaign.xml" />
   <Missions file="%ModDir%/Missions.xml" />
