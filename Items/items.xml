@@ -2890,7 +2890,7 @@
     </ItemContainer>
     <!-- Swap modes -->
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -2941,7 +2941,7 @@
 	  </StatusEffect>-->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -3575,6 +3575,288 @@
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
   </Item>
+  <Item name="Matthias's Uniform" identifier="Matthias_uniform" category="Equipment" subcategory="Abnormalities" description="A very vengeful outfit." cargocontaineridentifier="abnocrate" tags="smallitem,clothing,thumb,antisymbiote" scale="0.51" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" />
+    <Price baseprice="342">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="0.9" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="1" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="werner_uniform" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <InventoryIcon name="Middle Icon" texture="%ModDir%/Images/Outfits/invclothing.png" sourcerect="243,0,128,85" origin="0.5,0.5" />
+    <Sprite name="Middle Dropped" texture="%ModDir%/Images/Outfits/invclothing.png" sourcerect="122,105,115,54" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <!-- Body sprites -->
+      <sprite name="Middle Wearable" texture="%ModDir%/Images/Outfits/Matthias.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Right Hand" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Left Hand" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Right Lower Arm" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Left Lower Arm" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Right Upper Arm" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Left Upper Arm" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Waist" texture="%ModDir%/Images/Outfits/Matthias.png" limb="Waist" hidelimb="true" inherittexturescale="false" scale="0.3" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Right Thigh" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Left Thigh" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Right Leg" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Left Leg" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Left Shoe" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Middle Right Shoe" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <!-- Resistances -->
+      <damagemodifier afflictiontypes="stun,alieninfection" armorsector="0.0,360.0" damagemultiplier="0.5" probabilitymultiplier="0.5" />
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.5" />
+      <damagemodifier afflictionidentifiers="lacerations,blunttrauma,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.75" />
+      <damagemodifier afflictionidentifiers="bleeding,explosiondamage,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.75" />
+      <StatValue stattype="WeaponsSkillBonus" value="5" />
+    </Wearable>
+    <ItemContainer capacity="4" slotsperrow="2">
+      <Containable items="smallitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="Matthias's Coat" identifier="Matthias_coat" category="Equipment" subcategory="Abnormalities" description="Somehow the most well-adjusted member of this entire Syndicate." cargocontaineridentifier="abnocrate" tags="smallitem,clothing,thumb,antisymbiote" scale="0.51" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" />
+    <Price baseprice="342">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="0.9" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="1" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="80" />
+      <RequiredItem identifier="werner_coat" amount="1" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <InventoryIcon name="Middle Icon" texture="%ModDir%/Images/Outfits/invclothing.png" sourcerect="243,0,128,85" origin="0.5,0.5" />
+    <Sprite name="Middle Dropped" texture="%ModDir%/Images/Outfits/invclothing.png" sourcerect="122,105,115,54" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <!-- Body sprites -->
+      <sprite name="Middle Wearable" texture="%ModDir%/Images/Outfits/Matthias.png" limb="Torso" depthlimb="RightForearm" hidelimb="false" inheritscale="true" scale="1" inheritorigin="false" origin="0.85,0.32" inheritsourcerect="false" sourcerect="407,5,115,243" />
+      <!-- Fake sprites for protection -->
+      <sprite name="Middle Wearable" texture="%ModDir%/Images/Outfits/Matthias.png" limb="Waist" hidelimb="false" inheritscale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <sprite name="Middle Wearable" texture="%ModDir%/Images/Outfits/Matthias.png" limb="LeftArm" hidelimb="false" inheritscale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <sprite name="Middle Wearable" texture="%ModDir%/Images/Outfits/Matthias.png" limb="RightArm" hidelimb="false" inheritscale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <!-- Resistances -->
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.25" />
+      <damagemodifier afflictionidentifiers="lacerations,blunttrauma,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.1" />
+      <damagemodifier afflictionidentifiers="bleeding,explosiondamage,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.075" />
+      <StatValue stattype="WeaponsSkillBonus" value="10" />
+    </Wearable>
+    <ItemContainer capacity="4" slotsperrow="2">
+      <Containable items="smallitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="Matthias's Greatsword [Form 0]" identifier="matthiasgreatsword_form0" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,crowbaritem" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <Fabricate suitablefabricators="enkfab" requiresrecipe="true" time="30">
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="6" />
+      <RequiredItem identifier="enkephalin" amount="4" />
+    </Fabricate>
+    <Price baseprice="500" sold="false" />
+    <Deconstruct time="10" />
+    <!-- <InventoryIcon texture="%ModDir%/Images/knife.png" sourcerect="268,5,96,53" origin="0.5,0.5" /> -->
+    <Sprite texture="%ModDir%/Images/invweaponsprites6.png" sourcerect="0,719,373,78" depth="0.55" origin="0.5,0.5" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Curseblade Worn" texture="%ModDir%/Images/invweaponsprites6.png" canbehiddenbyotherwearables="false" sourcerect="0,628,378,90" rotation="285" inheritlimbdepth="false" depth="0.6" limb="Torso" scale="0.33" origin="0.45,-0.45" />
+    </Wearable>
+    <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
+    <!-- holdangle="20" aimangle="30" -->
+    <MeleeWeapon slots="Any,RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+        <Affliction identifier="lacerations" strength="30" />
+        <Affliction identifier="blunttrauma" strength="50" />
+        <Affliction identifier="bleeding" strength="40" />
+        <Affliction identifier="stun" strength="0.3" />
+        <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="Content/Items/Weapons/Smack1.ogg" range="1200" volume="2" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="1200" volume="2" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="%ModDir%/Sounds/Roland_GreatSword.ogg" range="1200" volume="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.85" setvalue="true" />
+      </Attack>
+    </MeleeWeapon>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
+      <Button text="Switch Mode">
+        <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
+          <Remove />
+        </StatusEffect>
+        <StatusEffect target="This" type="OnUse" delay="0.1" stackable="false">
+          <SpawnItem identifiers="matthiasgreatsword_form1" spawnposition="SameInventory" equip="True" SpawnIfInventoryFull="True" />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+  </Item>
+  <Item name="Matthias's Greatsword [Form 1]" identifier="matthiasgreatsword_form1" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <Price baseprice="500" sold="false" />
+    <Deconstruct time="10" />
+    <!-- <InventoryIcon texture="%ModDir%/Images/knife.png" sourcerect="268,5,96,53" origin="0.5,0.5" /> -->
+    <Sprite texture="%ModDir%/Images/invweaponsprites6.png" sourcerect="0,799,374,78" depth="0.55" origin="0.5,0.5" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Curseblade Worn" texture="%ModDir%/Images/invweaponsprites6.png" canbehiddenbyotherwearables="false" sourcerect="0,628,378,90" rotation="285" inheritlimbdepth="false" depth="0.6" limb="Torso" scale="0.33" origin="0.45,-0.45" />
+    </Wearable>
+    <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
+    <!-- holdangle="20" aimangle="30" -->
+    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+        <Affliction identifier="lacerations" strength="40" />
+        <Affliction identifier="blunttrauma" strength="40" />
+        <Affliction identifier="burn" strength="20" />
+        <Affliction identifier="burning" strength="30" />
+        <Affliction identifier="bleeding" strength="30" />
+        <Affliction identifier="stun" strength="0.2" />
+        <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="Content/Items/Weapons/Smack1.ogg" range="1200" volume="2" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="1200" volume="2" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="%ModDir%/Sounds/Roland_GreatSword.ogg" range="1200" volume="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.85" setvalue="true" />
+      </Attack>
+    </MeleeWeapon>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
+      <Button text="Switch Mode">
+        <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
+          <Remove />
+        </StatusEffect>
+        <StatusEffect target="This" type="OnUse" delay="0.1" stackable="false">
+          <SpawnItem identifiers="matthiasgreatsword_form2" spawnposition="SameInventory" equip="True" SpawnIfInventoryFull="True" />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+  </Item>
+  <Item name="Matthias's Greatsword [Form 2]" identifier="matthiasgreatsword_form2" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <!-- <PreferredContainer primary="blacksilencegloves" amount="1" spawnprobability="1" /> -->
+    <Price baseprice="500" sold="false" />
+    <Deconstruct time="10" />
+    <!-- <InventoryIcon texture="%ModDir%/Images/knife.png" sourcerect="268,5,96,53" origin="0.5,0.5" /> -->
+    <Sprite texture="%ModDir%/Images/invweaponsprites6.png" sourcerect="0,880,330,53" depth="0.55" origin="0.5,0.5" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Curseblade Worn" texture="%ModDir%/Images/invweaponsprites6.png" canbehiddenbyotherwearables="false" sourcerect="0,628,378,90" rotation="285" inheritlimbdepth="false" depth="0.6" limb="Torso" scale="0.33" origin="0.45,-0.45" />
+    </Wearable>
+    <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
+    <!-- holdangle="20" aimangle="30" -->
+    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+        <Affliction identifier="lacerations" strength="40" />
+        <Affliction identifier="blunttrauma" strength="40" />
+        <Affliction identifier="burn" strength="20" />
+        <Affliction identifier="burning" strength="30" />
+        <Affliction identifier="bleeding" strength="30" />
+        <Affliction identifier="stun" strength="0.15" />
+        <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="Content/Items/Weapons/Smack1.ogg" range="1200" volume="2" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="1200" volume="2" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="%ModDir%/Sounds/Roland_GreatSword.ogg" range="1200" volume="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.95" setvalue="true" />
+      </Attack>
+    </MeleeWeapon>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
+      <Button text="Switch Mode">
+        <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
+          <Remove />
+        </StatusEffect>
+        <StatusEffect target="This" type="OnUse" delay="0.1" stackable="false">
+          <SpawnItem identifiers="matthiasgreatsword_form3" spawnposition="SameInventory" equip="True" SpawnIfInventoryFull="True" />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+  </Item>
+  <Item name="Matthias's Greatsword [Form 3]" identifier="matthiasgreatsword_form3" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <!-- <PreferredContainer primary="blacksilencegloves" amount="1" spawnprobability="1" /> -->
+    <Price baseprice="500" sold="false" />
+    <Deconstruct time="10" />
+    <!-- <InventoryIcon texture="%ModDir%/Images/knife.png" sourcerect="268,5,96,53" origin="0.5,0.5" /> -->
+    <Sprite texture="%ModDir%/Images/invweaponsprites6.png" sourcerect="0,940,319,29" depth="0.55" origin="0.5,0.5" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Curseblade Worn" texture="%ModDir%/Images/invweaponsprites6.png" canbehiddenbyotherwearables="false" sourcerect="0,628,378,90" rotation="285" inheritlimbdepth="false" depth="0.6" limb="Torso" scale="0.33" origin="0.45,-0.45" />
+    </Wearable>
+    <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
+    <!-- holdangle="20" aimangle="30" -->
+    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+        <Affliction identifier="lacerations" strength="60" />
+        <Affliction identifier="burn" strength="40" />
+        <Affliction identifier="burning" strength="50" />
+        <Affliction identifier="bleeding" strength="30" />
+        <Affliction identifier="stun" strength="0.1" />
+        <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+        <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="Content/Items/Weapons/Smack1.ogg" range="1200" volume="2" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="1200" volume="2" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Sound file="%ModDir%/Sounds/Roland_GreatSword.ogg" range="1200" volume="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.95" setvalue="true" />
+      </Attack>
+    </MeleeWeapon>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
+      <Button text="Switch Mode">
+        <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
+          <Remove />
+        </StatusEffect>
+        <StatusEffect target="This" type="OnUse" delay="0.1" stackable="false">
+          <SpawnItem identifiers="matthiasgreatsword_form0" spawnposition="SameInventory" equip="True" SpawnIfInventoryFull="True" />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+  </Item>
   <Item name="Job Application" identifier="lobcorpjobapplication" description="the horrors" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
     <Upgrade gameversion="0.9.9000.0" scale="0.25" />
     <Price baseprice="100" sold="false" />
@@ -4158,7 +4440,7 @@
       </StatusEffect>
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -4213,7 +4495,7 @@
       </Attack>
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -4268,7 +4550,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -4369,7 +4651,7 @@
 	  Parry End -->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -4428,7 +4710,7 @@
 	  Parry End -->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -4464,7 +4746,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.1,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.1,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -5036,7 +5318,7 @@
       <Fixable identifier="structure" />
     </RepairTool>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.1,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.1,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Repair Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -5922,7 +6204,7 @@
 	  Parry End -->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -5947,7 +6229,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -7806,7 +8088,7 @@
     </Quality>
     <SkillRequirementHint identifier="weapons" level="50" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.07" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.07" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Ground Crash">
         <!-- turn on light -->
         <StatusEffect target="Character,This" type="OnUse" delay="0.25" ison="True" stackable="false" disabledeltatime="True">
@@ -8297,7 +8579,7 @@
     </LightComponent>
     <!-- Activate a special effect -->
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Overcharge">
         <!-- turn on light -->
         <StatusEffect target="Character,This" type="OnUse" duration="5" voltage="1.0" stackable="false" disabledeltatime="True" setvalue="True">
@@ -8389,7 +8671,7 @@
     </LightComponent>
     <!-- Activate a special effect -->
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Overcharge">
         <!-- turn on light -->
         <StatusEffect target="Character,This" type="OnUse" duration="5" voltage="1.0" stackable="false" disabledeltatime="True" setvalue="True">
@@ -8485,7 +8767,7 @@
     </LightComponent>
     <!-- Activate a special effect -->
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Overcharge">
         <!-- turn on light -->
         <StatusEffect target="Character,This" type="OnUse" duration="5" voltage="1.0" stackable="false" disabledeltatime="True" setvalue="True">
@@ -8585,7 +8867,7 @@
     </LightComponent>
     <!-- Activate a special effect -->
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Overcharge">
         <!-- turn on light -->
         <StatusEffect target="Character,This" type="OnUse" duration="5" voltage="1.0" stackable="false" disabledeltatime="True" setvalue="True">
@@ -9654,7 +9936,7 @@
       <StatValue stattype="FlowResistance" value="1.0" />
     </Wearable>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Serum R">
         <StatusEffect type="OnUse" target="Character" stackable="false" disabledeltatime="True" forceplaysounds="True" comparison="And">
           <RequiredItem items="rcorptech" type="Contained" targetslot="0" />
@@ -9767,7 +10049,7 @@
       </StatusEffect>
     </Wearable>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Serum R">
         <StatusEffect type="OnUse" target="Character" stackable="false" disabledeltatime="True" forceplaysounds="True">
           <Conditional serumr="eq 0" />
@@ -11767,7 +12049,7 @@
     <SkillRequirementHint identifier="weapons" level="80" />
     <!-- Activate a special effect -->
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.09,0.1" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.09,0.1" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Unsheathe">
         <!-- turn on light, requires the weapon to have charge and the user to have skill -->
         <StatusEffect target="Character,This" type="OnUse" condition="90" disabledeltatime="True" setvalue="True" IsOn="True">
@@ -11885,7 +12167,7 @@
       <sprite name="Curseblade Worn" texture="%ModDir%/Images/invweaponsprites3.png" canbehiddenbyotherwearables="false" sourcerect="0,580,500,89" rotation="285" inheritlimbdepth="false" depth="0.6" limb="Torso" scale="0.33" origin="0.45,0.2" />
     </Wearable>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -11926,7 +12208,7 @@
       <sprite name="Curseblade Worn" texture="%ModDir%/Images/invweaponsprites3.png" canbehiddenbyotherwearables="false" sourcerect="0,580,500,89" rotation="285" inheritlimbdepth="false" depth="0.6" limb="Torso" scale="0.33" origin="0.45,0.2" />
     </Wearable>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -14873,7 +15155,7 @@
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <SkillRequirementHint identifier="weapons" level="60" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -14943,7 +15225,7 @@
     </Quality>
     <SkillRequirementHint identifier="weapons" level="60" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -15135,6 +15417,7 @@
           <SpawnItem identifier="indexprescript41" spawnposition="ThisInventory" />
           <SpawnItem identifier="indexprescript42" spawnposition="ThisInventory" />
           <SpawnItem identifier="indexprescript43" spawnposition="ThisInventory" />
+          <SpawnItem identifier="indexprescript44" spawnposition="ThisInventory" />
         </StatusEffect>
       </Button>
     </CustomInterface>
@@ -15217,7 +15500,7 @@
       <RequiredItem identifier="ballisticfiber" amount="2" />
       <RequiredItem identifier="organicfiber" amount="2" />
     </Fabricate>
-    <Sprite texture="%ModDir%/Images/Outfits/invclothing.png" depth="0.6" sourcerect="283,212,62,40" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/Outfits/invclothing.png" depth="0.6" sourcerect="256,256,128,128" origin="0.5,0.5" />
     <Body width="59" height="40" density="15" />
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
       <sprite texture="%ModDir%/Images/Outfits/invclothing.png" limb="Head" hidewearablesoftype="Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="256,256,128,128" origin="0.5,0.5" />
@@ -15467,6 +15750,7 @@
   <Item name="Index Prescript" identifier="indexprescript41" variantof="indexprescript" />
   <Item name="Index Prescript" identifier="indexprescript42" variantof="indexprescript" />
   <Item name="Index Prescript" identifier="indexprescript43" variantof="indexprescript" />
+  <Item name="Index Prescript" identifier="indexprescript44" variantof="indexprescript" />
   <Item name="Dawn Office Uniform" identifier="dawnofficesuit" fireproof="True" category="Equipment" description="Dawn Office is a small but wealthy Grade 4 Office and an associate Office of the Liu Association. Run by Salvador, a veteran Fixer, the Office is located in V Corp. (Note: At high Psychosis and while under the effects of an E.G.O. Stabilizer, summons unique armor and grants Waxen Pinion.)" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,antisymbiote" scale="0.51" impactsoundtag="impact_soft">
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0.01" />
     <Price baseprice="556">
@@ -15838,7 +16122,7 @@
     </ItemContainer>
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="5" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -15910,7 +16194,7 @@
     <Propulsion force="150" usablein="both" particles="bubbles" />
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="5" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Switch Mode">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
@@ -18141,7 +18425,7 @@
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Sacrifice for the Family">
         <StatusEffect target="Character" type="OnUse" targetlimb="Torso" disabledeltatime="True">
           <Affliction identifier="lacerations" amount="15" disabledeltatime="True" penetration="1" multiplybymaxvitality="True" />
@@ -18383,7 +18667,7 @@
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Sacrifice for the Family">
         <StatusEffect target="Character" type="OnUse" targetlimb="Torso" disabledeltatime="True">
           <Affliction identifier="lacerations" amount="15" disabledeltatime="True" penetration="1" multiplybymaxvitality="True" />
@@ -18616,7 +18900,7 @@
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.12,0.10" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.12,0.10" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Overture (100 BF)">
         <StatusEffect target="Character,This" type="OnUse" delay="0.1" stackable="false" disabledeltatime="True" forceplaysounds="True">
           <Conditional bloodfeast="gte 100" />
@@ -18755,7 +19039,7 @@
     </ItemContainer>
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="5" />
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.12,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.12,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="La Sangre (100 BF)">
         <StatusEffect target="This,Character" type="OnUse" disabledeltatime="True" delay="0.2" stackable="false">
           <Conditional bloodfeast="gte 100" />
@@ -19002,7 +19286,7 @@
       </StatusEffect>
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="RedItemUI" />
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
       <Button text="Sacrifice for the Family">
         <StatusEffect target="Character" type="OnUse" targetlimb="Torso" disabledeltatime="True">
           <Affliction identifier="lacerations" amount="15" disabledeltatime="True" penetration="1" multiplybymaxvitality="True" />

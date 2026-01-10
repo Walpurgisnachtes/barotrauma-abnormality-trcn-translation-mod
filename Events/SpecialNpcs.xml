@@ -489,6 +489,48 @@
         <Item identifier="headset" equip="true" showpreview="false" />
       </ItemSet>
     </npc>
+    <npc identifier="matthias" job="matthias" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="255,105,180,255" facialhaircolor="255,255,255,255" personality="Professional">
+        <job name="matthias" identifier="matthias">
+          <skill identifier="electrical" level="100" />
+          <skill identifier="mechanical" level="100" />
+          <skill identifier="weapons" level="100" />
+          <skill identifier="medical" level="100" />
+          <skill identifier="helm" level="100" />
+        </job>
+        <talents>
+          <talent identifier="abno_parry" />
+        </talents>
+      </Character>
+      <ItemSet>
+        <Item identifier="matthias_coat" equip="true" />
+        <Item identifier="matthias_uniform" equip="true" outfit="true">
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="bookofvengeance" />
+        </Item>
+        <Item identifier="kromerhelmet" equip="true" />
+        <Item identifier="middletattoos1" equip="True">
+          <Item identifier="tattoo_middle_senior" />
+          <Item identifier="bodymod_grade1_premium" />
+        </Item>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middlechainsleft_physicorium" />
+        <Item identifier="middlechainsright_physicorium" />
+        <Item identifier="matthiasgreatsword_form0" equip="True" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+      </ItemSet>
+    </npc>
     <npc identifier="thumbsoldato" job="thumbsoldato" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
       <ItemSet>
         <Item identifier="egosplicer" equip="True">

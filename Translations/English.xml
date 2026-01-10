@@ -608,6 +608,7 @@
   <jobdescription.middle>Little Siblings of the Middle care about their 'family' above all else, that family being the Middle. They'll gladly punish anyone who slights one of their family members.</jobdescription.middle>
   <jobname.werner>Middle Young Sibling</jobname.werner>
   <jobname.ricardo>Middle Big Sibling</jobname.ricardo>
+  <jobname.matthias>Middle Nursefather</jobname.matthias>
   <jobname.thumbsoldato>Thumb Soldato</jobname.thumbsoldato>
   <jobname.thumbsoldato_east>Thumb Soldato (East)</jobname.thumbsoldato_east>
   <jobname.thumbcapo>Thumb Capo</jobname.thumbcapo>
@@ -748,6 +749,8 @@
   <charactername.werner>Werner</charactername.werner>
   <npctitle.ricardo>Middle Big Brother</npctitle.ricardo>
   <charactername.ricardo>Ricardo</charactername.ricardo>
+  <npctitle.matthias>Middle Nursefather</npctitle.matthias>
+  <charactername.matthias>Matthias</charactername.matthias>
   <npctitle.thumbsoldato>Thumb Soldato</npctitle.thumbsoldato>
   <npctitle.thumbsoldato_east>Thumb Soldato</npctitle.thumbsoldato_east>
   <charactername.leiheng>Lei Heng</charactername.leiheng>
@@ -1269,7 +1272,7 @@
   <talentname.scorchingincision>Scorching Incision</talentname.scorchingincision>
   <talentdescription.scorchingincision>Deal [damage]% more bleeding, burn, and burning damage.</talentdescription.scorchingincision>
   <talentname.superthermogenesis>White-Hot Gladius</talentname.superthermogenesis>
-  <talentdescription.superthermogenesis>Apply [amount] Superthermogenesis on hit with the Gladius, dealing equal damage that can't be reduced or defended against. Additionally, gain [amount] Mang with every hit of the Gladius.</talentdescription.superthermogenesis>
+  <talentdescription.superthermogenesis>Apply [amount] Superthermogenesis on hit with the Gladius, dealing equal damage that can't be reduced or defended against. Additionally, gain [amount] Shin with every hit of the Gladius.</talentdescription.superthermogenesis>
   <!-- Heishou Pack: Mao Branch -->
   <talentname.striderunleashed>Strider, Unleashed</talentname.striderunleashed>
   <talentdescription.striderunleashed>When attacked, gain [amount] Mao Strider.</talentdescription.striderunleashed>
@@ -1757,49 +1760,50 @@
   <faction.hongyuan.shortdescription>H Corp. manufactures Boluses that contain "essences of treatment" and can transform the body.</faction.hongyuan.shortdescription>
   <entityname.indexprescript>Index Prescript</entityname.indexprescript>
   <entitydescription.indexprescript>Poison the sandwich of the 5th person you see holding a sandwich.</entitydescription.indexprescript>
-  <entitydescription.indexprescript1>Drink three fairy wines.</entitydescription.indexprescript1>
-  <entitydescription.indexprescript2>Ask a staff member how many ounces of “pilk” are allowed in the establishment.</entitydescription.indexprescript2>
-  <entitydescription.indexprescript3>Upon hearing the word “fish”, express your undying desire to wed a mackerel.</entitydescription.indexprescript3>
+  <entitydescription.indexprescript1>Drink three wines.</entitydescription.indexprescript1>
+  <entitydescription.indexprescript2>Ask a staff member or senior officer how many ounces of “pilk” are allowed in the establishment.</entitydescription.indexprescript2>
+  <entitydescription.indexprescript3>Upon hearing any word similar to “fish”, express your undying desire to wed a mackerel.</entitydescription.indexprescript3>
   <entitydescription.indexprescript4>Attempt to sell something that doesn't exist to someone.</entitydescription.indexprescript4>
   <entitydescription.indexprescript5>Greet every other person you encounter, on the 8th person if they do not respond to your greeting, attempt to convince them they are your long lost relative.</entitydescription.indexprescript5>
-  <entitydescription.indexprescript6>Initiate a game of Never Have I Ever with the first two people you encounter. When one coughs, compliment them.</entitydescription.indexprescript6>
-  <entitydescription.indexprescript7>Go to a flower and sniff it three times. If somebody walks by you, shout 'The Bees Knees!' at them.</entitydescription.indexprescript7>
-  <entitydescription.indexprescript8>If someone asks you a question, answer with “Giraffe” and then ask the question to the 8th person you see.</entitydescription.indexprescript8>
+  <entitydescription.indexprescript6>Initiate a game of Never Have I Ever with the first two people you encounter. When one of them 'did not' for the first time, compliment them.</entitydescription.indexprescript6>
+  <entitydescription.indexprescript7>Go to a plant and sniff it three times. If somebody walks by you, shout 'The Bees Knees!' at them.</entitydescription.indexprescript7>
+  <entitydescription.indexprescript8>If someone asks you a question, answer with “Giraffe” and then ask the question to the next person you see.</entitydescription.indexprescript8>
   <entitydescription.indexprescript9>Play Rock Paper Scissors with the next person you meet, if they use rock, you must ask to pat their head.</entitydescription.indexprescript9>
   <entitydescription.indexprescript10>Make amends with one of your enemies, Invite them for an apology dinner, then laugh at them and make them pay the bill.</entitydescription.indexprescript10>
-  <entitydescription.indexprescript11>Ask the eighth person you interact with for their spleen.</entitydescription.indexprescript11>
-  <entitydescription.indexprescript12>Drink half a glass of cleaner and recount the ABCs backwards.</entitydescription.indexprescript12>
-  <entitydescription.indexprescript13>Engage in conversation with the 19th person you make eye contact with today.</entitydescription.indexprescript13>
+  <entitydescription.indexprescript11>Ask the third person you interact with for their kidneys.</entitydescription.indexprescript11>
+  <entitydescription.indexprescript12>Drink half a glass of alcohol and recount the ABCs backwards.</entitydescription.indexprescript12>
+  <entitydescription.indexprescript13>Engage in conversation with the 9th person you make eye contact with today.</entitydescription.indexprescript13>
   <entitydescription.indexprescript14>End a friendship.</entitydescription.indexprescript14>
   <entitydescription.indexprescript15>See green from a white wall.</entitydescription.indexprescript15>
   <entitydescription.indexprescript16>Walk like a crab for 10 minutes.</entitydescription.indexprescript16>
   <entitydescription.indexprescript17>At the railing on the roof of a building, shout out the name of the person you dislike, then jump off. The height of the building does not matter.</entitydescription.indexprescript17>
-  <entitydescription.indexprescript18>At work, cut the ear of the first person to fulminate against you.</entitydescription.indexprescript18>
-  <entitydescription.indexprescript19>Maniacally laugh at any mention of your name and afterwards, ask the person to call you the “Joker” instead.</entitydescription.indexprescript19>
+  <entitydescription.indexprescript18>When the next person questions you, hit them once, but don't inflict serious damage. Do not hit them again even if they start attacking you in retaliation.</entitydescription.indexprescript18>
+  <entitydescription.indexprescript19>Maniacally laugh at any mention of your name and afterwards, ask the person to call you the “Jonkler” instead.</entitydescription.indexprescript19>
   <entitydescription.indexprescript20>Catch a fish in the bathroom toilets.</entitydescription.indexprescript20>
   <entitydescription.indexprescript21>Convince four people that the bar is giving out free drinks.</entitydescription.indexprescript21>
   <entitydescription.indexprescript22>Ask the bartender for “bear milk”, if you do not get any, curl up on the floor and imitate sad bear noises.</entitydescription.indexprescript22>
   <entitydescription.indexprescript23>Lay on the floor without speaking until a staff member speaks to you.</entitydescription.indexprescript23>
   <entitydescription.indexprescript24>Ask the first non-humanoid entity you encounter how many insects they've eaten in the last day and a half, then scream hysterically for eight seconds if they're confused by the question.</entitydescription.indexprescript24>
   <entitydescription.indexprescript25>Cause the third person you encounter to have an existential crisis.</entitydescription.indexprescript25>
-  <entitydescription.indexprescript26>Rest your hand on someone's head for a moment and say "cool thoughts, dude".</entitydescription.indexprescript26>
+  <entitydescription.indexprescript26>Stare at someone for a moment and say "cool thoughts, dude".</entitydescription.indexprescript26>
   <entitydescription.indexprescript27>Pet quadrupedal animals five times.</entitydescription.indexprescript27>
-  <entitydescription.indexprescript28>Return to your home this instant. You may leave once if there is a residing animal outside your home.</entitydescription.indexprescript28>
+  <entitydescription.indexprescript28>Return to your home this instant. You may leave if there is an animal outside your home.</entitydescription.indexprescript28>
   <entitydescription.indexprescript29>Do not stop singing everything you say until someone asks you to stop.</entitydescription.indexprescript29>
   <entitydescription.indexprescript30>Ask the next person you see if they have any soda at home. Do not give them an answer if they ask why.</entitydescription.indexprescript30>
-  <entitydescription.indexprescript31>Start a conspiracy theory, convince 8 people that it's true.</entitydescription.indexprescript31>
+  <entitydescription.indexprescript31>Start a conspiracy theory, convince 3 people that it's true.</entitydescription.indexprescript31>
   <entitydescription.indexprescript32>Attempt to convince a staff member to let you into the staff rooms.</entitydescription.indexprescript32>
   <entitydescription.indexprescript33>Order "Mac n Bees" at the restaurant, over and over until someone gives you something. If what you receive has no bees, mumble something incomprehensible involving your appendix and then leave the restaurant.</entitydescription.indexprescript33>
-  <entitydescription.indexprescript34>Greet twelve people with a smile and unique greeting. Do not greet the same person more than once.</entitydescription.indexprescript34>
-  <entitydescription.indexprescript35>Dial any number. Give a New Year’s greetings and words of blessing to whoever receives the call.</entitydescription.indexprescript35>
+  <entitydescription.indexprescript34>Greet 5 people with a unique greeting. Do not greet the same person more than once.</entitydescription.indexprescript34>
+  <entitydescription.indexprescript35>Approach the third person you meet and offer to help them with their current task. If they accept, help them. If they reject you, repeat the request to the next third person you meet.</entitydescription.indexprescript35>
   <entitydescription.indexprescript36>Go to the nearest bartender and use your best cowboy impression to order water.</entitydescription.indexprescript36>
   <entitydescription.indexprescript37>Look down and walk ten paces, look up, follow the first person you see and keep making eye contact until they acknowledge you.</entitydescription.indexprescript37>
   <entitydescription.indexprescript38>Count to 15 and then look for the nearest person, then copy their movements until they ask you what you're doing.</entitydescription.indexprescript38>
-  <entitydescription.indexprescript39>Ask a staff member if you can have a sprayer, if you are given a sprayer, clean every table you have access to.</entitydescription.indexprescript39>
-  <entitydescription.indexprescript40>Ask a staff member how to invest your savings into greencoin.</entitydescription.indexprescript40>
-  <entitydescription.indexprescript41>Ask the 7th person you meet their age if they look younger than you. If they are older than you, cough twice into your left arm and walk away.</entitydescription.indexprescript41>
+  <entitydescription.indexprescript39>Ask a staff member if you can have a sprayer, if you are given a sprayer, clean every surface you have access to.</entitydescription.indexprescript39>
+  <entitydescription.indexprescript40>Ask a staff member how to invest your savings into raptorcoin.</entitydescription.indexprescript40>
+  <entitydescription.indexprescript41>Ask the 4th person you meet their age. If they are older than you, cough twice and walk away.</entitydescription.indexprescript41>
   <entitydescription.indexprescript42>Spin a wheel and throw something at the person determined by the result.</entitydescription.indexprescript42>
   <entitydescription.indexprescript43>Tell a joke to the 5th person you meet if they don’t laugh, tell another until they do.</entitydescription.indexprescript43>
+  <entitydescription.indexprescript44>Cultivate a plant. While cultivating it, initiate any conversation with passerbys by stating 'the mold consumes'. Do not elaborate, and pretend you never said it.</entitydescription.indexprescript44>
   <talentname.urbanmythblueprints>‖color:gui.green‖Urban Myth‖end‖</talentname.urbanmythblueprints>
   <talentname.urbanlegendblueprints>‖color:gui.blue‖Urban Legend‖end‖</talentname.urbanlegendblueprints>
   <talentname.urbanplagueblueprints>‖color:gui.yellow‖Urban Plague‖end‖</talentname.urbanplagueblueprints>

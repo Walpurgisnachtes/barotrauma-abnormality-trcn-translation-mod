@@ -764,6 +764,77 @@
       </TalentOptions>
     </SubTree>
   </TalentTree>
+  <TalentTree jobidentifier="matthias">
+    <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="bigbrother" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="buff" />
+        <TalentOption identifier="pyromaniac" />
+        <TalentOption identifier="physicalconditioning" />
+        <TalentOption identifier="veteran" />
+        <TalentOption identifier="littlevengeance" />
+        <TalentOption identifier="unstoppablecuriosity" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <TalentOption identifier="prodigy" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="iamthatguy" />
+        <TalentOption identifier="chainsofloyalty" />
+        <TalentOption identifier="multifunctional" />
+        <TalentOption identifier="phdinnuclearphysics" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicategrit" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="vengeanceawaitsyouall" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="abnolaststand" />
+        <TalentOption identifier="heatedpuncture" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="enemyterritory" />
+        <TalentOption identifier="seizeyachance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="superthermogenesis" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="aimforthesolarplexus" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="rightinthedome" />
+        <TalentOption identifier="gutcrush" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="scorchingincision" />
+        <TalentOption identifier="inordinateexsanguination" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cleanupcrew" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary">
+      <TalentOptions>
+        <TalentOption identifier="baitandlure" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="cprtraining" />
+        <TalentOption identifier="supplyrun" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="healinghand" />
+        <TalentOption identifier="crustyseaman" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="multifoldretribution" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
   <!-- Thumb Soldato -->
   <TalentTree jobidentifier="thumbsoldato">
     <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
