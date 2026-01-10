@@ -608,6 +608,7 @@
     <jobdescription.middle>中指的小弟和小妹最關心他們的「家族」，而那個家族就是中指。他們會樂於懲罰任何輕蔑他們家族成員的人。</jobdescription.middle>
     <jobname.werner>中指中弟</jobname.werner>
     <jobname.ricardo>中指大兄</jobname.ricardo>
+    <jobname.matthias>中指護父</jobname.matthias>
     <jobname.thumbsoldato>拇指士兵</jobname.thumbsoldato>
     <jobname.thumbsoldato_east>拇指士兵（東部）</jobname.thumbsoldato_east>
     <jobname.thumbcapo>拇指指揮官</jobname.thumbcapo>
@@ -742,15 +743,17 @@
     <npctitle.ncorpmittelhammer2>中錘 II</npctitle.ncorpmittelhammer2>
     <npctitle.ncorpgroshammer>大錘</npctitle.ncorpgroshammer>
     <npctitle.kromer>執柄者</npctitle.kromer>
-    <charactername.kromer>Kromer</charactername.kromer>
+    <charactername.kromer>克羅默</charactername.kromer>
     <npctitle.middle>中指小弟/小妹</npctitle.middle>
     <npctitle.werner>中指中弟</npctitle.werner>
-    <charactername.werner>Werner</charactername.werner>
+    <charactername.werner>維爾納</charactername.werner>
     <npctitle.ricardo>中指大兄</npctitle.ricardo>
-    <charactername.ricardo>Ricardo</charactername.ricardo>
+    <charactername.ricardo>里卡多</charactername.ricardo>
+    <npctitle.matthias>中指護父</npctitle.matthias>
+    <charactername.matthias>馬提亞斯</charactername.matthias>
     <npctitle.thumbsoldato>拇指士兵</npctitle.thumbsoldato>
     <npctitle.thumbsoldato_east>拇指士兵</npctitle.thumbsoldato_east>
-    <charactername.leiheng>Lei Heng</charactername.leiheng>
+    <charactername.leiheng>雷橫</charactername.leiheng>
     <npctitle.leiheng>拇指指揮官 IIII</npctitle.leiheng>
     <npctitle.thumbcapo>拇指指揮官</npctitle.thumbcapo>
     <npctitle.LCCB>LCCB 防暴警察</npctitle.LCCB>
@@ -1263,13 +1266,13 @@
     <talentname.bloodbarrier>鮮血屏障</talentname.bloodbarrier>
     <talentdescription.bloodbarrier>提升自身及附近隊友 [amount]% 的傷害抗性與最大生命值，並賦予水流免疫。</talentdescription.bloodbarrier>
     <talentname.redgaze>腥紅凝視</talentname.redgaze>
-    <talentdescription.redgaze>將精神病轉化為心。免疫大多數負面狀態效果。擊殺時獲得 [amount] 血宴。</talentdescription.redgaze>
+    <talentdescription.redgaze>將精神病轉化為心。免疫大多數負面狀態效果。擊殺時獲得 [amount] 層血宴。</talentdescription.redgaze>
     <talentname.heatedpuncture>高溫穿刺</talentname.heatedpuncture>
     <talentdescription.heatedpuncture>造成的撕裂、燒傷與燃燒傷害提升 [damage]%。</talentdescription.heatedpuncture>
     <talentname.scorchingincision>灼熱切口</talentname.scorchingincision>
     <talentdescription.scorchingincision>造成的出血、燒傷與燃燒傷害提升 [damage]%。</talentdescription.scorchingincision>
     <talentname.superthermogenesis>熾白短劍</talentname.superthermogenesis>
-    <talentdescription.superthermogenesis>使用短劍命中時施加 [amount] 高温裝置，造成無法被減免或防禦的等量傷害。此外，短劍每次命中可獲得 [amount] 望。</talentdescription.superthermogenesis>
+    <talentdescription.superthermogenesis>使用短劍命中時施加 [amount] 高温裝置，造成無法被減免或防禦的等量傷害。此外，短劍每次命中可獲得 [amount] 層心。</talentdescription.superthermogenesis>
     <!-- Heishou Pack: Mao Branch -->
     <talentname.striderunleashed>漫步者，釋放</talentname.striderunleashed>
     <talentdescription.striderunleashed>受到攻擊時，獲得 [amount] 卯之漫步者。</talentdescription.striderunleashed>
@@ -1757,49 +1760,50 @@
     <faction.hongyuan.shortdescription>H公司製造含有「治療精華」且能改變身體的「丸藥」。</faction.hongyuan.shortdescription>
     <entityname.indexprescript>食指的指令</entityname.indexprescript>
     <entitydescription.indexprescript>在你看到的第 5 個拿著三明治的人的三明治裡下毒。</entitydescription.indexprescript>
-    <entitydescription.indexprescript1>喝下三杯精靈酒。</entitydescription.indexprescript1>
-    <entitydescription.indexprescript2>詢問一名工作人員，該設施內允許多少盎司的「皮奶（pilk）」。</entitydescription.indexprescript2>
-    <entitydescription.indexprescript3>聽到「魚」這個詞時，表達你想與鯖魚結婚的永恆願望。</entitydescription.indexprescript3>
+    <entitydescription.indexprescript1>喝下三杯酒。</entitydescription.indexprescript1>
+    <entitydescription.indexprescript2>詢問一名工作人員或高級人員，該設施內允許多少盎司的皮奶。</entitydescription.indexprescript2>
+    <entitydescription.indexprescript3>聽到類似「魚」這個詞時，表達你想與鯖魚結婚的永恆願望。</entitydescription.indexprescript3>
     <entitydescription.indexprescript4>嘗試向某人出售不存在的東西。</entitydescription.indexprescript4>
     <entitydescription.indexprescript5>向你遇到的每隔一個人打招呼，到第 8 個人時，如果他們沒有回應你的問候，嘗試說服他們是你失散多年的親戚。</entitydescription.indexprescript5>
-    <entitydescription.indexprescript6>與你遇到的前兩個人開始一場「從來沒有過（Never Have I Ever）」遊戲。當其中一人咳嗽時，讚美他們。</entitydescription.indexprescript6>
-    <entitydescription.indexprescript7>走到一朵花前聞三次。如果有人走過你身邊，對他們大喊「蜜蜂的膝蓋（The Bees Knees）！」。</entitydescription.indexprescript7>
-    <entitydescription.indexprescript8>如果有人問你問題，用「長頸鹿」回答，然後把這個問題問你看到的第 8 個人。</entitydescription.indexprescript8>
+    <entitydescription.indexprescript6>與你遇到的前兩個人開始一場「從來沒有過」遊戲。當其中一人第一次「沒做過」某件事時，讚美他們。</entitydescription.indexprescript6>
+    <entitydescription.indexprescript7>走到一棵植物前聞三次。如果有人走過你身邊，對他們大喊「蜜蜂的膝蓋！」。</entitydescription.indexprescript7>
+    <entitydescription.indexprescript8>如果有人問你問題，用「長頸鹿」回答，然後把這個問題問你看到的下一個人。</entitydescription.indexprescript8>
     <entitydescription.indexprescript9>與你遇到的下一個人玩剪刀石頭布，如果他們出石頭，你必須要求摸摸他們的頭。</entitydescription.indexprescript9>
     <entitydescription.indexprescript10>與你的一個敵人言歸於好，邀請他們吃一頓道歉晚餐，然後嘲笑他們並讓他們付賬。</entitydescription.indexprescript10>
-    <entitydescription.indexprescript11>向與你互動的第 8 個人索要他們的脾臟。</entitydescription.indexprescript11>
-    <entitydescription.indexprescript12>喝下半杯清潔劑並倒背字母表。</entitydescription.indexprescript12>
-    <entitydescription.indexprescript13>與今天第 19 個和你目光接觸的人交談。</entitydescription.indexprescript13>
+    <entitydescription.indexprescript11>向與你互動的第 3 個人索要他們的腎臟。</entitydescription.indexprescript11>
+    <entitydescription.indexprescript12>喝下半杯酒精並倒背字母表。</entitydescription.indexprescript12>
+    <entitydescription.indexprescript13>與今天第 9 個和你目光接觸的人交談。</entitydescription.indexprescript13>
     <entitydescription.indexprescript14>斷絕一段友誼。</entitydescription.indexprescript14>
     <entitydescription.indexprescript15>從白牆上看到綠色。</entitydescription.indexprescript15>
     <entitydescription.indexprescript16>像螃蟹一樣走路 10 分鐘。</entitydescription.indexprescript16>
     <entitydescription.indexprescript17>在建築物屋頂的欄杆旁，大聲喊出你討厭的人的名字，然後跳下去。建築物的高度並不重要。</entitydescription.indexprescript17>
-    <entitydescription.indexprescript18>在工作中，割掉第一個對你大發雷霆的人的耳朵。</entitydescription.indexprescript18>
-    <entitydescription.indexprescript19>每當有人提到你的名字時就瘋狂大笑，之後要求那個人改稱呼你為「小丑」。</entitydescription.indexprescript19>
+    <entitydescription.indexprescript18>當下一個人質疑你時，打他們一下，但不要造成嚴重的傷害。即使他們開始還手報復，也不要再次回擊。</entitydescription.indexprescript18>
+    <entitydescription.indexprescript19>每當有人提到你的名字時就瘋狂大笑，之後要求那個人改稱呼你為「Jonkler」。</entitydescription.indexprescript19>
     <entitydescription.indexprescript20>在浴室馬桶裡抓一條魚。</entitydescription.indexprescript20>
     <entitydescription.indexprescript21>說服四個人酒吧正在派發免費飲料。</entitydescription.indexprescript21>
     <entitydescription.indexprescript22>向調酒師索要「熊奶」，如果你沒拿到，就蜷縮在地上模仿悲傷的熊叫聲。</entitydescription.indexprescript22>
     <entitydescription.indexprescript23>躺在地上不說話，直到有工作人員對你說話。</entitydescription.indexprescript23>
     <entitydescription.indexprescript24>詢問你遇到的第一個非人形實體，他們在過去的一天半里吃了多少昆蟲，如果他們對問題感到困惑，就歇斯底里地尖叫八秒鐘。</entitydescription.indexprescript24>
     <entitydescription.indexprescript25>讓你遇到的第三個人陷入存在危機。</entitydescription.indexprescript25>
-    <entitydescription.indexprescript26>把手放在某人的頭上片刻，並說「酷的想法，老兄」。</entitydescription.indexprescript26>
+    <entitydescription.indexprescript26>凝視某人片刻，並說「酷的想法，老兄」。</entitydescription.indexprescript26>
     <entitydescription.indexprescript27>撫摸四足動物五次。</entitydescription.indexprescript27>
-    <entitydescription.indexprescript28>立刻回家。如果家外有一隻居住的動物，你可以離開一次。</entitydescription.indexprescript28>
+    <entitydescription.indexprescript28>立刻回家。如果家外有一隻動物，你才可以離開。</entitydescription.indexprescript28>
     <entitydescription.indexprescript29>不要停止用唱的方式說每一句話，直到有人要求你停止。</entitydescription.indexprescript29>
     <entitydescription.indexprescript30>問你看到的下一個人他們家裡是否有汽水。如果他們問為什麼，不要給予答覆。</entitydescription.indexprescript30>
-    <entitydescription.indexprescript31>發起一個陰謀論，說服 8 個人相信它是真的。</entitydescription.indexprescript31>
+    <entitydescription.indexprescript31>發起一個陰謀論，說服 3 個人相信它是真的。</entitydescription.indexprescript31>
     <entitydescription.indexprescript32>嘗試說服一名工作人員讓你進入員工休息室。</entitydescription.indexprescript32>
     <entitydescription.indexprescript33>在餐廳點「通心粉與蜜蜂（Mac n Bees）」，一遍又一遍直到有人給你東西。如果你收到的東西裡沒有蜜蜂，就咕噥一些關於你闌尾的費解的話，然後離開餐廳。</entitydescription.indexprescript33>
-    <entitydescription.indexprescript34>帶著微笑和獨特的問候語向十二個人打招呼。不要向同一個人打招呼超過一次。</entitydescription.indexprescript34>
-    <entitydescription.indexprescript35>撥打任意號碼。向任何接聽電話的人致以新年的問候和祝福的話語。</entitydescription.indexprescript35>
+    <entitydescription.indexprescript34>帶著獨特的問候語向 5 個人打招呼。不要向同一個人打招呼超過一次。</entitydescription.indexprescript34>
+    <entitydescription.indexprescript35>走向你遇到的第 3 個人，並主動提議協助他們完成目前的任務。如果他們接受，就幫助他們；如果他們拒絕，則對你遇到的下一個「第 3 個人」重複這個請求。</entitydescription.indexprescript35>
     <entitydescription.indexprescript36>去最近的酒吧，用你最好的牛仔模仿來點水。</entitydescription.indexprescript36>
     <entitydescription.indexprescript37>低頭走十步，抬頭，跟隨你看到的的第一個人並保持目光接觸，直到他們注意到你。</entitydescription.indexprescript37>
     <entitydescription.indexprescript38>數到 15，然後尋找最近的人，模仿他們的動作，直到他們問你在做什麼。</entitydescription.indexprescript38>
-    <entitydescription.indexprescript39>詢問一名工作人員你是否可以拿一個噴霧器，如果你拿到了，清潔你能接觸到的每一張桌子。</entitydescription.indexprescript39>
-    <entitydescription.indexprescript40>詢問一名工作人員如何將你的儲蓄投資於「綠幣（greencoin）」。</entitydescription.indexprescript40>
-    <entitydescription.indexprescript41>問你遇到的第 7 個人他們的年齡，如果他們看起來比你年輕。如果他們比你大，對著你的左臂咳嗽兩聲並走開。</entitydescription.indexprescript41>
+    <entitydescription.indexprescript39>詢問一名工作人員你是否可以拿一個噴霧器，如果你拿到了，清潔你能接觸到的每一個表面。</entitydescription.indexprescript39>
+    <entitydescription.indexprescript40>詢問一名工作人員如何將你的儲蓄投資於「Raptorcoin」。</entitydescription.indexprescript40>
+    <entitydescription.indexprescript41>問你遇到的第 4 個人他們的年齡。如果他們比你大，咳嗽兩聲並走開。</entitydescription.indexprescript41>
     <entitydescription.indexprescript42>轉動輪盤，向結果決定的人扔東西。</entitydescription.indexprescript42>
     <entitydescription.indexprescript43>給你遇到的第 5 個人講個笑話，如果他們沒笑，就再講一個直到他們笑為止。</entitydescription.indexprescript43>
+    <entitydescription.indexprescript44>培育一株植物。在培育的過程中，與任何路人攀談時，開場白都要說：「黴菌正在吞噬。」不要做任何解釋，並假裝你從未說過這句話。</entitydescription.indexprescript44>
     <talentname.urbanmythblueprints>‖color:gui.green‖都市怪談‖end‖</talentname.urbanmythblueprints>
     <talentname.urbanlegendblueprints>‖color:gui.blue‖都市傳說‖end‖</talentname.urbanlegendblueprints>
     <talentname.urbanplagueblueprints>‖color:gui.yellow‖都市惡疾‖end‖</talentname.urbanplagueblueprints>
