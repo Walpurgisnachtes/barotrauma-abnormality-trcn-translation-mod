@@ -449,7 +449,7 @@
       </ItemSet>
     </npc>
     <npc identifier="ricardo" job="ricardo" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
-      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="255,105,180,255" facialhaircolor="255,255,255,255" personality="Professional">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="13" skincolor="243,198,150,255" haircolor="255,105,180,255" facialhaircolor="255,255,255,255" personality="Professional">
         <job name="ricardo" identifier="ricardo">
           <skill identifier="electrical" level="5" />
           <skill identifier="mechanical" level="5" />
@@ -490,7 +490,7 @@
       </ItemSet>
     </npc>
     <npc identifier="matthias" job="matthias" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
-      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="255,105,180,255" facialhaircolor="255,255,255,255" personality="Professional">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="13" skincolor="119,73,41,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Professional">
         <job name="matthias" identifier="matthias">
           <skill identifier="electrical" level="100" />
           <skill identifier="mechanical" level="100" />
@@ -1783,7 +1783,7 @@
       </ItemSet>
     </npc>
     <npc identifier="zilu" job="zilu" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="2000" SkillSalaryMultiplier="0.75">
-      <Character speciesname="human" gender="female" headspriteid="3" hairindex="16" beardindex="0" faceattachmentindex="1" skincolor="255,255,255,255" haircolor="25,25,25,255" personality="Professional">
+      <Character speciesname="human" gender="female" headspriteid="3" hairindex="16" beardindex="0" faceattachmentindex="1" skincolor="119,73,41,255" haircolor="25,25,25,255" personality="Professional">
         <job name="zilu" identifier="zilu">
           <skill identifier="electrical" level="50" />
           <skill identifier="mechanical" level="50" />
