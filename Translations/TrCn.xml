@@ -1738,13 +1738,13 @@
     <faction.thumb.description>拇指是「五指」之一，是都市中影響力足以與「世界之翼」抗衡的五個最強大幫派。在五指中，拇指以其階級和禮節著稱，同時也因其對等級制度的狂熱崇拜而令人畏懼。反抗甚至質疑上級是必須以血洗清的罪行，即使是局外人也無法免受這些規則的約束。</faction.thumb.description>
     <faction.thumb.shortdescription>在五指中，拇指以其階級和禮節著稱，同時也因其對等級制度的狂熱崇拜而令人畏懼。</faction.thumb.shortdescription>
     <faction.middle>中指</faction.middle>
-    <faction.middle.description>中指擁有極其緊密的「家族式」結構，幫派成員之間保持著親密的兄弟情誼；中指成員互稱「兄弟」和「姐妹」，組織內的排名由在家族中的資歷決定。中指對局外人的態度則完全不同。任何對中指成員或其財產的冒犯都會被記錄在「復仇帳簿」上，並會迅速得到報復，通常是在幾天之內。</faction.middle.description>
+    <faction.middle.description>中指擁有極其緊密的「家族式」結構，幫派成員之間保持著親密的兄弟情誼；中指成員互稱「兄弟」和「姐妹」，組織內的排名由在家族中的資歷決定。中指對局外人的態度則完全不同。任何對中指成員或其財產的冒犯都會被記錄在「復仇帳簿」上，並會迅速在幾天之內得到報復。</faction.middle.description>
     <faction.middle.shortdescription>中指擁有極其緊密的「家族式」結構，幫派成員之間保持著親密的兄弟情誼。任何對中指成員或其財產的冒犯都會被記錄在「復仇帳簿」上，並迅速得到報復。</faction.middle.shortdescription>
     <faction.ring>環指</faction.ring>
     <faction.ring.description>環指的正式成員是迷戀藝術創作（多為現代主義運動）的古怪藝術家，其作品通常以某種方式與人類處境相關。為此，成員們通過以極其慘烈和視覺化的方式施加痛苦，來在作品中體現人類的苦難。生活在環指控制區內的居民必須定期參加由幫派舉行的「測試」，並展現出足夠的藝術造詣和品味，以確保能繼續獲得該幫派的保護。</faction.ring.description>
     <faction.ring.shortdescription>環指的正式成員是迷戀藝術創作的古怪藝術家。為此，成員們通過以極其慘烈和視覺化的方式施加痛苦，來在作品中體現人類的苦難。</faction.ring.shortdescription>
     <faction.fixers>收尾人</faction.fixers>
-    <faction.fixers.description>收尾人是歐羅巴（Europa）的雜工，可以被雇傭來處理廣泛的合同，從日常瑣事到主動戰鬥不等。成為收尾人需要獲得一協會頒發的執照，從那時起便可以自由接受任何委託，只要在工作完成後向協會報告表現即可。大多數收尾人會發現自己在「事務所」工作，這是一種由收尾人擁有和經營、並受協會監督的業務類型。極少數收尾人會獨立運作。</faction.fixers.description>
+    <faction.fixers.description>收尾人是歐羅巴的雜工，可以被雇傭來處理廣泛的合同，從日常瑣事到主動戰鬥不等。成為收尾人需要獲得一協會頒發的執照，從那時起便可以自由接受任何委託，只要在工作完成後向協會報告表現即可。大多數收尾人會發現自己在「事務所」工作，這是一種由收尾人擁有和經營、並受協會監督的業務類型。極少數收尾人會獨立運作。</faction.fixers.description>
     <faction.fixers.shortdescription>收尾人是歐羅巴的雜工，可以被雇傭來處理廣泛的合同，從日常瑣事到主動戰鬥不等。</faction.fixers.shortdescription>
     <faction.syndicates>幫派</faction.syndicates>
     <faction.syndicates.description>「幫派」是一個故意模糊且寬泛的術語，基本上可以用來描述任何在有組織但不受監管的團體中共同工作的人。幫派可以進行各種活動，並參與各種類型的業務，這導致幾乎沒有共同點的群體都能被稱為幫派。一些幫派專注於向人們勒索保護費，而另一些則綁架他人、以殺人為樂，或從事介於兩者之間的任何事情。他們可以是只存在於世界一角的小團體，也可以大到存在於每個站點。由於許多幫派像企業一樣經營，他們擁有與其他企業相同的權利和義務，例如能夠持有技術專利和需要納稅。</faction.syndicates.description>
@@ -1756,7 +1756,7 @@
     <faction.lobotomycorporation.description>腦葉公司曾是 26 隻「翼」之一，在崩潰前是 12 區之「巢」的所有者。L公司的奇點是通過一種名為 Cogito 的配方將人類心靈物質化的能力，該公司以此將自己定位為都市和其他「翼」的環保能源生產商。暗地裡，這是通過創造和利用「異想體」來實現的，這些異想體是通過 L公司 奇點實驗產生的、極其危險且畸形的實體。</faction.lobotomycorporation.description>
     <faction.lobotomycorporation.shortdescription>腦葉公司曾是 26 隻「翼」之一，在崩潰前是 12 區之「巢」的所有者。L公司的奇點是將人類心靈物質化的能力。</faction.lobotomycorporation.shortdescription>
     <faction.hongyuan>鴻園</faction.hongyuan>
-    <faction.hongyuan.description>整個 8 區都容納在一個名為「鴻園」（Mandarin: 鸿园, lit. The Vast Garden）的巨大建築中。8 區的「巢」位於建築中心，而後巷則構成了建築的外圍。鴻園的不同區域對其中的居民施加了不同的「忌諱」。H公司製造含有「治療精華」且能改變身體的「丸藥」。</faction.hongyuan.description>
+    <faction.hongyuan.description>整個 8 區都容納在一個名為「鴻園」的巨大建築中。8 區的「巢」位於建築中心，而後巷則構成了建築的外圍。鴻園的不同區域對其中的居民施加了不同的「忌諱」。H公司製造含有「治療精華」且能改變身體的「丸藥」。</faction.hongyuan.description>
     <faction.hongyuan.shortdescription>H公司製造含有「治療精華」且能改變身體的「丸藥」。</faction.hongyuan.shortdescription>
     <entityname.indexprescript>食指的指令</entityname.indexprescript>
     <entitydescription.indexprescript>在你看到的第 5 個拿著三明治的人的三明治裡下毒。</entitydescription.indexprescript>
