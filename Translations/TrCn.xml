@@ -604,10 +604,10 @@
     <jobdescription.ncorpmittelhammer2>N公司的異端審判官對克羅默及其法令絕對忠誠，遵循著近乎宗教的教義。</jobdescription.ncorpmittelhammer2>
     <jobname.ncorpgroshamemr>N公司大錘</jobname.ncorpgroshamemr>
     <jobdescription.ncorpgroshamemr>這是執柄者的重錘。</jobdescription.ncorpgroshamemr>
-    <jobname.middle>中指小弟/小妹</jobname.middle>
-    <jobdescription.middle>中指的小弟和小妹最關心他們的「家族」，而那個家族就是中指。他們會樂於懲罰任何輕蔑他們家族成員的人。</jobdescription.middle>
-    <jobname.werner>中指中弟</jobname.werner>
-    <jobname.ricardo>中指大兄</jobname.ricardo>
+    <jobname.middle>中指幼弟/幼妹</jobname.middle>
+    <jobdescription.middle>中指的幼弟和幼妹最關心他們的「家族」，而那個家族就是中指。他們會樂於懲罰任何輕蔑他們家族成員的人。</jobdescription.middle>
+    <jobname.werner>中指幼弟</jobname.werner>
+    <jobname.ricardo>中指幼兄</jobname.ricardo>
     <jobname.matthias>中指護父</jobname.matthias>
     <jobname.thumbsoldato>拇指士兵</jobname.thumbsoldato>
     <jobname.thumbsoldato_east>拇指士兵（東部）</jobname.thumbsoldato_east>
@@ -744,12 +744,12 @@
     <npctitle.ncorpgroshammer>大錘</npctitle.ncorpgroshammer>
     <npctitle.kromer>執柄者</npctitle.kromer>
     <charactername.kromer>克羅默</charactername.kromer>
-    <npctitle.middle>中指小弟/小妹</npctitle.middle>
-    <npctitle.werner>中指中弟</npctitle.werner>
+    <npctitle.middle>中指幼弟/幼妹</npctitle.middle>
+    <npctitle.werner>中指幼弟</npctitle.werner>
     <charactername.werner>維爾納</charactername.werner>
-    <npctitle.ricardo>中指大兄</npctitle.ricardo>
+    <npctitle.ricardo>中指幼兄</npctitle.ricardo>
     <charactername.ricardo>里卡多</charactername.ricardo>
-    <npctitle.matthias>中指護父</npctitle.matthias>
+    <npctitle.matthias>中指長兄</npctitle.matthias>
     <charactername.matthias>馬提亞斯</charactername.matthias>
     <npctitle.thumbsoldato>拇指士兵</npctitle.thumbsoldato>
     <npctitle.thumbsoldato_east>拇指士兵</npctitle.thumbsoldato_east>
@@ -982,7 +982,7 @@
     <talentdescription.aimforthesolarplexus>每次命中施加 [amount] 麻痺。若目標麻痺超過 [paralyze] 層，施加 [slow] 緩速。</talentdescription.aimforthesolarplexus>
     <talentname.completeandtotalextermination>徹底完全的殲滅！！！</talentname.completeandtotalextermination>
     <!-- Werner -->
-    <talentname.youngbrother>小弟</talentname.youngbrother>
+    <talentname.youngbrother>幼弟</talentname.youngbrother>
     <talentdescription.youngbrother>獲得 [amount]% 近戰傷害與速度。完全移除雙持懲罰。</talentdescription.youngbrother>
     <!-- Ricardo -->
     <talentname.bigbrother>大哥</talentname.bigbrother>
@@ -1823,7 +1823,7 @@
     <entityname.soldatobayonetspear>‖color:gui.green‖拇指士兵刺刀槍‖end‖</entityname.soldatobayonetspear>
     <entityname.soldatorifle>‖color:gui.green‖拇指士兵步槍‖end‖</entityname.soldatorifle>
     <entityname.discipline>‖color:gui.green‖刺刀‖end‖</entityname.discipline>
-    <entityname.middleoutfit>‖color:gui.green‖中指小弟制服‖end‖</entityname.middleoutfit>
+    <entityname.middleoutfit>‖color:gui.green‖中指幼弟制服‖end‖</entityname.middleoutfit>
     <entityname.middlechainsleft>‖color:gui.green‖中指之鏈（左）‖end‖</entityname.middlechainsleft>
     <entityname.middlechainsright>‖color:gui.green‖中指之鏈（右）‖end‖</entityname.middlechainsright>
     <entityname.kleinhammer>‖color:gui.green‖異端審判官的小錘‖end‖</entityname.kleinhammer>
