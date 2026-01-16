@@ -37,9 +37,11 @@
   <arbiterchain2 LifeTime="1" LifeTimeMin="1" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="0" RotateToDirection="False" Drag="0.6" WaterDrag="0.6" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="40" InvariantCollisionSize="False" UseCollision="True" DeleteOnCollision="False" Friction="0.01" Restitution="0.1" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="0" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="False" DrawAlways="False" BlendState="AlphaBlend" Priority="0" AnimDuration="1" LoopAnim="True">
     <sprite texture="%ModDir%/Particles/arbiterchain2.png" sourcerect="0,0,256,177" />
   </arbiterchain2>
-  <arbiterslash LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0" LoopAnim="False">
-    <sprite texture="%ModDir%/Particles/arbiterslash.png" sourcerect="0,0,512,316" origin="0.5,0.5" premultiplyalpha="false" />
-  </arbiterslash>
+  <Override>
+    <arbiterslash LifeTime="1" LifeTimeMin="0" StartDelayMin="0" StartDelayMax="0" AngularVelocityMin="0" AngularVelocityMax="0" StartRotationMin="0" StartRotationMax="360" RotateToDirection="False" Drag="0" WaterDrag="0" VelocityChange="0,0" VelocityChangeWater="0,0" CanEnterSubs="True" CollisionRadius="1" InvariantCollisionSize="False" UseCollision="False" DeleteOnCollision="False" Friction="0.5" Restitution="0.5" StartSizeMin="0.75,0.75" StartSizeMax="0.75,0.75" SizeChangeMin="0,0" SizeChangeMax="0,0" GrowTime="1" StartColor="255,255,255,255" MiddleColor="255,255,255,255" EndColor="255,255,255,255" UseMiddleColor="True" DrawTarget="Both" DrawOnTop="True" DrawAlways="False" BlendState="AlphaBlend" Priority="5" AnimDuration="0" LoopAnim="False">
+      <sprite texture="%ModDir%/Particles/arbiterslash.png" sourcerect="0,0,512,316" origin="0.5,0.5" premultiplyalpha="false" />
+    </arbiterslash>
+  </Override>
   <!-- note: doesn't work because buggytrauma -->
   <!--<mimicryslash
     lifetime="0.25"

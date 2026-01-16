@@ -341,12 +341,12 @@
     </npc>
     <npc identifier="middle" job="middle" moduleflags="none" behavior="Patrol" aimspeed="1.0" aimaccuracy="1.0" experiencepoints="2850" BaseSalary="600" SkillSalaryMultiplier="0.75">
       <ItemSet>
-        <Item identifier="middletattoos1" equip="True">
+        <Item identifier="egosplicer" equip="True">
           <Item identifier="tattoo_middle_junior" />
         </Item>
         <Item identifier="hiddenarmor" equip="true" />
         <Item identifier="middleoutfit" equip="true" outfit="true" />
-        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middletattoos1" equip="true" showpreview="false" />
         <Item identifier="middlechainsleft" />
         <Item identifier="middlechainsright" />
         <Item identifier="repairpack" />
@@ -363,34 +363,12 @@
         <Item identifier="headset" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-        <Item identifier="middletattoos2" equip="True">
+        <Item identifier="egosplicer" equip="True">
           <Item identifier="tattoo_middle_junior" />
         </Item>
         <Item identifier="hiddenarmor" equip="true" />
         <Item identifier="middleoutfit" equip="true" outfit="true" />
-        <Item identifier="idcard" equip="true" showpreview="false" />
-        <Item identifier="middlechainsleft" />
-        <Item identifier="middlechainsright" />
-        <Item identifier="bookofvengeance" />
-        <Item identifier="repairpack" />
-        <Item identifier="antidama1" />
-        <Item identifier="antidama1" />
-        <Item identifier="antidama1" />
-        <Item identifier="antibloodloss2" />
-        <Item identifier="antibloodloss2" />
-        <Item identifier="antibloodloss2" />
-        <Item identifier="antibleeding1" />
-        <Item identifier="antibleeding1" />
-        <Item identifier="antibleeding1" />
-        <Item identifier="headset" equip="true" showpreview="false" />
-      </ItemSet>
-      <ItemSet>
-        <Item identifier="middletattoos3" equip="True">
-          <Item identifier="tattoo_middle_junior" />
-        </Item>
-        <Item identifier="hiddenarmor" equip="true" />
-        <Item identifier="middleoutfit" equip="true" outfit="true" />
-        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middletattoos2" equip="true" showpreview="false" />
         <Item identifier="middlechainsleft" />
         <Item identifier="middlechainsright" />
         <Item identifier="bookofvengeance" />
@@ -438,11 +416,10 @@
           <Item identifier="bookofvengeance" />
         </Item>
         <Item identifier="kromerhelmet" equip="true" />
-        <Item identifier="middletattoos1" equip="True">
-          <Item identifier="tattoo_middle_junior" />
+        <Item identifier="egosplicer" equip="True">
           <Item identifier="bodymod_grade5_premium" />
         </Item>
-        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="middletattoos3" equip="true" showpreview="false" />
         <Item identifier="middlechainsleft_physicorium" />
         <Item identifier="middlechainsright_physicorium" />
         <Item identifier="headset" equip="true" showpreview="false" />
@@ -479,17 +456,16 @@
           <Item identifier="bookofvengeance" />
         </Item>
         <Item identifier="kromerhelmet" equip="true" />
-        <Item identifier="middletattoos1" equip="True">
+        <Item identifier="egosplicer" equip="True">
           <Item identifier="tattoo_middle_senior" />
-          <Item identifier="bodymod_grade1_premium" />
         </Item>
-        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="seniormiddletattoos1" equip="true" showpreview="false" />
         <Item identifier="middlechainsleft_physicorium" />
         <Item identifier="middlechainsright_physicorium" />
         <Item identifier="headset" equip="true" showpreview="false" />
       </ItemSet>
     </npc>
-    <npc identifier="matthias" job="matthias" moduleflags="none" behavior="Patrol" experiencepoints="2850" BaseSalary="2500" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
+    <npc identifier="matthias" job="matthias" moduleflags="none" behavior="Patrol" experiencepoints="10000" BaseSalary="5000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
       <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="13" skincolor="119,73,41,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Professional">
         <job name="matthias" identifier="matthias">
           <skill identifier="electrical" level="100" />
@@ -500,6 +476,7 @@
         </job>
         <talents>
           <talent identifier="abno_parry" />
+          <talent identifier="swole" />
         </talents>
       </Character>
       <ItemSet>
@@ -520,11 +497,10 @@
           <Item identifier="bookofvengeance" />
         </Item>
         <Item identifier="kromerhelmet" equip="true" />
-        <Item identifier="middletattoos1" equip="True">
-          <Item identifier="tattoo_middle_senior" />
+        <Item identifier="egosplicer" equip="True">
           <Item identifier="bodymod_grade1_premium" />
         </Item>
-        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="seniormiddletattoos2" equip="true" showpreview="false" />
         <Item identifier="middlechainsleft_physicorium" />
         <Item identifier="middlechainsright_physicorium" />
         <Item identifier="matthiasgreatsword_form0" equip="True" />

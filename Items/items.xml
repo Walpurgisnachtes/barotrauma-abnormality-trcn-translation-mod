@@ -3142,20 +3142,20 @@
     <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="123,144,121,62" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middle.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Hand" texture="%ModDir%/Images/Outfits/middle.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Hand" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
-      <sprite name="Senior Assistant Waist" texture="%ModDir%/Images/Outfits/middle.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Thigh" texture="%ModDir%/Images/Outfits/middle.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Thigh" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Leg" texture="%ModDir%/Images/Outfits/middle.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Leg" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Shoe" texture="%ModDir%/Images/Outfits/middle.png" sound="footstep_middle" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Shoe" texture="%ModDir%/Images/Outfits/middle.png" sound="footstep_middle" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middle.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Hand" texture="%ModDir%/Images/Outfits/middle.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Hand" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <sprite name="Waist" texture="%ModDir%/Images/Outfits/middle.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Thigh" texture="%ModDir%/Images/Outfits/middle.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Thigh" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Leg" texture="%ModDir%/Images/Outfits/middle.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Leg" texture="%ModDir%/Images/Outfits/middle.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Shoe" texture="%ModDir%/Images/Outfits/middle.png" sound="footstep_middle" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Shoe" texture="%ModDir%/Images/Outfits/middle.png" sound="footstep_middle" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <SkillModifier skillidentifier="weapons" skillvalue="10" />
       <!--<StatusEffect type="OnWearing" target="Character">
 	    <Conditional isdead="False" />
@@ -3924,63 +3924,95 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="Cosmetic Middle Tattoos (1)" identifier="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Cosmetic Middle Tattoos (1)" identifier="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,idcard" description="Cosmetic tattoos which fit in the place of an ID card. If you have a special access level, insert that card into the marked slot of these tattoos to transfer the access. Removing that card will remove its access." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="medcab" secondary="medcab" />
     <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab,researchcontainer" spawnprobability="0.02" />
     <Price baseprice="680" minleveldifficulty="15" sold="false" />
     <Deconstruct time="10"></Deconstruct>
     <Fabricate suitablefabricators="enkfab" requiredtime="5">
-      <RequiredItem identifier="egosplicer" />
+      <RequiredItem tag="idcard" />
     </Fabricate>
     <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
-    <ItemContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
-      <Containable items="geneticmaterial" />
-      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-        <Containable items="egogene" />
-      </SubContainer>
-      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-        <Containable items="bodymod,enhancementtattoo" />
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
+      <SlotIcon slotindex="0" texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,64,64,64" origin="0.5,0.5" />
+      <Containable items="id_captain,cap,com">
+        <StatusEffect type="OnInserted" target="This" disabledeltatime="true" tags="idcard,cap,id_captain,com" setvalue="True" />
+        <StatusEffect type="OnRemoved" target="This" disabledeltatime="true" tags="idcard" setvalue="True" />
+      </Containable>
+      <Containable items="id_security,sec">
+        <StatusEffect type="OnInserted" target="This" disabledeltatime="true" tags="idcard,sec,id_security" setvalue="True" />
+        <StatusEffect type="OnRemoved" target="This" disabledeltatime="true" tags="idcard" setvalue="True" />
+      </Containable>
+      <Containable items="id_medical,id_medic,id_doctor,med">
+        <StatusEffect type="OnInserted" target="This" disabledeltatime="true" tags="idcard,id_medical,id_medic,id_doctor,med" setvalue="True" />
+        <StatusEffect type="OnRemoved" target="This" disabledeltatime="true" tags="idcard" setvalue="True" />
+      </Containable>
+      <SubContainer capacity="8">
+        <Containable items="bill,coin,money,walletcontainable,donorCard" />
       </SubContainer>
     </ItemContainer>
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+    <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
+    <Wearable limbtype="Head" slots="Card,Any" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,128,128" origin="0.5,0.5" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
     </Wearable>
   </Item>
-  <Item name="Cosmetic Middle Tattoos (2)" identifier="middletattoos2" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Cosmetic Middle Tattoos (2)" identifier="middletattoos2" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
     <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="128,0,128,128" origin="0.5,0.5" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
     </Wearable>
   </Item>
-  <Item name="Cosmetic Middle Tattoos (3)" identifier="middletattoos3" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Cosmetic Middle Tattoos (3)" identifier="middletattoos3" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
     <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="256,0,128,128" origin="0.5,0.5" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+    </Wearable>
+  </Item>
+  <Item name="Cosmetic Middle Tattoos (4)" identifier="seniormiddletattoos1" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="25" />
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="384,0,128,128" origin="0.5,0.5" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+    </Wearable>
+  </Item>
+  <Item name="Cosmetic Middle Tattoos (5)" identifier="seniormiddletattoos2" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="25" />
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="512,0,128,128" origin="0.5,0.5" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
     </Wearable>
   </Item>
   <!-- Middle Enhancement Tattoos -->
@@ -4017,73 +4049,6 @@
       </Containable>
     </ItemContainer>
   </Item>
-  <Item name="Senior Middle Tattoos (1)" identifier="seniormiddletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="medcab" secondary="medcab" />
-    <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab,researchcontainer" spawnprobability="0.02" />
-    <Price baseprice="855" minleveldifficulty="15" sold="false" />
-    <Deconstruct time="10"></Deconstruct>
-    <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="True">
-      <RequiredSkill identifier="medical" level="75" />
-      <RequiredItem identifier="enkephalin" amount="8" />
-      <RequiredItem identifier="advancedgenesplicer" />
-    </Fabricate>
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
-    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
-    <Body radius="15" width="45" density="25" />
-    <ItemContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-      <!-- Genes -->
-      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <!-- EGO -->
-      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <!-- Body mods -->
-      <SlotIcon slotindex="4" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <!-- Tats -->
-      <SlotIcon slotindex="5" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
-      <Containable items="geneticmaterial" />
-      <SubContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-        <Containable items="egogene" />
-      </SubContainer>
-      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-        <Containable items="bodymod,enhancementtattoo" />
-      </SubContainer>
-    </ItemContainer>
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-    </Wearable>
-  </Item>
-  <Item name="Senior Middle Tattoos (2)" identifier="seniormiddletattoos2" variantof="seniormiddletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
-    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
-    <Body radius="15" width="45" density="25" />
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-    </Wearable>
-  </Item>
-  <Item name="Senior Middle Tattoos (3)" identifier="seniormiddletattoos3" variantof="seniormiddletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
-    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
-    <Body radius="15" width="45" density="25" />
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-    </Wearable>
-  </Item>
   <Item name="Senior Middle Tattoos (Retreat)" identifier="seniormiddletattoos_retreat" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="medcab" secondary="medcab" />
     <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab,researchcontainer" spawnprobability="0.02" />
@@ -4112,12 +4077,12 @@
       </SubContainer>
     </ItemContainer>
     <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Gene Splicer Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Senior Assistant Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Senior Assistant Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
+      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <StatusEffect type="OnWearing" target="This,Character" delay="2" interval="1" stackable="false">
         <Conditional healthpercentage="lt -90" />
         <RemoveCharacter />
@@ -8214,7 +8179,7 @@
         </Explosion>
         <RemoveCharacter />
       </StatusEffect>
-      <sprite name="Gene Splicer Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+      <sprite name="Wearable" texture="Content/Items/Genetic/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
     </Wearable>
   </Item>
   <Item name="Kromer ID Card" description="Identification for Kromer." identifier="kromeridcard" hideinmenus="True" category="Misc" maxstacksize="1" Tags="smallitem,idcard,identitycard,sec,security,med,cap,id_captain,id_security" nonplayerteaminteractable="true" impactsoundtag="impact_metal_heavy">

@@ -554,10 +554,10 @@
     <Price baseprice="75" sold="false" />
     <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="1,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.001" />
-    <Fabricate suitablefabricators="enkfab" requiredtime="20" description="fabricationdescription.vestigefaint">
-      <RequiredSkill identifier="medical" level="20" />
-      <RequiredItem identifier="vestige_dark" amount="3" />
-    </Fabricate>
+    <!--<Fabricate suitablefabricators="enkfab" requiredtime="20" description="fabricationdescription.vestigefaint">
+	  <RequiredSkill identifier="medical" level="20" />
+	  <RequiredItem identifier="vestige_dark" amount="3" />
+	</Fabricate>-->
     <Fabricate suitablefabricators="enkfab" requiredtime="10">
       <RequiredSkill />
       <RequiredItem tag="tethgift" />
@@ -602,10 +602,10 @@
     <Price baseprice="225" sold="false" />
     <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="2,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.0001" />
-    <Fabricate suitablefabricators="enkfab" requiredtime="40" description="fabricationdescription.vestigetwinkling">
-      <RequiredSkill identifier="medical" level="40" />
-      <RequiredItem identifier="vestige_faint" amount="3" />
-    </Fabricate>
+    <!--<Fabricate suitablefabricators="enkfab" requiredtime="40" description="fabricationdescription.vestigetwinkling">
+	  <RequiredSkill identifier="medical" level="40" />
+	  <RequiredItem identifier="vestige_faint" amount="3" />
+	</Fabricate>-->
     <Fabricate suitablefabricators="enkfab" requiredtime="10">
       <RequiredSkill />
       <RequiredItem tag="hegift" />
@@ -634,10 +634,10 @@
     <Price baseprice="675" sold="false" />
     <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="3,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.00001" />
-    <Fabricate suitablefabricators="enkfab" requiredtime="60" description="fabricationdescription.vestigebrilliant">
-      <RequiredSkill identifier="medical" level="60" />
-      <RequiredItem identifier="vestige_twinkling" amount="3" />
-    </Fabricate>
+    <!--<Fabricate suitablefabricators="enkfab" requiredtime="60" description="fabricationdescription.vestigebrilliant">
+	  <RequiredSkill identifier="medical" level="60" />
+	  <RequiredItem identifier="vestige_twinkling" amount="3" />
+	</Fabricate>-->
     <Fabricate suitablefabricators="enkfab" requiredtime="10">
       <RequiredSkill />
       <RequiredItem tag="wawgift" />
@@ -665,10 +665,10 @@
     <Price baseprice="2025" sold="false" />
     <Sprite texture="%ModDir%/Images/egogifts.png" sheetindex="4,7" sheetelementsize="128,128" depth="0.55" origin="0.5,0.5" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" minamount="1" maxamount="2" spawnprobability="0.000001" />
-    <Fabricate suitablefabricators="enkfab" requiredtime="80" description="fabricationdescription.vestigelunar">
-      <RequiredSkill identifier="medical" level="80" />
-      <RequiredItem identifier="vestige_brilliant" amount="3" />
-    </Fabricate>
+    <!--<Fabricate suitablefabricators="enkfab" requiredtime="80" description="fabricationdescription.vestigelunar">
+	  <RequiredSkill identifier="medical" level="80" />
+	  <RequiredItem identifier="vestige_brilliant" amount="3" />
+	</Fabricate>-->
     <Fabricate suitablefabricators="enkfab" requiredtime="10">
       <RequiredSkill />
       <RequiredItem tag="alephgift" />
