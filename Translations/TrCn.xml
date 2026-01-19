@@ -608,7 +608,7 @@
     <jobdescription.middle>中指的幼弟和幼妹最關心他們的「家族」，而那個家族就是中指。他們會樂於懲罰任何輕蔑他們家族成員的人。</jobdescription.middle>
     <jobname.werner>中指幼弟</jobname.werner>
     <jobname.ricardo>中指幼兄</jobname.ricardo>
-    <jobname.matthias>中指護父</jobname.matthias>
+    <jobname.matthias>中指長兄</jobname.matthias>
     <jobname.thumbsoldato>拇指士兵</jobname.thumbsoldato>
     <jobname.thumbsoldato_east>拇指士兵（東部）</jobname.thumbsoldato_east>
     <jobname.thumbcapo>拇指指揮官</jobname.thumbcapo>
@@ -985,8 +985,12 @@
     <talentname.youngbrother>幼弟</talentname.youngbrother>
     <talentdescription.youngbrother>獲得 [amount]% 近戰傷害與速度。完全移除雙持懲罰。</talentdescription.youngbrother>
     <!-- Ricardo -->
-    <talentname.bigbrother>大哥</talentname.bigbrother>
+    <talentname.bigbrother>幼兄</talentname.bigbrother>
     <talentdescription.bigbrother>獲得 [amount]% 近戰傷害與速度。完全移除雙持懲罰。</talentdescription.bigbrother>
+    <talentname.greatbrother>長兄</talentname.greatbrother>
+    <talentdescription.greatbrother>獲得 [amount]% 近戰傷害與速度。完全移除雙持懲罰。</talentdescription.greatbrother>
+    <talentname.ridiculousgrit>過人的毅力</talentname.ridiculousgrit>
+    <talentdescription.ridiculousgrit>獲得 [burnresistance]% 燃燒抗性。「把握機會」使你在被擊中時有 [amount]% 的概率獲得「過人的毅力」，持續 1 秒（如果你沒有救贖冷卻）。始終保持清醒；陷入危急狀態時，獲得 [damageresistance]% 傷害抗性，持續 [seconds] 秒。</talentdescription.ridiculousgrit>
     <!-- Thumb -->
     <talentname.steelknuckles>鋼鐵指節</talentname.steelknuckles>
     <talentdescription.steelknuckles>對敵人造成的眩暈與鈍擊傷害提升 [amount]%。</talentdescription.steelknuckles>
