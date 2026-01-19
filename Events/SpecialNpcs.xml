@@ -466,7 +466,7 @@
       </ItemSet>
     </npc>
     <npc identifier="matthias" job="matthias" moduleflags="none" behavior="Patrol" experiencepoints="10000" BaseSalary="5000" SkillSalaryMultiplier="0.75" aimspeed="2.0" aimaccuracy="2.0">
-      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="13" skincolor="119,73,41,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Professional">
+      <Character speciesname="human" gender="male" headspriteid="16" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="12" skincolor="119,73,41,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Professional">
         <job name="matthias" identifier="matthias">
           <skill identifier="electrical" level="100" />
           <skill identifier="mechanical" level="100" />
@@ -477,6 +477,8 @@
         <talents>
           <talent identifier="abno_parry" />
           <talent identifier="swole" />
+          <talent identifier="greatbrother" />
+          <talent identifier="littlevengeance" />
         </talents>
       </Character>
       <ItemSet>

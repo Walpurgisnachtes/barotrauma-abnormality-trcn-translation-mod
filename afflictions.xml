@@ -5878,4 +5878,12 @@
     </Effect>
     <icon texture="%ModDir%/Images/Icons2.png" sheetindex="2,6" sheetelementsize="128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
+  <Affliction name="Ridiculous Grit" identifier="ridiculousgrit" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="15" treatmentthreshold="1000" duration="15" iconcolors="255,255,255;255,255,255;255,255,255;255,255,255">
+    <Effect minstrength="0" maxstrength="15" resistancefor="damage,burn,bleeding,bloodloss,bonedamage,severeorgandamage" minresistance="0.99" maxresistance="0.99">
+      <StatusEffect target="Character" interval="1">
+        <Affliction identifier="adrenalinerush" amount="8" />
+      </StatusEffect>
+    </Effect>
+    <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="1,7" sheetelementsize="128,128" origin="0,0" />
+  </Affliction>
 </Afflictions>

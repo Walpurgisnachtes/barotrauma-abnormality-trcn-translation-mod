@@ -3665,10 +3665,11 @@
       <Containable items="smallitem" />
     </ItemContainer>
   </Item>
-  <Item name="Matthias's Greatsword [Form 0]" identifier="matthiasgreatsword_form0" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,crowbaritem" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Lævateinn [Sealed]" identifier="matthiasgreatsword_form0" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,crowbaritem" description="A sealed Relic with immense power hidden within, but only a few have the aptitude to wield it." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Fabricate suitablefabricators="enkfab" requiresrecipe="true" time="30">
-      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="physicorium" amount="3" />
+      <RequiredItem identifier="incendium" amount="4" />
       <RequiredItem identifier="titaniumaluminiumalloy" amount="6" />
       <RequiredItem identifier="enkephalin" amount="4" />
     </Fabricate>
@@ -3705,7 +3706,7 @@
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
-      <Button text="Switch Mode">
+      <Button text="Remove Seal">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
         </StatusEffect>
@@ -3715,7 +3716,7 @@
       </Button>
     </CustomInterface>
   </Item>
-  <Item name="Matthias's Greatsword [Form 1]" identifier="matthiasgreatsword_form1" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Lævateinn [First Seal Removed]" identifier="matthiasgreatsword_form1" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,crowbaritem" description="The first seal has been removed, allowing a small portion of the Relic's incredible heat to be revealed." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="500" sold="false" />
     <Deconstruct time="10" />
@@ -3726,8 +3727,8 @@
     </Wearable>
     <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
     <!-- holdangle="20" aimangle="30" -->
-    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="4" range="300" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.35" multiplyafflictionsbymaxvitality="True">
         <Affliction identifier="lacerations" strength="40" />
         <Affliction identifier="blunttrauma" strength="40" />
         <Affliction identifier="burn" strength="20" />
@@ -3752,7 +3753,7 @@
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
-      <Button text="Switch Mode">
+      <Button text="Remove Seal">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
         </StatusEffect>
@@ -3762,7 +3763,7 @@
       </Button>
     </CustomInterface>
   </Item>
-  <Item name="Matthias's Greatsword [Form 2]" identifier="matthiasgreatsword_form2" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Lævateinn [Second Seal Removed]" identifier="matthiasgreatsword_form2" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="The second seal has been removed. An incredible heat will burn away anything this weapon hits. (Counts for Gladius talents)" scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <!-- <PreferredContainer primary="blacksilencegloves" amount="1" spawnprobability="1" /> -->
     <Price baseprice="500" sold="false" />
@@ -3774,8 +3775,8 @@
     </Wearable>
     <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
     <!-- holdangle="20" aimangle="30" -->
-    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="3" range="250" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.4" multiplyafflictionsbymaxvitality="True">
         <Affliction identifier="lacerations" strength="40" />
         <Affliction identifier="blunttrauma" strength="40" />
         <Affliction identifier="burn" strength="20" />
@@ -3800,7 +3801,7 @@
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
-      <Button text="Switch Mode">
+      <Button text="Remove Seal">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
         </StatusEffect>
@@ -3810,7 +3811,7 @@
       </Button>
     </CustomInterface>
   </Item>
-  <Item name="Matthias's Greatsword [Form 3]" identifier="matthiasgreatsword_form3" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="A huge two-handed blade. Its incredible heft makes it slow to use, but a proper hit will deal massive damage and disorient any target." scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Lævateinn [Unsealed]" identifier="matthiasgreatsword_form3" hideinmenus="True" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" Tags="mediumitem,weapon,mountableweapon,sharptool,gladius" description="All seals removed, this is Lævateinn in its true glory. Merely swinging the blade will immolate everything around it, including its wielder. Use with caution. (Counts for Gladius talents)" scale="0.38" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <!-- <PreferredContainer primary="blacksilencegloves" amount="1" spawnprobability="1" /> -->
     <Price baseprice="500" sold="false" />
@@ -3822,32 +3823,36 @@
     </Wearable>
     <Body width="500" height="30" density="10.2" waterdragcoefficient="1" />
     <!-- holdangle="20" aimangle="30" -->
-    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="5" range="300" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.3" multiplyafflictionsbymaxvitality="True">
+    <MeleeWeapon slots="RightHand+LeftHand" aimpos="40,20" holdangle="30" aimangle="20" handle1="-75,0" handle2="-100,0" reload="1.25" range="150" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="6" severlimbsprobability="0.4" structuredamage="5" itemdamage="100" penetration="0.45" multiplyafflictionsbymaxvitality="True">
         <Affliction identifier="lacerations" strength="60" />
         <Affliction identifier="burn" strength="40" />
         <Affliction identifier="burning" strength="50" />
         <Affliction identifier="bleeding" strength="30" />
         <Affliction identifier="stun" strength="0.1" />
-        <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" range="500" selectionmode="Random" />
-        <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
-        <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
-        <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
-        <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
-        <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
-        <StatusEffect type="OnUse" target="UseTarget">
-          <Sound file="Content/Items/Weapons/Smack1.ogg" range="1200" volume="2" />
-          <Sound file="Content/Items/Weapons/Smack2.ogg" range="1200" volume="2" />
+        <StatusEffect type="OnUse" target="This">
+          <Explosion range="500" ballastfloradamage="100" flames="True" showeffects="false">
+            <Affliction identifier="burning" amount="20" />
+            <Affliction identifier="burn" amount="5" />
+          </Explosion>
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Character" targetlimbs="LeftHand,RightHand">
+          <Affliction identifier="burning" amount="20" />
+          <Affliction identifier="burn" amount="5" />
         </StatusEffect>
         <StatusEffect type="OnUse" target="UseTarget">
-          <Sound file="%ModDir%/Sounds/Roland_GreatSword.ogg" range="1200" volume="1" />
+          <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" range="500" selectionmode="Random" />
+          <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
         </StatusEffect>
-        <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.95" setvalue="true" />
       </Attack>
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
-      <Button text="Switch Mode">
+      <Button text="Seal">
         <StatusEffect target="This" type="OnUse" delay="0.2" stackable="false">
           <Remove />
         </StatusEffect>
@@ -3932,7 +3937,7 @@
     <Fabricate suitablefabricators="enkfab" requiredtime="5">
       <RequiredItem tag="idcard" />
     </Fabricate>
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Images/Outfits/middleheadtattoos.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
@@ -3949,13 +3954,13 @@
         <StatusEffect type="OnInserted" target="This" disabledeltatime="true" tags="idcard,id_medical,id_medic,id_doctor,med" setvalue="True" />
         <StatusEffect type="OnRemoved" target="This" disabledeltatime="true" tags="idcard" setvalue="True" />
       </Containable>
-      <SubContainer capacity="8">
+      <SubContainer capacity="8" maxstacksize="32">
         <Containable items="bill,coin,money,walletcontainable,donorCard" />
       </SubContainer>
     </ItemContainer>
     <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
     <Wearable limbtype="Head" slots="Card,Any" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,128,128" origin="0.5,0.5" />
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="0,0,128,128" origin="0.5,0.5" />
       <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -3964,11 +3969,11 @@
     </Wearable>
   </Item>
   <Item name="Cosmetic Middle Tattoos (2)" identifier="middletattoos2" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Images/Outfits/middleheadtattoos.png" sourcerect="128,0,128,128" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="128,0,128,128" origin="0.5,0.5" />
+    <Wearable limbtype="Head" slots="Any,Card" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="128,0,128,128" origin="0.5,0.5" />
       <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -3977,11 +3982,11 @@
     </Wearable>
   </Item>
   <Item name="Cosmetic Middle Tattoos (3)" identifier="middletattoos3" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Images/Outfits/middleheadtattoos.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="256,0,128,128" origin="0.5,0.5" />
+    <Wearable limbtype="Head" slots="Any,Card" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="256,0,128,128" origin="0.5,0.5" />
       <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -3990,10 +3995,10 @@
     </Wearable>
   </Item>
   <Item name="Cosmetic Middle Tattoos (4)" identifier="seniormiddletattoos1" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Images/Outfits/middleheadtattoos.png" sourcerect="384,0,128,128" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+    <Wearable limbtype="Head" slots="Any,Card" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
       <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="384,0,128,128" origin="0.5,0.5" />
       <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -4003,10 +4008,10 @@
     </Wearable>
   </Item>
   <Item name="Cosmetic Middle Tattoos (5)" identifier="seniormiddletattoos2" variantof="middletattoos1" scale="0.4" category="Equipment" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Images/Outfits/middleheadtattoos.png" sourcerect="512,0,128,128" origin="0.5,0.5" />
     <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
     <Body radius="15" width="45" density="25" />
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+    <Wearable limbtype="Head" slots="Any,Card" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
       <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middleheadtattoos.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="512,0,128,128" origin="0.5,0.5" />
       <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -4048,56 +4053,6 @@
         </StatusEffect>
       </Containable>
     </ItemContainer>
-  </Item>
-  <Item name="Senior Middle Tattoos (Retreat)" identifier="seniormiddletattoos_retreat" scale="0.4" category="Equipment" subcategory="Abnormalities" tags="smallitem,geneticdevice" description="The Middle Syndicate grants specialized enhancement tattoos to their members based on their accomplishments. This example is further empowered with a greater effect and the ability to slot a second gene. Typically only afforded to those who can buy it or earn it from the Middle Syndicate through hard work." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="medcab" secondary="medcab" />
-    <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab,researchcontainer" spawnprobability="0.02" />
-    <Price baseprice="855" minleveldifficulty="15" sold="false" />
-    <Deconstruct time="10" />
-    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
-    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
-    <Body radius="15" width="45" density="25" />
-    <ItemContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-      <!-- Genes -->
-      <SlotIcon slotindex="0" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="1" texture="%ModDir%/Images/icons.png" sheetindex="3,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <!-- EGO -->
-      <SlotIcon slotindex="2" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <SlotIcon slotindex="3" texture="%ModDir%/Images/icons.png" sheetindex="4,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <!-- Body mods -->
-      <SlotIcon slotindex="4" texture="%ModDir%/Images/icons.png" sheetindex="5,7" sheetelementsize="128,128" origin="0.5,0.5" />
-      <!-- Tats -->
-      <SlotIcon slotindex="5" texture="%ModDir%/Images/icons.png" sheetindex="7,0" sheetelementsize="128,128" origin="0.5,0.5" />
-      <Containable items="geneticmaterial" />
-      <SubContainer capacity="2" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-        <Containable items="egogene" />
-      </SubContainer>
-      <SubContainer capacity="1" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false">
-        <Containable items="bodymod,enhancementtattoo" />
-      </SubContainer>
-    </ItemContainer>
-    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Wearable" texture="%ModDir%/Images/Outfits/middle.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="441,105,71,95" origin="0.5,0.5" />
-      <sprite name="Torso" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Right Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Left Lower Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Right Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Left Upper Arm" texture="%ModDir%/Images/Outfits/middletattoos.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <StatusEffect type="OnWearing" target="This,Character" delay="2" interval="1" stackable="false">
-        <Conditional healthpercentage="lt -90" />
-        <RemoveCharacter />
-      </StatusEffect>
-      <StatusEffect type="OnWearing" target="This,Character" duration="2" interval="1" stackable="false">
-        <Conditional isdead="true" />
-        <ParticleEmitter particle="nasonovsparkles" colormultiplier="200,100,255,255" copyentityangle="false" particleamount="1" distancemin="0" distancemax="100" anglemin="0" anglemax="360" scalemin="1.5" scalemax="1.5" velocitymin="0" velocitymax="0" />
-        <ParticleEmitter particle="cyborgammotracer" colormultiplier="200,100,255,255" copyentityangle="false" particleamount="2" distancemin="0" distancemax="100" anglemin="0" anglemax="360" scalemin="1.5" scalemax="1.5" velocitymin="0" velocitymax="0" />
-      </StatusEffect>
-      <StatusEffect type="OnNotContained" target="This">
-        <Remove />
-      </StatusEffect>
-      <AbilityFlag flagtype="AlwaysStayConscious" />
-      <AbilityFlag flagtype="CanNotDieToAfflictions" />
-    </Wearable>
   </Item>
   <!-- Ring Pointillists -->
   <Item name="Ring Pointillist Student Uniform" identifier="ringstudentoutfit" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing,ring" fireproof="false" cargocontaineridentifier="abnocrate" description="The Ring Syndicate values art above all else, even to the point where they believe combat should contain art. This uniform protects the wearer from getting messy in melee combat and offers a full range of motion with no restrictions." scale="0.5" impactsoundtag="impact_soft">

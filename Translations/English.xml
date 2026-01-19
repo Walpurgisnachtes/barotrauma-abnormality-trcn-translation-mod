@@ -749,7 +749,7 @@
   <charactername.werner>Werner</charactername.werner>
   <npctitle.ricardo>Middle Big Brother</npctitle.ricardo>
   <charactername.ricardo>Ricardo</charactername.ricardo>
-  <npctitle.matthias>Middle Nursefather</npctitle.matthias>
+  <npctitle.matthias>Middle Great Brother</npctitle.matthias>
   <charactername.matthias>Matthias</charactername.matthias>
   <npctitle.thumbsoldato>Thumb Soldato</npctitle.thumbsoldato>
   <npctitle.thumbsoldato_east>Thumb Soldato</npctitle.thumbsoldato_east>
@@ -987,6 +987,10 @@
   <!-- Ricardo -->
   <talentname.bigbrother>Big Brother</talentname.bigbrother>
   <talentdescription.bigbrother>Gain [amount]% melee damage and speed. Remove dual wielding penalties entirely.</talentdescription.bigbrother>
+  <talentname.greatbrother>Great Brother</talentname.greatbrother>
+  <talentdescription.greatbrother>Gain [amount]% melee damage and speed. Remove dual wielding penalties entirely.</talentdescription.greatbrother>
+  <talentname.ridiculousgrit>Ridiculous Grit</talentname.ridiculousgrit>
+  <talentdescription.ridiculousgrit>Gain [burnresistance]% resistance to Burn. Seize ya Chance grants a [amount]% chance to gain Ridiculous Grit for one second whenever you're hit, if you don't have Salvation Cooldown. Always remain conscious; when falling into critical condition, gain [damageresistance]% damage resistance for [seconds] seconds.</talentdescription.ridiculousgrit>
   <!-- Thumb -->
   <talentname.steelknuckles>Steel Knuckles</talentname.steelknuckles>
   <talentdescription.steelknuckles>Deal [amount]% more stun and blunt damage to foes.</talentdescription.steelknuckles>

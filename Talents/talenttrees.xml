@@ -767,7 +767,7 @@
   <TalentTree jobidentifier="matthias">
     <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
       <TalentOptions requiredtalents="1" maxchosentalents="1">
-        <TalentOption identifier="bigbrother" />
+        <TalentOption identifier="greatbrother" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="6">
         <TalentOption identifier="buff" />
@@ -799,7 +799,7 @@
         <TalentOption identifier="seizeyachance" />
       </TalentOptions>
       <TalentOptions>
-        <TalentOption identifier="superthermogenesis" />
+        <TalentOption identifier="ridiculousgrit" />
       </TalentOptions>
     </SubTree>
     <SubTree identifier="syndicatebrutality" type="specialization" requires="security_primary">
@@ -816,6 +816,7 @@
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="cleanupcrew" />
+        <TalentOption identifier="superthermogenesis" />
       </TalentOptions>
     </SubTree>
     <SubTree identifier="syndicatetogetherness" type="specialization" requires="security_primary">

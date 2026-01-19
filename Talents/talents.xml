@@ -14188,4 +14188,142 @@
     <AddedRecipe itemidentifier="atalierlogicrifleround" />
     <AddedRecipe itemidentifier="ataliershotgunshell" />
   </Talent>
+  <Talent identifier="ridiculousgrit">
+    <Description tag="talentdescription.ridiculousgrit">
+      <Replace tag="[burnresistance]" value="25" color="gui.green" />
+      <Replace tag="[amount]" value="10" color="gui.green" />
+      <Replace tag="[damageresistance]" value="99" color="gui.green" />
+      <Replace tag="[seconds]" value="15" color="gui.green" />
+    </Description>
+    <Description tag="talentdescription.maxtriggeruntildeath.abno">
+      <Replace tag="[cooldown]" value="10" color="gui.red" />
+    </Description>
+    <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="1,7" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveResistance resistanceid="burn" multiplier="0.75" />
+        <CharacterAbilityGiveResistance resistanceid="burning" multiplier="0.75" />
+        <CharacterAbilityGiveFlag flagtype="AlwaysStayConscious" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttacked">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="seizeyachance" />
+        <AbilityConditionHasAffliction afflictionidentifier="salvationcooldown" invert="true" />
+        <AbilityConditionServerRandom randomchance="0.1" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+              <Affliction identifier="ridiculousgrit" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
+        <AbilityConditionHasAffliction afflictionidentifier="salvationcooldown" invert="true" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+              <Affliction identifier="ridiculousgrit" amount="15.0" />
+              <Affliction identifier="salvationcooldown" amount="600.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+  <Talent identifier="greatbrother">
+    <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="1,7" sheetelementsize="128,128" />
+    <Description tag="talentdescription.greatbrother">
+      <Replace tag="[amount]" value="30" color="gui.green" />
+    </Description>
+    <!-- Get more health -->
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MeleeAttackMultiplier" value="0.3" />
+        <CharacterAbilityGiveStat stattype="MeleeAttackSpeed" value="0.3" />
+        <CharacterAbilityGiveStat stattype="DualWieldingPenaltyReduction" value="1.0" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <!-- Deal more damage with the Chains -->
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="middlechains" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.3" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveFlag flagtype="ImmuneToPressure" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <!-- weaker version of liquified flesh -->
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="75" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.opiateaddiction" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="75" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.opiateoverdose" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="50" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.opiatewithdrawal" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="25" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.chemaddiction" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="25" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.chemwithdrawal" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="75" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictiontype.poison" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="100" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.huskinfection" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="100" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.psychosis" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="100" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.oxygenlow" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.additionalresistanceself">
+      <Replace tag="[amount]" value="100" color="gui.green" />
+      <Replace tag="[affliction]" value="afflictionname.stun" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveResistance resistanceid="opiateaddiction" multiplier="0.25" />
+        <CharacterAbilityGiveResistance resistanceid="opiateoverdose" multiplier="0.25" />
+        <CharacterAbilityGiveResistance resistanceid="opiatewithdrawal" multiplier="0.5" />
+        <CharacterAbilityGiveResistance resistanceid="chemaddiction" multiplier="0.75" />
+        <CharacterAbilityGiveResistance resistanceid="chemwithdrawal" multiplier="0.75" />
+        <CharacterAbilityGiveResistance resistanceid="poison" multiplier="0.25" />
+        <CharacterAbilityGiveResistance resistanceid="huskinfection" multiplier="0.0" />
+        <CharacterAbilityGiveResistance resistanceid="alieninfection" multiplier="0.5" />
+        <CharacterAbilityGiveResistance resistanceid="analgesia" multiplier="0.0" />
+        <CharacterAbilityGiveResistance resistanceid="psychosis" multiplier="0.0" />
+        <CharacterAbilityGiveResistance resistanceid="oxygenlow" multiplier="0.0" />
+        <CharacterAbilityGiveResistance resistanceid="stun" multiplier="0.0" />
+        <CharacterAbilityGiveResistance resistanceid="incrementalstun" multiplier="0.0" />
+        <CharacterAbilityGiveResistance resistanceid="progressivestun" multiplier="0.0" />
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
 </Talents>
