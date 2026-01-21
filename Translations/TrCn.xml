@@ -1081,14 +1081,14 @@
     <talentname.rabbitevade>回避</talentname.rabbitevade>
     <talentdescription.rabbitevade>若你在 [seconds] 秒內未受到攻擊，下一次受到的攻擊威力降低 [powerreduction]%，且你獲得 [charge] 充能。</talentdescription.rabbitevade>
     <talentname.rabbitprotocol>兔子協議</talentname.rabbitprotocol>
-    <talentdescription.rabbitprotocol>10 米內的兔子獲得以下益處：</talentdescription.rabbitprotocol>
+    <talentdescription.rabbitprotocol>6 米內的兔子獲得以下益處：</talentdescription.rabbitprotocol>
     <talentname.rabbitaugmentation>兔子強化</talentname.rabbitaugmentation>
     <talentdescription.rabbitaugmentation>隨生命值下降獲得更多移動速度，處於瀕死狀態時最高提升 [speed]%。</talentdescription.rabbitaugmentation>
     <talentname.rrrsuit>Triple-R 裝甲</talentname.rrrsuit>
     <talentdescription.rrrsuit>充能衰減速度降低 [amount]%。</talentdescription.rrrsuit>
     <!-- Rhino -->
     <talentname.maneuvertraining>機動訓練</talentname.maneuvertraining>
-    <talentdescription.maneuvertraining>每擁有 [charge] 充能獲得 [amount]% 速度，最高提升 [final]%。</talentdescription.maneuvertraining>
+    <talentdescription.maneuvertraining>穿着犀牛套裝或外骨骼時基於充能獲得最高 [amount]% 速度提升。</talentdescription.maneuvertraining>
     <talentname.suitpressurization>啟動 rrR-#4 裝甲加壓</talentname.suitpressurization>
     <talentdescription.suitpressurization>基於充能獲得最高 [amount]% 最大生命值。</talentdescription.suitpressurization>
     <talentname.demolish>摧毀</talentname.demolish>
@@ -1105,33 +1105,33 @@
     <talentname.beatthebrush>揮灑筆刷</talentname.beatthebrush>
     <talentdescription.beatthebrush>目標身上每有 [amount] 出血，受到的傷害降低 [powerreduction]%，最高降低 [finalamount]%。</talentdescription.beatthebrush>
     <talentname.dotting>點彩</talentname.dotting>
-    <talentdescription.dotting>若目標擁有 [amount]% 或更多出血，傷害提升 10%。</talentdescription.dotting>
+    <talentdescription.dotting>若目標擁有 [amount]% 或更多出血，環指武器傷害提升 10%。</talentdescription.dotting>
     <talentname.paintover>重繪</talentname.paintover>
-    <talentdescription.paintover>每次命中時，判定施加隨機傷害類型的幾率。每種傷害類型都有 [chance]% 幾率以 [value] 強度施加。</talentdescription.paintover>
+    <talentdescription.paintover>每次使用環指筆刷命中時，判定施加隨機傷害類型的幾率。每種傷害類型都有 [chance]% 幾率以 [value] 強度施加。</talentdescription.paintover>
     <talentname.sanguinepainting>鮮血繪畫</talentname.sanguinepainting>
-    <talentdescription.sanguinepainting>施加的出血提升 [amount]%。目標身上每有一種獨特的傷害類型，各獲得 [chance]% 幾率施加 [bleedamount] 出血。</talentdescription.sanguinepainting>
+    <talentdescription.sanguinepainting>施加的出血提升 [amount]%。使用環指筆刷命中的目標身上每有一種獨特的傷害類型，各獲得 [chance]% 幾率施加 [bleedamount] 出血。</talentdescription.sanguinepainting>
     <talentname.sanguinepointillism>鮮血點彩派</talentname.sanguinepointillism>
     <talentdescription.sanguinepointillism>目標身上每有一種獨特的傷害類型，判定 [chance]% 幾率施加 [amount] 隨機傷害類型。</talentdescription.sanguinepointillism>
     <talentname.artfularsonist>藝術縱火犯</talentname.artfularsonist>
-    <talentdescription.artfularsonist>使用任何形式的傷害命中目標時，有 [chance]% 幾率施加少量燃燒並使目標起火。</talentdescription.artfularsonist>
+    <talentdescription.artfularsonist>使用點彩派筆刷命中目標時，有 [chance]% 幾率施加少量燃燒並使目標起火。</talentdescription.artfularsonist>
     <talentname.multitudeofdots>繁星點點</talentname.multitudeofdots>
-    <talentdescription.multitudeofdots>命中目標後，週期性對其施加隨機傷害類型。</talentdescription.multitudeofdots>
+    <talentdescription.multitudeofdots>使用點彩派筆刷命中目標後，週期性對其施加隨機傷害類型。</talentdescription.multitudeofdots>
     <talentname.assignmentevaluation>作業評價</talentname.assignmentevaluation>
     <talentdescription.assignmentevaluation>命中目標時，恢復 [amount] 理智並降低 [amount]% 畫皮感染。此外，獲得 [vigoramount] 活力煥發與戰鬥興奮劑。</talentdescription.assignmentevaluation>
     <talentname.artworkinspection>藝術品審查</talentname.artworkinspection>
-    <talentdescription.artworkinspection>目標身上每有一個負面效果，傷害提升 [amount]%，最高 [finalamount]%。若擊殺目標，為自己和附近的盟友施加 [vigoramount] 活力煥發。</talentdescription.artworkinspection>
+    <talentdescription.artworkinspection>目標身上每有一個負面效果，使用點彩派筆刷造成傷害提升 [amount]%，最高 [finalamount]%。若擊殺目標，為自己和附近的盟友施加 [vigoramount] 攻擊等級提高。</talentdescription.artworkinspection>
     <talentname.hematiccoloring>鮮血上色</talentname.hematiccoloring>
     <talentdescription.hematiccoloring>每種獨特效果造成的傷害提升 [amount]%。</talentdescription.hematiccoloring>
     <talentname.expeditedexsanguination>加速放血</talentname.expeditedexsanguination>
-    <talentdescription.expeditedexsanguination>命中時，有 [chance]% 幾率將 [bleedingamount] 出血轉化為 [bloodlossamount] 失血。</talentdescription.expeditedexsanguination>
+    <talentdescription.expeditedexsanguination>使用點彩派筆刷命中時，有 [chance]% 幾率將 [bleedingamount] 出血轉化為 [bloodlossamount] 失血。</talentdescription.expeditedexsanguination>
     <talentname.patientartist>耐心的藝術家</talentname.patientartist>
-    <talentdescription.patientartist>命中時，有 [chance]% 幾率將 [bloodlossamount] 失血轉化為 [bleedingamount] 出血。</talentdescription.patientartist>
+    <talentdescription.patientartist>使用點彩派筆刷命中時，有 [chance]% 幾率將 [bloodlossamount] 失血轉化為 [bleedingamount] 出血。</talentdescription.patientartist>
     <talentname.successtobepraised>成就，理應嘉獎</talentname.successtobepraised>
     <talentdescription.successtobepraised>附近盟友獲得 [amount] 武器、機械與工程技能。提升這些技能的速度加快 [amount]%。此外，擊殺可獲得 [killxp] 經驗值。</talentdescription.successtobepraised>
     <talentname.failureburnedaway>失敗，燒之殆盡</talentname.failureburnedaway>
     <talentdescription.failureburnedaway>造成的燒傷與燃燒傷害提升 [amount]%。</talentdescription.failureburnedaway>
     <talentname.ontheclock>爭分奪秒</talentname.ontheclock>
-    <talentdescription.ontheclock>命中目標時，移動速度提升最高 [amount]%，持續 [duration] 秒。此外，獲得高眩暈抗性並始終保持清醒。</talentdescription.ontheclock>
+    <talentdescription.ontheclock>使用點彩派筆刷命中目標時，移動速度提升最高 [amount]%，持續 [duration] 秒。此外，獲得高眩暈抗性並始終保持清醒。</talentdescription.ontheclock>
     <talentname.donotquestionmyjudgement>勿要質疑我的判斷！</talentname.donotquestionmyjudgement>
     <talentdescription.donotquestionmyjudgement>若你在 [seconds] 秒內未受到攻擊，下一次受到的攻擊威力降低 [powerreduction]%，對攻擊者施加 [amount] 震顫並觸發震顫引爆。</talentdescription.donotquestionmyjudgement>
     <!-- W Corp -->
@@ -1351,11 +1351,11 @@
     <talentname.suppressingfire>火力壓制</talentname.suppressingfire>
     <talentdescription.suppressingfire>遠程攻擊施加 [amount] 緩速。</talentdescription.suppressingfire>
     <talentname.returnfire>還擊</talentname.returnfire>
-    <talentdescription.returnfire>被擊中時，造成的遠程傷害提升 [damage]%，移動速度加快 [speed]%，持續 [seconds] 秒。</talentdescription.returnfire>
+    <talentdescription.returnfire>被擊中時，造成的遠程傷害提升 [damage]%，持續 [seconds] 秒。冷卻 [damage] 秒。</talentdescription.returnfire>
     <talentname.snipe>狙擊</talentname.snipe>
     <talentdescription.snipe>若你在 [seconds] 秒內未進行攻擊，下次遠程攻擊造成的傷害提升 [amount]%。</talentdescription.snipe>
     <talentname.precisionaim>精準瞄準</talentname.precisionaim>
-    <talentdescription.precisionaim>自身每有 [poise] 呼吸，造成的傷害提升 [amount]%，最高可達 [maxamount]%。</talentdescription.precisionaim>
+    <talentdescription.precisionaim>造成的傷害基於呼吸層數提高，最高可達 [maxamount]%。</talentdescription.precisionaim>
     <talentname.spotter>觀測員</talentname.spotter>
     <talentdescription.spotter>每 [seconds] 秒，賦予附近隊友 [poise] 呼吸。</talentdescription.spotter>
     <talentname.headshot>爆頭</talentname.headshot>
@@ -1811,12 +1811,12 @@
     <talentname.urbanmythblueprints>‖color:gui.green‖都市怪談‖end‖</talentname.urbanmythblueprints>
     <talentname.urbanlegendblueprints>‖color:gui.blue‖都市傳說‖end‖</talentname.urbanlegendblueprints>
     <talentname.urbanplagueblueprints>‖color:gui.yellow‖都市惡疾‖end‖</talentname.urbanplagueblueprints>
-    <talentname.urbannightmareblueprints>‖color:255,0,255‖都市夢魘‖end‖</talentname.urbannightmareblueprints>
+    <talentname.urbannightmareblueprints>‖color:147,112,219‖都市夢魘‖end‖</talentname.urbannightmareblueprints>
     <talentname.starofthecityblueprints>‖color:gui.red‖都市之星‖end‖</talentname.starofthecityblueprints>
     <entityname.grade9and8bodymods>‖color:gui.green‖第 9 和 8 階強化接合器‖end‖</entityname.grade9and8bodymods>
     <entityname.grade7and6bodymods>‖color:gui.blue‖第 7 和 6 階強化接合器‖end‖</entityname.grade7and6bodymods>
     <entityname.grade5and4bodymods>‖color:gui.yellow‖第 5 和 4 階強化接合器‖end‖</entityname.grade5and4bodymods>
-    <entityname.grade3and2bodymods>‖color:255,0,255‖‖color:gui.red‖第 3 和 2 階強化接合器‖end‖</entityname.grade3and2bodymods>
+    <entityname.grade3and2bodymods>‖color:147,112,219‖‖color:gui.red‖第 3 和 2 階強化接合器‖end‖</entityname.grade3and2bodymods>
     <entityname.grade1bodymods>‖color:gui.red‖第 1 階強化接合器‖end‖</entityname.grade1bodymods>
     <entityname.liuuniform>‖color:gui.green‖六協會制服‖end‖</entityname.liuuniform>
     <entityname.liucoat>‖color:gui.green‖六協會大衣‖end‖</entityname.liucoat>
@@ -1958,36 +1958,39 @@
     <entityname.abno_binahcoat>‖color:gui.red‖調律者大衣‖end‖</entityname.abno_binahcoat>
     <entityname.abno_redmistmask>‖color:gui.red‖殷紅迷霧面具‖end‖</entityname.abno_redmistmask>
     <entityname.abno_redmistcostume>‖color:gui.red‖E.G.O. 殷紅迷霧‖end‖</entityname.abno_redmistcostume>
-    <entityname.kromercoat>‖color:255,0,255‖克羅默的大衣‖end‖</entityname.kromercoat>
-    <entityname.xiaoguandaofake>‖color:255,0,255‖曉的關刀 (複製品)‖end‖</entityname.xiaoguandaofake>
-    <entityname.leiheng_coat>‖color:255,0,255‖雷橫的制服‖end‖</entityname.leiheng_coat>
-    <entityname.leiheng_coat_outer>‖color:255,0,255‖雷橫的大衣‖end‖</entityname.leiheng_coat_outer>
-    <entityname.leihenghat>‖color:255,0,255‖雷橫的頭髮‖end‖</entityname.leihenghat>
-    <entityname.tiantui_star_blade>‖color:255,0,255‖天退星之刃‖end‖</entityname.tiantui_star_blade>
-    <entityname.clawuniform>‖color:255,0,255‖爪牙制服‖end‖</entityname.clawuniform>
-    <entityname.clawclaw>‖color:255,0,255‖爪牙之握 (武器)‖end‖</entityname.clawclaw>
-    <entityname.clawhandopen>‖color:255,0,255‖張開之爪 (裝備)‖end‖</entityname.clawhandopen>
-    <entityname.heishoupack_cursedsword_zilu>‖color:255,0,255‖子路的銘咒之刃‖end‖</entityname.heishoupack_cursedsword_zilu>
-    <entityname.tianjiu_star_blade>‖color:255,0,255‖天罡星之刃‖end‖</entityname.tianjiu_star_blade>
-    <entityname.heishoupack_robes_zilu>‖color:255,0,255‖子路的道袍‖end‖</entityname.heishoupack_robes_zilu>
-    <entityname.heishoupack_hat_zilu>‖color:255,0,255‖子路的帽子‖end‖</entityname.heishoupack_hat_zilu>
-    <entityname.jiabaoyu_guandao>‖color:255,0,255‖褪色的太虛幻境‖end‖</entityname.jiabaoyu_guandao>
-    <entityname.jiaqiu_staff>‖color:255,0,255‖而立‖end‖</entityname.jiaqiu_staff>
-    <entityname.jiaqiu_robes>‖color:255,0,255‖鴻園的君主的道袍‖end‖</entityname.jiaqiu_robes>
-    <entityname.jiaqiu_armor>‖color:255,0,255‖鴻園的君主的隱藏護甲‖end‖</entityname.jiaqiu_armor>
-    <entityname.jiaqiu_hair>‖color:255,0,255‖賈丘的頭髮‖end‖</entityname.jiaqiu_hair>
-    <entityname.jiabaoyu_hair>‖color:255,0,255‖賈寶玉的頭髮‖end‖</entityname.jiabaoyu_hair>
-    <entityname.tlkhelmet>‖color:255,0,255‖最後的騎士頭盔‖end‖</entityname.tlkhelmet>
-    <entityname.tlkarmor>‖color:255,0,255‖最後的騎士板甲‖end‖</entityname.tlkarmor>
-    <entityname.tlklance>‖color:255,0,255‖最後的騎士長槍‖end‖</entityname.tlklance>
-    <entityname.bloodfiend_manager_uniform>‖color:255,0,255‖血魔總督制服‖end‖</entityname.bloodfiend_manager_uniform>
-    <entityname.bloodfiend_prince_uniform>‖color:255,0,255‖血魔王子制服‖end‖</entityname.bloodfiend_prince_uniform>
-    <entityname.bloodfiend_prince_armor>‖color:255,0,255‖血魔硬血甲冑‖end‖</entityname.bloodfiend_prince_armor>
-    <entityname.bloodfiend_prince_helmet>‖color:255,0,255‖血魔硬血頭盔‖end‖</entityname.bloodfiend_prince_helmet>
-    <entityname.prince_staff>‖color:255,0,255‖血魔神父權杖‖end‖</entityname.prince_staff>
-    <entityname.bloodfiendmanagerlance>‖color:255,0,255‖血魔總督長槍‖end‖</entityname.bloodfiendmanagerlance>
-    <entityname.index_mask_proxy>‖color:255,0,255‖食指代行者面具‖end‖</entityname.index_mask_proxy>
-    <entityname.index_cloak_proxy>‖color:255,0,255‖食指代行者長袍‖end‖</entityname.index_cloak_proxy>
+    <entityname.hanafuda_scabbard>‖color:gui.red‖鄭氏事務所代表劍鞘‖end‖</entityname.hanafuda_scabbard>
+    <entityname.hanafuda_sword>‖color:gui.red‖鄭氏事務所代表佩劍‖end‖</entityname.hanafuda_sword>
+    <entityname.hanafuda_uniform>‖color:gui.red‖鄭氏事務所代表制服‖end‖</entityname.hanafuda_uniform>
+    <entityname.kromercoat>‖color:147,112,219‖克羅默的大衣‖end‖</entityname.kromercoat>
+    <entityname.xiaoguandaofake>‖color:147,112,219‖曉的關刀 (複製品)‖end‖</entityname.xiaoguandaofake>
+    <entityname.leiheng_coat>‖color:147,112,219‖雷橫的制服‖end‖</entityname.leiheng_coat>
+    <entityname.leiheng_coat_outer>‖color:147,112,219‖雷橫的大衣‖end‖</entityname.leiheng_coat_outer>
+    <entityname.leihenghat>‖color:147,112,219‖雷橫的頭髮‖end‖</entityname.leihenghat>
+    <entityname.tiantui_star_blade>‖color:147,112,219‖天退星之刃‖end‖</entityname.tiantui_star_blade>
+    <entityname.clawuniform>‖color:147,112,219‖爪牙制服‖end‖</entityname.clawuniform>
+    <entityname.clawclaw>‖color:147,112,219‖爪牙之握 (武器)‖end‖</entityname.clawclaw>
+    <entityname.clawhandopen>‖color:147,112,219‖張開之爪 (裝備)‖end‖</entityname.clawhandopen>
+    <entityname.heishoupack_cursedsword_zilu>‖color:147,112,219‖子路的銘咒之刃‖end‖</entityname.heishoupack_cursedsword_zilu>
+    <entityname.tianjiu_star_blade>‖color:147,112,219‖天罡星之刃‖end‖</entityname.tianjiu_star_blade>
+    <entityname.heishoupack_robes_zilu>‖color:147,112,219‖子路的道袍‖end‖</entityname.heishoupack_robes_zilu>
+    <entityname.heishoupack_hat_zilu>‖color:147,112,219‖子路的帽子‖end‖</entityname.heishoupack_hat_zilu>
+    <entityname.jiabaoyu_guandao>‖color:147,112,219‖褪色的太虛幻境‖end‖</entityname.jiabaoyu_guandao>
+    <entityname.jiaqiu_staff>‖color:147,112,219‖而立‖end‖</entityname.jiaqiu_staff>
+    <entityname.jiaqiu_robes>‖color:147,112,219‖鴻園的君主的道袍‖end‖</entityname.jiaqiu_robes>
+    <entityname.jiaqiu_armor>‖color:147,112,219‖鴻園的君主的隱藏護甲‖end‖</entityname.jiaqiu_armor>
+    <entityname.jiaqiu_hair>‖color:147,112,219‖賈丘的頭髮‖end‖</entityname.jiaqiu_hair>
+    <entityname.jiabaoyu_hair>‖color:147,112,219‖賈寶玉的頭髮‖end‖</entityname.jiabaoyu_hair>
+    <entityname.tlkhelmet>‖color:147,112,219‖最後的騎士頭盔‖end‖</entityname.tlkhelmet>
+    <entityname.tlkarmor>‖color:147,112,219‖最後的騎士板甲‖end‖</entityname.tlkarmor>
+    <entityname.tlklance>‖color:147,112,219‖最後的騎士長槍‖end‖</entityname.tlklance>
+    <entityname.bloodfiend_manager_uniform>‖color:147,112,219‖血魔總督制服‖end‖</entityname.bloodfiend_manager_uniform>
+    <entityname.bloodfiend_prince_uniform>‖color:147,112,219‖血魔王子制服‖end‖</entityname.bloodfiend_prince_uniform>
+    <entityname.bloodfiend_prince_armor>‖color:147,112,219‖血魔硬血甲冑‖end‖</entityname.bloodfiend_prince_armor>
+    <entityname.bloodfiend_prince_helmet>‖color:147,112,219‖血魔硬血頭盔‖end‖</entityname.bloodfiend_prince_helmet>
+    <entityname.prince_staff>‖color:147,112,219‖血魔神父權杖‖end‖</entityname.prince_staff>
+    <entityname.bloodfiendmanagerlance>‖color:147,112,219‖血魔總督長槍‖end‖</entityname.bloodfiendmanagerlance>
+    <entityname.index_mask_proxy>‖color:147,112,219‖食指代行者面具‖end‖</entityname.index_mask_proxy>
+    <entityname.index_cloak_proxy>‖color:147,112,219‖食指代行者長袍‖end‖</entityname.index_cloak_proxy>
     <entityname.ataliershotgunshell>‖color:gui.red‖工坊邏輯霰彈槍彈藥‖end‖</entityname.ataliershotgunshell>
     <entityname.atalierlogicrevolverround>‖color:gui.red‖工坊邏輯左輪彈藥‖end‖</entityname.atalierlogicrevolverround>
     <entityname.atalierlogicrifleround>‖color:gui.red‖工坊邏輯步槍彈藥‖end‖</entityname.atalierlogicrifleround>
@@ -2772,9 +2775,6 @@
     <entityname.glupomaskcorroded>LCE E.G.O: 悲泣面具</entityname.glupomaskcorroded>
     <entityname.gossypiumegg>[TETH] 浸染棉花（異想體之卵）</entityname.gossypiumegg>
     <entityname.groshammer_gauntlet>重錘的長手套</entityname.groshammer_gauntlet>
-    <entityname.hanafuda_scabbard>鄭氏事務所代表劍鞘</entityname.hanafuda_scabbard>
-    <entityname.hanafuda_sword>鄭氏事務所代表佩劍</entityname.hanafuda_sword>
-    <entityname.hanafuda_uniform>鄭氏事務所代表制服</entityname.hanafuda_uniform>
     <entityname.headlessichthysegg>[HE] 斷首魚（異想體之卵）</entityname.headlessichthysegg>
     <entityname.hiddenarmor_t3>外觀隱藏裝甲背心 第三階</entityname.hiddenarmor_t3>
     <entityname.kcorpexcisionsuit>K公司3級員工切割服</entityname.kcorpexcisionsuit>
