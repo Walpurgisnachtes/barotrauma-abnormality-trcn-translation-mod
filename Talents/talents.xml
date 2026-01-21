@@ -190,21 +190,12 @@
         <CharacterAbilityResetPermanentStat statidentifier="gazeofcontempt_*" value="1" setvalue="true" />
       </Abilities>
     </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="OnAttack">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="egogift_awe" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveAffliction affliction="egogift_perversion_effect" strength="500" disabledeltatime="true" setvalue="true" />
-      </Abilities>
-    </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnLootCharacter">
       <Conditions>
         <AbilityConditionCharacter targettype="Monster">
           <Conditional maxhealth="gt 25" />
           <Conditional ismachine="false" />
           <Conditional ispet="false" />
-          <Conditional egogift_perversion_effect="gt 0" />
         </AbilityConditionCharacter>
         <AbilityConditionCharacterNotLooted identifier="gazeofcontempt" />
         <AbilityConditionServerRandom randomchance="0.4" />
@@ -215,8 +206,6 @@
             <StatusEffect type="OnAbility" target="UseTarget" spawnitemrandomly="true">
               <SpawnItem identifiers="enkephalin" spawnposition="ThisInventory" probability="100" />
               <SpawnItem identifiers="vestige_dark" spawnposition="ThisInventory" probability="50" />
-              <SpawnItem identifiers="vestige_faint" spawnposition="ThisInventory" probability="10" />
-              <SpawnItem identifiers="vestige_twinkling" spawnposition="ThisInventory" probability="1" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -538,6 +527,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Conditions>
         <AbilityConditionServerRandom randomchance="0.5" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="tremor,stun,incrementalstun,progressivestun" addedmultiplier="0.25" />
@@ -554,6 +544,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Conditions>
         <AbilityConditionServerRandom randomchance="0.5" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding,onailed" addedmultiplier="0.25" />
@@ -573,6 +564,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Conditions>
         <AbilityConditionServerRandom randomchance="0.5" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding,onailed,tremor,stun,incrementalstun,progressivestun" addedmultiplier="0.25" />
@@ -587,6 +579,9 @@
       <Replace tag="[gainamount]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyResistance resistanceid="fanatic" multiplier="1.25" />
         <CharacterAbilityApplyStatusEffects>
@@ -600,6 +595,9 @@
     </AbilityGroupInterval>
     <!-- on kill -->
     <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -617,6 +615,9 @@
       <Replace tag="[amount]" value="50" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveResistance resistanceid="alieninfection" multiplier="0.5" />
         <CharacterAbilityGiveResistance resistanceid="huskinfection" multiplier="0.5" />
@@ -744,6 +745,10 @@
       <Replace tag="[powerreduction]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasTalent identifier="foolishness" invert="True" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -756,6 +761,8 @@
     </AbilityGroupInterval>
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
       <Conditions>
+        <AbilityConditionHasTalent identifier="foolishness" invert="True" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
         <AbilityConditionHasAffliction afflictionidentifier="countering" minimumpercentage="1.0" />
         <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee" />
       </Conditions>
@@ -775,6 +782,10 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+      <Conditions>
+        <AbilityConditionHasTalent identifier="foolishness" invert="True" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -793,6 +804,9 @@
       <Replace tag="[fanatic]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="kromeroutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffectsToAllies maxdistance="1000" jobs="purifier" allowself="false">
           <StatusEffects>
@@ -811,6 +825,9 @@
       <Replace tag="[skills]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="kromeroutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffectsToAllies jobs="purifier" allowself="false">
           <StatusEffects>
@@ -826,6 +843,9 @@
     <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="3,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.inquisition" />
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -843,6 +863,9 @@
       <Replace tag="[amount]" value="15" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnKillCharacter">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -866,6 +889,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="fanatic" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.15" />
@@ -875,6 +899,7 @@
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
         <AbilityConditionNearbyCharacterCount distance="500" targettypes="Ally" count="1" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.05" />
@@ -883,6 +908,7 @@
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
         <AbilityConditionNearbyCharacterCount distance="500" targettypes="Ally" count="2" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.05" />
@@ -891,6 +917,7 @@
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
         <AbilityConditionNearbyCharacterCount distance="500" targettypes="Ally" count="3" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.05" />
@@ -899,6 +926,7 @@
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
         <AbilityConditionNearbyCharacterCount distance="500" targettypes="Ally" count="4" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.05" />
@@ -907,6 +935,7 @@
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
         <AbilityConditionNearbyCharacterCount distance="500" targettypes="Ally" count="5" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.05" />
@@ -919,6 +948,9 @@
       <Replace tag="[amount]" value="25" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasItem tags="groshammeroutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="onailed" addedmultiplier="0.25" />
       </Abilities>
@@ -933,6 +965,7 @@
       <Conditions>
         <AbilityConditionAttackData weapontype="Melee" />
         <AbilityConditionCharacter targettype="NotSelf" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="paralyze" strength="5" disabledeltatime="true" />
@@ -942,7 +975,7 @@
   </Talent>
   <Talent identifier="rightfulpurge">
     <Icon texture="%ModDir%/Images/talenticons4.png" sheetindex="2,5" sheetelementsize="128,128" />
-    <Description tag="talentdescription.zealouspurge">
+    <Description tag="talentdescription.rightfulpurge">
       <Replace tag="[meleeamount]" value="1" color="gui.green" />
       <Replace tag="[amount]" value="5" color="gui.green" />
     </Description>
@@ -950,6 +983,7 @@
       <Conditions>
         <AbilityConditionAttackData weapontype="Melee" />
         <AbilityConditionCharacter targettype="NotSelf" />
+        <AbilityConditionHasItem tags="ncorpoutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="tremor" strength="10" disabledeltatime="true" />
@@ -1044,6 +1078,9 @@
     </Description>
     <!-- gain countering over time, when this reaches 10 you can counter -->
     <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasItem tags="kromeroutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1059,6 +1096,7 @@
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="countering" minimumpercentage="1.0" />
         <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee" />
+        <AbilityConditionHasItem tags="kromeroutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="-0.2" />
@@ -1089,6 +1127,7 @@
         <AbilityConditionHasAffliction afflictionidentifier="countering" minimumpercentage="1.0" />
         <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee" />
         <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
+        <AbilityConditionHasItem tags="kromeroutfit" requireall="true" />
       </Conditions>
       <Abilities>
         <!-- self effects -->
@@ -1103,6 +1142,9 @@
     </AbilityGroupEffect>
     <!-- remove countering -->
     <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+      <Conditions>
+        <AbilityConditionHasItem tags="kromeroutfit" requireall="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1124,6 +1166,7 @@
       <Conditions>
         <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
         <AbilityConditionHasAffliction afflictionidentifier="salvationcooldown" invert="true" />
+        <AbilityConditionHasItem tags="groshammer" requireall="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
@@ -1154,6 +1197,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
       <Conditions>
         <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee,Ranged" />
+        <AbilityConditionAttackData tags="middlechains" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffectsToAttacker>
@@ -1191,6 +1235,9 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="None">
+      <Conditions>
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveResistance resistanceid="markofvengeance" multiplier="0.0" />
       </Abilities>
@@ -1204,6 +1251,9 @@
       <Replace tag="[range]" value="6" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1243,6 +1293,9 @@
       <Replace tag="[duration]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
+      <Conditions>
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveResistance resistanceid="stun" multiplier="0.0" />
         <CharacterAbilityGiveResistance resistanceid="incrementalstun" multiplier="0.0" />
@@ -1251,6 +1304,9 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupInterval interval="10">
+      <Conditions>
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1262,6 +1318,10 @@
       </Abilities>
     </AbilityGroupInterval>
     <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasTalent identifier="guard" invert="True" />
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1274,6 +1334,10 @@
     </AbilityGroupInterval>
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
       <Conditions>
+        <AbilityConditionHasTalent identifier="guard" invert="True" />
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
+      <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="guard" minimumpercentage="1.0" />
         <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee" />
       </Conditions>
@@ -1282,6 +1346,9 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+      <Conditions>
+        <AbilityConditionHasTalent identifier="guard" invert="True" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1303,6 +1370,7 @@
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
         <AbilityConditionAboveVitality vitalitypercentage="0.25" invert="True" />
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.25" />
@@ -1320,6 +1388,7 @@
       <Conditions>
         <AbilityConditionAttackData weapontype="Melee" />
         <AbilityConditionCharacter targettype="NotSelf" />
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="paralyze" strength="5" disabledeltatime="true" />
@@ -1330,6 +1399,7 @@
         <AbilityConditionCharacter>
           <Conditional paralyze="gt 25" />
         </AbilityConditionCharacter>
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="slow" strength="5" disabledeltatime="true" />
@@ -1351,6 +1421,7 @@
           <Conditional markofvengeance="gt 0" />
         </AbilityConditionCharacter>
         <AbilityConditionServerRandom randomchance="0.2" />
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="sensoryoverload" strength="3" disabledeltatime="true" />
@@ -1361,6 +1432,7 @@
         <AbilityConditionCharacter>
           <Conditional sensoryoverload="gt 25" />
         </AbilityConditionCharacter>
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="invertcontrols" strength="5" disabledeltatime="true" />
@@ -1383,6 +1455,7 @@
           <Conditional markofvengeance="gt 0" />
         </AbilityConditionCharacter>
         <AbilityConditionServerRandom randomchance="0.2" />
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="nausea" strength="5" disabledeltatime="true" />
@@ -1393,6 +1466,7 @@
         <AbilityConditionCharacter>
           <Conditional nausea="gt 25" />
         </AbilityConditionCharacter>
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="abno_stagger" strength="10" disabledeltatime="true" />
@@ -1408,6 +1482,9 @@
       <Replace tag="[ajustvengeance]" value="A Just Vengeance" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasItem tags="middle" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="paralyze" addedmultiplier="1.0" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="blunttrauma,bleeding" addedmultiplier="0.25" />
@@ -1418,6 +1495,7 @@
         <AbilityConditionCharacter>
           <Conditional markofvengeance="gt 0" />
         </AbilityConditionCharacter>
+        <AbilityConditionHasItem tags="middle" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.25" />
@@ -1430,6 +1508,9 @@
       <Replace tag="[amount]" value="25" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasItem tags="thumb" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="stun,incrementalstun,progressivestun,blunttrauma" addedmultiplier="0.25" />
       </Abilities>
@@ -1458,6 +1539,7 @@
       <Conditions>
         <AbilityConditionCharacterUnconcious />
         <AbilityConditionAttackData tags="rifleammo" />
+        <AbilityConditionHasItem tags="thumb" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="execution" strength="500" disabledeltatime="true" setvalue="true" />
@@ -1466,12 +1548,16 @@
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
         <AbilityConditionAttackData tags="rifleammo" />
+        <AbilityConditionHasItem tags="thumb" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.25" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasItem tags="thumb" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="paralyze,burning,bleeding" addedmultiplier="0.25" />
       </Abilities>
@@ -1486,6 +1572,9 @@
       <Replace tag="[range]" value="6" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="thumb" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffectsToAllies maxdistance="600" allowself="false">
           <StatusEffects>
@@ -1520,6 +1609,7 @@
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
       <Conditions>
         <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee" />
+        <Affliction identifier="thumb" amount="1.0" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffectsToAttacker>
@@ -1533,6 +1623,9 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasItem tags="thumb" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyResistance resistanceid="damage" multiplier="0.95" />
         <CharacterAbilityModifyResistance resistanceid="stun" multiplier="0.75" />
@@ -1561,6 +1654,9 @@
     </Description>
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="512,128,128,128" />
     <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasItem tags="thumb" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -1575,6 +1671,7 @@
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="concentrating" minimumpercentage="1.0" />
         <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionHasItem tags="thumb" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="0.25" />
@@ -2407,10 +2504,10 @@
     </Description>
     <AbilityGroupInterval interval="0.9">
       <Abilities>
-        <CharacterAbilityApplyStatusEffectsToAllies maxdistance="1000" jobs="rcorprabbit" allowself="false">
+        <CharacterAbilityApplyStatusEffectsToAllies maxdistance="600" allowself="false">
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
-              <Affliction identifier="rabbitprotocol" strength="1.0" />
+              <Affliction identifier="rabbitprotocol_manager" strength="1.0" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffectsToAllies>
@@ -2600,45 +2697,19 @@
   </Talent>
   <Talent identifier="maneuvertraining">
     <Description tag="talentdescription.maneuvertraining">
-      <Replace tag="[amount]" value="15" color="gui.green" />
-      <Replace tag="[charge]" value="5" color="gui.green" />
-      <Replace tag="[final]" value="60" color="gui.green" />
+      <Replace tag="[amount]" value="60" color="gui.green" />
     </Description>
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="896,128,128,128" />
     <!-- Gain more movement speed as your charge goes up -->
-    <AbilityGroupEffect abilityeffecttype="None">
+    <AbilityGroupInterval>
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="abno_charge" minimumpercentage="0.25" />
+        <AbilityConditionHasItem tags="deepdivinglarge" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityGiveStat stattype="MovementSpeed" value="0.15" />
+        <CharacterAbilityPsychoClown stattype="MovementSpeed" maxvalue="0.6" afflictionidentifier="abno_charge" />
       </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="abno_charge" minimumpercentage="0.5" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="MovementSpeed" value="0.15" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="abno_charge" minimumpercentage="0.75" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="MovementSpeed" value="0.15" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <!-- Check for 19+ charge instead of 20 to increase consistency -->
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="abno_charge" minimumpercentage="0.95" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="MovementSpeed" value="0.15" />
-      </Abilities>
-    </AbilityGroupEffect>
+    </AbilityGroupInterval>
   </Talent>
   <Talent identifier="suitpressurization">
     <Description tag="talentdescription.suitpressurization">
@@ -2687,7 +2758,7 @@
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="896,384,128,128" />
     <Description tag="talentdescription.bulkyimpact">
       <Replace tag="[amount]" value="1" color="gui.green" />
-      <Replace tag="[damage]" value="20" color="gui.green" />
+      <Replace tag="[damage]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
@@ -2705,7 +2776,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Abilities>
-        <CharacterAbilityModifyAffliction afflictionidentifiers="blunttrauma" addedmultiplier="0.2" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="blunttrauma" addedmultiplier="0.1" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
@@ -2816,7 +2887,7 @@
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="256,640,128,128" />
     <Description tag="talentdescription.beatthebrush">
       <Replace tag="[amount]" value="10" color="gui.green" />
-      <Replace tag="[powerreduction]" value="1" color="gui.green" />
+      <Replace tag="[powerreduction]" value="10" color="gui.green" />
       <Replace tag="[finalamount]" value="30" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
@@ -2857,6 +2928,7 @@
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional bleeding="gt 0" />
         </AbilityConditionCharacter>
@@ -2873,6 +2945,9 @@
       <Replace tag="[value]" value="5" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="statusapplier" strength="2" disabledeltatime="true" />
         <!--<CharacterAbilityGiveAffliction affliction="psychosis" strength="5" probability="0.2" disabledeltatime="true" />
@@ -2887,17 +2962,18 @@
   <Talent identifier="sanguinepainting">
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="128,512,128,128" />
     <Description tag="talentdescription.sanguinepainting">
-      <Replace tag="[amount]" value="40" color="gui.green" />
+      <Replace tag="[amount]" value="25" color="gui.green" />
       <Replace tag="[chance]" value="10" color="gui.green" />
       <Replace tag="[bleedamount]" value="5" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Abilities>
-        <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.4" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.25" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional bleeding="gt 0" />
         </AbilityConditionCharacter>
@@ -2909,6 +2985,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional burn="gt 0" />
         </AbilityConditionCharacter>
@@ -2920,6 +2997,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional tremor="gt 0" />
         </AbilityConditionCharacter>
@@ -2931,6 +3009,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional rupture="gt 0" />
         </AbilityConditionCharacter>
@@ -2942,6 +3021,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional drunk="gt 0" />
         </AbilityConditionCharacter>
@@ -2953,6 +3033,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional psychosis="gt 0" />
         </AbilityConditionCharacter>
@@ -2971,6 +3052,7 @@
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional bleeding="gt 0" />
         </AbilityConditionCharacter>
@@ -2987,6 +3069,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional burn="gt 0" />
         </AbilityConditionCharacter>
@@ -3003,6 +3086,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional tremor="gt 0" />
         </AbilityConditionCharacter>
@@ -3019,6 +3103,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional rupture="gt 0" />
         </AbilityConditionCharacter>
@@ -3035,6 +3120,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional drunk="gt 0" />
         </AbilityConditionCharacter>
@@ -3051,6 +3137,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional psychosis="gt 0" />
         </AbilityConditionCharacter>
@@ -3072,6 +3159,9 @@
       <Replace tag="[chance]" value="10" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="burningapplier" strength="1" disabledeltatime="true" />
       </Abilities>
@@ -3081,6 +3171,9 @@
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="896,512,128,128" />
     <Description tag="talentdescription.multitudeofdots" />
     <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="gradualapplier" strength="5" disabledeltatime="true" />
       </Abilities>
@@ -3094,7 +3187,7 @@
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
-        <AbilityConditionAttackData weapontype="Melee" />
+        <AbilityConditionAttackData tags="ringweapon" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
@@ -3117,10 +3210,11 @@
     <Description tag="talentdescription.artworkinspection">
       <Replace tag="[amount]" value="7.5" color="gui.green" />
       <Replace tag="[finalamount]" value="45" color="gui.green" />
-      <Replace tag="[vigoramount]" value="25" color="gui.green" />
+      <Replace tag="[vigoramount]" value="20" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional bleeding="gt 0" />
         </AbilityConditionCharacter>
@@ -3131,6 +3225,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional burn="gt 0" />
         </AbilityConditionCharacter>
@@ -3141,6 +3236,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional tremor="gt 0" />
         </AbilityConditionCharacter>
@@ -3151,6 +3247,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional rupture="gt 0" />
         </AbilityConditionCharacter>
@@ -3161,6 +3258,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional drunk="gt 0" />
         </AbilityConditionCharacter>
@@ -3171,6 +3269,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="ringweapon" />
         <AbilityConditionCharacter>
           <Conditional psychosis="gt 0" />
         </AbilityConditionCharacter>
@@ -3184,7 +3283,7 @@
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="This" stackable="false" multiplyafflictionsbymaxvitality="True">
-              <Affliction identifier="strengthen" amount="25.0" disabledeltatime="True" />
+              <Affliction identifier="offup" amount="10.0" disabledeltatime="True" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -3488,7 +3587,7 @@
     <Icon texture="%ModDir%/Images/talenticons.png" sourcerect="768,640,128,128" />
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
-        <AbilityConditionAttackData weapontype="melee" />
+        <AbilityConditionAttackData tags="wcorpmelee" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
@@ -6805,13 +6904,13 @@
       <Replace tag="[job]" value="jobname.kcorp" color="0.2,0.7,0.2" />
     </Description>
     <Description tag="talentdescription.additionalskill">
-      <Replace tag="[amount]" value="20" color="gui.green" />
+      <Replace tag="[amount]" value="10" color="gui.green" />
       <Replace tag="[stattype]" value="stattypenames.medicalskillbonus" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGivePermanentStat stattype="Apprenticeship" statidentifier="kcorp" value="1" />
-        <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="20" />
+        <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="10" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
@@ -6821,13 +6920,13 @@
       <Replace tag="[job]" value="jobname.rcorprabbit" color="1.0,0.64,0.0" />
     </Description>
     <Description tag="talentdescription.additionalskill">
-      <Replace tag="[amount]" value="20" color="gui.green" />
+      <Replace tag="[amount]" value="10" color="gui.green" />
       <Replace tag="[stattype]" value="stattypenames.weaponsskillbonus" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGivePermanentStat stattype="Apprenticeship" statidentifier="rcorprabbit" value="1" />
-        <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="20" />
+        <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="10" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
@@ -6837,29 +6936,29 @@
       <Replace tag="[job]" value="jobname.wcorpcleanupcrew" color="0.2,0.2,0.7" />
     </Description>
     <Description tag="talentdescription.additionalskill">
-      <Replace tag="[amount]" value="20" color="gui.green" />
+      <Replace tag="[amount]" value="10" color="gui.green" />
       <Replace tag="[stattype]" value="stattypenames.electricalskillbonus" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGivePermanentStat stattype="Apprenticeship" statidentifier="wcorpcleanupcrew" value="1" />
-        <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="20" />
+        <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="10" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
-  <Talent identifier="apprenticeship_ncorp" nameidentifier="jobname.purifier" coloroverride="1.0,0.2,0.2">
+  <Talent identifier="apprenticeship_ncorp" nameidentifier="jobname.ncorpkleinhammer" coloroverride="1.0,0.2,0.2">
     <Icon texture="%ModDir%/Images/Icons.png" sourcerect="0,512,128,128" origin="0.5,0.5" />
     <Description tag="talentdescription.apprenticeshipjob">
       <Replace tag="[job]" value="jobname.ncorpkleinhammer" color="1.0,0.2,0.2" />
     </Description>
     <Description tag="talentdescription.additionalskill">
-      <Replace tag="[amount]" value="20" color="gui.green" />
+      <Replace tag="[amount]" value="10" color="gui.green" />
       <Replace tag="[stattype]" value="stattypenames.mechanicalskillbonus" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGivePermanentStat stattype="Apprenticeship" statidentifier="ncorpkleinhammer" value="1" />
-        <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="20" />
+        <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="10" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
@@ -7578,10 +7677,12 @@
     <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="2,1" sheetelementsize="128,128" />
     <Description tag="talentdescription.returnfire">
       <Replace tag="[damage]" value="10" color="gui.green" />
-      <Replace tag="[speed]" value="20" color="gui.green" />
       <Replace tag="[seconds]" value="5" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasTalent identifier="stonewall" invert="True" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -7608,6 +7709,9 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+      <Conditions>
+        <AbilityConditionHasTalent identifier="stonewall" invert="True" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -7623,7 +7727,7 @@
     <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="0,1" sheetelementsize="128,128" />
     <Description tag="talentdescription.snipe">
       <Replace tag="[seconds]" value="30" color="gui.green" />
-      <Replace tag="[amount]" value="30" color="gui.green" />
+      <Replace tag="[amount]" value="20" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="1">
       <Abilities>
@@ -7642,7 +7746,7 @@
         <AbilityConditionAttackData weapontype="Ranged" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.3" />
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.2" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnUseRangedWeapon">
@@ -7661,44 +7765,14 @@
   <Talent identifier="precisionaim">
     <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="6,1" sheetelementsize="128,128" />
     <Description tag="talentdescription.precisionaim">
-      <Replace tag="[amount]" value="5" color="gui.green" />
-      <Replace tag="[poise]" value="5" color="gui.green" />
       <Replace tag="[maxamount]" value="20" color="gui.green" />
     </Description>
     <!-- Gain more maximum health as your charge goes up -->
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="poise" minimumpercentage="0.25" />
-      </Conditions>
+    <AbilityGroupInterval>
       <Abilities>
-        <CharacterAbilityGiveStat stattype="RangedAttackMultiplier" value="0.05" />
+        <CharacterAbilityPsychoClown stattype="RangedAttackMultiplier" maxvalue="0.2" afflictionidentifier="poise" />
       </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="poise" minimumpercentage="0.5" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="RangedAttackMultiplier" value="0.05" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="poise" minimumpercentage="0.75" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="RangedAttackMultiplier" value="0.05" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <!-- Check for 19+ poise instead of 20 to increase consistency -->
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="poise" minimumpercentage="0.95" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="RangedAttackMultiplier" value="0.05" />
-      </Abilities>
-    </AbilityGroupEffect>
+    </AbilityGroupInterval>
   </Talent>
   <Talent identifier="headshot">
     <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="4,1" sheetelementsize="128,128" />
@@ -10987,11 +11061,17 @@
       <Replace tag="[stattype]" value="stattypenames.maximumhealthmultiplier" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpcontemptawe" requireall="True" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.2" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpcontemptawe" requireall="True" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -11011,6 +11091,7 @@
     <Icon texture="%ModDir%/Images/TalentIcons4.png" sheetindex="3,7" sheetelementsize="128,128" />
     <AbilityGroupInterval interval="1">
       <Conditions>
+        <AbilityConditionHasItem tags="ncorpcontemptawe" requireall="True" />
         <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
         <AbilityConditionHasAffliction afflictionidentifier="salvationcooldown" invert="true" />
       </Conditions>
@@ -11028,6 +11109,7 @@
     </AbilityGroupInterval>
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
+        <AbilityConditionHasItem tags="ncorpcontemptawe" requireall="True" />
         <AbilityConditionHasAffliction afflictionidentifier="defup" />
       </Conditions>
       <Abilities>
@@ -11039,6 +11121,9 @@
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupInterval interval="10">
+      <Conditions>
+        <AbilityConditionHasItem tags="ncorpcontemptawe" requireall="True" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -11057,7 +11142,7 @@
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
-        <AbilityConditionAttackData weapontype="Melee" />
+        <AbilityConditionAttackData tags="proselyteblade" />
         <AbilityConditionCharacter targettype="NotSelf" />
       </Conditions>
       <Abilities>
@@ -11073,6 +11158,7 @@
     </Description>
     <AbilityGroupInterval interval="10">
       <Conditions>
+        <AbilityConditionHasItem tags="Index" requireall="True" />
         <AbilityConditionServerRandom randomchance="0.5" />
       </Conditions>
       <Abilities>
@@ -11107,6 +11193,7 @@
     <!-- Gain a buff when hitting a marked target -->
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
+        <AbilityConditionAttackData tags="proselyteblade" />
         <AbilityConditionCharacter>
           <Conditional abno_executiontarget="gt 0" />
         </AbilityConditionCharacter>
@@ -11134,6 +11221,9 @@
     </AbilityGroupEffect>
     <!-- Mark targets when you hit them -->
     <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="proselyteblade" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="abno_executiontarget" strength="1" disabledeltatime="true" multiplybymaxvitality="True" />
       </Abilities>

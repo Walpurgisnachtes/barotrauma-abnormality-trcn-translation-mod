@@ -1081,14 +1081,14 @@
   <talentname.rabbitevade>Evade</talentname.rabbitevade>
   <talentdescription.rabbitevade> If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power and you gain [charge] Charge.</talentdescription.rabbitevade>
   <talentname.rabbitprotocol>Rabbit Protocol</talentname.rabbitprotocol>
-  <talentdescription.rabbitprotocol>Rabbits within 10 meters gain the following benefits:</talentdescription.rabbitprotocol>
+  <talentdescription.rabbitprotocol>Rabbits within 6 meters gain the following benefits:</talentdescription.rabbitprotocol>
   <talentname.rabbitaugmentation>Rabbit Augmentation</talentname.rabbitaugmentation>
   <talentdescription.rabbitaugmentation>As your health drops, gain more movement speed, up to [speed]% while in critical condition.</talentdescription.rabbitaugmentation>
   <talentname.rrrsuit>Triple-R Suit</talentname.rrrsuit>
   <talentdescription.rrrsuit>Charge decays [amount]% slower.</talentdescription.rrrsuit>
   <!-- Rhino -->
   <talentname.maneuvertraining>Maneuver Training</talentname.maneuvertraining>
-  <talentdescription.maneuvertraining>Gain [amount]% speed for every [charge] Charge you have, up to [final]%.</talentdescription.maneuvertraining>
+  <talentdescription.maneuvertraining>Gain up to [amount]% more speed in Rhino Suits and Exosuits based on Charge.</talentdescription.maneuvertraining>
   <talentname.suitpressurization>Activate rrR-#4 Suit Pressurization</talentname.suitpressurization>
   <talentdescription.suitpressurization>Gain up to [amount]% maximum health based on Charge.</talentdescription.suitpressurization>
   <talentname.demolish>Demolish</talentname.demolish>
@@ -1105,33 +1105,33 @@
   <talentname.beatthebrush>Beat the Brush</talentname.beatthebrush>
   <talentdescription.beatthebrush>Take [powerreduction]% less damage from targets for every [amount] Bleeding on them, up to [finalamount]%.</talentdescription.beatthebrush>
   <talentname.dotting>Dotting</talentname.dotting>
-  <talentdescription.dotting>If the target has [amount]% or more Bleeding, deal 10% more damage.</talentdescription.dotting>
+  <talentdescription.dotting>If the target has [amount]% or more Bleeding, deal 10% more damage with Ring weapons.</talentdescription.dotting>
   <talentname.paintover>Paint Over</talentname.paintover>
-  <talentdescription.paintover>With every hit, roll chances to inflict random damage types. Each damage type has a [chance]% chance to be applied with a strength of [value].</talentdescription.paintover>
+  <talentdescription.paintover>With every hit with a Ring Paintbrush, roll chances to inflict random damage types. Each damage type has a [chance]% chance to be applied with a strength of [value].</talentdescription.paintover>
   <talentname.sanguinepainting>Sanguine Painting</talentname.sanguinepainting>
-  <talentdescription.sanguinepainting>Inflict [amount]% more Bleeding. Every unique damage type present on the target will also grant a [chance]% chance to apply [bleedamount] Bleeding each.</talentdescription.sanguinepainting>
+  <talentdescription.sanguinepainting>Inflict [amount]% more Bleeding. Every unique damage type present on the target will also grant a [chance]% chance to apply [bleedamount] Bleeding each when you attack with a Ring Paintbrush.</talentdescription.sanguinepainting>
   <talentname.sanguinepointillism>Sanguine Pointillism</talentname.sanguinepointillism>
   <talentdescription.sanguinepointillism>Every unique damage type on the target rolls a [chance]% chance to inflict [amount] of a random damage type.</talentdescription.sanguinepointillism>
   <talentname.artfularsonist>Artful Arsonist</talentname.artfularsonist>
-  <talentdescription.artfularsonist>When you hit a target with any form of damage, [chance]% chance to inflict a small amount of Burning and set the target on fire.</talentdescription.artfularsonist>
+  <talentdescription.artfularsonist>When you hit a target with the Pointillist Paintbrush, [chance]% chance to inflict a small amount of Burning and set the target on fire.</talentdescription.artfularsonist>
   <talentname.multitudeofdots>Multitude of Dots</talentname.multitudeofdots>
-  <talentdescription.multitudeofdots>After hitting a target, periodically inflict random damage types on them over time.</talentdescription.multitudeofdots>
+  <talentdescription.multitudeofdots>After hitting a target with the Pointillist Paintbrush, periodically inflict random damage types on them over time.</talentdescription.multitudeofdots>
   <talentname.assignmentevaluation>Assignment Evaluation</talentname.assignmentevaluation>
   <talentdescription.assignmentevaluation>Upon hitting a target, recover [amount] Sanity and reduce Husk Infection by [amount]%. Additionally, gain [vigoramount] Vigor and Combat Stimulant.</talentdescription.assignmentevaluation>
   <talentname.artworkinspection>Artwork Inspection</talentname.artworkinspection>
-  <talentdescription.artworkinspection>Deal [amount]% more damage for every negative effect on a target, max. [finalamount]%. If you kill a target, apply [vigoramount] Vigor to yourself and nearby allies.</talentdescription.artworkinspection>
+  <talentdescription.artworkinspection>Deal [amount]% more damage with the Pointillist Paintbrush for every negative effect on a target, max. [finalamount]%. If you kill a target, apply [vigoramount] Offense Up to yourself and nearby allies.</talentdescription.artworkinspection>
   <talentname.hematiccoloring>Hematic Coloring</talentname.hematiccoloring>
   <talentdescription.hematiccoloring>Inflict [amount]% more damage from any unique effect.</talentdescription.hematiccoloring>
   <talentname.expeditedexsanguination>Expedited Exsanguination</talentname.expeditedexsanguination>
-  <talentdescription.expeditedexsanguination>On hit, [chance]% chance to convert [bleedingamount] Bleeding into [bloodlossamount] Blood Loss.</talentdescription.expeditedexsanguination>
+  <talentdescription.expeditedexsanguination>On hit with the Pointillist Paintbrush, [chance]% chance to convert [bleedingamount] Bleeding into [bloodlossamount] Blood Loss.</talentdescription.expeditedexsanguination>
   <talentname.patientartist>Patient Artist</talentname.patientartist>
-  <talentdescription.patientartist>On hit, [chance]% chance to convert [bloodlossamount] Blood Loss into [bleedingamount] Bleeding.</talentdescription.patientartist>
+  <talentdescription.patientartist>On hit with the Pointillist Paintbrush, [chance]% chance to convert [bloodlossamount] Blood Loss into [bleedingamount] Bleeding.</talentdescription.patientartist>
   <talentname.successtobepraised>Success, to be Praised</talentname.successtobepraised>
   <talentdescription.successtobepraised>Nearby allies gain [amount] Weapons, Mechanical, and Engineering skill. They earn these skills [amount]% faster. Additionally, you gain [killxp] XP for kills.</talentdescription.successtobepraised>
   <talentname.failureburnedaway>Failure, Burned Away</talentname.failureburnedaway>
   <talentdescription.failureburnedaway>Deal [amount]% more Burn and Burning damage.</talentdescription.failureburnedaway>
   <talentname.ontheclock>On the Clock</talentname.ontheclock>
-  <talentdescription.ontheclock>When you hit a target, gain up to [amount]% movement speed for [duration] seconds. Additionally, gain high stun resistance and always stay conscious.</talentdescription.ontheclock>
+  <talentdescription.ontheclock>When you hit a target with the Pointillist Paintbrush, gain up to [amount]% movement speed for [duration] seconds. Additionally, gain high stun resistance and always stay conscious.</talentdescription.ontheclock>
   <talentname.donotquestionmyjudgement>Do Not Question My Judgement!</talentname.donotquestionmyjudgement>
   <talentdescription.donotquestionmyjudgement>If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power and inflicts [amount] Tremor and triggers Tremor Burst on your attacker.</talentdescription.donotquestionmyjudgement>
   <!-- W Corp -->
@@ -1351,11 +1351,11 @@
   <talentname.suppressingfire>Suppressing Fire</talentname.suppressingfire>
   <talentdescription.suppressingfire>Inflict [amount] Slow with ranged attacks.</talentdescription.suppressingfire>
   <talentname.returnfire>Return Fire</talentname.returnfire>
-  <talentdescription.returnfire>When hit, deal [damage]% more ranged damage and move [speed]% faster for [seconds] seconds.</talentdescription.returnfire>
+  <talentdescription.returnfire>When hit, deal [damage]% more ranged damage for [seconds] seconds. [damage] second cooldown.</talentdescription.returnfire>
   <talentname.snipe>Snipe</talentname.snipe>
   <talentdescription.snipe>If you haven't attacked in [seconds] seconds, deal [amount]% more damage with your next ranged attack.</talentdescription.snipe>
   <talentname.precisionaim>Precision Aim</talentname.precisionaim>
-  <talentdescription.precisionaim>Deal [amount]% more damage for every [poise] Poise on self, up to [maxamount]%.</talentdescription.precisionaim>
+  <talentdescription.precisionaim>Deal more damage based on Poise on self, up to [maxamount]%.</talentdescription.precisionaim>
   <talentname.spotter>Spotter</talentname.spotter>
   <talentdescription.spotter>Every [seconds] seconds, give nearby allies [poise] Poise.</talentdescription.spotter>
   <talentname.headshot>Headshot</talentname.headshot>
@@ -1811,12 +1811,12 @@
   <talentname.urbanmythblueprints>‖color:gui.green‖Urban Myth‖end‖</talentname.urbanmythblueprints>
   <talentname.urbanlegendblueprints>‖color:gui.blue‖Urban Legend‖end‖</talentname.urbanlegendblueprints>
   <talentname.urbanplagueblueprints>‖color:gui.yellow‖Urban Plague‖end‖</talentname.urbanplagueblueprints>
-  <talentname.urbannightmareblueprints>‖color:255,0,255‖Urban Nightmare‖end‖</talentname.urbannightmareblueprints>
+  <talentname.urbannightmareblueprints>‖color:147,112,219‖Urban Nightmare‖end‖</talentname.urbannightmareblueprints>
   <talentname.starofthecityblueprints>‖color:gui.red‖Star of the City‖end‖</talentname.starofthecityblueprints>
   <entityname.grade9and8bodymods>‖color:gui.green‖Grade 9 and 8 Augments‖end‖</entityname.grade9and8bodymods>
   <entityname.grade7and6bodymods>‖color:gui.blue‖Grade 7 and 6 Augments‖end‖</entityname.grade7and6bodymods>
   <entityname.grade5and4bodymods>‖color:gui.yellow‖Grade 5 and 4 Augments‖end‖</entityname.grade5and4bodymods>
-  <entityname.grade3and2bodymods>‖color:255,0,255‖color:gui.red‖Grade 3 and 2 Augments‖end‖</entityname.grade3and2bodymods>
+  <entityname.grade3and2bodymods>‖color:147,112,219‖color:gui.red‖Grade 3 and 2 Augments‖end‖</entityname.grade3and2bodymods>
   <entityname.grade1bodymods>‖color:gui.red‖Grade 1 Augments‖end‖</entityname.grade1bodymods>
   <entityname.liuuniform>‖color:gui.green‖Liu Association Uniform‖end‖</entityname.liuuniform>
   <entityname.liucoat>‖color:gui.green‖Liu Association Coat‖end‖</entityname.liucoat>
@@ -1958,36 +1958,39 @@
   <entityname.abno_binahcoat>‖color:gui.red‖Arbiter's Coat‖end‖</entityname.abno_binahcoat>
   <entityname.abno_redmistmask>‖color:gui.red‖Mask of the Red Mist‖end‖</entityname.abno_redmistmask>
   <entityname.abno_redmistcostume>‖color:gui.red‖EGO of the Red Mist‖end‖</entityname.abno_redmistcostume>
-  <entityname.kromercoat>‖color:255,0,255‖Kromer's Coat‖end‖</entityname.kromercoat>
-  <entityname.entityname.xiaoguandaofake>‖color:255,0,255‖Xiao's Guandao (Replica)‖end‖</entityname.entityname.xiaoguandaofake>
-  <entityname.entityname.leiheng_coat>‖color:255,0,255‖Lei Heng's Uniform‖end‖</entityname.entityname.leiheng_coat>
-  <entityname.entityname.leiheng_coat_outer>‖color:255,0,255‖Lei Heng's Coat‖end‖</entityname.entityname.leiheng_coat_outer>
-  <entityname.entityname.leihenghat>‖color:255,0,255‖Lei Heng's Hair‖end‖</entityname.entityname.leihenghat>
-  <entityname.entityname.tiantui_star_blade>‖color:255,0,255‖Tiantui Star Blade‖end‖</entityname.entityname.tiantui_star_blade>
-  <entityname.entityname.clawuniform>‖color:255,0,255‖Claw Uniform‖end‖</entityname.entityname.clawuniform>
-  <entityname.entityname.clawclaw>‖color:255,0,255‖Claw's Grasp (Weapon)‖end‖</entityname.entityname.clawclaw>
-  <entityname.entityname.clawhandopen>‖color:255,0,255‖Open Claw (Wearable)‖end‖</entityname.entityname.clawhandopen>
-  <entityname.entityname.heishoupack_cursedsword_zilu>‖color:255,0,255‖Zilu's Curse-Engraved Blade‖end‖</entityname.entityname.heishoupack_cursedsword_zilu>
-  <entityname.entityname.tianjiu_star_blade>‖color:255,0,255‖Tianjiu Star Blade‖end‖</entityname.entityname.tianjiu_star_blade>
-  <entityname.entityname.heishoupack_robes_zilu>‖color:255,0,255‖Zilu's Robes‖end‖</entityname.entityname.heishoupack_robes_zilu>
-  <entityname.entityname.heishoupack_hat_zilu>‖color:255,0,255‖Zilu's Hat‖end‖</entityname.entityname.heishoupack_hat_zilu>
-  <entityname.entityname.jiabaoyu_guandao>‖color:255,0,255‖Tarnished Land of Illusion‖end‖</entityname.entityname.jiabaoyu_guandao>
-  <entityname.entityname.jiaqiu_staff>‖color:255,0,255‖Érlì‖end‖</entityname.entityname.jiaqiu_staff>
-  <entityname.entityname.jiaqiu_robes>‖color:255,0,255‖Jade Qilin's Robes‖end‖</entityname.entityname.jiaqiu_robes>
-  <entityname.entityname.jiaqiu_armor>‖color:255,0,255‖Jade Qilin's Hidden Armor‖end‖</entityname.entityname.jiaqiu_armor>
-  <entityname.entityname.jiaqiu_hair>‖color:255,0,255‖Kong Qiu's Hair‖end‖</entityname.entityname.jiaqiu_hair>
-  <entityname.entityname.jiabaoyu_hair>‖color:255,0,255‖Jia Baoyu's Hair‖end‖</entityname.entityname.jiabaoyu_hair>
-  <entityname.entityname.tlkhelmet>‖color:255,0,255‖The Last Knight's Helmet‖end‖</entityname.entityname.tlkhelmet>
-  <entityname.entityname.tlkarmor>‖color:255,0,255‖The Last Knight's Armor‖end‖</entityname.entityname.tlkarmor>
-  <entityname.entityname.tlklance>‖color:255,0,255‖The Last Knight's Lance‖end‖</entityname.entityname.tlklance>
-  <entityname.entityname.bloodfiend_manager_uniform>‖color:255,0,255‖Bloodfiend Manager's Uniform‖end‖</entityname.entityname.bloodfiend_manager_uniform>
-  <entityname.entityname.bloodfiend_prince_uniform>‖color:255,0,255‖Bloodfiend Prince's Uniform‖end‖</entityname.entityname.bloodfiend_prince_uniform>
-  <entityname.entityname.bloodfiend_prince_armor>‖color:255,0,255‖Bloodfiend Hardblood Armor‖end‖</entityname.entityname.bloodfiend_prince_armor>
-  <entityname.entityname.bloodfiend_prince_helmet>‖color:255,0,255‖Bloodfiend Hardblood Helmet‖end‖</entityname.entityname.bloodfiend_prince_helmet>
-  <entityname.entityname.prince_staff>‖color:255,0,255‖Bloodfiend Priest Staff‖end‖</entityname.entityname.prince_staff>
-  <entityname.entityname.bloodfiendmanagerlance>‖color:255,0,255‖Bloodfiend Manager's Lance‖end‖</entityname.entityname.bloodfiendmanagerlance>
-  <entityname.index_mask_proxy>‖color:255,0,255‖Index Proxy Mask‖end‖</entityname.index_mask_proxy>
-  <entityname.index_cloak_proxy>‖color:255,0,255‖Index Proxy Cloak‖end‖</entityname.index_cloak_proxy>
+  <entityname.hanafuda_sword>‖color:gui.red‖Jeong's Office Rep Sword‖end‖</entityname.hanafuda_sword>
+  <entityname.hanafuda_uniform>‖color:gui.red‖Jeong'S Office Rep Uniform‖end‖</entityname.hanafuda_uniform>
+  <entityname.hanafuda_scabbard>‖color:gui.red‖Jeong'S Office Rep Scabbard‖end‖</entityname.hanafuda_scabbard>
+  <entityname.kromercoat>‖color:147,112,219‖Kromer's Coat‖end‖</entityname.kromercoat>
+  <entityname.entityname.xiaoguandaofake>‖color:147,112,219‖Xiao's Guandao (Replica)‖end‖</entityname.entityname.xiaoguandaofake>
+  <entityname.entityname.leiheng_coat>‖color:147,112,219‖Lei Heng's Uniform‖end‖</entityname.entityname.leiheng_coat>
+  <entityname.entityname.leiheng_coat_outer>‖color:147,112,219‖Lei Heng's Coat‖end‖</entityname.entityname.leiheng_coat_outer>
+  <entityname.entityname.leihenghat>‖color:147,112,219‖Lei Heng's Hair‖end‖</entityname.entityname.leihenghat>
+  <entityname.entityname.tiantui_star_blade>‖color:147,112,219‖Tiantui Star Blade‖end‖</entityname.entityname.tiantui_star_blade>
+  <entityname.entityname.clawuniform>‖color:147,112,219‖Claw Uniform‖end‖</entityname.entityname.clawuniform>
+  <entityname.entityname.clawclaw>‖color:147,112,219‖Claw's Grasp (Weapon)‖end‖</entityname.entityname.clawclaw>
+  <entityname.entityname.clawhandopen>‖color:147,112,219‖Open Claw (Wearable)‖end‖</entityname.entityname.clawhandopen>
+  <entityname.entityname.heishoupack_cursedsword_zilu>‖color:147,112,219‖Zilu's Curse-Engraved Blade‖end‖</entityname.entityname.heishoupack_cursedsword_zilu>
+  <entityname.entityname.tianjiu_star_blade>‖color:147,112,219‖Tianjiu Star Blade‖end‖</entityname.entityname.tianjiu_star_blade>
+  <entityname.entityname.heishoupack_robes_zilu>‖color:147,112,219‖Zilu's Robes‖end‖</entityname.entityname.heishoupack_robes_zilu>
+  <entityname.entityname.heishoupack_hat_zilu>‖color:147,112,219‖Zilu's Hat‖end‖</entityname.entityname.heishoupack_hat_zilu>
+  <entityname.entityname.jiabaoyu_guandao>‖color:147,112,219‖Tarnished Land of Illusion‖end‖</entityname.entityname.jiabaoyu_guandao>
+  <entityname.entityname.jiaqiu_staff>‖color:147,112,219‖Érlì‖end‖</entityname.entityname.jiaqiu_staff>
+  <entityname.entityname.jiaqiu_robes>‖color:147,112,219‖Jade Qilin's Robes‖end‖</entityname.entityname.jiaqiu_robes>
+  <entityname.entityname.jiaqiu_armor>‖color:147,112,219‖Jade Qilin's Hidden Armor‖end‖</entityname.entityname.jiaqiu_armor>
+  <entityname.entityname.jiaqiu_hair>‖color:147,112,219‖Kong Qiu's Hair‖end‖</entityname.entityname.jiaqiu_hair>
+  <entityname.entityname.jiabaoyu_hair>‖color:147,112,219‖Jia Baoyu's Hair‖end‖</entityname.entityname.jiabaoyu_hair>
+  <entityname.entityname.tlkhelmet>‖color:147,112,219‖The Last Knight's Helmet‖end‖</entityname.entityname.tlkhelmet>
+  <entityname.entityname.tlkarmor>‖color:147,112,219‖The Last Knight's Armor‖end‖</entityname.entityname.tlkarmor>
+  <entityname.entityname.tlklance>‖color:147,112,219‖The Last Knight's Lance‖end‖</entityname.entityname.tlklance>
+  <entityname.entityname.bloodfiend_manager_uniform>‖color:147,112,219‖Bloodfiend Manager's Uniform‖end‖</entityname.entityname.bloodfiend_manager_uniform>
+  <entityname.entityname.bloodfiend_prince_uniform>‖color:147,112,219‖Bloodfiend Prince's Uniform‖end‖</entityname.entityname.bloodfiend_prince_uniform>
+  <entityname.entityname.bloodfiend_prince_armor>‖color:147,112,219‖Bloodfiend Hardblood Armor‖end‖</entityname.entityname.bloodfiend_prince_armor>
+  <entityname.entityname.bloodfiend_prince_helmet>‖color:147,112,219‖Bloodfiend Hardblood Helmet‖end‖</entityname.entityname.bloodfiend_prince_helmet>
+  <entityname.entityname.prince_staff>‖color:147,112,219‖Bloodfiend Priest Staff‖end‖</entityname.entityname.prince_staff>
+  <entityname.entityname.bloodfiendmanagerlance>‖color:147,112,219‖Bloodfiend Manager's Lance‖end‖</entityname.entityname.bloodfiendmanagerlance>
+  <entityname.index_mask_proxy>‖color:147,112,219‖Index Proxy Mask‖end‖</entityname.index_mask_proxy>
+  <entityname.index_cloak_proxy>‖color:147,112,219‖Index Proxy Cloak‖end‖</entityname.index_cloak_proxy>
   <entityname.ataliershotgunshell>‖color:gui.red‖Atalier Logic Shotgun Shell‖end‖</entityname.ataliershotgunshell>
   <entityname.entityname.atalierlogicrevolverround>‖color:gui.red‖Atalier Logic Revolver Round‖end‖</entityname.entityname.atalierlogicrevolverround>
   <entityname.entityname.atalierlogicrifleround>‖color:gui.red‖Atalier Logic Rifle Round‖end‖</entityname.entityname.atalierlogicrifleround>

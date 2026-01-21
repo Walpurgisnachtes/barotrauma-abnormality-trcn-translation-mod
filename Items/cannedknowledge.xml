@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- wisdom tooth surgery can't stop me - 1/20/26 -->
+  <!-- tier 1 -->
+  <Item name="Canned Knowledge [N Corp Kleinhammer]" useinhealthinterface="true" identifier="abno_cannedknowledge_kleinhammer" description="Literal knowledge in a can, when consumed, it will grant the user intricate knowledge of a specific subject. May have negative side effects. (Many talents consumed in this way require the user to wear gear or use weapons related to that job in order to activate the talents. This allows the embedded knowledge to activate.)" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="abno_researchcomponent_t1" amount="3" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="purify,ncorpseal,nagel" />
+        <GiveExperience amount="-150" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- tier 2 -->
+  <Item name="Canned Knowledge [R Corp Rabbit]" useinhealthinterface="true" identifier="abno_cannedknowledge_rabbit" description="Literal knowledge in a can, when consumed, it will grant the user intricate knowledge of a specific subject. May have negative side effects. (Many talents consumed in this way require the user to wear gear or use weapons related to that job in order to activate the talents. This allows the embedded knowledge to activate.)" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="abno_researchcomponent_t2" amount="3" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="raringtograze,rabbitaugmentation,quicksuppression,concentratedfire,rabbitprotocol" />
+        <GiveExperience amount="-500" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [R Corp Rhino]" identifier="abno_cannedknowledge_rhino" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/icons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="bulkyimpact,maneuvertraining,suitpressurization,bioelectricityinduction,groundcrash" />
+        <GiveExperience amount="-500" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [N Corp Mittelhammer I]" identifier="abno_cannedknowledge_mittelhammer1" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="joyofexecution,zealouspurge,ironcladretribution" />
+        <GiveExperience amount="-300" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [W Corp Cleanup Crew]" identifier="abno_cannedknowledge_wcorpcleanup" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/Icons.png" sourcerect="768,128,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="ripspace,cleanupcrew,deploychargebarrier,leap,quickrecharge" />
+        <GiveExperience amount="-500" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [Ring Pointillist]" identifier="abno_cannedknowledge_ringpointillist" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/icons.png" sourcerect="526,128,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="dotting,paintover,sanguinepainting,sanguinepointillism,multitudeofdots,artworkinspection" />
+        <GiveExperience amount="-600" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [Index Proselyte]" identifier="abno_cannedknowledge_indexproselyte" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/icons2.png" sourcerect="384,384,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="starterquest,junctionjunkie,machinemaniac,proselytesblade,graceoftheprescript,abno_execute" />
+        <GiveExperience amount="-600" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [Middle Little Brother]" identifier="abno_cannedknowledge_middlelittle" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/Icons.png" sourcerect="896,0,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="littlevengeance,chainsofloyalty,seizeyachance,vengeanceawaitsyouall,aimforthesolarplexus,rightinthedome,gutcrush,multifoldretribution" />
+        <GiveExperience amount="-800" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [Thumb Soldato]" identifier="abno_cannedknowledge_soldato" variantof="abno_cannedknowledge_rabbit">
+    <InventoryIcon texture="%ModDir%/Images/Icons.png" sourcerect="896,128,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="ferrousguard,steelknuckles,concentration,eyeforweakness" />
+        <GiveExperience amount="-400" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- tier 3 -->
+  <Item name="Canned Knowledge [W Corp CCA]" useinhealthinterface="true" identifier="abno_cannedknowledge_cca" description="Literal knowledge in a can, when consumed, it will grant the user intricate knowledge of a specific subject. May have negative side effects. (Many talents consumed in this way require the user to wear gear or use weapons related to that job in order to activate the talents. This allows the embedded knowledge to activate.)" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="abno_researchcomponent_t3" amount="3" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="%ModDir%/Images/Icons.png" sourcerect="768,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="congestioncleaningarmor,defenceorientedcharge" />
+        <GiveExperience amount="-300" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [N Corp Mittelhammer II]" identifier="abno_cannedknowledge_mittelhammer2" variantof="abno_cannedknowledge_cca">
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="rightfulpurge,fanaticaljudgement,hammer,drive,counter" />
+        <GiveExperience amount="-750" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [Full-Stop Office]" identifier="abno_cannedknowledge_fullstop" variantof="abno_cannedknowledge_cca">
+    <InventoryIcon texture="%ModDir%/Images/Icons.png" sourcerect="512,640,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="poise,returnfire,taketheshot,suppressingfire,targetmarked,fullstoptolife,beyondtheshadow" />
+        <GiveTalentInfo talentidentifiers="meleesupport,overwatchassignment" giverandom="true" />
+        <GiveTalentInfo talentidentifiers="precisionaim,snipe" giverandom="true" />
+        <GiveTalentInfo talentidentifiers="goinforthebullseye,headshot" giverandom="true" />
+        <GiveTalentInfo talentidentifiers="spotter,tacticalfiresupport" giverandom="true" />
+        <GiveExperience amount="-1650" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Tier 4 -->
+  <Item name="Canned Knowledge [N Corp Groshammer]" useinhealthinterface="true" identifier="abno_cannedknowledge_groshammer" description="Literal knowledge in a can, when consumed, it will grant the user intricate knowledge of a specific subject. May have negative side effects. (Many talents consumed in this way require the user to wear gear or use weapons related to that job in order to activate the talents. This allows the embedded knowledge to activate.)" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+    <Upgrade gameversion="0.9.9000.0" scale="0.25" />
+    <Price baseprice="100" sold="false" />
+    <PreferredContainer primary="storagecab" />
+    <Fabricate suitablefabricators="dataprocessor" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="abno_researchcomponent_t4" amount="3" />
+    </Fabricate>
+    <Deconstruct time="25" />
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items_02.png" sourcerect="0,1744,112,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="devotedhammering,youarecleansedofsin,obsessivehammer,foolishness,annihilateheretics" />
+        <GiveExperience amount="-1000" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [N Corp Kromer]" identifier="abno_cannedknowledge_kromer" variantof="abno_cannedknowledge_groshammer">
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="whistles,wholeness,cannedknowledge,youarenothing" />
+        <GiveExperience amount="-800" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [N Corp Contempt, Awe]" identifier="abno_cannedknowledge_contemptawe" variantof="abno_cannedknowledge_groshammer">
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="tograsp,graspthatforbidsfalling,guard,cascadinggazeofaweunderneathcontempt,eyeforweakness,brutalstab" />
+        <GiveExperience amount="-1200" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="Canned Knowledge [N Corp Fell Bullet]" identifier="abno_cannedknowledge_fellbullet" variantof="abno_cannedknowledge_groshammer">
+    <InventoryIcon texture="%ModDir%/Images/afflictions.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Body width="60" height="90" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect statuseffecttags="medical" type="OnUse" target="This,UseTarget" disabledeltatime="True">
+        <GiveTalentInfo talentidentifiers="poise,targetreadjustmentfire,taketheshot,precisionaim,beyondtheshadow" />
+        <GiveExperience amount="-1000" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <!-- Tier 5 -->
+</Items>

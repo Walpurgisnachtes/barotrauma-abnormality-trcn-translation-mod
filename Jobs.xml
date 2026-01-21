@@ -1,33 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- All content belongs to their respective creators, if you wish to reuse this template, plese credit all creators content used -->
 <Jobs>
-  <Job identifier="oasisnugget" uicolor="0.5,0.46,0.9" vitalitymodifier="0" minnumber="0" maxnumber="2" initialcount="0" hiddenjob="true">
-    <Jobicon>
-      <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />
-    </Jobicon>
-    <JobiconSmall>
-      <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />
-    </JobiconSmall>
-    <Skills>
-      <Skill identifier="mechanical" level="15,35" primary="true" />
-      <Skill identifier="electrical" level="15,35" />
-      <Skill identifier="weapons" level="10,25" />
-      <Skill identifier="medical" level="0,5" />
-      <Skill identifier="helm" level="0,5" />
-    </Skills>
-    <ItemSet>
-      <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="wrench" />
-      <Item identifier="screwdriver" />
-      <Item identifier="oasistux" equip="true" outfit="true" />
-      <Item identifier="headset" equip="true" showpreview="false" />
-    </ItemSet>
-    <AppropriateOrders>
-      <Order identifier="fixleaks" />
-      <Order identifier="loaditems" />
-      <Order identifier="repairsystems" />
-    </AppropriateOrders>
-  </Job>
   <Job identifier="lobcorpremnant" uicolor="1.0,0.84,0.0" vitalitymodifier="25" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
     <Jobicon>
       <sprite texture="%ModDir%/Images/Icons.png" sourcerect="512,384,128,128" origin="0.5,0.5" />

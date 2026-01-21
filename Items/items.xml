@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Override>
-    <Item name="Armored Trench Coat" identifier="trenchcoat_armored" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="A trench coat with a ballistic vest hidden underneath, popular among mercenaries with a fashion sense or a need for subtlety." scale="0.5" impactsoundtag="impact_soft">
+    <Item name="Armored Trench Coat" identifier="trenchcoat_armored" category="Equipment" tags="smallitem,clothing,fullstop" fireproof="false" cargocontaineridentifier="metalcrate" description="A trench coat with a ballistic vest hidden underneath, popular among mercenaries with a fashion sense or a need for subtlety." scale="0.5" impactsoundtag="impact_soft">
       <Deconstruct time="5">
         <Item identifier="organicfiber" />
       </Deconstruct>
@@ -1803,19 +1803,6 @@
       <StatusEffect type="OnUse" target="This">
         <Explosion range="200" showeffects="false" ballastfloradamage="25" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <Quality>
@@ -2287,19 +2274,6 @@
           <Explosion range="100.0" showeffects="false" shockwave="true" flames="true" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
       <!-- Bonus damage -->
       <StatusEffect type="OnUse" target="UseTarget" disabledeltatime="true">
         <Affliction identifier="tremor_scorch" strength="30" />
@@ -3495,19 +3469,6 @@
           <Affliction identifier="paralyze" strength="10" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
   </Item>
@@ -3559,19 +3520,6 @@
           <Affliction identifier="paralyze" strength="10" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
   </Item>
@@ -4156,7 +4104,7 @@
     </Wearable>
     <StatusHUD drawhudwhenequipped="true" />
   </Item>
-  <Item name="Ring Pointillist Student Paintbrush" description="A paintbrush infused with Enkephalin, capable of inflicting a wide variety of random status effects." identifier="ringstudentpaintbrush" category="Weapon" subcategory="Abnormalities" Tags="mediumitem,weapon,gunsmith" cargocontaineridentifier="abnocrate" scale="0.3" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Ring Pointillist Student Paintbrush" description="A paintbrush infused with Enkephalin, capable of inflicting a wide variety of random status effects." identifier="ringstudentpaintbrush" category="Weapon" subcategory="Abnormalities" Tags="mediumitem,weapon,gunsmith,ringweapon" cargocontaineridentifier="abnocrate" scale="0.3" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <InventoryIcon texture="%ModDir%/Images/invweapons.png" sourcerect="64,320,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Images/invweaponsprites2.png" sourcerect="0,690,572,35" depth="0.55" origin="0.5,0.5" />
     <Price baseprice="284">
@@ -4556,19 +4504,6 @@
           <Sound file="%ModDir%/Sounds/slash3.ogg" range="1000" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
@@ -4615,19 +4550,6 @@
           <Sound file="%ModDir%/Sounds/slash3.ogg" range="1000" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
@@ -5084,19 +5006,6 @@
       </Attack>
       <StatusEffect type="OnContained" target="This" spritecolor="255,255,255,0" setvalue="True" disabledeltatime="True" />
       <StatusEffect type="OnNotContained" target="This" spritecolor="100,100,100,255" setvalue="True" disabledeltatime="True" />
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <Quality>
@@ -5284,7 +5193,7 @@
     </Holdable>
   </Item>
   <!-- Kromer's Coat -->
-  <Item name="Kromer's Coat" identifier="kromercoat" category="Equipment" hideinmenus="true" inventoryiconcolor="255,100,100,255" description="The ideal attire for dreamers of human wholeness." cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.51" impactsoundtag="impact_soft">
+  <Item name="Kromer's Coat" identifier="kromercoat" category="Equipment" hideinmenus="true" inventoryiconcolor="255,100,100,255" description="The ideal attire for dreamers of human wholeness." cargocontaineridentifier="metalcrate" tags="smallitem,clothing,ncorpoutfit,kromeroutfit" scale="0.51" impactsoundtag="impact_soft">
     <PreferredContainer primary="armcab" />
     <Fabricate suitablefabricators="fabricator,enkfab" requiredtime="30" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="30" />
@@ -6109,19 +6018,6 @@
         <Affliction identifier="burn" strength="30" disabledeltatime="True" />
         <Affliction identifier="stun" strength="0.2" />
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
       <GuiFrame relativesize="0.07,0.05" anchor="BottomCenter" pivot="BottomRight" relativeoffset="-0.145,0.14" style="ItemUI" />
@@ -6776,19 +6672,6 @@
           <Sound file="%ModDir%/Sounds/excision_hit_5.ogg" range="500" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <LightComponent range="0.0" lightcolor="255,255,255,200" powerconsumption="0" IsOn="true" castshadows="false" allowingameediting="false" pulsefrequency="0.5" pulseamount="0.5">
       <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
@@ -7359,19 +7242,6 @@
         <Conditional condition="lt 100" />
         <Affliction identifier="abno_charge" amount="3" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
   </Item>
@@ -9323,19 +9193,6 @@
         <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
         <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="1.15" setvalue="true" />
     </MeleeWeapon>
   </Item>
@@ -11028,19 +10885,6 @@
       <StatusEffect type="OnUse" target="Limb" targetLimbs="LeftLeg,RightLeg">
         <Affliction identifier="slow" amount="30" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <Quality>
@@ -12283,7 +12127,7 @@
       <Containable items="smallitem,mediumitem,harpoonammo" excludeditems="undershirtarmor,toolbox,mobilecontainer,rucksack,backpack,waistbelt,vest,backpack1,medicalbackpack,power-backpack,duffelbag,heavybackpack,oxy-gen. backpack,xeno-backpack,techno-backpack" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="fullstophandgun" description="" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,pistolitem,gunsmith,lightpistol" Scale="0.3" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="fullstophandgun" description="" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,pistolitem,gunsmith,lightpistol,fullstop" Scale="0.3" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.13" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="1" spawnprobability="0.4" />
@@ -12459,7 +12303,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" description="" identifier="fullstop_machete" category="Weapon" subcategory="Melee" Tags="smallitem,weapon,gunsmith" cargocontaineridentifier="metalcrate" scale="0.37" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" description="" identifier="fullstop_machete" category="Weapon" subcategory="Melee" Tags="smallitem,weapon,gunsmith,fullstop" cargocontaineridentifier="metalcrate" scale="0.37" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <!-- <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.35" /> -->
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.15" />
     <PreferredContainer secondary="abandonedarmcab,abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.4" />
@@ -12488,19 +12332,6 @@
           <Sound file="%ModDir%/Sounds/slash3.ogg" range="1000" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <Quality>
       <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
@@ -12508,7 +12339,7 @@
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <SkillRequirementHint identifier="weapons" level="50" />
   </Item>
-  <Item name="" description="" identifier="fullstoprifle" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.3" impactsoundtag="weaponlightdrop">
+  <Item name="" description="" identifier="fullstoprifle" category="Weapon" subcategory="Abnormalities" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith,mountableweapon,fullstop" Scale="0.3" impactsoundtag="weaponlightdrop">
     <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="weaponholder" />
     <PreferredContainer secondary="armcab" />
@@ -12801,19 +12632,6 @@
           <Sound file="%ModDir%/Sounds/slash3.ogg" range="1000" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <Quality>
       <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
@@ -13112,19 +12930,6 @@
           <Sound file="%ModDir%/Sounds/slash3.ogg" range="1000" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <Quality>
       <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
@@ -13158,19 +12963,6 @@
           <Sound file="%ModDir%/Sounds/slash3.ogg" range="1000" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <Quality>
       <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
@@ -14494,7 +14286,7 @@
       <limbposition limb="LeftHand" position="120,-100" allowusinglimb="true" />
     </Controller>
   </Item>
-  <Item name="N Corp Kleinhammer Uniform" identifier="ncorpuniform_kleinhammer" category="Equipment" tags="smallitem,clothing,antisymbiote" fireproof="false" cargocontaineridentifier="metalcrate" description="A well-insulated uniform intended for the N Corp Inquisition's Kleinhammers, providing ample protection against battle damage." scale="0.5" impactsoundtag="impact_soft">
+  <Item name="N Corp Kleinhammer Uniform" identifier="ncorpuniform_kleinhammer" category="Equipment" tags="smallitem,clothing,antisymbiote,ncorpoutfit" fireproof="false" cargocontaineridentifier="metalcrate" description="A well-insulated uniform intended for the N Corp Inquisition's Kleinhammers, providing ample protection against battle damage." scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="300" sold="false" />
     <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="45" />
@@ -14532,7 +14324,7 @@
       <StatValue stattype="WalkingSpeed" value="-0.05" />
     </Wearable>
   </Item>
-  <Item name="N Corp Kleinhammer Armor Vest" identifier="ncorparmor_kleinhammer" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing,antisymbiote" scale="0.4" cargocontaineridentifier="metalcrate" description="A steel vest, heavy but very durable." impactsoundtag="impact_soft">
+  <Item name="N Corp Kleinhammer Armor Vest" identifier="ncorparmor_kleinhammer" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing,antisymbiote,ncorpoutfit" scale="0.4" cargocontaineridentifier="metalcrate" description="A steel vest, heavy but very durable." impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.35" />
     <PreferredContainer primary="secarmcab" />
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
@@ -14583,7 +14375,7 @@
       <sprite name="Iron Helmet" texture="%ModDir%/Images/Outfits/NKleinHammer.png" limb="Head" depthlimb="Torso" inheritlimbdepth="true" hidelimb="True" hideotherwearables="True" inheritscale="true" ignorelimbscale="true" scale="0.5" sourcerect="410,153,92,92" origin="0.5,0.5" />
     </Wearable>
   </Item>
-  <Item name="N Corp Mittelhammer I Armor" identifier="ncorparmor_mittelhammer_1" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing,antisymbiote" scale="0.4" cargocontaineridentifier="metalcrate" description="Although its durability improvements are marginal, adding some high quality armor plates to the shoulders and knees is an effective way to improve survivability without impeding movement too much more." impactsoundtag="impact_soft">
+  <Item name="N Corp Mittelhammer I Armor" identifier="ncorparmor_mittelhammer_1" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing,antisymbiote,ncorpoutfit" scale="0.4" cargocontaineridentifier="metalcrate" description="Although its durability improvements are marginal, adding some high quality armor plates to the shoulders and knees is an effective way to improve survivability without impeding movement too much more." impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.35" />
     <PreferredContainer primary="secarmcab" />
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
@@ -14734,7 +14526,7 @@
       </SubContainer>
     </ItemContainer>
   </Item>
-  <Item name="N Corp Mittelhammer II Armor" identifier="ncorparmor_mittelhammer_2" category="Equipment" tags="mediumitem,clothing,antisymbiote" fireproof="false" cargocontaineridentifier="metalcrate" description="A heavy suit of armor built for N Corp's most elite of Mittelhammers, warriors second only to the Großhammer. (Note: The armor grants an additional defense bonus to the torso, upper arms, waist and thighs, making it more protective than the listed stats here.)" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="N Corp Mittelhammer II Armor" identifier="ncorparmor_mittelhammer_2" category="Equipment" tags="mediumitem,clothing,antisymbiote,ncorpoutfit" fireproof="false" cargocontaineridentifier="metalcrate" description="A heavy suit of armor built for N Corp's most elite of Mittelhammers, warriors second only to the Großhammer. (Note: The armor grants an additional defense bonus to the torso, upper arms, waist and thighs, making it more protective than the listed stats here.)" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="300" sold="false" />
     <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="75" />
@@ -14880,7 +14672,7 @@
       </SubContainer>
     </ItemContainer>
   </Item>
-  <Item name="N Corp Großhammer Armor" identifier="ncorparmor_groshammer" category="Equipment" tags="mediumitem,clothing,antisymbiote" fireproof="false" cargocontaineridentifier="metalcrate" description="A custom-made suit of armor built for the Inquisition's second in command, the Großhammer. When worn with its helmet counterpart, it grants 10000m of pressure resistance. (Note: The armor grants an additional defense bonus to the torso, upper arms, waist and thighs, making it more protective than the listed stats here.)" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="N Corp Großhammer Armor" identifier="ncorparmor_groshammer" category="Equipment" tags="mediumitem,clothing,antisymbiote,ncorpoutfit,groshammeroutfit" fireproof="false" cargocontaineridentifier="metalcrate" description="A custom-made suit of armor built for the Inquisition's second in command, the Großhammer. When worn with its helmet counterpart, it grants 10000m of pressure resistance. (Note: The armor grants an additional defense bonus to the torso, upper arms, waist and thighs, making it more protective than the listed stats here.)" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="300" sold="false" />
     <Fabricate suitablefabricators="enkfab" requiredtime="30" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="75" />
@@ -15055,19 +14847,6 @@
           <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <Quality>
       <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
@@ -15342,7 +15121,7 @@
       </Button>
     </CustomInterface>
   </Item>
-  <Item name="Index Proselyte Cloak" identifier="index_cloak" category="Equipment" subcategory="Abnormalities" description="A nice cloak for carrying out Prescripts. Trades storage space for protection." cargocontaineridentifier="abnocrate" tags="smallitem,clothing,Index" scale="0.51" impactsoundtag="impact_soft">
+  <Item name="Index Proselyte Cloak" identifier="index_cloak" category="Equipment" subcategory="Abnormalities" description="A nice cloak for carrying out Prescripts. Trades storage space for protection." cargocontaineridentifier="abnocrate" tags="smallitem,clothing,Index" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="armcab" />
     <Price baseprice="342">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -15365,7 +15144,7 @@
     <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
       <!-- Body sprites -->
-      <sprite name="Index Coat Wearable" texture="%ModDir%/Images/Outfits/Index_proselyte.png" limb="Torso" depthlimb="RightForearm" hidelimb="false" inheritscale="true" scale="1" inheritorigin="false" origin="0.85,0.75" inheritsourcerect="false" sourcerect="420,35,71,64" />
+      <sprite name="Index Coat Wearable" texture="%ModDir%/Images/Outfits/Index_proselyte.png" limb="Torso" depthlimb="RightForearm" hidelimb="false" inheritscale="true" scale="1" inheritorigin="false" origin="0.85,0.8" inheritsourcerect="false" sourcerect="420,35,71,64" />
       <!-- Resistances -->
       <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.75" />
       <damagemodifier afflictionidentifiers="lacerations,blunttrauma,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.15" />
@@ -15516,7 +15295,7 @@
       </SubContainer>
     </ItemContainer>
   </Item>
-  <Item name="Index Proselyte Sword" description="A standard issue blade for Index Proselytes. Attacks inflict Fragility, making sustained damage on a single target more effective." identifier="index_sword" category="Weapon" subcategory="Abnormalities" Tags="smallitem,weapon,gunsmith,mountableweapon,sharptool" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Index Proselyte Sword" description="A standard issue blade for Index Proselytes. Attacks inflict Fragility, making sustained damage on a single target more effective." identifier="index_sword" category="Weapon" subcategory="Abnormalities" Tags="smallitem,weapon,gunsmith,mountableweapon,sharptool,proselyteblade" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="secarmcab" secondary="armcab" />
     <Price baseprice="480" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -15554,19 +15333,6 @@
         <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
         <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
     <Quality>
@@ -16020,19 +15786,6 @@
       <StatusEffect type="OnUse" target="This" delay="1" stackable="false">
         <Spawnitem identifiers="tlkdamagevolume" spawnposition="ThisInventory" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" SpawnWithId="allasworkshopthruster,tlkdamagevolume" hideitems="false" drawinventory="false" canbeselected="false" removecontaineditemsondeconstruct="true" ShowConditionInContainedStateIndicator="true" containedspritedepth="0.56">
       <Containable items="allasworkshopthruster" hide="false" itempos="-150,0" />
@@ -16548,19 +16301,6 @@
         <Conditional condition="eq 99" />
         <Conditional acceleratedtime="eq 0" targetcontainer="True" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="3000" fadeouttime="1" />
     <Quality>
@@ -16785,19 +16525,6 @@
         <sound file="%ModDir%/Sounds/vdcumace_ult_2.ogg" range="500" />
         <Explosion range="100.0" force="0.5" shockwave="true" showeffects="false" camerashake="6.0" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="3000" fadeouttime="1" />
     <Quality>
@@ -16933,19 +16660,6 @@
           <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
         </StatusEffect>
       </Attack>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
   </Item>
   <Item name="Night Awls Uniform" identifier="nightawls_uniform" category="Equipment" subcategory="Abnormalities" description="The Night Awls were a Syndicate operating as a subsidiary of the Thumb, at least until their hot-headed Captain angered a Sottocapo, an act which triggered a purge of the entire subsidiary Syndicate." cargocontaineridentifier="abnocrate" tags="smallitem,clothing,antisymbiote" scale="0.51" impactsoundtag="impact_soft">
@@ -17180,19 +16894,6 @@
         <Conditional HasStatusTag="bluesakura" />
         <Affliction identifier="offdown" amount="5" disabledeltatime="True" multiplybymaxvitality="True" />
       </StatusEffect>
-      <!-- Parry & Guard
-      <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false" delay="0.1">
-        <Affliction identifier="abnoblocking" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-		<Affliction identifier="abnoparrycooldown" amount="1" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnSecondaryUse" target="This,Character" stackable="false">
-        <Conditional abnoparrycooldown="eq 0" />
-		<Affliction identifier="abnoparry" amount="100000" disabledeltatime="True" multiplybymaxvitality="True"/>
-      </StatusEffect>
-	  <StatusEffect type="OnUse" target="This,Character" delay="0.1" stackable="false" disabledeltatime="True">
-		<ReduceAffliction identifier="abnoretaliation" amount="100000" disabledeltatime="True"/>
-      </StatusEffect>
-	  Parry End -->
     </MeleeWeapon>
     <Quality>
       <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />

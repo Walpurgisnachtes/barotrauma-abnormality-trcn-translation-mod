@@ -5201,7 +5201,7 @@
     </Projectile>
   </Item>
   <!-- Contempt, Awe -->
-  <Item name="N Corp E.G.O.: Contempt, Awe Suit" identifier="ncorpcontemptawesuit" category="Equipment" tags="smallitem,clothing,wawgift" fireproof="true" cargocontaineridentifier="metalcrate" description="Eyes. On. Me." scale="0.5" impactsoundtag="impact_soft">
+  <Item name="N Corp E.G.O.: Contempt, Awe Suit" identifier="ncorpcontemptawesuit" category="Equipment" tags="smallitem,clothing,wawgift,ncorpcontemptawe" fireproof="true" cargocontaineridentifier="metalcrate" description="Eyes. On. Me." scale="0.5" impactsoundtag="impact_soft">
     <Fabricate suitablefabricators="enkfab" requiredtime="80">
       <RequiredSkill identifier="medical" level="80" />
       <RequiredItem identifier="egofragment_spiralofcontempt" />
@@ -5242,7 +5242,7 @@
       <Containable items="contemptaweblade,smallitem" excludeditems="toolbelt,toolbox,bandolier,clothing,mobilecontainer" />
     </ItemContainer>
   </Item>
-  <Item name="N Corp E.G.O: Contempt, Awe Coat" identifier="ncorpcontemptawecoat" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="abnocrate" description="Don't go blind on me now." scale="0.6" impactsoundtag="impact_soft">
+  <Item name="N Corp E.G.O: Contempt, Awe Coat" identifier="ncorpcontemptawecoat" category="Equipment" subcategory="Abnormalities" tags="smallitem,clothing,ncorpcontemptawe" fireproof="true" cargocontaineridentifier="abnocrate" description="Don't go blind on me now." scale="0.6" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" />
     <Price baseprice="500" sold="false" />
     <Fabricate suitablefabricators="enkfab" requiredtime="80">

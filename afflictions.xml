@@ -4342,6 +4342,14 @@
     </Effect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,384,128,128" color="193,162,122,255" origin="0,0" />
   </Affliction>
+  <Affliction name="RPM" identifier="rabbitprotocolmanager" type="talentbuff" limbspecific="false" interval="1" showiconthreshold="100" maxstrength="1" duration="1" treatmentthreshold="1000">
+    <Effect minstrength="0" maxstrength="1">
+      <StatusEffect target="Character" interval="0.8">
+        <Conditional rabbithelmet="gt 0" />
+        <Affliction identifier="rabbitprotocol" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </Affliction>
   <Affliction name="Rabbit Protocol" identifier="rabbitprotocol" description="Stronger together." type="talentbuff" isbuff="true" limbspecific="false" interval="1" hideiconafterdelay="true" showiconthreshold="1" maxstrength="1" duration="1" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="1" resistancefor="damage,stun" minresistance="0.1" maxresistance="0.1">
       <StatValue stattype="MeleeAttackMultiplier" value="0.1" />
@@ -4389,7 +4397,6 @@
   <Affliction name="Return Fire" identifier="returnfire" description="Deal more ranged damage and move faster." type="talentbuff" isbuff="true" limbspecific="false" interval="1" hideiconafterdelay="true" showiconthreshold="0" maxstrength="5" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="5" strengthchange="-1">
       <StatValue stattype="RangedAttackMultiplier" value="0.1" />
-      <StatValue stattype="MovementSpeed" value="0.2" />
     </Effect>
     <Icon texture="%ModDir%/Images/talenticons3.png" sheetindex="2,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
@@ -5310,81 +5317,18 @@
     <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="1,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
   <!-- Normal Parry: Only lasts 0.25 seconds, it also allows more chip damage through. Has a very small chance to be refreshed, a "fluke" double parry if you will, for unskilled individuals. -->
-  <Affliction name="Parry" identifier="abnoparry" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.25">
+  <Affliction name="Parry" identifier="abnoparry" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.2">
     <!-- <Effect minstrength="0" maxstrength="1" strengthchange="0" resistancefor="burning,stun,damage,bleeding,bloodloss,burn,poison,debuff,huskinfection,specialhuskinfection,eldritchinfection,tyrainfection,censored,exuviaeinfection,rupture" minresistance="0.9" maxresistance="0.9"> -->
     <Effect minstrength="0" maxstrength="1" strengthchange="0">
       <StatusEffect target="Character" targetLimb="RightHand">
         <ParticleEmitter particle="arbiterblast" colormultiplier="255,255,255,255" particlespersecond="20" LifeTimeMultiplier="0.5" scalemin="0.25" scalemax="0.25" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
       </StatusEffect>
-      <!--<StatusEffect target="Character" type="OnDamaged" disabledeltatime="True" forceplaysounds="True">
-        <RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Sound file="%ModDir%/Sounds/parry_1.ogg" range="500" SelectionMode="Random" />
-        <Sound file="%ModDir%/Sounds/parry_2.ogg" range="500" />
-		<Sound file="%ModDir%/Sounds/parry_3.ogg" range="500" />
-        <ParticleEmitter particle="arbiterblast" colormultiplier="255,255,255,100" particleamount="1" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
-		<Explosion range="100.0" sparks="True" showeffects="False" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false">
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoretaliation" amount="1" />
-		<Affliction identifier="abnoparrycooldown" amount="1" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 20" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.1" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 40" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.2" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 60" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.3" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 80" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.4" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 100" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.5" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 120" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.6" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 140" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.7" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 160" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.8" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 180" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" probability="0.8" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>
-	  <StatusEffect target="Character" type="OnDamaged" delay="0.1" stackable="false" disabledeltatime="True" comparison="And">
-		<Conditional skillrequirement="true" weapons="gte 200" />
-		<RequiredAffliction type="damage,burn" minstrength="1"/>
-		<Affliction identifier="abnoparry" amount="1" disabledeltatime="True" multiplybymaxvitality="True" />
-      </StatusEffect>-->
       <StatValue stattype="WalkingSpeed" value="-0.5" />
     </Effect>
     <icon texture="Content/UI/CommandUIAtlas.png" sourcerect="768,896,128,128" color="255,210,0,255" origin="0,0" />
   </Affliction>
   <!-- Zwei Parry: Refreshes whenever a hit is taken, but doesn't last as long as Perfect Parry, also grants Defense Up instead of Retaliation -->
-  <Affliction name="Zwei Parry" identifier="abnoparry_zwei" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.35">
+  <Affliction name="Zwei Parry" identifier="abnoparry_zwei" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.25">
     <Effect minstrength="0" maxstrength="1" strengthchange="0" resistancefor="burning,stun,damage,bleeding,bloodloss,burn,poison,debuff,huskinfection,specialhuskinfection,eldritchinfection,tyrainfection,censored,exuviaeinfection,rupture" minresistance="0.95" maxresistance="0.95">
       <StatusEffect target="Character" targetLimb="RightHand">
         <ParticleEmitter particle="arbiterblast" colormultiplier="255,255,255,255" particlespersecond="20" LifeTimeMultiplier="0.5" scalemin="0.25" scalemax="0.25" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
@@ -5408,7 +5352,7 @@
     <icon texture="Content/UI/CommandUIAtlas.png" sourcerect="768,896,128,128" color="255,210,0,255" origin="0,0" />
   </Affliction>
   <!-- Stigmatized Parry: Extends the duration of Waxen Pinion when you block hits -->
-  <Affliction name="Stigmatized Parry" identifier="abnoparry_waxen" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.25">
+  <Affliction name="Stigmatized Parry" identifier="abnoparry_waxen" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.2">
     <Effect minstrength="0" maxstrength="1" strengthchange="0" resistancefor="burning,stun,damage,bleeding,bloodloss,burn,poison,debuff,huskinfection,specialhuskinfection,eldritchinfection,tyrainfection,censored,exuviaeinfection,rupture" minresistance="0.95" maxresistance="0.95">
       <StatusEffect target="Character" targetLimb="RightHand">
         <ParticleEmitter particle="arbiterblast" colormultiplier="255,255,255,255" particlespersecond="20" LifeTimeMultiplier="0.5" scalemin="0.25" scalemax="0.25" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
@@ -5433,7 +5377,7 @@
     <icon texture="Content/UI/CommandUIAtlas.png" sourcerect="768,896,128,128" color="255,210,0,255" origin="0,0" />
   </Affliction>
   <!-- Perfect Parry: Lasts longer and refreshes whenever a hit is taken. -->
-  <Affliction name="Perfect Parry" identifier="abnoparry_perfect" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.5">
+  <Affliction name="Perfect Parry" identifier="abnoparry_perfect" description="An effective parry can redirect damage away from yourself, but it requires incredible skill to pull off." type="strengthbuff" isbuff="true" limbspecific="false" interval="1" maxstrength="1" duration="0.3">
     <Effect minstrength="0" maxstrength="1" strengthchange="0" resistancefor="burning,stun,damage,bleeding,bloodloss,burn,poison,debuff,huskinfection,specialhuskinfection,eldritchinfection,tyrainfection,censored,exuviaeinfection,rupture" minresistance="0.95" maxresistance="0.95">
       <StatusEffect target="Character" targetLimb="RightHand">
         <ParticleEmitter particle="arbiterblast" colormultiplier="255,255,255,255" particlespersecond="20" LifeTimeMultiplier="0.5" scalemin="0.25" scalemax="0.25" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
